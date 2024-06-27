@@ -14,10 +14,6 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
@@ -25,36 +21,31 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: yoo94
+author_bio: 안녕하세요 개발자 유재석입니다.
+author_email: "jaeseok9405@gmail.com"
+author_location: KOREA
+author_website_url: "https://github.com/yoo94"
+typewrite-text: 4년차 웹개발자 유재석입니다.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: 유니포스트
+              company_url: https://unipost.co.kr/portal/
+              designation: 웹개발자, 프론트엔드 개발자
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_name: 한국 방송통신 대학교
+                college_degree: 컴퓨터 과학과
+                description: 2023.02 - 2025.02
+                visibility: true
+
+              - college_name: 한국 관광 대학교
+                college_degree: 관광 경영학과
+                description: 2013.02 - 2015.02
                 visibility: true
 
 # Projects
