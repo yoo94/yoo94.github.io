@@ -35,6 +35,8 @@ author_work_experiences:
               company_url: https://unipost.co.kr/portal/
               designation: 2021. 04 ~ 재직중
               description: requireJs 기반 (AMD모듈 로더) 솔루션 개발 / react-native,typescript 모바일 솔루션 개발
+              description2: linux,window OS 기반 서버 솔루션 설치 및 유지 보수
+              description3: 본사 웹 솔루션 js -> ts 마이그레이션 진행
               visibility: true
 
 # Education
@@ -56,13 +58,11 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
+              - project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
+              - project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
                 visibility: true
