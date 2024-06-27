@@ -33,8 +33,8 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 author_work_experiences:
             - company_name: 유니포스트
               company_url: https://unipost.co.kr/portal/
-              designation: 웹개발자, 프론트엔드 개발자
-              description: 2021. 04 ~ 재직중
+              designation: 2021. 04 ~ 재직중
+              description: requireJs 기반 (AMD모듈 로더) 솔루션 개발
               visibility: true
 
 # Education
