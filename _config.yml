@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: 유재석
+subtitle: 프론트 엔드를 주로하는 웹개발 4년차 개발자입니다.
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  sap과 협업하는 웹 개발자로 회계 솔루션 개발 웹 파트를 담당하였습니다..
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,10 +34,16 @@ author_work_experiences:
             - company_name: 유니포스트
               company_url: https://unipost.co.kr/portal/
               designation: 웹개발자, 프론트엔드 개발자
+              description: 2021. 04 ~ 재직중
               visibility: true
 
 # Education
 author_education_details:
+              - college_name: 머신러닝기반 SW개발자
+                college_degree: 경영기술개발원 교육센터 2020. 09 ~ 2021. 03
+                description: js , html ,css / java , jsp , spring , mysql , oracle
+                visibility: true
+
               - college_name: 한국 방송통신 대학교
                 college_degree: 컴퓨터 과학과
                 description: 2023.02 - 2025.02
@@ -62,16 +68,7 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  yoo94
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
