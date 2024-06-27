@@ -58,13 +58,63 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_title: KTNG 모바일 (하이브리드 앱)
+                project_info: 21.06 ~ 21.09
+                project_description: 코르도바 영진 약품 특화 제품설명회 결과 등록 서비스 구현
+                project_description2: 전자결재 모바일 서비스 구현
+                visibility:
+              - project_title: 매그나칩 반도체 솔루션 고도화 (웹)
+                project_info: 21.09 ~ 22.01 / 윈도우 서버 설치
+                project_description: 그룹웨어 결재연동 API 구현
+                project_description2: 출장비 서비스 기능 구현
                 visibility: true
-              - project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_title: 한화 에너지 솔루션 고도화 (웹)
+                project_info: 22.02 ~ 22.07 / centOS 서버 설치
+                project_description: AS-IS 기능 고도화 진행
+                project_description2: 그리드 라이브러리 변경으로 인한 고도화
+                visibility: true
+              - project_title: SK 바이오팜 (웹)
+                project_info: 22.02 ~ 22.07 / 윈도우 서버 설치
+                project_description: 실비 정산 서비스 구현
+                project_description2: 그룹웨어 결재연동 및 AD sso 인증 서비스 구현
+                visibility: true
+              - project_title: SK 스토아 (웹 / 웹앱)
+                project_info: 22.06 ~ 22.12 / centOS 서버 설치
+                project_description: 더존 그룹웨어 결재연동 API / 출장비 정산 서비스 구현
+                project_description2: 모바일 문자 2차인증 구현 / 아파치 웹서버 설치 및 was 통신 연결
+                visibility: true
+              - project_title: 남해화학 (웹) / 윈도우 서버 설치
+                project_info: 22.09 ~ 23.05 / 윈도우 서버 설치
+                project_description: 그룹웨어 결재연동 API 구현
+                visibility: true
+              - project_title: SK 시그넷 (웹)
+                project_info: 23.01 ~ 23.07 / aws linux 설치
+                project_description: 그룹웨어 결재연동 API / SSO 인증 서비스 구현
+                project_description2: 웹취약점 조치
+                visibility: true
+              - project_title: KTNG 모바일 (하이브리드 앱)
+                project_info: 21.06 ~ 21.09
+                project_description: 코르도바 영진 약품 특화 제품설명회 결과 등록 서비스 구현
+                project_description2: 전자결재 모바일 서비스 구현
+                visibility: true
+              - project_title: 티맵 모빌리티 (웹)
+                project_info: 23.07 ~ 24.01 / aws linux 설치
+                project_description: 거래처 등록 서비스 / 출장비 정산 서비스
+                project_description2: 그룹웨어 결재연동 API 구현
+                visibility: true
+              - project_title: HMM (웹)
+                project_info: 24.02 ~ 25.01 / aws linux 설치
+                project_description: 해외/국내 출장비 보고서, 정산 서비스 구현
+                project_description2: aws s3 연동 서비스 구현
+                visibility: true
+              - project_title: HMM (리액트 네이티브 웹앱)
+                project_info: 21.06 ~ 21.09 / aws linux 설치
+                project_description: 전자결재 서비스 웹기능 모바일로 구현
+                project_description2: 전표작성 서비스 웹기능 간소화 모바일 구현
+                visibility: true
+              - project_title: 사조CPK (리액트 네이티브 웹앱)
+                project_info: 24.02 ~ 24.07 / 윈도우 서버 설치
+                project_description: CI/CD 파이프라인 개선
                 visibility: true
 
 # social links
