@@ -10,10 +10,6 @@ layout: default
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
-      {% if site.github_username %} {%- include github_follow_button.html -%} {%
-      endif %}
-
-      {% if site.author_location %}
       <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
       {% endif %} {% if site.author_email %}
       <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
