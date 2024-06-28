@@ -38,10 +38,10 @@ layout: default
         <br />
         {% for detail in site.author_education_details %}
         {% if detail.visibility == true %}
-        <div>
-          <h6>{{detail.college_name }}</h6>
-          <p class="experience-info">{{detail.college_degree}}</p>
-          <p class="experience-desc">{{detail.description}}</p>
+        <div class="row">
+          <h4>{{detail.college_name}}</h4>
+          <p>{{detail.college_degree}}</p>
+          <p>{{detail.description}}</p>
           <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
         </div>
         {% endif %}
