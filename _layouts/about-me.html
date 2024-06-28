@@ -21,7 +21,12 @@ layout: default
       <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
       {% endif %}
     </div>
-
+    {% if site.author_bio %}
+    <div class="card">
+      <h1 class="card-title">About</h1>
+      <p>{{ site.author_bio }}</p>
+    </div>
+    {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1>Skills</h1>
 
@@ -30,12 +35,6 @@ layout: default
     {% endif %}
   </div>
   <div class="col-lg-8">
-    {% if site.author_bio %}
-    <div class="card">
-      <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
-    </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
       <h1 class="card-title">Work Experience</h1>
       <br />
