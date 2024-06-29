@@ -121,7 +121,7 @@ Start populating your blog by adding your .md files in _posts. devlopr-jekyll al
 ---
 layout: post
 title: Sample Post
-author: Sujay Kundu
+author: Jaeseok Yoo
 date: '2019-05-21 14:35:23 +0530'
 category:
         - jekyll
