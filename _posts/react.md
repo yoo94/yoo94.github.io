@@ -17,8 +17,9 @@ permalink: /blog/front-end/adding-categories-tags-in-posts/
 
 To add categories in blog posts all you have to do is add a **category** key with category values in frontmatter of the post :
 
+
 ```yml
 ---
-categories:
-- react
+category: ['react']
 ---
+```
