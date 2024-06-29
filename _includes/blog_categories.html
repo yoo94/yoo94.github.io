@@ -1,14 +1,17 @@
 {% for category in site.categories %}
+{% if category[0] != "front_end" %}
 <h2>{{ category[0] }}</h2>
 <ul>
     {% assign posts = category[1] %}
     {% for post in posts %}
-    {% assign subcategories = post.categories | where_exp: "c", "c != category[0]" %}
-    {% for subcategory in subcategories %}
+    {% for subcategory in post.categories %}
+    {% if subcategory == category[0] %}
     <li>
         <a href="{{ site.baseurl }}/blog/categories/{{ category[0] | slugize }}/{{ subcategory | slugize }}">{{ subcategory }}</a>
     </li>
+    {% endif %}
     {% endfor %}
     {% endfor %}
 </ul>
+{% endif %}
 {% endfor %}
