@@ -5,7 +5,7 @@
     {% assign subcategories = post.categories | where_exp: "c", "c != category[0]" %}
     {% for subcategory in subcategories %}
     <li>
-        <a href="{{ site.baseurl }}/blog/categories/{{ subcategory | slugize }}">{{ subcategory }}</a>
+        <a href="{{ site.baseurl }}/blog/categories/{{ subcategory | slugize }}">{{ tag_name }}</a>
     </li>
     {% endfor %}
     {% endfor %}
