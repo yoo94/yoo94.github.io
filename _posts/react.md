@@ -18,7 +18,7 @@ To add categories in blog posts all you have to do is add a **category** key wit
 
 ```yml
 ---
-category: []
+category: ['react']
 ---
 ```
 
