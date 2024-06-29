@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "react title"
-summary: "Learn how to add categories in posts"
-author: xplor4r
-date: '2021-02-28 1:35:23 +0530'
+title:  "Added Latex Support"
+summary: Writing Equations using Latex
+author: yoo94
+date: '2020-10-24 10:35:23 +0530'
 category: react
-tags: react
 thumbnail: /assets/img/posts/code.jpg
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
-usemathjax: false
-permalink: /blog/react-in-posts/
+keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
+usemathjax: true
+permalink: /blog/react/
 ---
 
 To add categories in blog posts all you have to do is add a **category** key with category values in frontmatter of the post :
