@@ -3,7 +3,7 @@
             <ul>
                 {% for subcategory in category[1] %}
                 <li>
-                    <a href="{{ site.baseurl }}/blog/categories/{{ subcategory | slugize }}">{{ tag_name }}</a>
+                    <a href="{{ site.baseurl }}/blog/categories/{{ subcategory | slugize }}">{{ subcategory }}</a>
                 </li>
                 {% endfor %}
             </ul>
