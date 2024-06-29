@@ -1,5 +1,4 @@
 {% for category in site.categories %}
-{% if category[0] != "front_end" %}
 <h2>{{ category[0] }}</h2>
 <ul>
     {% assign posts = category[1] %}
@@ -13,5 +12,4 @@
     {% endfor %}
     {% endfor %}
 </ul>
-{% endif %}
 {% endfor %}
