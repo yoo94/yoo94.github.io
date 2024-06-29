@@ -1,13 +1,19 @@
-{% for category in site.categories %}
-<h2>{{ category[0] }}</h2>
-<ul>
-    {% for post in category[1] %}
-    {% assign subcategories = post.categories | where_exp: "c", "c != category[0]" %}
-    {% for subcategory in subcategories %}
-    <li>
-        <a href="{{ site.baseurl }}/blog/categories/{{ subcategory | slugize }}">{{ tag_name }}</a>
-    </li>
-    {% endfor %}
-    {% endfor %}
-</ul>
-{% endfor %}
+
+<!--            {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}-->
+<!--            <div id="#{{ tag_name | slugize }}"></div>-->
+<!--            <li class="tag-head">-->
+<!--                <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>-->
+<!--            </li>-->
+<!--            <a name="{{ tag_name | slugize }}"></a>-->
+
+<!--            {% endfor %}-->
+            {% for category in site.categories %}
+            <h2>{{ category[0] }}</h2>
+            <ul>
+                {% for subcategory in category[1] %}
+                <li>
+                    <a href="{{ site.baseurl }}/blog/categories/{{ subcategory | slugize }}/{{ tag_name }}">{{ tag_name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
