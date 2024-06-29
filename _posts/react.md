@@ -1,26 +1,15 @@
 ---
 layout: post
-title:  "Added Latex Support"
-summary: Writing Equations using Latex
+title: "다중 카테고리 게시물 추가하기"
+summary: "게시물에 다중 카테고리를 추가하는 방법에 대해 배워봅시다."
 author: yoo94
-date: '2020-10-24 10:35:23 +0530'
-category: react
+date: 2024-06-29 10:00:00 +0900
+categories:
+- react
+  tags:
+- react
 thumbnail: /assets/img/posts/code.jpg
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
-usemathjax: true
 permalink: /blog/react/
 ---
 
-To add categories in blog posts all you have to do is add a **category** key with category values in frontmatter of the post :
-
-```yml
----
-category: ['react']
----
-```
-
-Then to render this category using link and pages. All we need to do is,
-
-1. Create a new file with [your_category_name].md inside categories folder.
-
-2. Copy categories/sample_category.md file and replace the content in [your_category_name].md in that. (Please don't copy the code below its just sample, since it renders the jekyll syntax dynamically)
+이 게시물은 "react" 카테고리에 속합니다. 다음은 게시물의 본문입니다.
