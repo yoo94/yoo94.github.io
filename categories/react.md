@@ -1,7 +1,7 @@
 ---
 layout: page
 title: react
-permalink: /blog/categories/front_end/react/
+permalink: /blog/categories/react/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
