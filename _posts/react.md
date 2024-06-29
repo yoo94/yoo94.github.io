@@ -7,7 +7,7 @@ date: 2024-06-29 10:00:00 +0900
 categories: ['react']
 tags: react
 thumbnail: /assets/img/posts/code.jpg
-permalink: /blog/{{ page.categories[0] }}/{{ slug }}/index.html
+permalink: /blog/react/{{ slug }}/index.html
 ---
 
 이 게시물은 "react" 카테고리에 속합니다. 다음은 게시물의 본문입니다.
