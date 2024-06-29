@@ -7,10 +7,6 @@ thumbnail: /assets/img/posts/hello.jpg
 author: yoo94
 date: '2021-02-28 1:35:23 +0530'
 category: react
-
-[//]: # (categories:)
-
-[//]: # (- react)
 tags: react
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial, best jekyll themes, multi categories and tags
