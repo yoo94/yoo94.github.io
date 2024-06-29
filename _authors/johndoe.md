@@ -1,8 +1,6 @@
 ---
-name: John Doe
-username: johndoe
-bio: "Hi I a John, a Web Developer and Designer."
-site: http://johndoe.com
+name: Yoo Jaeseok
+username: yoo94
 avatar: yoo94.png
 email: jaeseok9405@gmail.com
 social:

@@ -62,8 +62,8 @@ Next, copy the same frontmatter in _data/authors.yml (under individual author us
 ```yml
 # Author 1
 johndoe:
-   name: John Doe
-   username: johndoe
+   name: Yoo Jaeseok
+   username: yoo94
    site: http://johndoe.com
    avatar: yoo94.png
    bio: "Hi I a John, a Web Developer and Designer."
