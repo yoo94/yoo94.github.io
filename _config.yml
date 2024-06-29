@@ -42,7 +42,8 @@ author_work_experiences:
 # Education
 author_education_details:
               - college_name: 머신러닝기반 SW개발자
-                college_degree: 경영기술개발원 교육센터 2020. 09 ~ 2021. 03
+                college_degree: 2020. 09 ~ 2021. 03
+                description2: 경영기술개발원 교육센터
                 description: js , html ,css / java , jsp , spring , mysql , oracle
                 visibility: true
 
