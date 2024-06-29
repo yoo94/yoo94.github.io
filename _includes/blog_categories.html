@@ -1,14 +1,21 @@
-{% for category in site.categories %}
-<h2>{{ category[0] }}</h2>
+<!--{% for category in site.categories %}-->
+<!--<h2>{{ category[0] }}</h2>-->
+<!--<ul>-->
+<!--    {% assign posts = category[1] %}-->
+<!--    {% for post in posts %}-->
+<!--    {% assign subcategories = post.categories | where_exp: "c", "c != category[0]" %}-->
+<!--    {% for subcategory in subcategories %}-->
+<!--    <li>-->
+<!--        <a href="{{ site.baseurl }}/blog/categories/{{ category[0] | slugize }}/{{ subcategory | slugize }}">{{ subcategory }}</a>-->
+<!--    </li>-->
+<!--    {% endfor %}-->
+<!--    {% endfor %}-->
+<!--</ul>-->
+<!--{% endfor %}-->
 <ul>
-    {% assign posts = category[1] %}
-    {% for post in posts %}
-    {% assign subcategories = post.categories | where_exp: "c", "c != category[0]" %}
-    {% for subcategory in subcategories %}
-    <li>
-        <a href="{{ site.baseurl }}/blog/categories/{{ category[0] | slugize }}/{{ subcategory | slugize }}">{{ subcategory }}</a>
-    </li>
-    {% endfor %}
-    {% endfor %}
+    <li>front_end</li>
+    <ul>
+        <li><a href="{{ site.baseurl }}/blog/categories/react"> reat </a></li>
+        <li><a href=""> typescript </a></li>
+    </ul>
 </ul>
-{% endfor %}
