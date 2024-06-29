@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Guides
+title: front_end
 permalink: /blog/categories/front_end/
 ---
 
