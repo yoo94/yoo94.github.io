@@ -5,6 +5,7 @@ summary: "게시물에 다중 카테고리를 추가하는 방법에 대해 배�
 author: yoo94
 date: 2024-06-29 10:00:00 +0900
 categories:
+- front_end
 - react
   tags:
 - react
