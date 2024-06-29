@@ -3,12 +3,11 @@
 <ul>
     {% assign posts = category[1] %}
     {% for post in posts %}
-    {% for subcategory in post.categories %}
-    {% if subcategory == category[0] %}
+    {% assign subcategories = post.categories | where_exp: "c", "c != category[0]" %}
+    {% for subcategory in subcategories %}
     <li>
         <a href="{{ site.baseurl }}/blog/categories/{{ category[0] | slugize }}/{{ subcategory | slugize }}">{{ subcategory }}</a>
     </li>
-    {% endif %}
     {% endfor %}
     {% endfor %}
 </ul>
