@@ -9,7 +9,7 @@ tags: react
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
-permalink: /blog/react
+permalink: /blog/categories/front_end/react
 ---
 
 ## Adding Multiple Categories in Posts
