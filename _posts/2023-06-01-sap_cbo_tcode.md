@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Client Concept"
+title:  "sap CBO BDC T-CODE"
 summary: ""
 author: yoo94
 date: '2023-05-21 17:35:23 +0530'

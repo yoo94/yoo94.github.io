@@ -1,14 +1,14 @@
 ---
 layout: page
-title: sap
-permalink: /blog/categories/sap/
+title: linux
+permalink: /blog/categories/linux/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>
 
 <div class="card">
-  {% for post in site.categories.sap %}
-    {% if post.categories contains "sap" %}
+  {% for post in site.categories.linux %}
+    {% if post.categories contains "linux" %}
       <li class="category-posts">
         <span>{{ post.date | date_to_string }}</span>
         &nbsp;
