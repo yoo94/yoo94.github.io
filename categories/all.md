@@ -17,10 +17,7 @@ permalink: /blog/categories/
     <article class="center">
       <h6 ><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h6>
     </article>
-
-
-    {% endfor %}
-
+{% endfor %}
   </div>
 {% endfor %}
 </div>
