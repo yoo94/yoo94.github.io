@@ -7,7 +7,7 @@ date: '2023-05-01 14:35:23 +0530'
 category: react
 tags: react
 thumbnail: /assets/postImg/Pasted image 20240114133527.png
-permalink: /blog/what_is_react/
+permalink: /blog/create-react-app/
 ---
 먼저 npx 를 설치해야한다.
 설치되어있지 않은 패키지를 한번만 설치하고 싶을때 쓰는거라고 생각하면 된다.
