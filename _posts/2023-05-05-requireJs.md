@@ -7,7 +7,7 @@ date: '2023-05-05 12:35:23 +0530'
 category: requirejs
 tags: requirejs
 keywords: requirejs
-thumbnail: /assets/postImg/Pasted image 20240205195107.png
+thumbnail: https://avatars.githubusercontent.com/u/1781835?s=280&v=4
 permalink: /blog/requirejs/
 ---
 <require js 사용>  
