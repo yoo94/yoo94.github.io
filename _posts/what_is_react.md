@@ -1,10 +1,10 @@
 ---
 layout: post
 author: yoo94
-title: Netlify CMS created this Article
+title: "Netlify CMS created this Article"
 date: 2020-05-23T09:52:20.613Z
 thumbnail: /assets/img/posts/hello.jpg
-category: [react]
+category: react
 summary: Demo Content using Netlify CMS
 keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
 permalink: /blog/what_is_react/
