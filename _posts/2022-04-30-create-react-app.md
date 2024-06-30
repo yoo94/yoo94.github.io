@@ -33,7 +33,7 @@ index.js
 이다.
 
 
-![Pasted image 20240114133527.png](/assets/postImg/Pasted image 20240114133527.png)
+<img src="/assets/postImg/Pasted image 20240114133527.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
 
 이렇게 index.js를 보면 APP 컨포넌트를 root라는 dom의 id에 렌더 한다는 의미의 소스를 볼 수 있다.
 
