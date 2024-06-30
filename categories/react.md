@@ -5,7 +5,7 @@ permalink: /blog/categories/react/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
-<span> ddddd list up 되야하는데 왜 안되지...</span>
+<span>ddddd list up 되야하는데 왜 안됑</span>
 <div class="card">
     {% for post in site.categories.react %}
         <li class="category-posts">
