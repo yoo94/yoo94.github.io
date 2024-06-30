@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "타입스크립트 모듈"
-summary: ""
+summary: "타입스크립트에서 가리키는 모듈이라는 개념은 ES6+의 Modules개념과 유사"
 author: yoo94
 date: '2023-05-06 14:35:23 +0530'
 category: typeScript

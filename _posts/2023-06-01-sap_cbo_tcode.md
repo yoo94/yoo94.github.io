@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "sap CBO BDC T-CODE"
-summary: ""
+summary: "Enhancemnet"
 author: yoo94
 date: '2023-05-21 17:35:23 +0530'
 category: sap

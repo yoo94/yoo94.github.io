@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "상속과 프로토타입?"
-summary: ""
+summary: "작업을 처리하는 이벤트 루프에 기반하고 있다."
 author: yoo94
 date: '2023-05-19 17:35:23 +0530'
 category: javaScript

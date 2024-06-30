@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "docker ip,port 확인"
-summary: ""
+summary: "명령어"
 author: yoo94
 date: '2023-09-26 20:35:23 +0530'
 category: docker

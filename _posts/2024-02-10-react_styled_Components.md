@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "styled Components"
-summary: "styled Components"
+summary: "`styled-components`라는 NPM 패키지명을 가지고 있다"
 author: yoo94
 date: '2024-02-10 14:35:23 +0530'
 category: react

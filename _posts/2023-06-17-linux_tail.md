@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리눅스 tail사용하기"
-summary: ""
+summary: "tail사용법. "
 author: yoo94
 date: '2023-06-17 17:35:23 +0530'
 category: linux

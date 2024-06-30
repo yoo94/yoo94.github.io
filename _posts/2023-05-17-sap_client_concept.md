@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Client Concept"
-summary: ""
+summary: "SAP 시스템에서 지칭하는 조직적으로 최상위 독립 단위"
 author: yoo94
 date: '2023-05-21 17:35:23 +0530'
 category: sap

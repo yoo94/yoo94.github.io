@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "상속과 프로토타입?"
-summary: ""
+summary: "상속과 관련하여, JavaScript에는 객체라는 하나의 구조만 있다."
 author: yoo94
 date: '2023-05-14 17:35:23 +0530'
 category: javaScript

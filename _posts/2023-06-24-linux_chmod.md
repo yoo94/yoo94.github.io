@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리눅스 chmod"
-summary: ""
+summary: "명령어"
 author: yoo94
 date: '2023-06-24 17:35:23 +0530'
 category: linux

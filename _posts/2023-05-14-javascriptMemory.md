@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "메모리 관리?"
-summary: ""
+summary: "객체가 생성되었을 때 자동으로 메모리를 할당하고 더 이상 필요하지 않을 때 자동으로 해제"
 author: yoo94
 date: '2023-05-14 15:35:23 +0530'
 category: javaScript

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "기본 자료형"
-summary: ""
+summary: "자바스크립트 여덟 가지 기본 자료형"
 author: yoo94
 date: '2023-05-11 14:35:23 +0530'
 category: javaScript

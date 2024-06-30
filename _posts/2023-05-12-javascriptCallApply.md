@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "call, apply"
-summary: ""
+summary: "call, apply란 무엇일까?"
 author: yoo94
 date: '2023-05-12 13:35:23 +0530'
 category: javaScript

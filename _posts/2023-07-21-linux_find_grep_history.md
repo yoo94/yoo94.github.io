@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리눅스 자주쓰는 명령어 find,grep,hisory"
-summary: ""
+summary: "명령어"
 author: yoo94
 date: '2023-07-21 17:35:23 +0530'
 category: linux

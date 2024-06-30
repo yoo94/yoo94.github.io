@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "반응형 디자인과 미디어 쿼리"
-summary: ""
+summary: "responsive web design"
 author: yoo94
 date: '2023-10-29 17:35:23 +0530'
 category: webetc

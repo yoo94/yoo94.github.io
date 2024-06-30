@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "docker compose 설정 개념"
-summary: ""
+summary: "명령어"
 author: yoo94
 date: '2023-09-26 17:35:23 +0530'
 category: docker

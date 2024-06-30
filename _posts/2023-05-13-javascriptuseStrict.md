@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "useStrict?"
-summary: ""
+summary: "ES5에선 use strict 를 사용한다. ES6는 글쎼.."
 author: yoo94
 date: '2023-05-13 15:35:23 +0530'
 category: javaScript

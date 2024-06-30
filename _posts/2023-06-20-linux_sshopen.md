@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "리눅스 OS 확인하기, SSH 오픈하기"
-summary: ""
+summary: "명령어"
 author: yoo94
 date: '2023-06-20 17:35:23 +0530'
 category: linux
