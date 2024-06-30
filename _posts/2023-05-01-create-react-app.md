@@ -32,10 +32,7 @@ npm start
 index.js
 이다.
 
-
-<img src="/assets/postImg/Pasted image 20240114133527.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
-
-이렇게 index.js를 보면 APP 컨포넌트를 root라는 dom의 id에 렌더 한다는 의미의 소스를 볼 수 있다.
+ index.js를 보면 APP 컨포넌트를 root라는 dom의 id에 렌더 한다는 의미의 소스를 볼 수 있다.
 
 APP 컨포넌트는 App.js에 있고, *root* 는 src가 아닌 public에 ![[Pasted image 20240114133734.png]]
 index.html을 보면 들어있는것을 알 수 있다.

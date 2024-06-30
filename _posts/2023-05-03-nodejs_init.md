@@ -56,15 +56,20 @@ cal.sub(3,5);
 이런 식으로 하면 calc에 있는 모듈들을 사용할 수 있다.
 
 ---
+
 ## 모듈사용
 https://www.npmjs.com/
 이 사이트에 들어가면 모듈들에 대한 설명을 볼 수 있다.
 
 원하는 모듈을 검색하여 사용 하면 되는데
 예를 들어 ramdomcolor라는 모듈을 사용해 보자
-<img src="/assets/postImg/Pasted image 20240111192408.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
+
+<img src="/assets/postImg/Pasted image 20240111192408.png" alt="Pasted image 20240111192408.png" style="max-width:100%;">
+
 이렇게 install 하는 방법을 명령어로 나와있다.
-<img src="/Pasted image 20240111192544.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
+
+<img src="/assets/postImg/Pasted image 20240111192544.png" alt="Pasted image 20240111192544.png" style="max-width:100%;">
+
 설치하게 되면 이렇게
 ### package.json에 dependencies
 라는 필드가 생기고 설치한 패키지이름과 버전이 써져있다.

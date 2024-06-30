@@ -40,9 +40,9 @@ A JavaScript library for building user interfaces
 바벨은 코드변환 라이브러리로 ES6 -> ES5로 변환해주기도하는 아주 효자손같이 편리한 도구이다.
 
 
-#### **여기서 이제 node JS를 사용해야하는 이유가 나온다.**
+### **여기서 이제 node JS를 사용해야하는 이유가 나온다.**
 
-#### **바벨은 JS컴파일러이고 NPM으로 설치 할 수 있기 때문이다.**
+### **바벨은 JS컴파일러이고 NPM으로 설치 할 수 있기 때문이다.**
 
 
 npm은 Node Package Manager로 node.js에서 사용하는 모듈을 패키지화해 모아둔 저장소이자 관리소이다. CLI를 통해 편하게 설치 할 수 있다. package.json 파일 내에 프로젝트 내에서 자주 사용하는 커맨드를 작성해 두고 npm CLI를 통해 쉽게 실행시킬 수도 있다. (곧 react에서 배운다)

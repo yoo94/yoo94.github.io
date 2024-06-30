@@ -36,20 +36,19 @@ function Checkbox() {
 			<label html For="checkId">0</label>
 		</div>
         )
-	}:
-    
+	}
 //----- App.js 
 function App() { 
 	return (
 		<div className="App">
 			<header>
-				<h1>체크체크</h1
+				<h1>체크체크</h1>
 			</header>
 			<Checkbox/>
 		</div>
-	):
-}:
-export default App:
+	)
+}
+export default App
 ```
 
 위에 같이 체크박스를 컴포넌트에 포함시켜서 <Checkbox /> 로 불러오는 것이다.
