@@ -12,15 +12,15 @@ permalink: /blog/what_is_react/
 먼저 npx 를 설치해야한다.
 설치되어있지 않은 패키지를 한번만 설치하고 싶을때 쓰는거라고 생각하면 된다.
 
-```
+```powerShell
 npm install -g npx
 ```
 
-```
+```powerShell
 npx create-react-app reactexam1
 ```
 
-```
+```powerShell
 npm start
 ```
 로 시작하면 localhost:3000로 리액트가 시작된다.
@@ -51,7 +51,7 @@ react-app으로 프로젝트를 설치하게 되면, 기본적으로node_modules
 ***그러나 node.js 패키지는 저러한 모듈들이 없어도 상관없다. 왜냐하면 어떠한 모듈일 필요한지는 package.json 과 package-lock.json에 다 명시가 되어있기 때문이다.***
 
 만약에 node_modules가 없다.
-```
+``` powerShell
 npm i
 ```
 라는 명령어를 날리면 자동으로 다운받게 된다.
