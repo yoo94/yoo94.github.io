@@ -1,17 +1,14 @@
 ---
 layout: post
 title:  "create-react-app 및 설명"
-summary: "Learn how to add categories in posts"
+summary: "react 프로젝트 만들기"
 author: yoo94
-date: '2021-02-28 1:35:23 +0530'
+date: '2023-05-01 13:35:23 +0530'
 category: react
 tags: react
-thumbnail: /assets/img/posts/code.jpg
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
-usemathjax: false
+thumbnail: /assets/postImg/posts/Pasted image 20240114133527.png
 permalink: /blog/what_is_react/
 ---
-
 먼저 npx 를 설치해야한다.
 설치되어있지 않은 패키지를 한번만 설치하고 싶을때 쓰는거라고 생각하면 된다.
 
@@ -36,10 +33,11 @@ index.js
 이다.
 
 
+![[Pasted image 20240114133527.png]]
 
 이렇게 index.js를 보면 APP 컨포넌트를 root라는 dom의 id에 렌더 한다는 의미의 소스를 볼 수 있다.
 
-APP 컨포넌트는 App.js에 있고, *root* 는 src가 아닌 public에 !
+APP 컨포넌트는 App.js에 있고, *root* 는 src가 아닌 public에 ![[Pasted image 20240114133734.png]]
 index.html을 보면 들어있는것을 알 수 있다.
 
 ## SPA
