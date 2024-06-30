@@ -62,7 +62,7 @@ tar xvfzp jenkins_data.tar.gz jenkins_home/unidocu
 ### tar 주요 사용법
 
 ```shell
-Copy# 대상 디렉토리를 포함한 모든 파일과 디렉토리를 tar로 묶기
+# 대상 디렉토리를 포함한 모든 파일과 디렉토리를 tar로 묶기
 tar cvf test.tar [PATH] 
 
 # 파일을 지정하여 tar 아카이브로 묶기
