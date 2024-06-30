@@ -11,34 +11,43 @@ $(document).ready(function() {
           </div>";
 
     toggle_search.click(function(event) {
-      event.preventDefault();
-      $('.search-form-container').addClass('is-active');
+        event.preventDefault();
+        $('.search-form-container').addClass('is-active');
 
-      setTimeout(function() {
-        search_field.focus();
-      }, 500);
+        setTimeout(function() {
+            search_field.focus();
+        }, 500);
     });
 
     $('.search-form-container').on('keyup', function(event) {
-      if (event.keyCode == 27) {
-        $('.search-form-container').removeClass('is-active');
-      }
+        if (event.keyCode == 27) {
+            $('.search-form-container').removeClass('is-active');
+        }
     });
 
-    $('.close-search-button').click(function() {
-      $('.search-form-container').removeClass('is-active');
+    close_search.click(function() {
+        $('.search-form-container').removeClass('is-active');
     });
 
     search_field.ghostHunter({
-      results: search_results,
-      onKeyUp         : true,
-      rss             : base_url + '/feed.xml',
-      zeroResultsInfo : false,
-      info_template   : "<h4 class='heading'>Number of posts found: {{amount}}</h4>",
-      result_template : search_result_template,
-      before: function() {
-        search_results.fadeIn();
-      }
+        results: search_results,
+        onKeyUp: true,
+        rss: base_url + '/feed.xml',
+        zeroResultsInfo: false,
+        info_template: "<h4 class='heading'>Number of posts found: {{amount}}</h4>",
+        result_template: search_result_template,
+        before: function() {
+            search_results.fadeIn();
+        },
+        includepages: true, // 필요한 경우 페이지 포함
+        filterFields: ['title', 'description'], // 검색할 필드
+        displaySearchInfo: true,
+        lunrOptions: {
+            usePipeline: true,
+            // 한글을 위한 lunr-ko 사용
+            tokenizer: function (obj) {
+                return lunr.ko(obj);
+            }
+        }
     });
-
-  });
+});
