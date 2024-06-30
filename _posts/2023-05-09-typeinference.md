@@ -3,7 +3,7 @@ layout: post
 title:  "타입 추론 호환 단언"
 summary: ""
 author: yoo94
-date: '2023-05-06 14:35:23 +0530'
+date: '2023-05-09 14:35:23 +0530'
 category: typeScript
 tags: typeScript
 keywords: typeScript
