@@ -8,7 +8,7 @@ layout: default
                   <div class="row">
                       {% for post in paginator.posts %}
                       <div class="card blog-post">
-                          <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
+                          <img style=" width: 100%; height: 40%; border-top-left-radius: calc(.25rem - 1px); border-top-right-radius: calc(.25rem - 1px);" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
                           <div class="card-body center">
                               <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                               <h4 class="card-title">{{ post.title }}</h4>
