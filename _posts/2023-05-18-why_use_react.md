@@ -3,7 +3,7 @@ layout: post
 title:  "React 왜!! react"
 summary: "왜 리액트를 쓸까"
 author: yoo94
-date: '2023-05-02 15:35:23 +0530'
+date: '2023-05-18 15:35:23 +0530'
 category: react
 tags: react
 keywords: react, nodeJs
