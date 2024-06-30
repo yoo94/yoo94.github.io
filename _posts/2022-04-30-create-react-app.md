@@ -3,7 +3,7 @@ layout: post
 title:  "create-react-app 및 설명"
 summary: "react 프로젝트 만들기"
 author: yoo94
-date: '2023-05-01 13:35:23 +0530'
+date: '2023-05-01 14:35:23 +0530'
 category: react
 tags: react
 thumbnail: /assets/postImg/posts/Pasted image 20240114133527.png
