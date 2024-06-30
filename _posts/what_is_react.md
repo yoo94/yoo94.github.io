@@ -7,7 +7,7 @@ thumbnail: /assets/img/posts/hello.jpg
 category: react
 summary: Demo Content using Netlify CMS
 keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
-permalink: /blog/react/
+permalink: /blog/what_is_react/
 ---
 ## Hello World
 
