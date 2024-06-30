@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "open Suse에 sap 설치하기"
-summary: "sap설치를 위한 os 설치"
+title:  "open Suse에 sap 세팅하기"
+summary: "sap 세팅"
 author: yoo94
-date: '2024-08-04 17:35:23 +0530'
+date: '2024-11-03 17:35:23 +0530'
 category: openSuse
 tags: openSuse
 keywords: openSuse,sap
