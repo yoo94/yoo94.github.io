@@ -1,16 +1,20 @@
-<!--<ul>-->
-<!--    <h2>front_end</h2>-->
-<!--    <ul>-->
-<!--        <li><a href="{{ site.baseurl }}/blog/categories/react/">react</a></li>-->
-<!--        <li><a href="{{ site.baseurl }}/blog/categories/typescript/">typescript</a></li>-->
-<!--    </ul>-->
-<!--</ul>-->
-
-{% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
+{% for tag in site.categories %}
+{% capture tag_name %}{{ tag | first }}{% endcapture %}
+{% assign posts = tag[1] %}
 {% assign post_count = posts | size %}
-<div id="#{{ tag_name | slugize }}"></div>
+
 <li class="tag-head">
-    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }} ({{ post_count }})</a>
+    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}" id="{{ tag_name | slugify }}" name="{{ tag_name | slugify }}">
+        {{ tag_name }} ({{ post_count }})
+    </a>
 </li>
-<a name="{{ tag_name | slugize }}"></a>
 {% endfor %}
+
+<!--{% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}-->
+<!--{% assign post_count = posts | size %}-->
+<!--<div id="#{{ tag_name | slugize }}"></div>-->
+<!--<li class="tag-head">-->
+<!--    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }} </a>-->
+<!--</li>-->
+<!--<a name="{{ tag_name | slugize }}"></a>-->
+<!--{% endfor %}-->
