@@ -10,7 +10,7 @@ keywords: nodejs
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTogwU6U5z0Zf2lUxTE72JAKxVd52klwPe-Q&s
 permalink: /blog/nodejs_init/
 ---
-# 시작
+## 시작
 nodejs.org/ko/
 에서 lts버전을 설치 한다.
 
@@ -32,7 +32,7 @@ node index.js
 를 사용하면 실행이 된다.
 
 ---
-# 작동
+## 작동
 calc.js
 ```javascript
 const add =(a,b)=> a+b;
@@ -56,7 +56,7 @@ cal.sub(3,5);
 이런 식으로 하면 calc에 있는 모듈들을 사용할 수 있다.
 
 ---
-# 모듈사용
+## 모듈사용
 https://www.npmjs.com/
 이 사이트에 들어가면 모듈들에 대한 설명을 볼 수 있다.
 

@@ -31,9 +31,9 @@ npm init
 
 package.json은 JSON형태여야한다. (공식문서가 그렇다함)
 
-**즉 객체의 형태가 {key : "value"} 가 아니라 {"key": "value"}  처럼 큰 따옴표로 키도 감싸줘야한다는 말이다.**
+즉 객체의 형태가 {key : "value"} 가 아니라 {"key": "value"} 처럼 큰 따옴표로 키도 감싸줘야한다는 말이다.
 
-**(앞에꺼는 js의 객체 형태이다.)**
+(앞에꺼는 js의 객체 형태이다.)
 
 package.json의 프로퍼티를 보자
 
@@ -58,11 +58,11 @@ license : 패키지 라이센스
 
 실행을 한번 해보자. 위에 script에다가  아래 내용을 넣은다음
 
-```powershell
-"start":"node js파일.js"
-```
 
-**npm run start** 를 터미널에 입력하면 js파일에 있는 js가 실행된다.
+"start":"node js파일.js"
+
+
+## npm run start를 터미널에 입력하면 js파일에 있는 js가 실행된다.
 
 즉 터미널에 node js파일.js를 그냥 쳐버린거랑 같은 것이다.
 
@@ -70,4 +70,4 @@ license : 패키지 라이센스
 
 npm run (command) 은 약어이고 npm runt-script (command) 가 정석이다
 
-#### **참고로 npm run command에서 command가 start, stop, restart, test  + command는 run을 생략할 수 있다.**
+#### 참고로 npm run command에서 command가 start, stop, restart, test  + command는 run을 생략할 수 있다.**
