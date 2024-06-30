@@ -33,7 +33,7 @@ index.js
 이다.
 
 
-![[Pasted image 20240114133527.png]]
+![Pasted image 20240114133527.png](/assets/postImg/Pasted image 20240114133527.png)
 
 이렇게 index.js를 보면 APP 컨포넌트를 root라는 dom의 id에 렌더 한다는 의미의 소스를 볼 수 있다.
 
@@ -46,7 +46,7 @@ index.html을 보면 들어있는것을 알 수 있다.
 
 ## node_modules
 react-app으로 프로젝트를 설치하게 되면, 기본적으로node_modules에는 굉장히 많은 모듈들이 설치되게 된다.
-![[Pasted image 20240114134144.png]]
+![Pasted image 20240114134144.png](/assets/postImg/Pasted/Pasted image 20240114134144.png )
 이러한 모듈들을 전부 git같은 형상관리소에 올리게되면 굉장히 비효율적은 형상관리가 된다.
 ***그러나 node.js 패키지는 저러한 모듈들이 없어도 상관없다. 왜냐하면 어떠한 모듈일 필요한지는 package.json 과 package-lock.json에 다 명시가 되어있기 때문이다.***
 
