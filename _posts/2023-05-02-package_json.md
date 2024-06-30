@@ -25,7 +25,7 @@ package.json파일은 프로젝트 단위로 설치한다.
 
 일단 설치
 
-```
+```powershell
 npm init
 ```
 

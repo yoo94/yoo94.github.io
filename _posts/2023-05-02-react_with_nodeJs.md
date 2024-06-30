@@ -14,7 +14,7 @@ React를 사용하기 위해서는 React , nodejs , 툴로는 vscode가 필요�
 
 React니까 당연히 React이고 .. 툴은 vsCode가 아니라 인텔리제이도 사용가능하긴한데...
 
-**nodeJs는 왜일까??? 알아보자** 
+**nodeJs는 왜일까??? 알아보자**
 
 <img src="https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
 
@@ -34,7 +34,6 @@ JSX 소개 – React
 
 A JavaScript library for building user interfaces
 
-ko.legacy.reactjs.org](https://ko.legacy.reactjs.org/docs/introducing-jsx.html)
 
 아무튼 JSX를 React에서 사용가능하게 코드를 변환해 줘야 하는데 이때 많이들 바벨이라는 것을 사용한다. 
 
