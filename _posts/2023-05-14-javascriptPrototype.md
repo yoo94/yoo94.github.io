@@ -10,14 +10,14 @@ keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: /blog/javascriptPrototype/
 ---
-상속과 관련하여, JavaScript에는 객체라는 하나의 구조만 있다. 각 객체에는 **프로토타입**이라는 다른 객체에 대한 링크를 보유하는 비공개 속성이 있다
+상속과 관련하여, JavaScript에는 객체라는 하나의 구조만 있다. 각 객체에는  **프로토타입**이라는 다른 객체에 대한 링크를 보유하는 비공개 속성이 있다
 
 클래스는 현재 널리 채택되어 JavaScript의 새로운 패러다임이 되었지만, 클래스는 새로운 상속 패턴을 가져오지 않는다
 
-그 프로토타입 객체도 자신만의 프로토타입을 가지고 있으며, 프로토타입으로 `null`을 가진 객체에 도달할 때까지 이 연결은 계속된다.
+그 프로토타입 객체도 자신만의 프로토타입을 가지고 있으며, 프로토타입으로  `null`을 가진 객체에 도달할 때까지 이 연결은 계속된다.
 ## 프로토타입 체인을 이용한 상속
 
-객체의 `[[Prototype]]`을 지정하는 방법에는 여러 가지가 있으며, {__proto__: ... } 구문이 표준
+객체의  `[[Prototype]]`을 지정하는 방법에는 여러 가지가 있으며,  {__proto__: ... } 구문이 표준
 
 ```javascript
 const o = {
@@ -56,7 +56,7 @@ console.log(o.d); // 5
 
 ### 메서드 상속
 
-상속된 함수가 실행 될 때, [`this`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this) 값은 함수가 자체 속성인 프로토타입 객체가 아니라 상속 객체를 가리킵니다.
+상속된 함수가 실행 될 때,  [`this`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)  값은 함수가 자체 속성인 프로토타입 객체가 아니라 상속 객체를 가리킵니다.
 
 ```javascript
 const parent = {
@@ -119,9 +119,9 @@ Box.prototype.getValue = function () {
 
 const boxes = [new Box(1), new Box(2), new Box(3)];
 ```
-생성자는 [`new`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/new)로 호출되는 함수입니다.
+생성자는  [`new`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/new)로 호출되는 함수입니다.
 
-위 생성자 함수는 [classes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes)에서 다음과 같이 다시 작성할 수 있습니다.
+위 생성자 함수는  [classes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes)에서 다음과 같이 다시 작성할 수 있습니다.
 
 ```javascript
 class Box {

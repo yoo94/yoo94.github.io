@@ -12,7 +12,7 @@ permalink: /blog/call_apply/
 ---
 **call, apply**
 
-함수를 호출하는 함수로 첫번째 인자에 this로 세팅하고 싶은 객체를 넘겨 this를 바꾸고 나서 실행한다.
+함수를 호출하는 함수로 첫번째 인자에 this로 세팅하고 싶은 객체를 넘겨 this를 바꾸고 나서 실행한다.
 
 ```javascript
 const obj = {name:"fansor"};

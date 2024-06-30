@@ -12,7 +12,7 @@ permalink: /blog/opensuseOSsetting_network/
 ---
 
 
-open suse 설치해서 해보고자 하였다 
+open suse 설치해서 해보고자 하였다 
 
 [https://get.opensuse.org/ko/](https://get.opensuse.org/ko/)
 
@@ -21,13 +21,13 @@ open suse 설치해서 해보고자 하였다 
 
 
 
-먼저 다운로드부터 받고, 
+먼저 다운로드부터 받고, 
 
 openSUSE-Leap-15.5-DVD-s390x-Build491.1-Media 난 이것을 다운 받았다.
 
 
 
-그 다음 USB 를 BOOT용으로 만들기 위해 프로그램 하나를 설치했다. 
+그 다음 USB 를 BOOT용으로 만들기 위해 프로그램 하나를 설치했다. 
 
 rufus(루퍼스)는 안됐다.
 universal usb installer이라는 것을 설치해서 구웠다.

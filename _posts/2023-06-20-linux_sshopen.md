@@ -29,7 +29,7 @@ $cat /proc/version
 ## open ssh 설치
 
 ```shell
-yum install openssh-server openssh-clients openssh-askpass`
+yum install openssh-server openssh-clients openssh-askpass`
 
 vi /etc/ssh/sshd_config
 ```

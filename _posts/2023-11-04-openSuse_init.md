@@ -15,13 +15,13 @@ permalink: /blog/opensusesapSetting/
 
 
 
-**# OS** **기본 언어는 EN**
+**# OS** **기본 언어는 EN**
 
 **# zypper install saptune**
 
 **->**
 
-SAPconf라는 것도 있고 SAPtune도 있는데 SAPconf 는 SAP 워크로드에 대해 시스템을 준비하기 위한 최소한의 tool이다.  SAP 시스템을 사용하기 위해 OS Kernel 파라미터를 변경하는 도구라고 생각하면 된다.
+SAPconf라는 것도 있고 SAPtune도 있는데 SAPconf 는 SAP 워크로드에 대해 시스템을 준비하기 위한 최소한의 tool이다.  SAP 시스템을 사용하기 위해 OS Kernel 파라미터를 변경하는 도구라고 생각하면 된다.
 
 부팅 시 sysctl 를 사용하여 동적으로 커널 매개변수를 SAP 시스템의 권장 값으로 설정한다.
 
@@ -31,7 +31,7 @@ SAPtune은 더 세분화된 tool이라고 생각하면 되겠다.
 
 **# zypper install uuidd libuuid1**
 
--> uuidd libuuid1 이 패키지 버전이 동일하게 
+-> uuidd libuuid1 이 패키지 버전이 동일하게 
 
 UUID란. 네트워크 상에서 고유성이 보장되는 id를 만들기 위한 표준 규약이다.
 
@@ -41,7 +41,7 @@ UUID란. 네트워크 상에서 고유성이 보장되는 id를 만들기 위한
 
 
 
-libc는  "표준 C 라이브러리"를 말하는 대 명사이고 
+libc는  "표준 C 라이브러리"를 말하는 대 명사이고 
 
 glibc는 GNU에서 만든 libc 이다.
 
@@ -83,9 +83,9 @@ libatomic1-11.2.1+git610-1.3.9.x86_64
 
 
 
-### **# 설치하다가 생긴 에러들** 
+### **# 설치하다가 생긴 에러들** 
 
-zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 에러가 났다... 15.5 는 참 별로인거같긴한데... 
+zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 에러가 났다... 15.5 는 참 별로인거같긴한데... 
 
 ![](https://blog.kakaocdn.net/dn/xMkMe/btsCfBKzTIs/fdqqbfPvKk5fJ66qkTKhOK/img.png)
 
@@ -97,9 +97,9 @@ zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 
 
 
 
-**zypper ref** 
+**zypper ref** 
 
-이걸 통해서 다시 참조 해주면 된다고 공식문서에 나와있다. 근데 안됨 ㅡㅡ 
+이걸 통해서 다시 참조 해주면 된다고 공식문서에 나와있다. 근데 안됨 ㅡㅡ 
 
   
 
@@ -107,16 +107,16 @@ zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 
 
 
 
-그래서 
+그래서 
 
 **zypper --gpg-auto-import-keys ref**
 
-자동적으로 키를 임포트해서 신뢰하게 만드는 그런거다. 
+자동적으로 키를 임포트해서 신뢰하게 만드는 그런거다. 
 
 ![](https://blog.kakaocdn.net/dn/c79b0L/btsClaYHSgY/IEORbmIuCx3RjaQjauAB7K/img.png)
 
 
 
-짜란.. 다 됐다. 근데 이게 임시로 해결한거고 
+짜란.. 다 됐다. 근데 이게 임시로 해결한거고 
 
-새로 고침 명령에 --gpg-auto-import-keys 옵션을 제공하더라도 zypper는 알 수 없는 키에 대해 경고를한다
+새로 고침 명령에 --gpg-auto-import-keys 옵션을 제공하더라도 zypper는 알 수 없는 키에 대해 경고를한다

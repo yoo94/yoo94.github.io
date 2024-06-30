@@ -48,7 +48,7 @@ main : 패키지 중에서 메인 파일 이름 module ID
 
 script : 실행되는 스크립트 명령어들을 작성
 
-author : 패키지 제작자 
+author : 패키지 제작자 
 
 license : 패키지 라이센스
 
@@ -56,7 +56,7 @@ license : 패키지 라이센스
 
 
 
-실행을 한번 해보자. 위에 script에다가  아래 내용을 넣은다음
+실행을 한번 해보자. 위에 script에다가  아래 내용을 넣은다음
 
 
 "start":"node js파일.js"

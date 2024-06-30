@@ -10,7 +10,7 @@ keywords: linux, tar, gz
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp
 permalink: /blog/linux_tar_gz/
 ---
-##  tar 명령어 사용법 
+##  tar 명령어 사용법 
 
 tar는 Tape ARchiver 테이프 아카이버의 앞글자를 딴 말로 정확히 말하자면 압축방식은 아니고 일종의 묶음 형태입니다. tar파일은 리눅스 및 유닉스에서 가장 많이 사용되는 형태로써 tar로 묶이기 전 파일들의 속성과 디렉터리 구조등을 모두 보존할 수 있고 압축 & 압축해제 등의 작업을 거치면서 파일이 변경, 소실될 염려가 없기 때문에 소스 배포 파일을 만드는 용도로 자주 사용됩니다.
 
@@ -96,7 +96,7 @@ tar cvfw test.tar *
 tar cvf T.tar *
 ```
 
-##  gzip 명령어 사용법 
+##  gzip 명령어 사용법 
 
 리눅스에서 주로 파일을 압축하는 방식은 위에서 설명한 tar를 사용하여 여러 개의 파일을 하나로 묶고 이 묶은 tar 파일을 gzip 명령어를 사용하여. gz 형식으로 압축을 많이 합니다. gz은 gzip파일의 약자입니다. 만약 gzip 명령어를 찾을 수 없다고 나오면  apt-get install gzip 으로 설치하시면 됩니다.
 

@@ -10,10 +10,10 @@ keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: /blog/Closure/
 ---
-클로저는 함수와 함수가 선언된 어휘적 환경(Lexical Environment)의 조합이다. 즉, 
- **함수 안에 함수를 선언한 환경에서의 관계를 의미한다.
+클로저는 함수와 함수가 선언된 어휘적 환경(Lexical Environment)의 조합이다. 즉, 
+ **함수 안에 함수를 선언한 환경에서의 관계를 의미한다.
 
-함수안에 함수를 선언한 환경은 내부 함수에서 외부 함수로 지역변수를 접근할 수 있지만 외부 함수의 실행이 끝나고 외부 함수가 소멸된 이후에도 
+함수안에 함수를 선언한 환경은 내부 함수에서 외부 함수로 지역변수를 접근할 수 있지만 외부 함수의 실행이 끝나고 외부 함수가 소멸된 이후에도 
 **내부 함수가 외부 함수의 변수에 접근할 수 있는 것을 의미한다.
 
 발생하는 이유는 자바스크립트는 함수를 리턴하고 리턴되는 함수가 클로저를 형성하기 때문에 접근이 가능합니다. 클로저는 반환된 내부함수가 
