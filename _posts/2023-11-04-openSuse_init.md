@@ -3,7 +3,7 @@ layout: post
 title:  "open Suse에 sap 세팅하기"
 summary: "sap 세팅"
 author: yoo94
-date: '2024-11-03 17:35:23 +0530'
+date: '2023-11-03 17:35:23 +0530'
 category: openSuse
 tags: openSuse
 keywords: openSuse,sap

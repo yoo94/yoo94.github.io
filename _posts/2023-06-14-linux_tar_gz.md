@@ -3,7 +3,7 @@ layout: post
 title:  "리눅스 tar, gz, zip 압축 및 해제"
 summary: ""
 author: yoo94
-date: '2024-06-14 17:35:23 +0530'
+date: '2023-06-14 17:35:23 +0530'
 category: linux
 tags: linux
 keywords: linux, tar, gz

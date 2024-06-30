@@ -3,7 +3,7 @@ layout: post
 title:  "open Suse에 설정 및 네트워크설정"
 summary: "sap설치를 위한 os 설치"
 author: yoo94
-date: '2024-11-04 17:35:23 +0530'
+date: '2023-11-04 17:35:23 +0530'
 category: openSuse
 tags: openSuse
 keywords: openSuse,sap
