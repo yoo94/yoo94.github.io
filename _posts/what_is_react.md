@@ -9,4 +9,6 @@ tags: react
 thumbnail: /assets/img/posts/code.jpg
 permalink: /blog/what_is_react/
 ---
+
+
 This page is a demo that shows everything you can do inside blog posts. Hi !
