@@ -7,7 +7,7 @@ date: '2023-05-21 17:35:23 +0530'
 category: sap
 tags: sap
 keywords: sap
-thumbnail: https://i.namu.wiki/i/YtOrE3u_trkpmqH34EoiTdqDeqAifLWGmJL2c5DncbgJXEwyU8NPANPxcEX2TZ0g5xKlORnGeRLfBF1yXIaawQ.svg
+thumbnail: https://i.namu.wiki/i/8714nM2OTlIubL44Exdh4QUXbuNUkGYZwJ2dc0kPkwtjBo85ZgCst0OmlfHM1kvsUNAx6rqjD4j1J7Plv1BgdA.svg
 permalink: /blog/sap_cbo_tcode/
 ---
 

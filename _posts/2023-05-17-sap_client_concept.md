@@ -7,10 +7,10 @@ date: '2023-05-21 17:35:23 +0530'
 category: sap
 tags: sap
 keywords: sap
-thumbnail: https://i.namu.wiki/i/YtOrE3u_trkpmqH34EoiTdqDeqAifLWGmJL2c5DncbgJXEwyU8NPANPxcEX2TZ0g5xKlORnGeRLfBF1yXIaawQ.svg
+thumbnail: https://i.namu.wiki/i/8714nM2OTlIubL44Exdh4QUXbuNUkGYZwJ2dc0kPkwtjBo85ZgCst0OmlfHM1kvsUNAx6rqjD4j1J7Plv1BgdA.svg
 permalink: /blog/sap_client_concept/
 ---
-### **Client**   
+### **Client**   
 
 - **SAP 시스템에서 지칭하는 조직적으로 최상위 독립 단위**
 - **데이터베이스에서 데이터가 나누어지는 최상위 단위**

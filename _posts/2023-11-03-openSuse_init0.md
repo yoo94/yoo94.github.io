@@ -47,7 +47,7 @@ universal usb installer이라는 것을 설치해서 구웠다.
 
 
 
-이제 제일 중요한 볼륨 파티셔닝. 제일 중요하다. **XFS 파일 시스템으로 파티션**
+이제 제일 중요한 볼륨 파티셔닝. 제일 중요하다. **XFS 파일 시스템으로 파티션**
 
 
 
@@ -74,19 +74,19 @@ root 계정 만들어주고
 
 
 
-나는 어차피 우리회사 방화벽을 내가 설정하기 때문에,  ssh만 열었다. 
+나는 어차피 우리회사 방화벽을 내가 설정하기 때문에,  ssh만 열었다. 
 
 open SUSE를 설치하고 그냥 리눅스처럼 ipconfig를 갈겼는데,
 
-바로 안된다. ..;;; 
+바로 안된다. ..;;; 
 
 ![](https://blog.kakaocdn.net/dn/bmkn09/btsB6gsq8HQ/t8GaQxWcWYdzP2kZGY6gs0/img.png)
 
 
 
-오픈 수세 15 버전 이상부터  **arp, route, netstat, iptunnel, ipmaddr, ifconfig 명령어가 안된단다.**
+오픈 수세 15 버전 이상부터  **arp, route, netstat, iptunnel, ipmaddr, ifconfig 명령어가 안된단다.**
 
-허허... 
+허허... 
 
   
 
@@ -96,15 +96,15 @@ open SUSE를 설치하고 그냥 리눅스처럼 ipconfig를 갈겼는데,
 
 ![](https://blog.kakaocdn.net/dn/dBDIpL/btsB7et7vfL/rAhxV7esdhsCIy5BZjKMMk/img.png)
 
-ip addr 하면 이렇게 연결된 네트워크가 나온다. 
+ip addr 하면 이렇게 연결된 네트워크가 나온다. 
 
 ![](https://blog.kakaocdn.net/dn/bfb0rs/btsB7TwACRa/NCRmXK3ytvlkIE0RR9TqZk/img.png)
 
 
 
-네트워크 설정은 GUI로 설치했으면 그냥 
+네트워크 설정은 GUI로 설치했으면 그냥 
 
-YaST2 에 들어가서 Network  Devices -> Network Settings 에 들어가서 각자 네트워크에 맞게 설정하면 된다.
+YaST2 에 들어가서 Network  Devices -> Network Settings 에 들어가서 각자 네트워크에 맞게 설정하면 된다.
 
 DHCP 자동할당을 해도 되지만 서버로 사용할 거라면 수동 설정을 하도록 하자
 
