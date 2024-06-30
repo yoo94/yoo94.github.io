@@ -116,6 +116,9 @@
 				if (me.includebodysearch){
 				this.field('plaintext');
 				}
+				if (typeof lunr.ko !== 'undefined') {
+					this.tokenizer = lunr.ko;
+				}
 				this.field('pubDate');
 				this.field('tag');
 				idxSrc.forEach(function (arrayItem) {
