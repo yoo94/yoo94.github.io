@@ -8,6 +8,6 @@ permalink: /blog/categories/react/
 
 <div class="card">
 {% for post in site.categories.react %}
- <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li class="category-posts"><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
