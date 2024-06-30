@@ -1,13 +1,34 @@
 ---
 layout: post
-title: "다중 카테고리 게시물 추가하기"
-summary: "게시물에 다중 카테고리를 추가하는 방법에 대해 배워봅시다."
-author: Yoo Jaeseok
-date: 2024-06-29 10:00:00 +0900
-categories: react
-tags: react
-thumbnail: /assets/img/posts/code.jpg
+author: yoo94
+title: Netlify CMS created this Article
+date: 2020-05-23T09:52:20.613Z
+thumbnail: /assets/img/posts/hello.jpg
+category: react
+summary: Demo Content using Netlify CMS
+keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
 permalink: /blog/react/
 ---
+## Hello World
 
-이 게시물은 "react" 카테고리에 속합니다. 다음은 게시물의 본문입니다.
+This page is a demo that shows everything you can do inside blog posts. Hi !
+
+We’ve included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+
+**Obviously,**we’ve styled up *all the basic* text formatting options available in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+You can create lists:
+
+* Simple bulleted lists
+* Like this one
+* Are cool
+
+And:
+
+1. Numbered lists
+2. Like this other one
+3. Are great too
+
+You can also add **blockquotes**, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
+
+> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
