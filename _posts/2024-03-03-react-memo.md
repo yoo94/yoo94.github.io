@@ -14,6 +14,7 @@ permalink: /blog/React.memo/
 <img src="/assets/postImg/Pasted image 20240204164428.png" alt="Pasted image 20240204164428.png" style="max-width:100%;">
 <img src="/assets/postImg/Pasted image 20240204164443.png" alt="Pasted image 20240204164443.png" style="max-width:100%;">
 <img src="/assets/postImg/Pasted image 20240204164453.png" alt="Pasted image 20240204164453.png" style="max-width:100%;">
+
 ```jsx
 const MyComponent = React.memo(function MyComponent(props) {
   /* props를 사용하여 렌더링 */
