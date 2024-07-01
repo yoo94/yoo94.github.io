@@ -19,7 +19,7 @@ layout: default
                             <p class="card-text" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
                                 {{ post.summary }} </p>
 
-                            <a style="margin-top: 8%; width: 100%;" href="{{ post.url | prepend: site.baseurl }}"
+                            <a style="margin-top: 8%; display: inline; padding: 0.5rem 8rem;" href="{{ post.url | prepend: site.baseurl }}"
                                data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                             <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
