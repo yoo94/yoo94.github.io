@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "JSX란? JSX form 종류"
-summary: "JSX Form  종류"
+title:  "JSX with css"
+summary: "JSX css"
 author: yoo94
 date: '2024-01-12 15:35:23 +0530'
 category: react
