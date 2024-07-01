@@ -6,7 +6,7 @@ author: yoo94
 date: '2024-03-13 04:35:23 +0530'
 category: react
 tags: react
-thumbnail: /assets/postImg/Pasted image 20240114133527.png
+thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/useMemo-useCallback/
 ---
 #### ❌ useMemo와 useCallback을 사용하지 말아야 할 경우

@@ -6,7 +6,7 @@ author: yoo94
 date: '2024-02-01 18:35:23 +0530'
 category: react
 tags: react
-thumbnail: /assets/postImg/Pasted image 20240114133527.png
+thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/react-hook-useState/
 ---
 ###### 언제 사용?  : 화면에서 값이 변하는 것들을 담아두고 관리할 때

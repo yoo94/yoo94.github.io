@@ -6,7 +6,7 @@ author: yoo94
 date: '2024-02-03 11:35:23 +0530'
 category: react
 tags: react
-thumbnail: /assets/postImg/Pasted image 20240114133527.png
+thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/react-hook-useRef/
 ---
 
