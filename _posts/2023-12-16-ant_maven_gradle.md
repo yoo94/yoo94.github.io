@@ -33,13 +33,13 @@ Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 
 
 ### 2. Apache Maven
 
-[**Maven**](https://maven.apache.org/)은 프로젝트에 필요한 모든 'Dependency (종속성)'를 리스트의 형태로 Maven에게 알려 관리 할 수 있도록 돕는 방식을 말한다. 
+[**Maven**](https://maven.apache.org/)은 프로젝트에 필요한 모든 'Dependency (종속성)'를 리스트의 형태로 Maven에게 알려 관리 할 수 있도록 돕는 방식을 말한다. 
 
 - Dependency를 관리하고, 표준화된 프로젝트(Standardized project)를 제공
 - XML, remote repository를 가져 올 수 있음 : 개발에 필요한 종속되는 'jar', 'class path'를 다운로드 할 필요 없이 선언만으로 사용 가능
 - 상속형 : 하위 XML이 필요 없는 속성도 모두 표기
 
-과 같은 기능을 한다. 즉, **'POM.xml'** 이라는 Maven 파일에 필요한 'Jar', 'Class Path'를 선언해 주면 직접 다운로드 할 필요 없이 Maven은 Repository에서 필요한 모든 파일들을 해당 프로젝트로 불러와 준다. 이러한 장점에도 불구하고, Maven은 몇가지 단점이 있는데 그것은 바로 아래와 같다.
+과 같은 기능을 한다. 즉, **'POM.xml'** 이라는 Maven 파일에 필요한 'Jar', 'Class Path'를 선언해 주면 직접 다운로드 할 필요 없이 Maven은 Repository에서 필요한 모든 파일들을 해당 프로젝트로 불러와 준다. 이러한 장점에도 불구하고, Maven은 몇가지 단점이 있는데 그것은 바로 아래와 같다.
 
 - 라이브러리가 서로 종속할 경우 XML이 복잡해짐
 - 계층적인 데이터를 표현하기에 좋지만, 플로우나 조건부 상황을 표현하기엔 어려움
@@ -47,11 +47,11 @@ Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 
 
 ### 3. Apache Gradle
 
-최근 소프트웨어개발 범위의 변화에 따라 빌드의 자동화에대한 요구도증가하게 되었다. **[Gradle](https://gradle.org/)**은 JVM 기반의 빌드 도구로 기존의 Ant와 Maven을 보완하였다. 따라서 JAVA 혹은 Groovy를 이용해 logic을 개발자의 의도에 따라 설계할 수 있다.
+최근 소프트웨어개발 범위의 변화에 따라 빌드의 자동화에대한 요구도증가하게 되었다. **[Gradle](https://gradle.org/)**은 JVM 기반의 빌드 도구로 기존의 Ant와 Maven을 보완하였다. 따라서 JAVA 혹은 Groovy를 이용해 logic을 개발자의 의도에 따라 설계할 수 있다.
 
 - 오픈소스기반의 build 자동화 시스템으로 Groovy 기반 DSL(Domain-Specific Language)로 작성
 - Build-by-convention을 바탕으로함: 스크립트 규모가 작고 읽기 쉬움
-- Multi 프로젝트의 빌드를 지원하기 위해 설계됨 
+- Multi 프로젝트의 빌드를 지원하기 위해 설계됨 
 - 설정 주입 방식 (Configuration Injection)
 
 따라서 초기 프로젝트 설정에 드는 시간을 절약할 수 있으며 기존의 Maven이나 Ivy등과 같은 빌드 도구들과도 호완이 가능하다는 점이다.  

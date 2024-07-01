@@ -35,12 +35,12 @@ const baz = bar(7); // 42를 baz에 할당
 
 위 코드의 실행 순서는 다음과 같습니다.
 
-1. `bar`를 호출할 때, `bar`의 인수와 지역 변수를 포함하는 첫 번째 프레임이 생성됩니다.
-2. `bar`가 `foo`를 호출할 때, `foo`의 인수와 지역 변수를 포함하는 두 번째 프레임이 생성되어 첫 번째 프레임의 위로 추가됩니다.
-3. `foo`가 반환되면, 맨 위의 프레임 요소를 스택 밖으로 꺼냅니다(`bar` 호출 프레임만 남게 됩니다).
+1. `bar`를 호출할 때, `bar`의 인수와 지역 변수를 포함하는 첫 번째 프레임이 생성됩니다.
+2. `bar`가 `foo`를 호출할 때, `foo`의 인수와 지역 변수를 포함하는 두 번째 프레임이 생성되어 첫 번째 프레임의 위로 추가됩니다.
+3. `foo`가 반환되면, 맨 위의 프레임 요소를 스택 밖으로 꺼냅니다(`bar` 호출 프레임만 남게 됩니다).
 4. `bar`가 반환되면, 스택이 비어있게 됩니다.
 
-인수와 지역 변수는 스택 바깥에 저장되므로, 바깥 함수가 반환된 후에도 계속 존재할 수 있습니다. 중첩 함수에서 지역 변수에 접근할 수 있는 이유가 이것입니다.
+인수와 지역 변수는 스택 바깥에 저장되므로, 바깥 함수가 반환된 후에도 계속 존재할 수 있습니다. 중첩 함수에서 지역 변수에 접근할 수 있는 이유가 이것입니다.
 
 ### 힙
 
@@ -63,12 +63,12 @@ while (queue.waitForMessage()) {
 }
 ```
 
-`queue.waitForMessage()` 함수는 현재 처리할 수 있는 메시지가 존재하지 않으면 새로운 메시지가 도착할 때까지 동기적으로 대기합니다.
+`queue.waitForMessage()` 함수는 현재 처리할 수 있는 메시지가 존재하지 않으면 새로운 메시지가 도착할 때까지 동기적으로 대기합니다.
 
 ### 다수의 런타임 간 통신
 
-웹 워커나 교차 출처 `iframe`은 자신만의 스택, 힙, 메시지 큐를 가집니다. 서로 다른 두 런타임은 [`postMessage`](https://developer.mozilla.org/ko/docs/Web/API/Window/postMessage) 메서드를 통해 메시지를 보내는 방식으로만 서로 통신할 수 있습니다. 상대가 `message` 이벤트를 수신하고 있을 때, `postMessage`는 상대 런타임에 메시지를 추가합니다.
+웹 워커나 교차 출처 `iframe`은 자신만의 스택, 힙, 메시지 큐를 가집니다. 서로 다른 두 런타임은 [`postMessage`](https://developer.mozilla.org/ko/docs/Web/API/Window/postMessage) 메서드를 통해 메시지를 보내는 방식으로만 서로 통신할 수 있습니다. 상대가 `message` 이벤트를 수신하고 있을 때, `postMessage`는 상대 런타임에 메시지를 추가합니다.
 
 ## 논 블로킹
-다른 많은 언어와 달리 JavaScript는 절대 블로킹 연산을 하지 않습니다. 논 블로킹은 이벤트 루프 모델의 무척 흥미로운 특징으로, 대부분의 입출력 처리가 이벤트와 콜백을 통해 수행되므로, 애플리케이션이 [IndexedDB](https://developer.mozilla.org/ko/docs/Web/API/IndexedDB_API) 질의나 [XHR](https://developer.mozilla.org/ko/docs/Web/API/XMLHttpRequest) 요청의 반환을 대기 중이더라도, 여전히 사용자 입력 등 다른 것들을 처리할 수 있는 것입니다.
+다른 많은 언어와 달리 JavaScript는 절대 블로킹 연산을 하지 않습니다. 논 블로킹은 이벤트 루프 모델의 무척 흥미로운 특징으로, 대부분의 입출력 처리가 이벤트와 콜백을 통해 수행되므로, 애플리케이션이 [IndexedDB](https://developer.mozilla.org/ko/docs/Web/API/IndexedDB_API) 질의나 [XHR](https://developer.mozilla.org/ko/docs/Web/API/XMLHttpRequest) 요청의 반환을 대기 중이더라도, 여전히 사용자 입력 등 다른 것들을 처리할 수 있는 것입니다.
 

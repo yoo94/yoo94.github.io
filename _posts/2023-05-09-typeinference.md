@@ -120,7 +120,7 @@ let capt = { name: "Captain", location: "Pangyo" };
 hero = capt;
 ```
 
-위 코드에서 `capt`가 `hero` 타입에 호환될 수 있는 이유는 `capt`의 속성 중에 `name`이 있기 때문입니다. `Avengers` 인터페이스에서 `name` 속성을 갖고 있기 때문에 `capt`는 `Avengers` 타입에 호환될 수 있죠.
+위 코드에서 `capt`가 `hero` 타입에 호환될 수 있는 이유는 `capt`의 속성 중에 `name`이 있기 때문입니다. `Avengers` 인터페이스에서 `name` 속성을 갖고 있기 때문에 `capt`는 `Avengers` 타입에 호환될 수 있죠.
 
 함수를 호출할 때도 마찬가지입니다.
 
@@ -132,7 +132,7 @@ function assemble(a: Avengers) {
 assemble(capt);
 ```
 
-`capt` 변수에 이미 `name` 속성 뿐만 아니라 `location` 속성도 있기 때문에 `assemble` 함수의 호출 인자로 넘길 수 있습니다.
+`capt` 변수에 이미 `name` 속성 뿐만 아니라 `location` 속성도 있기 때문에 `assemble` 함수의 호출 인자로 넘길 수 있습니다.
 
 ## Soundness란?
 

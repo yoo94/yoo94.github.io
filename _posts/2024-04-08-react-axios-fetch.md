@@ -10,7 +10,7 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: /blog/react-axios-fetch/
 ---
 ## axios
-axios는 fetch API와 유사한 Promise 기반 HTTP 클라이언트 라이브러리로 데이터를 동적으로 받아올 수 있습니다. fetch API와 달리 third-party 라이브러리로 **1) 별도의 설치 후 import 하거나** 또는 **2) html 파일에 jsDeliver CDN**을 이용해 사용 가능합니다.
+axios는 fetch API와 유사한 Promise 기반 HTTP 클라이언트 라이브러리로 데이터를 동적으로 받아올 수 있습니다. fetch API와 달리 third-party 라이브러리로 **1) 별도의 설치 후 import 하거나** 또는 **2) html 파일에 jsDeliver CDN**을 이용해 사용 가능합니다.
 
 ```shell
 -----------------
@@ -45,7 +45,7 @@ function News(){
 }
 ```
 
-axios는 fetch API와 달리 json 객체로 변환해주는 과정을 자동으로 해줍니다. 그리고 위의 코드에서 `axios.get` 메서드를 활용해 데이터를 비동기적으로 받아올 수 있습니다. 단, 응답 받은 객체에 data key에 접근하여 접근한 값(`res.data`)을 반환해야 데이터를 활용 가능합니다.
+axios는 fetch API와 달리 json 객체로 변환해주는 과정을 자동으로 해줍니다. 그리고 위의 코드에서 `axios.get` 메서드를 활용해 데이터를 비동기적으로 받아올 수 있습니다. 단, 응답 받은 객체에 data key에 접근하여 접근한 값(`res.data`)을 반환해야 데이터를 활용 가능합니다.
 
 
 ---
@@ -93,7 +93,7 @@ const getData = async()=>{
 
 useEffect Hook을 활용하여, 컴포넌트가 최초 렌더링 후 mount될 때 한 번만 데이터를 동적으로 받아올 수 있도록 할 수 있습니다. 이 때, fetch 또는 axios를 이요해서 데이터를 받아옵니다.
 
-> 서버 구축을 통한 데이터를 받아오기 어려운 상황에서, 다음의 사이트에서 fake API를 활용해 화면에 뿌려볼 수 있습니다. 
+> 서버 구축을 통한 데이터를 받아오기 어려운 상황에서, 다음의 사이트에서 fake API를 활용해 화면에 뿌려볼 수 있습니다. 
 
 ### 01 fetch
 

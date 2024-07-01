@@ -35,7 +35,7 @@ JavaScript는 객체가 생성되었을 때 자동으로 메모리를 할당하�
 #### 참조-세기(Reference-counting) 가비지 콜렉션
 *참고로 최신 브라우저는 이 방식을 사용 안함*
  이 알고리즘은 '어떤 다른 객체도 참조하지 않는 객체'를 '더 이상 필요 없는 객체'라고 여깁니다.이 객체를 "가비지"라 부르며, 이를 참조하는 다른 객체가 하나도 없는 경우, 수집이 가능합니다.
- 
+ 
 함수 호출이 완료되면 이 두 객체는 스코프를 벗어나게 될 것이며, 그 시점에서 두 객체는 불필요해지므로 할당된 메모리는 회수되어야 합니다. 그러나 두 객체가 서로를 참조하고 있으므로, 참조-세기 알고리즘은 둘 다 가비지 컬렉션의 대상으로 표시하지 않습니다. 이러한 순환 참조는 메모리 누수의 흔한 원인입니다.
 
 
@@ -75,7 +75,7 @@ BASHCopy to Clipboard
 node --max-old-space-size=6000 index.js
 ```
 
-또한 플래그나 [Chrome Debugger](https://nodejs.org/en/docs/guides/debugging-getting-started/)를 사용해 메모리 문제를 디버깅하기 위한 가비지 컬렉터 정보를 보여줄 수 있습니다:
+또한 플래그나 [Chrome Debugger](https://nodejs.org/en/docs/guides/debugging-getting-started/)를 사용해 메모리 문제를 디버깅하기 위한 가비지 컬렉터 정보를 보여줄 수 있습니다:
 
 BASHCopy to Clipboard
 
@@ -89,7 +89,7 @@ node --expose-gc --inspect index.js
 
 ### WeakMaps과 WeakSets
 
-주로 `WeakMap`과 `WeakSet`을 설명할 때, 보통 키가 먼저 가비지 수집되고 이후 값 또한 가비지 수집된다고 암시합니다. 그러나, 아래와 같이 키를 참조하는 값이 있는 케이스를 살펴보겠습니다.
+주로 `WeakMap`과 `WeakSet`을 설명할 때, 보통 키가 먼저 가비지 수집되고 이후 값 또한 가비지 수집된다고 암시합니다. 그러나, 아래와 같이 키를 참조하는 값이 있는 케이스를 살펴보겠습니다.
 
 
 ```javascript
@@ -100,7 +100,7 @@ wm.set(key, { key });
 // 그 값은 map 안에서 strongly hold되어 있습니다.
 ```
 
-만약 `key`가 실제 참조로 저장된다면, 다른 값이 `key`를 참조하지 않아도 순환 참조를 만들며 키와 값 모두 가비지 수집 대상이 아니도록 합니다.
+만약 `key`가 실제 참조로 저장된다면, 다른 값이 `key`를 참조하지 않아도 순환 참조를 만들며 키와 값 모두 가비지 수집 대상이 아니도록 합니다.
 
 ### WeakRefs와 FinalizationRegistry
 

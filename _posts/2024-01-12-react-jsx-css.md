@@ -22,7 +22,7 @@ const Main = ()=>{
   if(user.isLogin){
     return <div style={{backgroundColor:"red"}}>로그아웃</div>
   }else{
-    return <div style={{backgroundColor:"blue"}}>로그인</div>   
+    return <div style={{backgroundColor:"blue"}}>로그인</div>   
   }
 }
 

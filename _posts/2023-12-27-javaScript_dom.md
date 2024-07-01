@@ -24,14 +24,14 @@ console.dir(elem)과 console.log(elem)의 차이
 
 자바스크립트에서 DOM은 document 객체에 구현되어 있기 때문에 브라우저에서 작동되는 자바스크립트 코드에서는 document 객체를 조회할 수 있다.
 
-`document.body`를 `console`로 찍어보면 body의 엘리먼트(Element)들을 확인할 수 있다.
+`document.body`를 `console`로 찍어보면 body의 엘리먼트(Element)들을 확인할 수 있다.
 body의 자식 엘리먼트도 찾을 수 있다.
 
 ```javascript
 console.dir(document.body.children);
 ```
 
-반대로 부모 엘리먼트를 찾고 싶을 때는 `parentElement`를 써주면 된다.
+반대로 부모 엘리먼트를 찾고 싶을 때는 `parentElement`를 써주면 된다.
 
 ```javascript
 let children = document.body.children[1];
@@ -60,7 +60,7 @@ DOM을 JavaScript로 조작하여 HTML Element를 추가하거나 삭제, 혹은
 
 우선 추가하는 방법부터 살펴보자.
 
-`createElement()` 를 사용해 엘리먼트를 생성해 줄 수 있다.
+`createElement()` 를 사용해 엘리먼트를 생성해 줄 수 있다.
 
 div를 하나 생성해준다고 예시를 들어보자.
 ```javascript
@@ -71,7 +71,7 @@ const tweetDiv = document.createElement('div');
 
 ## 2) Element 추가
 
-그림에서 봤던 공중에 떠있는 엘리먼트를, `append` 해야만 실제 웹 페이지 상에도 보여진다.
+그림에서 봤던 공중에 떠있는 엘리먼트를, `append` 해야만 실제 웹 페이지 상에도 보여진다.
 
 ```javascript
 document.body.append(tweetDiv);
@@ -219,7 +219,7 @@ aElement.classList.add('name')
 ### textContent
 
 Element 및 Node에 텍스트를 추가할 수 있는 메서드이다.  
-반환값은 문자열 또는 `null`이다.
+반환값은 문자열 또는 `null`이다.
 
 ```javascript
 aElement.textContent = 'awesome'
@@ -242,7 +242,7 @@ innerHTML는 이름 그대로 HTML을 반환한다. HTML tag를 직접 삽입하
 > 자식 Node를 삭제하는 메서드이다.
 
 **remove()**는 노드를 메모리에서 삭제하고 종료한다.  
-반면에 **removeChild()**는 메모리에 해당 노드는 그대로 존재하며, 부모 노드와의 부모-자식관계를 끊어 DOM 트리에서 제거한다. 최종적으로는 관계를 끊은 해당 노드의 참조를 반환한다.
+반면에 **removeChild()**는 메모리에 해당 노드는 그대로 존재하며, 부모 노드와의 부모-자식관계를 끊어 DOM 트리에서 제거한다. 최종적으로는 관계를 끊은 해당 노드의 참조를 반환한다.
 ```javascript
 const container = document.querySelector('#container')
 const tweetDiv = document.createElement('div')

@@ -23,11 +23,11 @@ import { getEmotionImage } from './util/get-emotion-image';
   <>
   //img태그에 src에 함수를 호출해
    <div>
-    <img  src={getEmotionImage(1)}/>  
-    <img  src={getEmotionImage(2)}/>  
-    <img  src={getEmotionImage(3)}/>  
-    <img  src={getEmotionImage(4)}/> 
-    <img  src={getEmotionImage(5)}/>  
+    <img  src={getEmotionImage(1)}/>  
+    <img  src={getEmotionImage(2)}/>  
+    <img  src={getEmotionImage(3)}/>  
+    <img  src={getEmotionImage(4)}/> 
+    <img  src={getEmotionImage(5)}/>  
    </div>
 ...
 <Routes>
