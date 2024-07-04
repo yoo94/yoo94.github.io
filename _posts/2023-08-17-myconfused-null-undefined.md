@@ -4,7 +4,7 @@ title:  "js null undefined?"
 summary: "null-undefined 차이"
 author: yoo94
 date: '2023-08-17 15:35:23 +0530'
-category: myconfused
+category: ['myconfused','javaScript']
 tags: myconfused, null,undefined
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: /blog/null-undefined/
