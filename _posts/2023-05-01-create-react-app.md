@@ -1,14 +1,26 @@
 ---
 layout: post
-title:  "create-react-app 및 설명"
+title:  "CRA create-react-app 및 설명"
 summary: "react 프로젝트 만들기"
 author: yoo94
 date: '2023-05-01 14:35:23 +0530'
-category: react
+category: ['react','myconfused']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/create-react-app/
 ---
+
+## CRA란
+주요 특징과 장점
+- 설정 간소화: Create React App을 사용하면 Webpack이나 Babel과 같은 도구들의 복잡한 설정 없이 바로 React 애플리케이션을 개발할 수 있습니다.
+
+- 편리한 스크립트: 개발 서버의 시작, 빌드, 테스트 실행 등을 편리하게 수행할 수 있는 명령어들을 제공합니다.
+
+- 자동화된 최적화: 프로덕션 빌드 시 자동으로 최적화된 번들링을 수행하여 성능을 최대화합니다.
+
+- 환경 설정의 일관성: Create React App은 React 팀에서 관리하며, React 애플리케이션의 초기 설정을 통일시켜 개발자들이 일관된 환경에서 작업할 수 있도록 합니다.
+
+
 먼저 npx 를 설치해야한다.
 설치되어있지 않은 패키지를 한번만 설치하고 싶을때 쓰는거라고 생각하면 된다.
 
