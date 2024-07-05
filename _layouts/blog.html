@@ -43,15 +43,17 @@ layout: default
 
                     <li class="pagination-link"><a href="/blog">First</a></li>
 
+                    {% assign ellipsis = false %}
                     {% for page in (1..paginator.total_pages) %}
                     {% if page == paginator.page %}
                     <li class="disabled pagination-link"><span><b>{{ page }}</b></span></li>
-                    {% elsif page == 1 %}
-                    <li class="pagination-link"><a href="/blog">{{ page }}</a></li>
+                    {% elsif page == 1 or page == paginator.total_pages or page == paginator.page or (page >= paginator.page | minus: 2 and page <= paginator.page | plus: 2) %}
+                    <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}
-                    <li class="pagination-link"><a
-                            href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{
-                        page }}</a></li>
+                    {% unless ellipsis %}
+                    <li class="pagination-link disabled"><span>...</span></li>
+                    {% assign ellipsis = true %}
+                    {% endunless %}
                     {% endif %}
                     {% endfor %}
 
@@ -67,6 +69,7 @@ layout: default
                 </ul>
                 {% endif %}
             </div>
+
 
         </div>
 
