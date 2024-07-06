@@ -34,8 +34,8 @@ layout: default
                 {% if paginator.total_pages > 1 %}
                 <ul class="pagination pagination-sm">
                     {% if paginator.previous_page %}
-                    <li class="pagination-link"><a
-                            href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+                    <li class="pagination-link">
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
                     </li>
                     {% else %}
                     <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
@@ -44,24 +44,45 @@ layout: default
                     <li class="pagination-link"><a href="/blog">First</a></li>
 
                     {% assign ellipsis = false %}
-                    {% for page in (1..paginator.total_pages) %}
+                    {% assign window_size = 5 %}
+                    {% assign start_page = paginator.page | minus: window_size %}
+                    {% assign end_page = paginator.page | plus: window_size %}
+
+                    {% if start_page < 1 %}
+                    {% assign start_page = 1 %}
+                    {% endif %}
+
+                    {% if end_page > paginator.total_pages %}
+                    {% assign end_page = paginator.total_pages %}
+                    {% endif %}
+
+                    {% if start_page > 1 %}
+                    <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', 1 }}">1</a></li>
+                    {% if start_page > 2 %}
+                    <li class="pagination-link disabled"><span>...</span></li>
+                    {% endif %}
+                    {% endif %}
+
+                    {% for page in (start_page..end_page) %}
                     {% if page == paginator.page %}
                     <li class="disabled pagination-link"><span><b>{{ page }}</b></span></li>
-                    {% elsif page == 1 or page == paginator.total_pages or page == paginator.page or (page >= paginator.page | minus: 2 and page <= paginator.page | plus: 2) %}
-                    <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}
-                    {% unless ellipsis %}
-                    <li class="pagination-link disabled"><span>...</span></li>
-                    {% assign ellipsis = true %}
-                    {% endunless %}
+                    <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% endif %}
                     {% endfor %}
+
+                    {% if end_page < paginator.total_pages %}
+                    {% if end_page < paginator.total_pages | minus: 1 %}
+                    <li class="pagination-link disabled"><span>...</span></li>
+                    {% endif %}
+                    <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+                    {% endif %}
 
                     <li class="pagination-link"><a href="/blog/page/{{ paginator.total_pages }}/#/">Last</a></li>
 
                     {% if paginator.next_page %}
-                    <li class="pagination-link"><a
-                            href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+                    <li class="pagination-link">
+                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
                     </li>
                     {% else %}
                     <li class="disabled pagination-link"><span>&raquo;</span></li>
