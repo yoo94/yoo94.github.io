@@ -12,14 +12,13 @@ layout: default
                         <img style=" width: 100%; height: 50%; border-top-left-radius: calc(.25rem - 1px); border-top-right-radius: calc(.25rem - 1px);"
                              src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
                         <div class="card-body center">
-                            <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                             <h4 class="card-title" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">{{ post.title }}</h4>
 
                             <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
                             <p class="card-text" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
                                 {{ post.summary }} </p>
 
-                            <a style="margin-top: 8%; display: inline; padding: 0.5rem 8rem;" href="{{ post.url | prepend: site.baseurl }}"
+                            <a style="margin-top: 8%; display: inline; padding: 0.5rem 4rem;" href="{{ post.url | prepend: site.baseurl }}"
                                data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                             <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
