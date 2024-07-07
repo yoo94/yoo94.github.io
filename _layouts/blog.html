@@ -5,67 +5,30 @@ layout: default
     <div class="row justify-content-center">
         {%- include blog_sidebar.html -%}
         <div class="col-lg-8">
-<!--            <ul>-->
-<!--                <div class="row">-->
-<!--                    {% for post in paginator.posts %}-->
-<!--                    <div class="card blog-post" style=" height: 35vh;">-->
-<!--                        <img style=" width: 100%; height: 50%; border-top-left-radius: calc(.25rem - 1px); border-top-right-radius: calc(.25rem - 1px);"-->
-<!--                             src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">-->
-<!--                        <div class="card-body center">-->
-<!--                            &lt;!&ndash; <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> &ndash;&gt;-->
-<!--                            <h4 class="card-title" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">{{ post.title }}</h4>-->
-
-<!--                            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>-->
-<!--                            <p class="card-text" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">-->
-<!--                                {{ post.summary }} </p>-->
-
-<!--                            <a style="margin-top: 8%; display: inline; padding: 0.5rem 8rem;" href="{{ post.url | prepend: site.baseurl }}"-->
-<!--                               data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>-->
-<!--                            <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>-->
-
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    {% endfor %}-->
-<!--                </div>-->
-<!--            </ul>-->
             <ul>
-                <div class="container">
-                    {% assign counter = 0 %}
+                <div class="row">
                     {% for post in paginator.posts %}
-                    {% if counter == 0 %}
-                    <div class="row mb-4">
-                        {% endif %}
+                    <div class="card blog-post" style=" height: 35vh;">
+                        <img style=" width: 100%; height: 50%; border-top-left-radius: calc(.25rem - 1px); border-top-right-radius: calc(.25rem - 1px);"
+                             src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
+                        <div class="card-body center">
+                            <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
+                            <h4 class="card-title" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">{{ post.title }}</h4>
 
-                        <div class="col-md-4">
-                            <div class="card blog-post" style="height: 35vh;">
-                                <img style="width: 100%; height: 50%; border-top-left-radius: calc(.25rem - 1px); border-top-right-radius: calc(.25rem - 1px);"
-                                     src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
-                                <div class="card-body center">
-                                    <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
-                                    <h4 class="card-title" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{ post.title }}</h4>
-                                    <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-                                    <p class="card-text" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
-                                        {{ post.summary }}
-                                    </p>
-                                    <a style="margin-top: 8%; display: inline; padding: 0.5rem 8rem;" href="{{ post.url | prepend: site.baseurl }}"
-                                       data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
-                                    <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
-                                </div>
-                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                            <p class="card-text" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
+                                {{ post.summary }} </p>
+
+                            <a style="margin-top: 8%; display: inline; padding: 0.5rem 8rem;" href="{{ post.url | prepend: site.baseurl }}"
+                               data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
+                            <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+
                         </div>
-
-                        {% assign counter = counter | plus: 1 %}
-                        {% if counter == 3 %}
                     </div>
-                    {% assign counter = 0 %}
-                    {% endif %}
                     {% endfor %}
-
-                    <!-- If the last row has less than 3 posts, close the row div -->
-                    {% if counter != 0 %}
                 </div>
-                {% endif %}
             </ul>
+
             <div class="row center">
                 <!-- Pagination links -->
                 {% if paginator.total_pages > 1 %}
