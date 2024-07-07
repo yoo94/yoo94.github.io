@@ -8,6 +8,7 @@ layout: default
             <ul>
                 <div class="row">
                     {% for post in paginator.posts %}
+                    <a data-disqus-identifier="{{ post.url }}" style="cursor: pointer;" >
                     <div class="card blog-post" style=" height: 35vh;">
                         <img style=" width: 100%; height: 50%; border-top-left-radius: calc(.25rem - 1px); border-top-right-radius: calc(.25rem - 1px);"
                              src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
@@ -18,12 +19,10 @@ layout: default
                             <p class="card-text" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
                                 {{ post.summary }} </p>
 
-                            <a style="margin-top: 8%; display: inline; padding: 0.5rem 4rem;" href="{{ post.url | prepend: site.baseurl }}"
-                               data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
                             <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
-
                         </div>
                     </div>
+                    </a>
                     {% endfor %}
                 </div>
             </ul>
