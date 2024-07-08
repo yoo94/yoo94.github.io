@@ -118,7 +118,7 @@ author_project_details:
                 project_description2: aws s3 연동 서비스 구현
                 visibility: true
               - project_title: HMM (리액트 네이티브 웹앱)
-                project_info: 21.06 ~ 21.09 / aws linux 설치
+                project_info: 24.04 ~ 25.01 / aws linux 설치
                 project_description: 전자결재 서비스 기능 구현
                 project_description2: 전표작성 서비스 기능 간소화 구현
                 visibility: true
