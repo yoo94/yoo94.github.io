@@ -93,7 +93,7 @@ author_project_details:
                 project_description: 더존 그룹웨어 결재연동 API / 출장비 정산 서비스 구현
                 project_description2: 모바일 문자 2차인증 구현 / 아파치 웹서버 설치 및 was 통신 연결
                 visibility: true
-              - project_title: 남해화학 (웹) / 윈도우 서버 설치
+              - project_title: 남해화학 (웹)
                 project_info: 22.09 ~ 23.05 / 윈도우 서버 설치
                 project_description: 그룹웨어 결재연동 API 구현
                 visibility: true
