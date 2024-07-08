@@ -35,9 +35,10 @@ author_work_experiences:
             - company_name: 유니포스트
               company_url: https://unipost.co.kr/portal
               designation: 2021. 04 ~ 재직중
-              description: requireJs 기반 (AMD모듈 로더) 솔루션 개발 / react-native,typescript 모바일 솔루션 개발
-              description2: linux,window OS 기반 서버 솔루션 설치 및 유지 보수
-              description3: 본사 웹 솔루션 js -> ts 마이그레이션 진행
+              description: requireJs 기반 (AMD모듈 로더) 솔루션 개발
+              description2: react-native,typescript 모바일 솔루션 개발
+              description3: linux,window OS 기반 서버 솔루션 설치 및 유지 보수
+              description4: 본사 웹 솔루션 js -> ts 마이그레이션 진행
               visibility: true
 
 # Analytics
