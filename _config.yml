@@ -40,6 +40,12 @@ author_work_experiences:
               description3: 본사 웹 솔루션 js -> ts 마이그레이션 진행
               visibility: true
 
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-0S5KXL30HJ"
+    anonymize_ip: false # default
+
 # Education
 author_education_details:
               - college_name: 머신러닝기반 SW개발자
