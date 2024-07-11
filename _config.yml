@@ -58,12 +58,12 @@ author_education_details:
 
               - college_name: 한국 방송통신 대학교
                 college_degree: 컴퓨터 과학과
-                description: 2023.02 - 2025.02
+                description: 2023.03.02 - 2025.02
                 visibility: true
 
               - college_name: 한국 관광 대학교
                 college_degree: 관광 경영학과
-                description: 2013.02 - 2017.02
+                description: 2013.03.04 - 2017.02.16
                 visibility: true
 
 # Projects
@@ -75,13 +75,13 @@ author_project_details:
                 project_description3: back:java,spring
                 visibility: true
               - project_title: 사조CPK (리액트 네이티브 웹앱)
-                project_info: 24.02 ~ 24.07 / 윈도우 서버 설치
+                project_info: 24.03.04 ~ 24.07.31 / 윈도우 서버 설치
                 project_description: 전자결재 서비스 기능 커스터마이징
                 project_description2: front:react-native, react, typeScript, redux, webpack
                 project_description3: back:java,spring
                 visibility: true
               - project_title: HMM (리액트 네이티브 웹앱)
-                project_info: 24.04 ~ 25.01 / aws linux 설치
+                project_info: 24.12.01 ~ 25.02.28 / aws linux 설치
                 project_description: 전자결재 서비스 기능 구현
                 project_description2: 전표작성 서비스 기능 간소화 구현
                 project_description3: front:react-native, react, typeScript, redux, webpack
@@ -95,27 +95,27 @@ author_project_details:
                 project_description4: back:java,spring
                 visibility: true
               - project_title: 티맵 모빌리티 (웹)
-                project_info: 23.07 ~ 24.01 / aws linux 설치
+                project_info: 23.06.01 ~ 24.02.01 / aws linux 설치
                 project_description: 거래처 등록 서비스 / 출장비 정산 서비스
                 project_description2: 그룹웨어 결재연동 API 구현
                 project_description3: front:html, css, js, jquery, requireJs, mustache
                 project_description4: back:java,spring
                 visibility: true
               - project_title: SK 시그넷 (웹)
-                project_info: 23.01 ~ 23.07 / aws linux 설치
+                project_info: 23.01.16 ~ 23.07.21 / aws linux 설치
                 project_description: 그룹웨어 결재연동 API / SSO 인증 서비스 구현
                 project_description2: 웹취약점 조치
                 project_description3: front:html, css, js, jquery, requireJs, mustache
                 project_description4: back:java,spring
                 visibility: true
               - project_title: 남해화학 (웹)
-                project_info: 22.09 ~ 23.05 / 윈도우 서버 설치
+                project_info: 22.08.25 ~ 23.05.05 / 윈도우 서버 설치
                 project_description: 그룹웨어 결재연동 API 구현
                 project_description3: front:html, css, js, jquery, requireJs, mustache
                 project_description4: back:java,spring
                 visibility: true
               - project_title: SK 스토아 (웹 / 웹앱)
-                project_info: 22.06 ~ 22.12 / centOS 서버 설치
+                project_info: 22.04.15 ~ 22.10.03 / centOS 서버 설치
                 project_description: 더존 그룹웨어 결재연동 API / 출장비 정산 서비스 구현
                 project_description2: 모바일 문자 2차인증 구현 / 아파치 웹서버 설치 및 was 통신 연결
                 project_description3: front web:html, css, js, jquery, requireJs, mustache
@@ -123,21 +123,21 @@ author_project_details:
                 project_description5: back:java,spring
                 visibility: true
               - project_title: SK 바이오팜 (웹)
-                project_info: 22.02 ~ 22.07 / 윈도우 서버 설치
+                project_info: 22.02.14 ~ 22.07.31 / 윈도우 서버 설치
                 project_description: 실비 정산 서비스 구현
                 project_description2: 그룹웨어 결재연동 및 AD sso 인증 서비스 구현
                 project_description3: front:html, css, js, jquery, requireJs, mustache
                 project_description4: back:java,spring
                 visibility: true
               - project_title: 한화 에너지 솔루션 고도화 (웹)
-                project_info: 22.02 ~ 22.07 / centOS 서버 설치
+                project_info: 22.02.07 ~ 22.07.08 / centOS 서버 설치
                 project_description: AS-IS 기능 고도화 진행
                 project_description2: 그리드 라이브러리 변경으로 인한 고도화
                 project_description3: front:html, css, js, jquery, requireJs, mustache
                 project_description4: back:java,spring
                 visibility: true
               - project_title: 매그나칩 반도체 솔루션 고도화 (웹)
-                project_info: 21.09 ~ 22.01 / 윈도우 서버 설치
+                project_info: 21.08.02 ~ 22.01.21 / 윈도우 서버 설치
                 project_description: 그룹웨어 결재연동 API 구현
                 project_description2: 출장비 서비스 기능 구현
                 project_description3: front:html, css, js, jquery, requireJs, mustache
