@@ -7,7 +7,7 @@ date: '2024-02-09 13:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: javaScript,c++
 keywords: c++
-thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png
+thumbnail:
 permalink: /blog/js_c/
 ---
 Js는 인터프리터 언어로 소스 코드를 한 줄씩 읽어서 해석하고 실행한다. 
