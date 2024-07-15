@@ -6,7 +6,7 @@ author: yoo94
 date: '2024-07-09 12:35:23 +0530'
 category: ['inner circle']
 tags: webpack
-thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: /blog/InnerCircle01/
 ---
 # 클라이언트
