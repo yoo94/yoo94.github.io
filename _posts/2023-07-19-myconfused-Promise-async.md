@@ -5,9 +5,9 @@ summary: "차이점과 주의점, 비동기의 필요이유?"
 author: yoo94
 date: '2024-07-19 15:35:23 +0530'
 category: ['myconfused','javaScript']
-tags: Promise,async,await
+tags: Promise,async,await,myconfused
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/Promise-async-await/
+permalink: /blog/promise-async-await/
 ---
 ### 비덩기 처리가 필요한 이유?
 
