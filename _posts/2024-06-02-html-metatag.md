@@ -7,7 +7,7 @@ date: '2024-06-02 16:35:23 +0530'
 category: ['myconfused','html']
 tags: metatag
 keywords: metatag
-thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
 permalink: /blog/javascript-metatag/
 ---
 # 메타 태그(Meta Tag)란?
