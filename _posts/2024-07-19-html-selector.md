@@ -80,3 +80,4 @@ document.getElementById('addItemButton').addEventListener('click', () => {
     // 새로운 요소는 배경색이 노란색으로 설정됨
 });
 ```
+위에 아이템은 추가할때마다 지정이된다.
