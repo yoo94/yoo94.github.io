@@ -10,7 +10,7 @@ keywords: selector
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
 permalink: /blog/javascript-selector/
 ---
-##여러 선택자들
+#여러 선택자들
 html의 요소를 선택 할 때에는 여러 선택지가 있다.
 보통 사용하는 것들은 크게 css선택자와, js에서 html의 요소를 선택하는 방법이 있다.
 
