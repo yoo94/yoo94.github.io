@@ -33,9 +33,11 @@ const elements = document.getElementsByName('username');
 #### css선택자는 NodeList를 반환하고, 
 #### 속성 선택자는 HTMLCollection을 반환한다.
 이게 뭐가 다른걸까..?
+
 ###### NodeList
 - 요소들을 특정 시점에 선택하여 작업
 - 새로운 요소가 추가되더라도 초기 선택된 요소들만 변경
+
 ###### HTMLCollection:
 - 선택된 요소들이 실시간으로 업데이트.
 - 새로운 요소가 추가되면 자동으로 컬렉션에 포함되어 스타일이 적용.
