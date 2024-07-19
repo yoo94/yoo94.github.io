@@ -5,8 +5,8 @@ summary: "차이"
 author: yoo94
 date: '2024-07-19 16:35:23 +0530'
 category: ['myconfused','html','javaScript']
-tags: metatag
-keywords: metatag
+tags: selector
+keywords: selector
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
 permalink: /blog/javascript-selector/
 ---
