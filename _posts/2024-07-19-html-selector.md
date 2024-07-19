@@ -3,7 +3,7 @@ layout: post
 title:  "선택자 (selector)"
 summary: "차이"
 author: yoo94
-date: '2024-07-19 16:35:23 +0530'
+date: '2024-07-19 12:35:23 +0530'
 category: ['myconfused','html','javaScript']
 tags: selector
 keywords: selector
