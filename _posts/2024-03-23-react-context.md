@@ -10,11 +10,11 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: /blog/react-context/
 ---
 
-<img src="/blog/postImg/Pasted image 20240506180849.png" alt="Pasted image 20240506180849.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240506180941.png" alt="Pasted image 20240506180941.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240506180959.png" alt="Pasted image 20240506180959.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240506181019.png" alt="Pasted image 20240506181019.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240506181039.png" alt="Pasted image 20240506181039.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506180849.png" alt="Pasted image 20240506180849.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506180941.png" alt="Pasted image 20240506180941.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506180959.png" alt="Pasted image 20240506180959.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506181019.png" alt="Pasted image 20240506181019.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506181039.png" alt="Pasted image 20240506181039.png" style="max-width:100%;">
 
 ## 사용하기
 
@@ -22,12 +22,12 @@ createContext는 보통 컴포넌트 밖에서 한다.
 
 렌더링할때마다 새로운 컨텍스트를 다시 만들 필요가 없기 때문이다.
 
-<img src="/blog/postImg/Pasted image 20240506181813.png" alt="Pasted image 20240506181813.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506181813.png" alt="Pasted image 20240506181813.png" style="max-width:100%;">
 
 ## 분리하기
 
-<img src="/blog/postImg/Pasted image 20240506182819.png" alt="Pasted image 20240506182819.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240506182926.png" alt="Pasted image 20240506182926.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506182819.png" alt="Pasted image 20240506182819.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506182926.png" alt="Pasted image 20240506182926.png" style="max-width:100%;">
 
 # 부모
 

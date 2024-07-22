@@ -10,7 +10,7 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: /blog/react-useParams-useSearchParams/
 ---
 
-<img src="/blog/postImg/Pasted image 20240507193110.png" alt="Pasted image 20240507193110.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240507193110.png" alt="Pasted image 20240507193110.png" style="max-width:100%;">
 
 동적 경로란 페이지가 렌더링 될 때, 동적으로 바뀌고있는 url을 말한다.
 이것도 두가징 방법이 있다.

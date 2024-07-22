@@ -30,12 +30,12 @@ services:
         - ./data:/var/lib/postgresql/data
 ```
 
-<img src="/blog/postImg/Pasted image 20240616200511.png" alt="Pasted image 20240616200511.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240616200520.png" alt="Pasted image 20240616200520.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240616200511.png" alt="Pasted image 20240616200511.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240616200520.png" alt="Pasted image 20240616200520.png" style="max-width:100%;">
 
 
 ```yml
 docker-compose up
 ```
-<img src="/blog/postImg/Pasted image 20240616201405.png" alt="Pasted image 20240616201405.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240616201517.png" alt="Pasted image 20240616201517.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240616201405.png" alt="Pasted image 20240616201405.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240616201517.png" alt="Pasted image 20240616201517.png" style="max-width:100%;">

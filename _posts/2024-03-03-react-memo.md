@@ -11,9 +11,9 @@ permalink: /blog/React.memo/
 ---
 ###### 언제 사용?  : 부모 컴포넌트가 렌더링되어도 자식 컴포넌트에 전달된 props값이 변경되지 않았다면 자식 컴포넌트를 리렌더링 하지 않는다.
 
-<img src="/blog/postImg/Pasted image 20240204164428.png" alt="Pasted image 20240204164428.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240204164443.png" alt="Pasted image 20240204164443.png" style="max-width:100%;">
-<img src="/blog/postImg/Pasted image 20240204164453.png" alt="Pasted image 20240204164453.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240204164428.png" alt="Pasted image 20240204164428.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240204164443.png" alt="Pasted image 20240204164443.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240204164453.png" alt="Pasted image 20240204164453.png" style="max-width:100%;">
 
 ```jsx
 const MyComponent = React.memo(function MyComponent(props) {
@@ -84,7 +84,7 @@ const Header=()=>{
 export default memo(Header);
 ```
 위에 소스처럼 header가 props를 받는다면 그 props가 변경 되지않는한, 다시 렌더링 하지 않는다.
-<img src="/assets/postImg/Pasted image 20240506174909.png" alt="Pasted image 20240506174909.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506174909.png" alt="Pasted image 20240506174909.png" style="max-width:100%;">
 
 위 이미지도 마찬가지로 리스트의 아이템컴포넌트인데 하나의 아이템이 변경돼도 다 렌더링 되었기 때문에 이렇게 해 놓으면 해당 아이템만 렌더링 된다.라고 생각 할 수 있지만
 그런데 위에처럼 하면 객체를 받게 되는 컴포넌트는 아무리 같은 객체를 받게 되더라도, js에서는 주소가 다르기 때문에 다른 객체로 인식한다. 그래서 렌더링을 다시 하게 된다.
@@ -93,18 +93,18 @@ export default memo(Header);
 
 js 는 기본적으로 객체를 비교할 때 얕은 비교를 한다.
 객체의 주소를 비교해서 다르다고 판단하는 것이다.
-<img src="/assets/postImg/Pasted image 20240204221451.png" alt="Pasted image 20240204221451.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240204221451.png" alt="Pasted image 20240204221451.png" style="max-width:100%;">
 
 우리가 바라는 건 아래의 비교이다.
 이것이 깊은 비교이다.
-<img src="/assets/postImg/Pasted image 20240204221524.png" alt="Pasted image 20240204221524.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240204221524.png" alt="Pasted image 20240204221524.png" style="max-width:100%;">
 
 
 객체는 다르게 비교해야한다.
 이때 도움을 줄만한것이
 
 ### 첫번째로는
-<img src="/blog/postImg/Pasted image 20240506175600.png" alt="Pasted image 20240506175600.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240506175600.png" alt="Pasted image 20240506175600.png" style="max-width:100%;">
 
 이렇게 memo에 콜백을 주는 것이고,
 

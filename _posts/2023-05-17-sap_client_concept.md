@@ -71,4 +71,4 @@ _( *Customizing : SAP System을 구축되는 회사의 업종( 자동차, 철강
   **일부 Configuration Data**   
   - 국가코드, 통화키 등...
 
-<img src="/blog/postImg/Pasted image 20240202133919.png" alt="Pasted image 20240202133919.png" style="max-width:100%;">
+<img src="/postImg/Pasted image 20240202133919.png" alt="Pasted image 20240202133919.png" style="max-width:100%;">
