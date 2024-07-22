@@ -7,7 +7,7 @@ date: '2023-11-16 13:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: javaScript,DOM
 keywords: DOM
-thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png
+thumbnail: 
 permalink: /blog/DOM/
 ---
 ## DOM이란

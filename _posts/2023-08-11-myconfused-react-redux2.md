@@ -48,11 +48,13 @@ const store = createStore(counterReducer);
 
 export default store;
 ```
+
 3. 리액트에 리덕스 연결
    src/index.js 파일 수정
    리덕스 스토어를 리액트 애플리케이션에 연결합니다.
 
 ```javascript
+
 // src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -66,6 +68,7 @@ ReactDOM.render(
 </Provider>,
 document.getElementById('root')
 );
+
 ````
 4. 리덕스 상태 사용
    src/App.js 파일 수정

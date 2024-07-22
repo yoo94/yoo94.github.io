@@ -3,12 +3,15 @@ layout: post
 title:  "js Promise와 async/await"
 summary: "차이점과 주의점, 비동기의 필요이유?"
 author: yoo94
-date: '2024-07-19 15:35:23 +0530'
+date: '2024-07-17 18:35:23 +0530'
 category: ['myconfused','javaScript']
-tags: Promise,async,await
+tags: Promise,async,await,myconfused
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/Promise-async-await/
+permalink: /blog/promise-async-await/
 ---
+update : 24.07.17
+- promise에 대한 기록 추가
+
 ### 비덩기 처리가 필요한 이유?
 
 Js는 싱글스레드 언어이기 대문에 한번에 하나만 처리할 수 있다.
@@ -21,6 +24,41 @@ Js는 싱글스레드 언어이기 대문에 한번에 하나만 처리할 수 �
 ## Promise
 Promise는 비동기 작업의 완료 또는 실패를 나타내는 객체
 .then(), .catch(), .finally() 메서드를 사용
+
+#### new Promise(function(resolve, reject)
+resolve(value) — 일이 성공적으로 끝난 경우 결과를 나타내는 value와 함께 호출
+reject(error) — 에러가 발생한 경우 에러 객체를 나타내는 error와 함께 호출
+##### 각각을 직접 호출하여 성공 실패여부를 결정 할 수도 있다.
+
+## Promise는 다음 중 하나의 상태를 가진다.
+
+대기(pending): 이행하지도, 거부하지도 않은 초기 상태.
+이행(fulfilled): 연산이 성공적으로 완료됨.
+거부(rejected): 연산이 실패함.
+
+### 대기(Pending)
+먼저 아래와 같이 new Promise() 메서드를 호출하면 대기(Pending) 상태가 된다.
+
+```javascript
+new Promise();
+```
+### Fulfilled(이행)
+여기서 콜백 함수의 인자 resolve를 아래와 같이 실행하면 이행(Fulfilled) 상태가 됩니다.
+#### then() 을통해 처리 할수 있다.
+```javascript
+new Promise(function(resolve, reject) {
+resolve();
+});
+```
+### reject(실패)
+reject를 아래와 같이 호출하면 실패(Rejected) 상태가된다.
+#### catch() 을통해 처리 할수 있다.
+```javascript
+new Promise(function(resolve, reject) {
+  reject();
+});
+```
+
 
 ```javascript
 
@@ -40,6 +78,8 @@ fetchData()
     console.error(error);
   });
 ```
+
+---
 
 ## async/await
 async/await는 Promise를 더 쉽게 사용할 수 있도록 하는 문법
