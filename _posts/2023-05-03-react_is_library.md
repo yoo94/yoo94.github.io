@@ -7,7 +7,7 @@ date: '2023-05-03 12:35:23 +0530'
 category: react
 tags: react
 keywords: react
-thumbnail: /postImg/Pasted image 20240205195107.png
+thumbnail: /blog/postImg/Pasted image 20240205195107.png
 permalink: /blog/react_is_library/
 ---
 ### **1. React 는 프레임워크일까? 라이브러리일까?**

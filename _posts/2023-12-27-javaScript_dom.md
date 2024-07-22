@@ -20,7 +20,7 @@ console.dir(elem)과 console.log(elem)의 차이
 두 명령어는 인수를 출력해준다. 인수가 **자바스크립트 객체**라면 보통 같은 결과를 보여주지만 인수가 **DOM 요소일 때**는 다른 결과를 출력한다.  
 **console.log(el)는 요소의 DOM 트리를 출력.  
 **console.dir(el)는 요소를 DOM 객체처럼 취급하여 출력. 따라서 프로퍼티를 확인하기 쉽다.
-<img src="/postImg/Pasted image 20240202164423.png" alt="Pasted image 20240202164423.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240202164423.png" alt="Pasted image 20240202164423.png" style="max-width:100%;">
 
 자바스크립트에서 DOM은 document 객체에 구현되어 있기 때문에 브라우저에서 작동되는 자바스크립트 코드에서는 document 객체를 조회할 수 있다.
 
@@ -67,7 +67,7 @@ div를 하나 생성해준다고 예시를 들어보자.
 const tweetDiv = document.createElement('div');
 ```
 
-<img src="/postImg/Pasted image 20240202164646.png" alt="Pasted image 20240202164646.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240202164646.png" alt="Pasted image 20240202164646.png" style="max-width:100%;">
 
 ## 2) Element 추가
 

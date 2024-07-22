@@ -63,7 +63,7 @@ const onClickButton=(e)=>{
     }
 ```
 위에처럼 e라는 매개변수를 받아서 출력해보면
-<img src="/postImg/Pasted image 20240505215910.png" alt="Pasted image 20240505215910.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240505215910.png" alt="Pasted image 20240505215910.png" style="max-width:100%;">
 이런식으로 이벤트 객체가 반환되어있다.
 
 이것이 바로 합성 이벤트 객체이다.
