@@ -1,11 +1,17 @@
 ---
 layout: post
-title:  "패스트 캠퍼스 inner circle 시작"
+title:  "나의 이직 일기 - 패스트 캠퍼스 inner circle 사전설명회"
 summary: "설발 후기"
 author: yoo94
-date: '2024-07-14 13:35:23 +0530'
-category: ['inner circle']
-tags: webpack
+date: '2024-07-13 13:35:23 +0530'
+category: ['change-jobs-diary']
+tags:
+- inner-circle
+- fast campus
+- developer
+- inner circle
+- 패스트 캠퍼스
+- 이너서클
 thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
 permalink: /blog/InnerCircle01/
 ---
@@ -45,11 +51,14 @@ permalink: /blog/InnerCircle01/
 다 해보았지만 뭔가 불안하고 물경력만 쌓인다는 느낌이 들었다. 그렇다고 나가자니.. 내가 부족한거같고
 3년 동안 10개가 넘는 프로젝트에 투입되어 개발하고있지만, 이직이 무서웠다.
 
-그러다 올해 친형이 개발자로써는 꽤 좋은 회사로 이직을 성공한걸 봤다. (내 형은 백엔드 개발자이다.)
+그러다 올해 친형이 개발자로써는 꽤 좋은 회사로 이직을 성공한걸 봤고 나도 이직하고 싶어졌는데
+너무 겁이 났다... ㅜㅜ
 
-## 그래서 나도 불타올랐다.
-
-이직하자 나도!! 
+그러던 도중 발견한것이, 패스트캠퍼스 이너서클이다. 취업, 이직 노하우도 전수해 준다하고
+3년차 이상 개발자들끼리 프로젝트도 할 수 있다고 하니.. 정말 좋은 기회일거같다.
 
 ![img.png](../assets/img/innercircle1.png)
 
+사전 설명회를 듣고, 시작하길 잘했다는 생각이 들었다.
+패스트 캠퍼스에서 정말 많은 것을 준비했다는 것도 알았다.
+이제 나만 잘하면 된다. 잘해보자
