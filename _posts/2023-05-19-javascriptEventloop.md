@@ -12,7 +12,7 @@ permalink: /blog/javascriptEventloop/
 ---
 JavaScript의 런타임 모델은 코드의 실행, 이벤트의 수집과 처리, 큐에 대기 중인 하위 작업을 처리하는 **이벤트 루프**에 기반하고 있다.
 
-<img src="/assets/postImg/Pasted image 20240328094714.png" alt="Pasted image 20240328094714.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240328094714.png" alt="Pasted image 20240328094714.png" style="max-width:100%;">
 
 
 ### 스택

@@ -24,7 +24,7 @@ permalink: /blog/InnerCircle02/
 
 pullRequest도 제대로 안돼서... 한시간 반을 날렸다...ㅜㅜ 죄송합니다...리더님..
 
-<img src="../assets/img_7.png" width="50%" height="50%" />
+<img src="../blog/postImg/img_7.png" width="50%" height="50%" />
 
 ## 조언들 종합
 
@@ -107,5 +107,5 @@ async function fetchHolidayData(url) {
 getHoliday();
 
 ```
-<img src="../assets/img_8.png" width="50%" height="50%" />
+<img src="../blog/postImg/img_8.png" width="50%" height="50%" />
 

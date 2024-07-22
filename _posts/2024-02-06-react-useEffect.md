@@ -9,8 +9,8 @@ tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/react-hook-useEffect/
 ---
-<img src="/assets/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:100%;">
-<img src="/assets/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:100%;">
 ###### 언제 사용?  : 모든 또는 특정 state 가 변할 때 마다 , 무엇인가 실행하고 싶으면 사용
 
 ## useEffect

@@ -64,11 +64,11 @@ https://www.npmjs.com/
 원하는 모듈을 검색하여 사용 하면 되는데
 예를 들어 ramdomcolor라는 모듈을 사용해 보자
 
-<img src="/assets/postImg/Pasted image 20240111192408.png" alt="Pasted image 20240111192408.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240111192408.png" alt="Pasted image 20240111192408.png" style="max-width:100%;">
 
 이렇게 install 하는 방법을 명령어로 나와있다.
 
-<img src="/assets/postImg/Pasted image 20240111192544.png" alt="Pasted image 20240111192544.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240111192544.png" alt="Pasted image 20240111192544.png" style="max-width:100%;">
 
 설치하게 되면 이렇게
 ### package.json에 dependencies

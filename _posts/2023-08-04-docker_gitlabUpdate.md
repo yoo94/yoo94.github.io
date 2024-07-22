@@ -15,16 +15,16 @@ https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
 위 순서에 따라 버전을 하나씩 올려가면서 진행
 
 ## 절차
-<img src="/assets/postImg/Pasted image 20240119135605.png" alt="Pasted image 20240119135605.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119135605.png" alt="Pasted image 20240119135605.png" style="max-width:100%;">
 도커에 올라가 있는 깃랩을 업데이트한다.
 
-<img src="/assets/postImg/Pasted image 20240119135920.png" alt="Pasted image 20240119135920.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119135920.png" alt="Pasted image 20240119135920.png" style="max-width:100%;">
 
-<img src="/assets/postImg/Pasted image 20240119140116.png" alt="Pasted image 20240119140116.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119140116.png" alt="Pasted image 20240119140116.png" style="max-width:100%;">
 
 먼저 로컬 우분투에 도커 설치해서 올려보기로함,
 
-<img src="/assets/postImg/Pasted image 20240119140854.png" alt="Pasted image 20240119140854.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119140854.png" alt="Pasted image 20240119140854.png" style="max-width:100%;">
 
 위 사진처럼 backup 파일들을 로컬로 가지고옴
 
@@ -47,7 +47,7 @@ wls를 해서 내 pc 우분투에서 작업
 ./restore.sh gitlab_* gitlab_*.tar.gz
 ```
 
-<img src="/assets/postImg/Pasted image 20240119151501.png" alt="Pasted image 20240119151501.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119151501.png" alt="Pasted image 20240119151501.png" style="max-width:100%;">
 
 그럼 아래 사진처럼 볼륨 세개가 생김
 <img src="/assets/postImg/Pasted image 20240119151427.png" alt="Pasted image 20240119151427.png" style="max-width:100%;">
@@ -59,7 +59,7 @@ docker-compose.yml 이있는데 여기에 설정이 되어있다.
 ```shell
 docker compose up -d
 ```
-<img src="/assets/postImg/Pasted image 20240119152047.png" alt="Pasted image 20240119152047.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119152047.png" alt="Pasted image 20240119152047.png" style="max-width:100%;">
 
 nginx, gitlab,smtp 만 설정하여 띄움
 <img src="/assets/postImg/Pasted image 20240119152642.png" alt="Pasted image 20240119152642.png" style="max-width:100%;">
@@ -79,11 +79,11 @@ docker_compose.yml 을 통해 업그레이드 할 예정이기 떄문에
 위의 버전을 아래의 사이트에서 검색해 준다.
 https://hub.docker.com/r/gitlab/gitlab-ce/tags
 
-<img src="/assets/postImg/Pasted image 20240119164522.png" alt="Pasted image 20240119164522.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119164522.png" alt="Pasted image 20240119164522.png" style="max-width:100%;">
 
 여기 나와있는 gitlab/gitlab~~ 이거를 image에 넣어주고
 
-<img src="/assets/postImg/Pasted image 20240119164332.png" alt="Pasted image 20240119164332.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240119164332.png" alt="Pasted image 20240119164332.png" style="max-width:100%;">
 
 중간에 nginx 만 다시 실행하고 싶으면
 ```shell

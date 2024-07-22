@@ -9,7 +9,7 @@ tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/react-router/
 ---
-<img src="/assets/postImg/Pasted image 20240507184422.png" alt="Pasted image 20240507184422.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240507184422.png" alt="Pasted image 20240507184422.png" style="max-width:100%;">
 
 ```shell
 npm i react-router-dom

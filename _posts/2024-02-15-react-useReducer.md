@@ -9,14 +9,14 @@ tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: /blog/react-hook-useReducer/
 ---
-<img src="/assets/postImg/Pasted image 20240506161949.png" alt="Pasted image 20240506161949.png" style="max-width:100%;">
-<img src="/assets/postImg/Pasted image 20240506162047.png" alt="Pasted image 20240506162047.png" style="max-width:100%;">
-<img src="/assets/postImg/Pasted image 20240506162035.png" alt="Pasted image 20240506162035.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240506161949.png" alt="Pasted image 20240506161949.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240506162047.png" alt="Pasted image 20240506162047.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240506162035.png" alt="Pasted image 20240506162035.png" style="max-width:100%;">
 
 ###### 언제 사용?  : 같은 state를 변화 시키는데, 여러 함수가 여기저기 선언되어 있을 때 묶음으로 만들기 위해 사용
-<img src="/assets/postImg/Pasted image 20240204234130.png" alt="Pasted image 20240204234130.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240204234130.png" alt="Pasted image 20240204234130.png" style="max-width:100%;">
 이런 식으로, 상태를 변화 시켜야 하는 것들이 있으면  한 곳에 다 때려 박는 로직은 좋은 로직 이 아니다.
-<img src="/assets/postImg/Pasted image 20240204234233.png" alt="Pasted image 20240204234233.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240204234233.png" alt="Pasted image 20240204234233.png" style="max-width:100%;">
 이런 식으로 따로 빼서 useReducer안에 담아서 사용하면 더 좋다.
 
 비 구조 할당으로 사용하며, 설명하면,

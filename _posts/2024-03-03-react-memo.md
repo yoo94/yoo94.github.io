@@ -11,9 +11,9 @@ permalink: /blog/React.memo/
 ---
 ###### 언제 사용?  : 부모 컴포넌트가 렌더링되어도 자식 컴포넌트에 전달된 props값이 변경되지 않았다면 자식 컴포넌트를 리렌더링 하지 않는다.
 
-<img src="/assets/postImg/Pasted image 20240204164428.png" alt="Pasted image 20240204164428.png" style="max-width:100%;">
-<img src="/assets/postImg/Pasted image 20240204164443.png" alt="Pasted image 20240204164443.png" style="max-width:100%;">
-<img src="/assets/postImg/Pasted image 20240204164453.png" alt="Pasted image 20240204164453.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240204164428.png" alt="Pasted image 20240204164428.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240204164443.png" alt="Pasted image 20240204164443.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240204164453.png" alt="Pasted image 20240204164453.png" style="max-width:100%;">
 
 ```jsx
 const MyComponent = React.memo(function MyComponent(props) {
@@ -104,7 +104,7 @@ js 는 기본적으로 객체를 비교할 때 얕은 비교를 한다.
 이때 도움을 줄만한것이
 
 ### 첫번째로는
-<img src="/assets/postImg/Pasted image 20240506175600.png" alt="Pasted image 20240506175600.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240506175600.png" alt="Pasted image 20240506175600.png" style="max-width:100%;">
 
 이렇게 memo에 콜백을 주는 것이고,
 

@@ -11,7 +11,7 @@ permalink: /blog/react-hook-useMemo/
 ---
 ###### 언제 사용?  : 이미 계산 해 본 연산 결과를 기억 해 두었다가 동일한 계산을 시키면, 다시 연산하지 않고 기억 해 두었던 데이터를 반환 시키게 하는 최적화 방법
 
-<img src="/assets/postImg/Pasted image 20240204155203.png" alt="Pasted image 20240204155203.png" style="max-width:100%;">
+<img src="/blog/postImg/Pasted image 20240204155203.png" alt="Pasted image 20240204155203.png" style="max-width:100%;">
 
 ## useMemo
 
