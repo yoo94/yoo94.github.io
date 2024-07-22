@@ -1,7 +1,7 @@
 title: 개발자 유재석의 블로그
 subtitle: web-developer
 description: 웹개발자이자 프론트엔드 개발자를 지향하는 개발자의 블로그
-url: "https://yoo94.github.io/"
+url: "https://yoo94.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -23,10 +23,11 @@ seo:
 
 author_logo: profile.png
 author: yoo94
+author_name: 유재석
 author_bio: 웹 개발자 유재석입니다.
 author_email: "jaeseok9405@gmail.com"
 author_location: KOREA SEOUL
-author_website_url: "https://github.com/yoo94"
+author_website_url: "https://yoo94.github.io"
 typewrite-text: 개발과 사용자에게 좋은 ux를 제공하고싶어하는 웹개발자입니다.
 hero_cover_img: ski.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
