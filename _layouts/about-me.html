@@ -72,9 +72,9 @@ layout: default
       <div class="card">
         <h1 class="card-title">Education</h1>
         <br />
-        {% for detail in site.author_education_details %}
-        {% if detail.visibility == true %}
-        <div class="row">
+        {% assign education_details = site.author_education_details | where: "visibility", true %}
+        {% for detail in education_details %}
+        <div class="row education-detail{% if forloop.index > 2 %}{% endif %}" style="display: none">
           <div class="col-md-10">
             <h4 class="experience-title">{{detail.college_name }}</h4>
             <h6 class="experience-info">{{detail.college_degree}}</h6>
@@ -82,8 +82,16 @@ layout: default
             <p class="experience-desc">{{detail.description}}</p>
           </div>
         </div>
-        {% endif %}
         {% endfor %}
+        {% if education_details.size > 2 %}
+        <button id="show-more-button" class="btn btn-primary" onclick="function f() {
+            var hiddenDetails = document.querySelectorAll('.education-detail.hidden');
+            hiddenDetails.forEach(function(detail) {
+              detail.classList.remove('hidden');
+            });
+            document.getElementById('show-more-button').style.display = 'none';
+        }">Show More</button>
+        {% endif %}
       </div>
       {% endif %}
     </div>
