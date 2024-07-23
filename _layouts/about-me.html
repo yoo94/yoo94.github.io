@@ -74,7 +74,7 @@ layout: default
         <br />
         {% assign education_details = site.author_education_details | where: "visibility", true %}
         {% for detail in education_details %}
-        <div class="row education-detail{% if forloop.index > 2 %} hidden{% endif %}" style="{% if forloop.index > 2 %} display: none; {% endif %}">
+        <div class="row education-detail" style="{% if forloop.index > 2 %} display: none; {% endif %}">
           <div class="col-md-10">
             <h4 class="experience-title">{{detail.college_name }}</h4>
             <h6 class="experience-info">{{detail.college_degree}}</h6>
@@ -85,9 +85,11 @@ layout: default
         {% endfor %}
         {% if education_details.size > 2 %}
         <button id="show-more-button" class="btn btn-primary" onclick="
-    var hiddenDetails = document.querySelectorAll('.education-detail.hidden');
-    hiddenDetails.forEach(function(detail) {
-      detail.style.display = 'block';
+    var hiddenDetails = document.querySelectorAll('.education-detail');
+    hiddenDetails.forEach(function(detail, index) {
+      if (index >= 2) {
+        detail.style.display = 'block';
+      }
     });
     document.getElementById('show-more-button').style.display = 'none';
   ">Show More</button>
