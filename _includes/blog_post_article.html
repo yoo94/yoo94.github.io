@@ -31,6 +31,13 @@
     <br />
     {{ content }}
     <br />
+    <script src="https://utteranc.es/client.js"
+            repo="yoo94/yoo94.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
     {%- include share_page.html -%}
     <!-- Author box -->
     {% assign author = site.data.authors[page.author] %}
@@ -46,12 +53,5 @@
   <!-- Incomment incase you want to use Disqus
       <div id="disqus_thread"></div>
    -->
-  <script src="https://utteranc.es/client.js"
-          repo="yoo94/yoo94.github.io"
-          issue-term="pathname"
-          theme="github-light"
-          crossorigin="anonymous"
-          async>
-  </script>
 
 </article>
