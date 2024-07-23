@@ -84,13 +84,13 @@ layout: default
         </div>
         {% endfor %}
         {% if education_details.size > 2 %}
-        <button id="show-more-button" class="btn btn-primary" onclick="function f() {
+        <button id="show-more-button" class="btn btn-primary" onclick="
             var hiddenDetails = document.querySelectorAll('.education-detail.hidden');
             hiddenDetails.forEach(function(detail) {
               detail.classList.remove('hidden');
             });
             document.getElementById('show-more-button').style.display = 'none';
-        }">Show More</button>
+        ">Show More</button>
         {% endif %}
       </div>
       {% endif %}
