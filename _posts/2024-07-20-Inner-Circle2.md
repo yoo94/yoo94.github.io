@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "나의 이직 일기 - 패스트 캠퍼스 inner circle OT"
+title:  "1.inner circle OT"
 summary: "첫 수업?"
 author: yoo94
 date: '2024-07-20 23:35:23 +0530'

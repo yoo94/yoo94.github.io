@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "나의 이직 일기 - 패스트 캠퍼스 inner circle 사전설명회"
+title:  "0.inner circle 사전설명회"
 summary: "설발 후기"
 author: yoo94
 date: '2024-07-13 13:35:23 +0530'
