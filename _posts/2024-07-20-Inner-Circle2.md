@@ -13,7 +13,6 @@ tags:
 - 패스트 캠퍼스
 - 이너서클
 - ZEP
-thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
 permalink: /blog/InnerCircle02/
 ---
 # OT
