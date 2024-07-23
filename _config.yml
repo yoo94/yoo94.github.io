@@ -51,6 +51,12 @@ analytics:
 
 # Education
 author_education_details:
+              - college_name: fast campus innercircle 1st period
+                  college_degree: 2024. 07 ~ 2024. 11
+                  description2: 3년차 이상 개발 역량 향상,front-end 개발자로 지원
+                  description: 라이브러리, 프로젝트 진행
+                  visibility: true
+
               - college_name: 머신러닝기반 SW개발자
                 college_degree: 2020. 09 ~ 2021. 03
                 description2: 경영기술개발원 교육센터
