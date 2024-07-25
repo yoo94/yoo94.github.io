@@ -13,6 +13,8 @@ tags:
 - 패스트 캠퍼스
 - 이너서클
 - ZEP
+- 패스트캠퍼스 이너서클
+- inner circle
 permalink: /blog/InnerCircle02/
 ---
 # OT
