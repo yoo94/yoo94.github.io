@@ -8,7 +8,7 @@ category: ['myconfused','javaScript']
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/javascript-class/
+permalink: blog/javascript-class/
 ---
 
 #### class는 객체를 만드는 특별한 함수이다. class로 만든 객체는 인스턴스 객체라고한다.

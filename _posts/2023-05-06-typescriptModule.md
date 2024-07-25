@@ -8,7 +8,7 @@ category: typeScript
 tags: typeScript
 keywords: typeScript
 thumbnail: https://i.namu.wiki/i/EY559r31H-um8uTtptPIbCZoBGxsumSlwEH0T_rA6WmxQq1UwqyAf3cJQJXN7Fv5CoEz0kv5CBXzjkkPU_XWig.svg
-permalink: /blog/typescriptModule/
+permalink: blog/typescriptModule/
 ---
 타입스크립트에서 가리키는 모듈이라는 개념은 ES6+의 Modules개념과 유사합니다. 모듈은 전역 변수와 구분되는 자체 유효 범위를 가지며 `export`, `import`와 같은 키워드를 사용하지 않으면 다른 파일에서 접근할 수 없습니다.
 
@@ -111,3 +111,4 @@ tsc --module amd Test.ts
 ```
 
 ## 선택적 모듈 로딩 방법과 고급 모듈 로딩 기법
+

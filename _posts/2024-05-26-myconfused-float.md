@@ -7,7 +7,7 @@ date: '2024-05-26 15:35:23 +0530'
 category: ['myconfused','css']
 tags: myconfused, float
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/float/
+permalink: blog/float/
 ---
 
 ## float는 언제쓰지??

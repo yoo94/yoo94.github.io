@@ -7,7 +7,7 @@ date: '2024-07-02 19:35:23 +0530'
 category: ['myconfused','css']
 tags: eventloop
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/reflow-repaint/
+permalink: blog/reflow-repaint/
 ---
 
 ## Reflow(리플로우)
@@ -86,3 +86,4 @@ width: 100px;
 height: 100px;
 }
 ```
+

@@ -8,7 +8,7 @@ category: react
 tags: react
 keywords: react
 thumbnail: /blog/postImg/Pasted image 20240205195107.png
-permalink: /blog/react_is_library/
+permalink: blog/react_is_library/
 ---
 ### **1. React 는 프레임워크일까? 라이브러리일까?**
 

@@ -13,7 +13,7 @@ tags:
 - 패스트 캠퍼스
 - 이너서클
 thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
-permalink: /blog/InnerCircle01/
+permalink: blog/InnerCircle01/
 ---
 # 물경력 개발자의  inner circle 도전
 

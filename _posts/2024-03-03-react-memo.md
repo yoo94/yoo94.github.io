@@ -7,7 +7,7 @@ date: '2024-03-03 07:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/React.memo/
+permalink: blog/React.memo/
 ---
 ###### 언제 사용?  : 부모 컴포넌트가 렌더링되어도 자식 컴포넌트에 전달된 props값이 변경되지 않았다면 자식 컴포넌트를 리렌더링 하지 않는다.
 

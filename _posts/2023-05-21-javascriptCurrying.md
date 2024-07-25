@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/Currying/
+permalink: blog/Currying/
 ---
 커링 (Currying) 이란, 함수의 재사용성을 높이기 위해 함수자체를 return하는 함수이다.
 
@@ -68,3 +68,4 @@ phoneNumber010(01230505); // 01001230505
 phoneNumber010(05253433); // 01005253433
 
 ```
+

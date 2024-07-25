@@ -7,7 +7,7 @@ date: '2024-05-26 19:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: myconfused, js, module, requirejs, amd,umd
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/float/
+permalink: blog/float/
 ---
 ## 왜 모듈을 사용할까?
 	유지보수성 : 기능들이 모듈화가 잘 되어있다면, 의존성을 그만큼 줄일 수 있기 때문에 어떤 기능을 개선한다거나 수정할 때 훨씬 편하게 할 수 있다.

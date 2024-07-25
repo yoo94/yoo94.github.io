@@ -8,7 +8,7 @@ category: websecurity
 tags: websecurity
 keywords: websecurity
 thumbnail: https://i.namu.wiki/i/kq9NDC2Dsxbpqwn1L4dDwjo4fH7A9Rb76kbTrqpRirwq1VjPHDyr0Rp_P_Y0MhxFadKjqT5yBClhRDIWxapZNIdIrW8EkbT6KVv90O9wZqZ0ouYllY8gkIa39etQZDdg1d2fR6odJZ7_hYgF4FaLXg.webp
-permalink: /blog/web_accessibility/
+permalink: blog/web_accessibility/
 ---
 ## **웹 표준 (Web Standards)**
 

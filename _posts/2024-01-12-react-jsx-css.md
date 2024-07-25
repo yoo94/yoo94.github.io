@@ -7,7 +7,7 @@ date: '2024-01-12 15:35:23 +0530'
 category: react
 tags: react
 thumbnail: /blog/postImg/Pasted image 20240505144527.png
-permalink: /blog/react-jsx-css/
+permalink: blog/react-jsx-css/
 ---
 
 jsx 에서는 css 를 입힐때는 카멜케이스로 입력해야한다.

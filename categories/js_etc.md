@@ -1,7 +1,7 @@
 ---
 layout: page
 title: webpack
-permalink: /blog/categories/js_etc/
+permalink: blog/categories/js_etc/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
@@ -13,3 +13,4 @@ permalink: /blog/categories/js_etc/
         </li>
     {% endfor %}
 </div>
+

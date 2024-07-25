@@ -8,7 +8,7 @@ category: react
 tags: react
 keywords: react, nodeJs
 thumbnail: https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png
-permalink: /blog/why_react/
+permalink: blog/why_react/
 ---
 
 ## 산탄총 수술 할 필요없다.

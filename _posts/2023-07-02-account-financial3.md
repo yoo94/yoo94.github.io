@@ -8,7 +8,7 @@ category: account
 tags: account
 keywords: account
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Money_Coin_Icon.svg/75px-Money_Coin_Icon.svg.png
-permalink: /blog/account2/
+permalink: blog/account2/
 ---
 원가회계 (Cost Accounting)
 외부 이용자를 위한 (Financial Accounting)

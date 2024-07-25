@@ -1,7 +1,7 @@
 ---
 layout: page
 title: network
-permalink: /blog/categories/network/
+permalink: blog/categories/network/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

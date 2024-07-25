@@ -7,7 +7,7 @@ date: '2024-07-17 18:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: Promise,async,await,myconfused
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/promise-async-await/
+permalink: blog/promise-async-await/
 ---
 update : 24.07.17
 - promise에 대한 기록 추가

@@ -7,7 +7,7 @@ date: '2024-02-27 04:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-hook-useMemo/
+permalink: blog/react-hook-useMemo/
 ---
 ###### 언제 사용?  : 이미 계산 해 본 연산 결과를 기억 해 두었다가 동일한 계산을 시키면, 다시 연산하지 않고 기억 해 두었던 데이터를 반환 시키게 하는 최적화 방법
 

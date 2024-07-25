@@ -7,7 +7,7 @@ date: '2024-05-12 19:35:23 +0530'
 category: ['myconfused','css']
 tags: myconfused, felx, grid
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/felx-grid/
+permalink: blog/felx-grid/
 ---
 
 ### flex랑 Grid의 차이점은?

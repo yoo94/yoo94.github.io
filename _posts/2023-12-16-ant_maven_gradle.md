@@ -8,7 +8,7 @@ category: webetc
 tags: webetc
 keywords: Ant, Maven, Gradle
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s
-permalink: /blog/ant_maven_gradle/
+permalink: blog/ant_maven_gradle/
 ---
 빌드도구는 소스코드에서 어플리케이션 생성을 자동화 하기 위한 프로그램이다. 빌드는 코드를 사용 or 실행 가능한 형태로 컴파일링, 링킹, 패키징 하는것을 포함한다.  
 기본적으로 빌드 자동화는 아래와 같은 정형화된 다양한 작업을 스크립팅하거나 자동화 하는 행위이다.

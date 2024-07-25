@@ -1,7 +1,7 @@
 ---
 layout: page
 title: docker
-permalink: /blog/categories/docker/
+permalink: blog/categories/docker/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

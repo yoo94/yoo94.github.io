@@ -7,7 +7,7 @@ date: '2024-01-17 18:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-event-handling/
+permalink: blog/react-event-handling/
 ---
 
 # 1. 태그안에 바로 정의

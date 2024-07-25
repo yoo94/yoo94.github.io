@@ -8,7 +8,7 @@ category: ['myconfused','html']
 tags: metatag
 keywords: metatag
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
-permalink: /blog/javascript-metatag/
+permalink: blog/javascript-metatag/
 ---
 # 메타 태그(Meta Tag)란?
 HTML 메타 태그는 웹 페이지의 정보를 설명하고, 브라우저에게 추가적인 정보를 제공하는데 사용되는 특별한 태그

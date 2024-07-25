@@ -8,7 +8,7 @@ category: docker
 tags: docker
 keywords: docker
 thumbnail: https://i.namu.wiki/i/KHNL7eMAx46cUBgM-wQRF1OPwkvHCF6oKMXDD3MpOwiUZedqQ_IZuA-vI2d1jMZIkDm9zQCFxb4FFS1HKvqJd5iHeA3PYSFRBYOYewHg6wvR4BwrQjucTirP9s5I4GGtpGBrtAqGgKl_vlGROsWrTA.svg
-permalink: /blog/docker_gitlab_update/
+permalink: blog/docker_gitlab_update/
 ---
 https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
 

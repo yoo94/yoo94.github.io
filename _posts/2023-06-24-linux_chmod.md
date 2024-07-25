@@ -8,7 +8,7 @@ category: linux
 tags: linux
 keywords: linux, tar, gz
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp
-permalink: /blog/linux_chmod/
+permalink: blog/linux_chmod/
 ---
 
 
@@ -127,3 +127,4 @@ $ chown -R [owner name]:[group name] [filename or directory]
 
 $ chown -R sam:abbey example
 ```
+

@@ -7,7 +7,7 @@ date: '2023-04-30 14:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/what_is_react/
+permalink: blog/what_is_react/
 ---
 
 

@@ -8,7 +8,7 @@ category: account
 tags: account
 keywords: account
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Money_Coin_Icon.svg/75px-Money_Coin_Icon.svg.png
-permalink: /blog/account1/
+permalink: blog/account1/
 ---
 가지급금 vs 선급금 vs 전도금 차이
 

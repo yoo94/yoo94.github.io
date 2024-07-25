@@ -7,7 +7,7 @@ date: '2024-04-23 13:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-useParams-useSearchParams/
+permalink: blog/react-useParams-useSearchParams/
 ---
 
 <img src="/blog/postImg/Pasted image 20240507193110.png" alt="Pasted image 20240507193110.png" style="max-width:100%;">

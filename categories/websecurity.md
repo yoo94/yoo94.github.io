@@ -1,7 +1,7 @@
 ---
 layout: page
 title: websecurity
-permalink: /blog/categories/websecurity/
+permalink: blog/categories/websecurity/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

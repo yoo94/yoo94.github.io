@@ -8,7 +8,7 @@ category: account
 tags: account
 keywords: account
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Money_Coin_Icon.svg/75px-Money_Coin_Icon.svg.png
-permalink: /blog/account3/
+permalink: blog/account3/
 ---
 ## **채권 채무 의미**
 
@@ -20,3 +20,4 @@ permalink: /blog/account3/
 **물권**은 물건을 직접적이고 베타적으로 지배하여 이익을 얻는 권리, **채권**은 일방이 타방에 대하여 일정한 행위를 요구하는 권리, **무체재산권**은 재산적 재산적 가치가 있는 무형의 창조물을 직접적이고 배타적으로 지배하여 이익을 얻는 권리를 각각 의미한다.
 
 **물권**의 대표적인 예는 ‘소유권, 점유권, 지역권, 지상권, 전세권, 질권, 저당권‘을 **무체재산권**의 대표적인 예는 ‘특허권, 실용신안권, 의장권, 상표권, 저작권‘을 들 수 있다.
+

@@ -7,7 +7,7 @@ date: '2023-06-14 12:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: myconfused, spread, rest
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/spread-rest/
+permalink: blog/spread-rest/
 ---
 
 ## Spread 
@@ -75,3 +75,4 @@ console.log(`Hello, my name is ${name} and I am ${age} years old.`);
 }
 greet(person); // Hello, my name is John and I am 30 years old.
 ```
+

@@ -7,7 +7,7 @@ date: '2024-05-06 17:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: myconfused, let, const, var
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/let_const_var/
+permalink: blog/let_const_var/
 ---
 
 ## var

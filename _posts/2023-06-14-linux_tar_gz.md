@@ -8,7 +8,7 @@ category: linux
 tags: linux
 keywords: linux, tar, gz
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp
-permalink: /blog/linux_tar_gz/
+permalink: blog/linux_tar_gz/
 ---
 ##  tar 명령어 사용법 
 
@@ -175,3 +175,4 @@ unzip test.zip
 - -C : 대소 문자를 구분하지 않고 이름을 일치시킴
 - -o : 항상 파일을 덮어쓰기
 - -n : 파일을 추출할 때 파일을 덮어쓰지 않음
+

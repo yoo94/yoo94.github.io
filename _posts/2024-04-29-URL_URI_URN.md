@@ -7,7 +7,7 @@ date: '2023-10-29 17:35:23 +0530'
 category: webetc
 tags: webetc
 thumbnail: https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7s4zgKH2ffUBQnZgOH4FQQ.png
-permalink: /blog/URL_URI_URN/
+permalink: blog/URL_URI_URN/
 ---
 
 ### 😅 URI, URL, URN
@@ -62,3 +62,4 @@ scheme:[//[user[:password]@]host[:port]][/path][?query][#fragment]
 
 - **URL**은 **어떻게 리소스를 얻을 것**이고 **어디에서 가져와야하는지 명시**하는 URI이다.
 - **URN**은 리소스를 어떻게 접근할 것인지 명시하지 않고 **경로와 리소스 자체를 특정**하는 것을 목표로하는 URI이다.
+

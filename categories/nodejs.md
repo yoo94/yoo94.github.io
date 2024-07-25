@@ -1,7 +1,7 @@
 ---
 layout: page
 title: nodejs
-permalink: /blog/categories/nodejs/
+permalink: blog/categories/nodejs/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
@@ -13,3 +13,4 @@ permalink: /blog/categories/nodejs/
         </li>
     {% endfor %}
 </div>
+

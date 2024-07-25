@@ -8,7 +8,7 @@ category: ['myconfused','javaScript']
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/javascript-class2/
+permalink: blog/javascript-class2/
 ---
 ### 결론부터 말하자면 
 - 모든 인스턴스가 동일한 메서드를 공유하도록 합니다.

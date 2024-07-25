@@ -8,7 +8,7 @@ category: linux
 tags: linux
 keywords: linux, tar, gz
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp
-permalink: /blog/linux_tail/
+permalink: blog/linux_tail/
 ---
 **tail 명령어**  
 tail 명령어는 파일의 마지막 행을 기준으로 지정한 행까지의 파일 내용 일부를 출력해주는 명령어입니다. 기본값으로는 마지막 10줄을 출력하며 주로 tail은 리눅스에서 오류나 파일 로그를 실시간으로 확인할 때 매우 유용하게 사용됩니다.
@@ -42,3 +42,4 @@ Copytail -f mylog.log | grep 192.168.15.86
 ```shell
 Copytail mylog1.log mylog2.log
 ```
+

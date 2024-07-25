@@ -1,7 +1,7 @@
 ---
 layout: page
 title: requirejs
-permalink: /blog/categories/requirejs/
+permalink: blog/categories/requirejs/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
@@ -13,3 +13,4 @@ permalink: /blog/categories/requirejs/
         </li>
     {% endfor %}
 </div>
+

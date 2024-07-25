@@ -7,7 +7,7 @@ date: '2024-07-17 20:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: myconfused, event, delegation
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/event-delegation/
+permalink: blog/event-delegation/
 ---
 update : 버블링 캡처링에 관한 추가 정보
 

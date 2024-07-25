@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/javaScriptType/
+permalink: blog/javaScriptType/
 ---
 자바스크립트에는 여덟 가지 기본 자료형이 있다.
 
@@ -96,3 +96,4 @@ alert( `the result is ${1 + 2}` ); // the result is 3
 ### object , symbol
 
 객체형을 제외한 다른 자료형은 문자열이든 숫자든 한 가지만 표현할 수 있기 때문에 원시(primitive) 자료형이라 부른다. 반면 객체는 데이터 컬렉션이나 복잡한 개체(entity)를 표현
+

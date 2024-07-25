@@ -7,7 +7,7 @@ date: '2024-03-01 11:35:23 +0530'
 category: ['react','myconfused']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-hooks
+permalink: blog/react-hooks
 ---
 ## 1. useState
    설명: 컴포넌트의 상태를 관리할 수 있게 해준다.

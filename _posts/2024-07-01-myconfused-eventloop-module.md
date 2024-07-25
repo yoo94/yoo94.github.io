@@ -7,7 +7,7 @@ date: '2024-07-01 19:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: eventloop
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/eventloop/
+permalink: blog/eventloop/
 ---
 
 JavaScript 이벤트 루프는 비동기 작업을 처리하는 메커니즘이다.
@@ -83,3 +83,4 @@ Timer API: 일정한 시간 간격으로 함수를 실행하거나 지연시키�
 Console API : 개발자 도구에서 콘솔 기능을 제공
 Canvas API: <canvas> 요소를 통해 그래픽을 그리거나 애니메이션을 만들 수 있는 메소드들을 제공
 Geolocation API: 웹 브라우저에서 사용자의 현재 위치 정보를 얻을 수 있는 메소드들을 제공
+

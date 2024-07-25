@@ -1,7 +1,7 @@
 ---
 layout: page
 title: myconfused
-permalink: /blog/categories/myconfused/
+permalink: blog/categories/myconfused/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

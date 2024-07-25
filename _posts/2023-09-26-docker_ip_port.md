@@ -8,7 +8,7 @@ category: docker
 tags: docker
 keywords: docker
 thumbnail: https://i.namu.wiki/i/KHNL7eMAx46cUBgM-wQRF1OPwkvHCF6oKMXDD3MpOwiUZedqQ_IZuA-vI2d1jMZIkDm9zQCFxb4FFS1HKvqJd5iHeA3PYSFRBYOYewHg6wvR4BwrQjucTirP9s5I4GGtpGBrtAqGgKl_vlGROsWrTA.svg
-permalink: /blog/docker_ip_port/
+permalink: blog/docker_ip_port/
 ---
 도커에서 외부와 매핑된 포트를 확인하려면 다음 명령어 중 하나를 사용할 수 있습니다.
 
@@ -39,3 +39,4 @@ permalink: /blog/docker_ip_port/
 
 
 위의 명령어 중 하나를 선택하여 사용하면 도커 컨테이너의 외부와 매핑된 포트를 확인할 수 있습니다.
+

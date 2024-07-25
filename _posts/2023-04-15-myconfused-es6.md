@@ -7,7 +7,7 @@ date: '2023-04-15 15:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: myconfused, es6
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/es6/
+permalink: blog/es6/
 ---
 
 ## ES6에 추가된 문법

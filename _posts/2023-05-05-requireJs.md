@@ -8,7 +8,7 @@ category: requirejs
 tags: requirejs
 keywords: requirejs
 thumbnail: https://avatars.githubusercontent.com/u/1781835?s=280&v=4
-permalink: /blog/requirejs/
+permalink: blog/requirejs/
 ---
 <require js 사용>  
 require js : AMD 기반 스크립트 로더. 자바스크립트 파일/모듈 로더.  

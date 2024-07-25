@@ -8,7 +8,7 @@ category: ['myconfused','webetc']
 tags: webetc
 keywords: 
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/RESTful-API/
+permalink: blog/RESTful-API/
 ---
 ## 먼저 REST API 란무엇인가
 RESPT API란 REST의 원리를 따르는 API를 의미합니다.

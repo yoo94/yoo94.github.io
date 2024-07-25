@@ -8,7 +8,7 @@ category: linux
 tags: linux
 keywords: linux, tar, gz
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp
-permalink: /blog/cron/
+permalink: blog/cron/
 ---
 시작
 ```shell
@@ -61,3 +61,4 @@ syslog에서 CRON으로 검색하여 그 내용을 확인합니다.
 ```shell
 tail -f /var/log/syslog|grep CRON
 ```
+

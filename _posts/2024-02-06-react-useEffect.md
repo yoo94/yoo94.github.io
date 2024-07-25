@@ -7,7 +7,7 @@ date: '2024-02-06 15:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-hook-useEffect/
+permalink: blog/react-hook-useEffect/
 ---
 <img src="/blog/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:100%;">
 <img src="/blog/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:100%;">

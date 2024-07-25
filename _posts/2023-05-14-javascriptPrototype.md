@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/javascriptPrototype/
+permalink: blog/javascriptPrototype/
 ---
 상속과 관련하여, JavaScript에는 객체라는 하나의 구조만 있다. 각 객체에는  **프로토타입**이라는 다른 객체에 대한 링크를 보유하는 비공개 속성이 있다
 

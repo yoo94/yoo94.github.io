@@ -8,7 +8,7 @@ category: react
 tags: react
 keywords: react, module, nesting
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/module_nesting/
+permalink: blog/module_nesting/
 ---
 ## Module
 

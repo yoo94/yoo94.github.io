@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inner-Circle
-permalink: /blog/categories/change-jobs-diary/
+permalink: blog/categories/change-jobs-diary/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

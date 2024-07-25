@@ -7,7 +7,7 @@ date: '2024-02-15 12:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-hook-useReducer/
+permalink: blog/react-hook-useReducer/
 ---
 <img src="/blog/postImg/Pasted image 20240506161949.png" alt="Pasted image 20240506161949.png" style="max-width:100%;">
 <img src="/blog/postImg/Pasted image 20240506162047.png" alt="Pasted image 20240506162047.png" style="max-width:100%;">

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: typeScript
-permalink: /blog/categories/typeScript/
+permalink: blog/categories/typeScript/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

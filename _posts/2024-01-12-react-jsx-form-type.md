@@ -7,7 +7,7 @@ date: '2024-01-12 14:35:23 +0530'
 category: react
 tags: react
 thumbnail: /blog/postImg/Pasted image 20240505144527.png
-permalink: /blog/react-jsx-form-type/
+permalink: blog/react-jsx-form-type/
 ---
 ### state
 ```jsx

@@ -7,7 +7,7 @@ date: '2024-02-10 14:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react_styled_Components/
+permalink: blog/react_styled_Components/
 ---
 
 ## 패키지 설치

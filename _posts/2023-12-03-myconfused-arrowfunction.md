@@ -7,7 +7,7 @@ date: '2023-12-03 15:35:23 +0530'
 category: ['myconfused','javaScript']
 tags: myconfused, arrow
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
-permalink: /blog/arrow-func/
+permalink: blog/arrow-func/
 ---
 
 ## 일반 함수 (Function Declaration)
@@ -60,3 +60,4 @@ person.regularFunction(); // Carol
 person.arrowFunction();   // undefined (전역 객체에 name이 없기 때문)
 ```
 이렇게 일반 함수와 화살표 함수는 문법의 간결함과 this 바인딩 방식에서 차이가 있어요
+

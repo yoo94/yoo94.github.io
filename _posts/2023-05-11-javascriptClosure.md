@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/Closure/
+permalink: blog/Closure/
 ---
 클로저는 함수와 함수가 선언된 어휘적 환경(Lexical Environment)의 조합이다. 즉, 
  **함수 안에 함수를 선언한 환경에서의 관계를 의미한다.

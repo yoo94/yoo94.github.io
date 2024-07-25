@@ -7,7 +7,7 @@ date: '2024-02-21 13:35:23 +0530'
 category: ['myconfused','react']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-vue/
+permalink: blog/react-vue/
 ---
 #### react와 vue의 차이점에 있어 가장 대표적인 것은, 먼저 react는 UI 라이브러리이며 Vue는 프레임워크라는 것이다.
 

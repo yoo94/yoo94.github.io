@@ -7,7 +7,7 @@ date: '2024-02-06 11:35:23 +0530'
 category: ['react','myconfused']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-component-lifecycle/
+permalink: blog/react-component-lifecycle/
 ---
 <img src="/blog/postImg/Pasted image 20240506123745.png" alt="Pasted image 20240506123745.png" style="max-width:100%;">
 

@@ -8,7 +8,7 @@ category: sap
 tags: sap
 keywords: sap
 thumbnail: https://i.namu.wiki/i/8714nM2OTlIubL44Exdh4QUXbuNUkGYZwJ2dc0kPkwtjBo85ZgCst0OmlfHM1kvsUNAx6rqjD4j1J7Plv1BgdA.svg
-permalink: /blog/sap_client_concept/
+permalink: blog/sap_client_concept/
 ---
 ### **Client**   
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: sap
-permalink: /blog/categories/sap/
+permalink: blog/categories/sap/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

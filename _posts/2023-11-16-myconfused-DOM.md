@@ -8,7 +8,7 @@ category: ['myconfused','javaScript']
 tags: javaScript,DOM
 keywords: DOM
 thumbnail: 
-permalink: /blog/DOM/
+permalink: blog/DOM/
 ---
 ## DOM이란
 

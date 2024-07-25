@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/javascriptMemory/
+permalink: blog/javascriptMemory/
 ---
 
 JavaScript는 객체가 생성되었을 때 자동으로 메모리를 할당하고 더 이상 필요하지 않을 때 자동으로 해제합니다(가비지 컬렉션). 이러한 자동 메모리 관리는 잠재적 혼란의 원인이기도 한데, 개발자가 메모리 관리에 대해 고민할 필요가 없다는 잘못된 인식을 심어줄 수 있기 때문입니다.

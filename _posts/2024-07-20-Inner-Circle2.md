@@ -15,7 +15,7 @@ tags:
 - ZEP
 - 패스트캠퍼스 이너서클
 - inner circle
-permalink: /blog/InnerCircle02/
+permalink: blog/InnerCircle02/
 ---
 # OT
 이메일을 통해 메타버스로 초대되었다.. 나의 첫 메타버스 zep

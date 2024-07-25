@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/call_apply/
+permalink: blog/call_apply/
 ---
 **call, apply**
 
@@ -29,3 +29,4 @@ hi.apply(obj,["soccer"]) //hello my name is fansor, my hobby is soccer
 첫번째 인자를 제외하고 파라미터를 입력하는 방식이 다르다!!
 
 call과 다르게 apply는 두번째 인자부터 모두 배열에 넣어줘야 한다!! 
+

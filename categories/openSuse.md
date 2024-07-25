@@ -1,7 +1,7 @@
 ---
 layout: page
 title: openSuse
-permalink: /blog/categories/openSuse/
+permalink: blog/categories/openSuse/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

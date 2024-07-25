@@ -8,7 +8,7 @@ category: react
 tags: react
 keywords: react, nodeJs
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react_with_nodejs/
+permalink: blog/react_with_nodejs/
 ---
 React를 사용하기 위해서는 React , nodejs , 툴로는 vscode가 필요하다.
 

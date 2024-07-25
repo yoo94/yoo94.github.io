@@ -1,7 +1,7 @@
 ---
 layout: page
 title: react
-permalink: /blog/categories/react/
+permalink: blog/categories/react/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
@@ -13,3 +13,4 @@ permalink: /blog/categories/react/
         </li>
     {% endfor %}
 </div>
+

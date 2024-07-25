@@ -8,7 +8,7 @@ category: react
 tags: react
 keywords: react
 thumbnail: https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png
-permalink: /blog/package_json/
+permalink: blog/package_json/
 ---
 ## package.json은 React의 문서가 아니라 node.js의 문서이다.**
 

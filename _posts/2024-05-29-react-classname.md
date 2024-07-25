@@ -7,7 +7,7 @@ date: '2024-03-01 11:35:23 +0530'
 category: ['react','myconfused']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-classname/
+permalink: blog/react-classname/
 ---
 
 1. 'class'는 자바스크립트 예약어이기 때문에, React에서는 혼란을 피하기 위해 'className'을 사용한다.

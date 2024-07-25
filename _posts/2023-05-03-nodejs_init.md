@@ -8,7 +8,7 @@ category: nodejs
 tags: nodejs
 keywords: nodejs
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTogwU6U5z0Zf2lUxTE72JAKxVd52klwPe-Q&s
-permalink: /blog/nodejs_init/
+permalink: blog/nodejs_init/
 ---
 ## 시작
 nodejs.org/ko/

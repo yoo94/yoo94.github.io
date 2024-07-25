@@ -8,7 +8,7 @@ category: openSuse
 tags: openSuse
 keywords: openSuse,sap
 thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png
-permalink: /blog/opensuseOSsetting_network/
+permalink: blog/opensuseOSsetting_network/
 ---
 
 

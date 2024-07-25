@@ -7,7 +7,7 @@ date: '2023-08-06 11:35:23 +0530'
 category: ['react','myconfused']
 tags: react,context,props
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-context-props/
+permalink: blog/react-context-props/
 ---
 
 # context 란

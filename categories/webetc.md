@@ -1,7 +1,7 @@
 ---
 layout: page
 title: webetc
-permalink: /blog/categories/webetc/
+permalink: blog/categories/webetc/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

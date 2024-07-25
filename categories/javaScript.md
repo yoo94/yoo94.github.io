@@ -1,7 +1,7 @@
 ---
 layout: page
 title: javaScript
-permalink: /blog/categories/javaScript/
+permalink: blog/categories/javaScript/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>

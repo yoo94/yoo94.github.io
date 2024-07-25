@@ -8,7 +8,7 @@ category: ['myconfused','javaScript']
 tags: javaScript
 keywords: javaScript,constructor
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: /blog/javascript-constructor/
+permalink: blog/javascript-constructor/
 ---
 
 기본적인 생성자 함수의 동작

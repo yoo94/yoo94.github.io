@@ -7,7 +7,7 @@ date: '2024-02-21 13:35:23 +0530'
 category: ['myconfused','javaScript','css']
 tags: sass-scss
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png
-permalink: /blog/sass-scss/
+permalink: blog/sass-scss/
 ---
 먼저 둘다 나중에는 컴파일러를 통해 css로 변환된다
 

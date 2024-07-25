@@ -7,7 +7,7 @@ date: '2023-05-01 14:35:23 +0530'
 category: ['react','myconfused']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/create-react-app-nocra/
+permalink: blog/create-react-app-nocra/
 ---
 npm이 있다는 가정하에
 

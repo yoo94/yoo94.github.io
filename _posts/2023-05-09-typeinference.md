@@ -8,7 +8,7 @@ category: typeScript
 tags: typeScript
 keywords: typeScript
 thumbnail: https://i.namu.wiki/i/EY559r31H-um8uTtptPIbCZoBGxsumSlwEH0T_rA6WmxQq1UwqyAf3cJQJXN7Fv5CoEz0kv5CBXzjkkPU_XWig.svg
-permalink: /blog/typeinference/
+permalink: blog/typeinference/
 ---
 
 ## 타입의 추론!

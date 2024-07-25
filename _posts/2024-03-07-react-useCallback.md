@@ -7,7 +7,7 @@ date: '2024-03-07 04:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-hook-useCallback/
+permalink: blog/react-hook-useCallback/
 ---
 ###### 언제 사용?  : Memoization된 콜백을 반환할때
 

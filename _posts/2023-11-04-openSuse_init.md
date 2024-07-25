@@ -8,7 +8,7 @@ category: openSuse
 tags: openSuse
 keywords: openSuse,sap
 thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png
-permalink: /blog/opensusesapSetting/
+permalink: blog/opensusesapSetting/
 ---
 
 ![](https://blog.kakaocdn.net/dn/buI7WL/btsCgs7mJ6v/tvC1vZa76KETuKrkiqxKQ0/img.png)
@@ -120,3 +120,4 @@ zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 �
 짜란.. 다 됐다. 근데 이게 임시로 해결한거고 
 
 새로 고침 명령에 --gpg-auto-import-keys 옵션을 제공하더라도 zypper는 알 수 없는 키에 대해 경고를한다
+

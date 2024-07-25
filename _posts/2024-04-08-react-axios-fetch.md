@@ -7,7 +7,7 @@ date: '2024-04-08 08:35:23 +0530'
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: /blog/react-axios-fetch/
+permalink: blog/react-axios-fetch/
 ---
 ## axios
 axios는 fetch API와 유사한 Promise 기반 HTTP 클라이언트 라이브러리로 데이터를 동적으로 받아올 수 있습니다. fetch API와 달리 third-party 라이브러리로 **1) 별도의 설치 후 import 하거나** 또는 **2) html 파일에 jsDeliver CDN**을 이용해 사용 가능합니다.

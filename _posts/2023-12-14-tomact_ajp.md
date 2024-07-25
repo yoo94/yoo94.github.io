@@ -8,7 +8,7 @@ category: webetc
 tags: webetc
 keywords: tomcat,apache,ajp
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s
-permalink: /blog/apche_ajp/
+permalink: blog/apche_ajp/
 ---
 ### **아파치 -    톰캣 연동 동작 플로우**
 
