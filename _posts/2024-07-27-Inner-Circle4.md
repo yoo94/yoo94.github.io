@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "3.inner circle 1주차"
+title:  "3.inner circle 1주차 후기"
 summary: "vending-machine"
 author: yoo94
 date: '2024-07-21 20:35:23 +0530'
