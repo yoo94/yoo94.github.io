@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "3.inner circle 1주차 후기"
-summary: "vending-machine"
+summary: "vendingmachine 자판기"
 author: yoo94
-date: '2024-07-27 20:35:23 +0530'
+date: '2024-07-28 20:32:23 +0530'
 category: ['inner-Circle']
 tags:
 - inner-Circle
@@ -15,8 +15,8 @@ tags:
 - ZEP
 - 패스트캠퍼스 이너서클
 - inner circle
-thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
-permalink: blog/InnerCircle04/
+  thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
+  permalink: blog/InnerCircle04/
 ---
 # 1 주차 후기되시겠다.
 
@@ -34,7 +34,7 @@ permalink: blog/InnerCircle04/
 
 예를 들어 queryselector를 사용했는데 다른 것도 있는데 왜 이 css 선택자를 사용했는가에대한 답변같은걸 준비하라고 하셨다.
 
-개인적으로 이직 준비로 인해서 사전과제를 해야하는 상황이 발생해서 
+개인적으로 이직 준비로 인해서 사전과제를 해야하는 상황이 발생해서
 
 왔다갔다하면서 하느라 양쪽다 준비가 미흡했던거같다.
 
@@ -42,12 +42,12 @@ permalink: blog/InnerCircle04/
 
 이거에 대해서는 별 말씀 없으셨다. 시간이 모잘라서 못보신듯?
 
-그래도 피가되고 살이되는 중요한 지적을 해주셨다.. 나는 평소에 왜라는걸 생각 안하고 코드를 짰고, 
+그래도 피가되고 살이되는 중요한 지적을 해주셨다.. 나는 평소에 왜라는걸 생각 안하고 코드를 짰고,
 
 기능만 되면 된다고 생각했는데, 이번 이직 사전과제를 할때에는 왜? 라는걸 생각하면서 코드를 짰고,
 
 더 매끄러운 코드가 된거같다. 아님.. 말구....(시무룩..)
 
-2,3주차에는 npm에 모듈 만들어서 퍼블리싱까지가 과제라는데 잘 될런지 
+2,3주차에는 npm에 모듈 만들어서 퍼블리싱까지가 과제라는데 잘 될런지
 
 투 비 컨티뉴~
