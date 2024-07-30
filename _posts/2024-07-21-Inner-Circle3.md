@@ -4,9 +4,9 @@ title:  "2.inner circle 첫 수업"
 summary: "holiday"
 author: yoo94
 date: '2024-07-21 20:35:23 +0530'
-category: ['change-jobs-diary']
+category: ['inner-Circle']
 tags:
-- inner-circle
+- inner-Circle
 - fast campus
 - developer
 - inner circle

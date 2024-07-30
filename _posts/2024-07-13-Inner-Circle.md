@@ -4,9 +4,9 @@ title:  "0.inner circle 사전설명회"
 summary: "설발 후기"
 author: yoo94
 date: '2024-07-13 13:35:23 +0530'
-category: ['change-jobs-diary']
+category: ['inner-Circle']
 tags:
-- inner-circle
+- inner-Circle
 - fast campus
 - developer
 - inner circle
