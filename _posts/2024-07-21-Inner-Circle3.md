@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "2.inner circle 첫 수업"
+title:  "2.패캠 inner circle 첫 수업"
 summary: "holiday"
 author: yoo94
 date: '2024-07-21 20:35:23 +0530'
 category: ['inner-Circle']
 tags:
+- 패스트캠퍼스
+- 이너서클
+- 이너써클
 - inner-Circle
 - fast campus
 - developer

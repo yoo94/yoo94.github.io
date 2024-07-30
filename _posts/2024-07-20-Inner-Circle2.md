@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "1.inner circle OT"
+title:  "1.패캠 inner circle OT"
 summary: "첫 수업?"
 author: yoo94
 date: '2024-07-20 23:35:23 +0530'
 category: ['inner-Circle']
 tags:
+- 패스트캠퍼스
+- 이너서클
+- 이너써클
 - inner-Circle
 - fast campus
 - developer
