@@ -8,7 +8,7 @@ category: javaScript
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
-permalink: blog/javaScriptType/
+permalink: blog/jsBind/
 ---
 자바스크립트에는 여덟 가지 기본 자료형이 있다.
 
