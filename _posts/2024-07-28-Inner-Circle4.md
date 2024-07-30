@@ -1,25 +1,25 @@
 ---
 layout: post
-title:  "3.패캠 inner circle 1주차 후기"
+title: "3.패캠 inner circle 1주차 후기"
 summary: "vendingmachine 자판기"
 author: yoo94
 date: '2024-07-28 20:32:23 +0530'
 category: ['inner-Circle']
 tags:
-- 패스트캠퍼스
-- 이너서클
-- 이너써클
-- inner-Circle
-- fast campus
-- developer
-- inner circle
-- 패스트 캠퍼스
-- 이너서클
-- ZEP
-- 패스트캠퍼스 이너서클
-- inner circle
-  thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
-  permalink: blog/InnerCircle04/
+  - 패스트캠퍼스
+  - 이너서클
+  - 이너써클
+  - inner-Circle
+  - fast campus
+  - developer
+  - inner circle
+  - 패스트 캠퍼스
+  - 이너서클
+  - ZEP
+  - 패스트캠퍼스 이너서클
+  - inner circle
+thumbnail: 
+permalink: blog/InnerCircle04/
 ---
 # 1 주차 후기되시겠다.
 
