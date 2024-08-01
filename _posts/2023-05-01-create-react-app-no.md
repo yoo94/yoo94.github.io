@@ -13,11 +13,12 @@ npm이 있다는 가정하에
 
 1. 프로젝트 디렉토리를 만들고 npm을 init해준다.
 ```shell
+
 mkdir my-react-app
 cd my-react-app
 npm init -y
-
 ```
+
 2. react와 reactDom을 설치하고, babel 과 webpack을 설정한다.
 ```shell
 pm install react react-dom
