@@ -22,7 +22,7 @@ require js : AMD 기반 스크립트 로더. 자바스크립트 파일/모듈 �
 모듈을 정의하는 기본 형태는 다음과 같다.
 
 ```javascript
-/* js/foo.js */
+ 
 // 모듈 정의의 기본 형태
 define([ // 의존 모듈들을 나열한다. 모듈이 한 개라도 배열로 넘겨야 한다.  
     'js/util',
@@ -48,7 +48,7 @@ define([ // 의존 모듈들을 나열한다. 모듈이 한 개라도 배열로 
     };
 });
 
-/* js/main.js */
+
 require([  
     'js/foo'
 ], function (foo) {
