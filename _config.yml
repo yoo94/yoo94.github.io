@@ -30,7 +30,7 @@ hero_cover_img: ski.jpg # replace this for changing homepage cover (eg. try cove
 
 # Experiences
 author_work_experiences:
-  - company_name: 유니포스트
+  - company_name: 회계솔루션업체 (유니**)
     company_url: https://unipost.co.kr/portal
     designation: 2021. 04 ~ 재직중
     description: requireJs 기반 (AMD모듈 로더) 솔루션 개발
