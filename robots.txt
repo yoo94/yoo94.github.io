@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /about
 Allow: /
 Sitemap: https://yoo94.github.io/sitemap.xml
