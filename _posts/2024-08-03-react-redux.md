@@ -85,7 +85,7 @@ store.dispatch(increment()); // count: 2
 store.dispatch(decrement()); // count: 1
 ```
 ## react 에서의 redux
-###(1) Provider로 애플리케이션 감싸기
+### (1) Provider로 애플리케이션 감싸기
 Provider 컴포넌트를 사용하여 Redux 스토어를 React 컴포넌트 트리에 제공
 ```javascript
 import React from 'react';
@@ -101,7 +101,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
-###(2) React 컴포넌트에서 상태와 액션 사용
+### (2) React 컴포넌트에서 상태와 액션 사용
 useSelector와 useDispatch 훅을 사용하여 Redux 상태와 액션을 사용.
 
 ```javascript
