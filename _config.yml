@@ -260,3 +260,4 @@ exclude:
   - assets/bower_components/imagesloaded/README.md
 
 destination: ./build
+future: true
