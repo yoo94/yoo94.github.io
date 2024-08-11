@@ -24,15 +24,19 @@ npm init -y
 pm install react react-dom
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
+
 3. Babel 설정
  babelrc 파일을 프로젝트 루트에 생성하고 아래와 같이 설정
+
 ```json
 {
   "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 ```
+
 4. Webpack 설정
 webpack.config.js 파일을 프로젝트 루트에 생성하고 아래와 같이 설정
+
 ```javascript
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -67,8 +71,10 @@ module.exports = {
 };
 
 ```
+
 5. HTML 템플릿 작성
 public 폴더에 index.html 파일을 생성
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -81,8 +87,11 @@ public 폴더에 index.html 파일을 생성
 </body>
 </html>
 ```
+
 6. React 애플리케이션 작성
 src 폴더에 index.js 파일을 생성하고 React 애플리케이션을 작성
+
+
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
