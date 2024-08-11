@@ -34,7 +34,7 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 ```shell
 npx tsc --init
 ```
-```javascript
+```text
 {
   "compilerOptions": {
     "target": "ESNext", // 최신 ECMAScript 표준으로 컴파일, 최신 JavaScript 기능을 지원
@@ -58,7 +58,7 @@ npx tsc --init
 ```
 ### .babelrc
 
-```javascript
+```text
 {
   "presets": [
     "@babel/preset-env", // 최신 JavaScript 문법을 구형 브라우저에서도 동작하도록 변환
@@ -69,7 +69,7 @@ npx tsc --init
 ```
 ### webpack.config.js
 
-```javascript
+```text
 const path = require('path'); // Node.js의 path 모듈을 가져와서 파일 및 디렉토리 경로 작업을 쉽게 함
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // HTML 파일을 생성하고, 번들링된 JS 파일을 자동으로 포함시켜줌
 
@@ -111,7 +111,7 @@ module.exports = {
 ```
 
 ### .eslintrc.js
-```javascript
+```text
 module.exports = {
     parser: '@typescript-eslint/parser', // TypeScript 코드를 파싱하는 데 사용하는 파서
     extends: [
@@ -231,7 +231,7 @@ export default App;
 
 ### package.json 스크립트 추가
 
-```javascript
+```text
 {
   "scripts": {
     "start": "webpack serve --open", // 개발 서버를 시작하는 명령어, 웹 브라우저가 자동으로 열림
