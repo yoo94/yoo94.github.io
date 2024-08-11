@@ -216,6 +216,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-feed
 
 # Jekyll Admin Config
 jekyll_admin:
