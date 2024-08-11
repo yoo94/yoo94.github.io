@@ -19,7 +19,7 @@ tags:
   - 패스트캠퍼스 이너서클
   - inner circle
 thumbnail: 
-permalink: blog/InnerCircle04/
+permalink: blog/InnerCircle05/
 ---
 # 2주차 진행사항
 
