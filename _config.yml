@@ -6,11 +6,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-  - text: Home
+  - text: &#127968; Home
     url: /
-  - text: Blog
+  - text: &#128203; Blog
     url: /blog
-  - text: About
+  - text: &#128400; About
     url: /about
 
 seo:
