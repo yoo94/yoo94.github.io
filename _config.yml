@@ -216,6 +216,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-feed
 
 # Jekyll Admin Config
 jekyll_admin:
@@ -260,3 +261,4 @@ exclude:
   - assets/bower_components/imagesloaded/README.md
 
 destination: ./build
+future: true

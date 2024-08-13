@@ -3,7 +3,7 @@ layout: post
 title: "3.패캠 inner circle 2주차 후기"
 summary: "npm에 퍼블리싱"
 author: yoo94
-date: '2024-07-28 20:32:23 +0530'
+date: '2024-08-01 20:32:23 +0530'
 category: ['inner-Circle']
 tags:
   - 패스트캠퍼스
@@ -19,7 +19,7 @@ tags:
   - 패스트캠퍼스 이너서클
   - inner circle
 thumbnail: 
-permalink: blog/InnerCircle04/
+permalink: blog/InnerCircle05/
 ---
 # 2주차 진행사항
 
