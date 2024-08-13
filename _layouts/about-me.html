@@ -30,8 +30,8 @@ layout: default
       <div class="card">
         <h1>Skills</h1>
 <!--        {%- include author_skills.html -%}-->
-        <h2>Front</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px; background: #bbbbbb">
+        <h2>&#128150;Front</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
           <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
           <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javaScript&logoColor=white">
@@ -41,7 +41,7 @@ layout: default
           <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typeScript&logoColor=white">
           <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
         </div>
-        <h2>Back</h2>
+        <h2>&#128154;Back</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/java-ffffff?style=for-the-badge&logo=java&logoColor=black">
           <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
@@ -50,14 +50,14 @@ layout: default
 <!--          <img src="https://img.shields.io/badge/nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white">-->
 <!--          <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white">-->
         </div>
-        <h2>server</h2>
+        <h2>&#128155;server</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
           <img src="https://img.shields.io/badge/apachetomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 <!--          <img src="https://img.shields.io/badge/apachemaven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white">-->
         </div>
 
-        <h2>etc</h2>
+        <h2>&#128156;etc</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=white">
           <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
@@ -68,13 +68,13 @@ layout: default
         </div>
       </div>
       <div class="card">
-        <h1>OSS</h1>
+        <h1>&#128226;OSS</h1>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <div class="col-md-10">
-            <a href="https://www.npmjs.com/package/typingchanger_easy?activeTab=readme"><h5 class="experience-info">typingchanger_easy oss
-            </h5></a>
-            <a href="https://github.com/yoo94/typingchanger_easy_oss"><h6 class="experience-info">git repo
-            </h6></a>
+            <a href="https://www.npmjs.com/package/typingchanger_easy?activeTab=readme"><h4 class="experience-info">&#128205;typingchanger_easy oss
+            </h4></a>
+            <h5 class="experience-info"><a href="https://github.com/yoo94/typingchanger_easy_oss">&#128204;git repo</a>
+            </h5>
           </div>
         </div>
       </div>
@@ -90,8 +90,8 @@ layout: default
             <h3>&#9632;</h3>
             <h4 class="experience-title">&#127979;{{detail.college_name}}</h4>
             <h6 class="experience-info">&#128197;{{detail.college_degree}}</h6>
-            <p class="experience-info">&#128221;{{detail.description2}}</p>
-            <p class="experience-desc">&#128221;{{detail.description}}</p>
+            <p class="experience-info">&#128204;{{detail.description2}}</p>
+            <p class="experience-desc">&#128204;{{detail.description}}</p>
           </div>
         </div>
         {% endfor %}
@@ -117,12 +117,12 @@ layout: default
         {% if exp.visibility == true %}
         <div class="row" style="width: 216%;">
           <div class="col-md-8">
-            <h4 class="experience-title">{{ exp.company_name }}</h4>
-            <h6 class="experience-info">{{ exp.designation}}</h6>
-            <p class="experience-desc">{{ exp.description }}</p>
-            <p class="experience-desc">{{ exp.description2 }}</p>
-            <p class="experience-desc">{{ exp.description3 }}</p>
-            <p class="experience-desc">{{ exp.description4 }}</p>
+            <h4 class="experience-title">&#127970;{{ exp.company_name }}</h4>
+            <h6 class="experience-info">&#128197;{{ exp.designation}}</h6>
+            <p class="experience-desc">&#128204;{{ exp.description }}</p>
+            <p class="experience-desc">&#128204;{{ exp.description2 }}</p>
+            <p class="experience-desc">&#128204;{{ exp.description3 }}</p>
+            <p class="experience-desc">&#128204;{{ exp.description4 }}</p>
             <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
           </div>
         </div>
@@ -137,13 +137,13 @@ layout: default
         {% if project.visibility == true %}
         <div class="row" id="project-card">
           <div class="col-md-10 center">
-            <h4 class="experience-title">{{ project.project_title }}</h4>
-            <h6 class="experience-info">{{ project.project_info}}</h6>
-            <p class="experience-desc">{{ project.project_description }}</p>
-            <p class="experience-desc">{{ project.project_description2 }}</p>
-            <p class="experience-desc">{{ project.project_description3 }}</p>
-            <p class="experience-desc">{{ project.project_description4 }}</p>
-            <p class="experience-desc">{{ project.project_description5 }}</p>
+            <h4 class="experience-title">&#128421;{{ project.project_title }}</h4>
+            <h6 class="experience-info">&#128343;{{ project.project_info}}</h6>
+            <p class="experience-desc">&#128203;{{ project.project_description }}</p>
+            <p class="experience-desc">&#128204;{{ project.project_description2 }}</p>
+            <p class="experience-desc">&#128204;{{ project.project_description3 }}</p>
+            <p class="experience-desc">&#128204;{{ project.project_description4 }}</p>
+            <p class="experience-desc">&#128204;{{ project.project_description5 }}</p>
             <p>
               <a class="project-link" href="{{project.project_url}}">{{ project.project_url}}</a>
             </p>
