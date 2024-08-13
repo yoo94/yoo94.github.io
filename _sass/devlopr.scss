@@ -74,7 +74,7 @@ ol, ul {
 
 /* On scroll progress bar */
 #progress-bar {
-    background: linear-gradient(to right, #f69801 var(--progress), transparent 0);
+    background: linear-gradient(to right, #1a33d6 var(--progress), transparent 0);
     height: 5px;
     position: fixed;
     width: 100%;
@@ -446,7 +446,7 @@ header {
 }
 
 .snipcart-modal__close-title {
-    color: coral !important;
+    color: #4C7791 !important;
 }
 .snipcart__button--icon {
     border: 0px solid #f0f5f6 !important;
@@ -501,7 +501,7 @@ header {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: coral;
+    color: #4C7791;
 }
 
 .product{
@@ -548,7 +548,7 @@ header {
 }
 
 .lg-progress-bar .lg-progress {
-    background-color: #db980f !important;
+    background-color: #3248d9 !important;
     height: 4px;
     width: 0;
 }
