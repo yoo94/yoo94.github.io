@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="col-lg-12">
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-6">
       <div class="card" id="profile-card">
         <a href="/">
           <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
@@ -86,7 +86,7 @@ layout: default
         {% assign education_details = site.author_education_details | where: "visibility", true %}
         {% for detail in education_details %}
         <div class="row education-detail" style="{% if forloop.index > 2 %} display: none; {% endif %}">
-          <div class="col-md-10">
+          <div class="col-md-6">
             <p>&#9632;</p>
             <h4 class="experience-title">{{detail.college_name}}</h4>
             <h6 class="experience-info">{{detail.college_degree}}</h6>
@@ -115,7 +115,7 @@ layout: default
         <br />
         {% for exp in site.author_work_experiences %}
         {% if exp.visibility == true %}
-        <div class="row" style="width: 216%;">
+        <div class="row">
           <div class="col-md-8">
             <h4 class="experience-title">{{ exp.company_name }}</h4>
             <h6 class="experience-info">{{ exp.designation}}</h6>
