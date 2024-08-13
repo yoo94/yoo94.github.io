@@ -86,7 +86,7 @@ layout: default
         {% assign education_details = site.author_education_details | where: "visibility", true %}
         {% for detail in education_details %}
         <div class="row education-detail" style="{% if forloop.index > 2 %} display: none; {% endif %}">
-          <div class="col-md-6">
+          <div class="col-md-10">
             <p>&#9632;</p>
             <h4 class="experience-title">{{detail.college_name}}</h4>
             <h6 class="experience-info">{{detail.college_degree}}</h6>
@@ -109,7 +109,7 @@ layout: default
       </div>
       {% endif %}
     </div>
-    <div class="col-lg-8">
+    <div class="col-lg-6">
       <div class="card">
         <h1 class="card-title">Work Experience</h1>
         <br />
