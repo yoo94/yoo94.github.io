@@ -30,13 +30,13 @@ hero_cover_img: cover.jpeg # replace this for changing homepage cover (eg. try c
 
 # Experiences
 author_work_experiences:
-  - company_name: 회계솔루션업체 (유니**)
-    company_url: https://unipost.co.kr/portal
-    designation: 2021. 04 ~ 재직중
-    description: requireJs 기반 (AMD모듈 로더) 솔루션 개발
-    description2: react-native,typescript 모바일 솔루션 개발
-    description3: linux,window OS 기반 서버 솔루션 설치 및 유지 보수
-    description4: 본사 웹 솔루션 js -> ts 마이그레이션 진행
+  - company_name: &#127970; 회계솔루션업체 (유니**)
+    company_url: &#128204; https://unipost.co.kr/portal
+    designation: &#128197; 2021. 04 ~ 재직중
+    description: &#128204; requireJs 기반 (AMD모듈 로더) 솔루션 개발
+    description2: &#128204; react-native,typescript 모바일 솔루션 개발
+    description3: &#128204; linux,window OS 기반 서버 솔루션 설치 및 유지 보수
+    description4: &#128204; 본사 웹 솔루션 js -> ts 마이그레이션 진행
     visibility: true
 
 # Analytics
@@ -48,101 +48,101 @@ analytics:
 
 # Education
 author_education_details:
-  - college_name: fast campus innercircle 1st period
-    college_degree: 2024. 07 ~ 2024. 11
-    description2: 3년차 이상 개발 역량 향상,front-end 개발자로 지원
-    description: 라이브러리, 프로젝트 진행
+  - college_name: &#127979; fast campus innercircle 1st period
+    college_degree: &#128197; 2024. 07 ~ 2024. 11
+    description2: &#128204; 3년차 이상 개발 역량 향상,front-end 개발자로 지원
+    description: &#128204; 라이브러리, 프로젝트 진행
     visibility: true
-  - college_name: 머신러닝기반 SW개발자
-    college_degree: 2020. 09 ~ 2021. 03
-    description2: 경영기술개발원 교육센터
-    description: js , html ,css / java , jsp , spring , mysql , oracle
+  - college_name: &#127979; 머신러닝기반 SW개발자
+    college_degree: &#128197; 2020. 09 ~ 2021. 03
+    description2: &#128204; 경영기술개발원 교육센터
+    description: &#128204; js , html ,css / java , jsp , spring , mysql , oracle
     visibility: true
-  - college_name: 한국 방송통신 대학교
-    college_degree: 컴퓨터 과학과
-    description: 2023.03.02 - 2025.02
+  - college_name: &#127979; 한국 방송통신 대학교
+    college_degree: &#128197; 2023.03.02 - 2025.02
+    description: &#128204; 컴퓨터 과학과
     visibility: true
-  - college_name: 한국 관광 대학교
-    college_degree: 관광 경영학과
-    description: 2013.03.04 - 2017.02.16
+  - college_name: &#127979; 한국 관광 대학교
+    college_degree: &#128197; 2013.03.04 - 2017.02.16
+    description: &#128204; 관광 경영학과
     visibility: true
 
 # Projects
 author_project_details:
-  - project_title: 차세대 모바일 솔루션 개발 참여
-    project_info: 23.09 ~ 24.01
-    project_description: react와 typeScript를 이용한 전표작성 화면을 담당
-    project_description2: front:react-native, react, typeScript, redux, webpack
-    project_description3: back:java,spring
+  - project_title: &#128421; 차세대 모바일 솔루션 개발 참여
+    project_info: &#128343; 23.09 ~ 24.01
+    project_description: &#128203; react와 typeScript를 이용한 전표작성 화면을 담당
+    project_description2: &#128204; front &#128312; react-native, react, typeScript, redux, webpack
+    project_description3: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: 사조CPK (리액트 네이티브 웹앱)
-    project_info: 24.03.04 ~ 24.07.31 / 윈도우 서버 설치
-    project_description: 전자결재 서비스 기능 커스터마이징
-    project_description2: front:react-native, react, typeScript, redux, webpack
-    project_description3: back:java,spring
+  - project_title: &#128421; 사조CPK (리액트 네이티브 웹앱)
+    project_info: &#128343; 24.03.04 ~ 24.07.31 / 윈도우 서버 설치
+    project_description: &#128203; 전자결재 서비스 기능 커스터마이징
+    project_description2: &#128204; front &#128312; react-native, react, typeScript, redux, webpack
+    project_description3: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: HMM (리액트 네이티브 웹앱)
-    project_info: 24.12.01 ~ 25.02.28 / aws linux 설치
-    project_description: 전자결재 서비스 기능 구현
-    project_description2: 전표작성 서비스 기능 간소화 구현
-    project_description3: front:react-native, react, typeScript, redux, webpack
-    project_description4: back:java,spring
+  - project_title: &#128421; HMM (리액트 네이티브 웹앱)
+    project_info: &#128343; 24.12.01 ~ 25.02.28 / aws linux 설치
+    project_description: &#128203; 전자결재 서비스 기능 구현
+    project_description2: &#128203; 전표작성 서비스 기능 간소화 구현
+    project_description3: &#128204; front &#128312; react-native, react, typeScript, redux, webpack
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: HMM (웹)
-    project_info: 24.02 ~ 25.01 / aws linux 설치
-    project_description: 해외/국내 출장비 보고서, 정산 서비스 구현
-    project_description2: aws s3 연동 서비스 구현
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; HMM (웹)
+    project_info: &#128343; 24.02 ~ 25.01 / aws linux 설치
+    project_description: &#128203; 해외/국내 출장비 보고서, 정산 서비스 구현
+    project_description2: &#128203; aws s3 연동 서비스 구현
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: 티맵 모빌리티 (웹)
-    project_info: 23.06.01 ~ 24.02.01 / aws linux 설치
-    project_description: 거래처 등록 서비스 / 출장비 정산 서비스
-    project_description2: 그룹웨어 결재연동 API 구현
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; 티맵 모빌리티 (웹)
+    project_info: &#128343; 23.06.01 ~ 24.02.01 / aws linux 설치
+    project_description: &#128203; 거래처 등록 서비스 / 출장비 정산 서비스
+    project_description2: &#128203; 그룹웨어 결재연동 API 구현
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: SK 시그넷 (웹)
-    project_info: 23.01.16 ~ 23.07.21 / aws linux 설치
-    project_description: 그룹웨어 결재연동 API / SSO 인증 서비스 구현
-    project_description2: 웹취약점 조치
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; SK 시그넷 (웹)
+    project_info: &#128343; 23.01.16 ~ 23.07.21 / aws linux 설치
+    project_description: &#128203; 그룹웨어 결재연동 API / SSO 인증 서비스 구현
+    project_description2: &#128203; 웹취약점 조치
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: 남해화학 (웹)
-    project_info: 22.08.25 ~ 23.05.05 / 윈도우 서버 설치
-    project_description: 그룹웨어 결재연동 API 구현
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; 남해화학 (웹)
+    project_info: &#128343; 22.08.25 ~ 23.05.05 / 윈도우 서버 설치
+    project_description: &#128203; 그룹웨어 결재연동 API 구현
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: SK 스토아 (웹 / 웹앱)
-    project_info: 22.04.15 ~ 22.10.03 / centOS 서버 설치
-    project_description: 더존 그룹웨어 결재연동 API / 출장비 정산 서비스 구현
-    project_description2: 모바일 문자 2차인증 구현 / 아파치 웹서버 설치 및 was 통신 연결
-    project_description3: front web:html, css, js, jquery, requireJs, mustache
-    project_description4: front mobile:html, css, js, jquery, cordova
-    project_description5: back:java,spring
+  - project_title: &#128421; SK 스토아 (웹 / 웹앱)
+    project_info: &#128343; 22.04.15 ~ 22.10.03 / centOS 서버 설치
+    project_description: &#128203; 더존 그룹웨어 결재연동 API / 출장비 정산 서비스 구현
+    project_description2: &#128203; 모바일 문자 2차인증 구현 / 아파치 웹서버 설치 및 was 통신 연결
+    project_description3: &#128204; front web &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; front mobile &#128312; html, css, js, jquery, cordova
+    project_description5: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: SK 바이오팜 (웹)
-    project_info: 22.02.14 ~ 22.07.31 / 윈도우 서버 설치
-    project_description: 실비 정산 서비스 구현
-    project_description2: 그룹웨어 결재연동 및 AD sso 인증 서비스 구현
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; SK 바이오팜 (웹)
+    project_info: &#128343; 22.02.14 ~ 22.07.31 / 윈도우 서버 설치
+    project_description: &#128203; 실비 정산 서비스 구현
+    project_description2: &#128203; 그룹웨어 결재연동 및 AD sso 인증 서비스 구현
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: 한화 에너지 솔루션 고도화 (웹)
-    project_info: 22.02.07 ~ 22.07.08 / centOS 서버 설치
-    project_description: AS-IS 기능 고도화 진행
-    project_description2: 그리드 라이브러리 변경으로 인한 고도화
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; 한화 에너지 솔루션 고도화 (웹)
+    project_info: &#128343; 22.02.07 ~ 22.07.08 / centOS 서버 설치
+    project_description: &#128203; AS-IS 기능 고도화 진행
+    project_description2: &#128203; 그리드 라이브러리 변경으로 인한 고도화
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
-  - project_title: 매그나칩 반도체 솔루션 고도화 (웹)
-    project_info: 21.08.02 ~ 22.01.21 / 윈도우 서버 설치
-    project_description: 그룹웨어 결재연동 API 구현
-    project_description2: 출장비 서비스 기능 구현
-    project_description3: front:html, css, js, jquery, requireJs, mustache
-    project_description4: back:java,spring
+  - project_title: &#128421; 매그나칩 반도체 솔루션 고도화 (웹)
+    project_info: &#128343; 21.08.02 ~ 22.01.21 / 윈도우 서버 설치
+    project_description: &#128203; 그룹웨어 결재연동 API 구현
+    project_description2: &#128203; 출장비 서비스 기능 구현
+    project_description3: &#128204; front &#128312; html, css, js, jquery, requireJs, mustache
+    project_description4: &#128204; back &#128313; java,spring
     visibility: true
 
 # Social links

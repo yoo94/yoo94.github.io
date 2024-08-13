@@ -88,10 +88,10 @@ layout: default
         <div class="row education-detail" style="{% if forloop.index > 2 %} display: none; {% endif %}">
           <div class="col-md-10">
             <p>&#9632;</p>
-            <h4 class="experience-title">&#127979;{{detail.college_name}}</h4>
-            <h6 class="experience-info">&#128197;{{detail.college_degree}}</h6>
-            <p class="experience-info">&#128204;{{detail.description2}}</p>
-            <p class="experience-desc">&#128204;{{detail.description}}</p>
+            <h4 class="experience-title">{{detail.college_name}}</h4>
+            <h6 class="experience-info">{{detail.college_degree}}</h6>
+            <p class="experience-info">{{detail.description2}}</p>
+            <p class="experience-desc">{{detail.description}}</p>
           </div>
         </div>
         {% endfor %}
@@ -117,12 +117,12 @@ layout: default
         {% if exp.visibility == true %}
         <div class="row" style="width: 216%;">
           <div class="col-md-8">
-            <h4 class="experience-title">&#127970;{{ exp.company_name }}</h4>
-            <h6 class="experience-info">&#128197;{{ exp.designation}}</h6>
-            <p class="experience-desc">&#128204;{{ exp.description }}</p>
-            <p class="experience-desc">&#128204;{{ exp.description2 }}</p>
-            <p class="experience-desc">&#128204;{{ exp.description3 }}</p>
-            <p class="experience-desc">&#128204;{{ exp.description4 }}</p>
+            <h4 class="experience-title">{{ exp.company_name }}</h4>
+            <h6 class="experience-info">{{ exp.designation}}</h6>
+            <p class="experience-desc">{{ exp.description }}</p>
+            <p class="experience-desc">{{ exp.description2 }}</p>
+            <p class="experience-desc">{{ exp.description3 }}</p>
+            <p class="experience-desc">{{ exp.description4 }}</p>
             <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
           </div>
         </div>
@@ -137,13 +137,13 @@ layout: default
         {% if project.visibility == true %}
         <div class="row" id="project-card">
           <div class="col-md-10 center">
-            <h4 class="experience-title">&#128421;{{ project.project_title }}</h4>
-            <h6 class="experience-info">&#128343;{{ project.project_info}}</h6>
-            <p class="experience-desc">&#128203;{{ project.project_description }}</p>
-            <p class="experience-desc">&#128204;{{ project.project_description2 }}</p>
-            <p class="experience-desc">&#128204;{{ project.project_description3 }}</p>
-            <p class="experience-desc">&#128204;{{ project.project_description4 }}</p>
-            <p class="experience-desc">&#128204;{{ project.project_description5 }}</p>
+            <h4 class="experience-title">{{ project.project_title }}</h4>
+            <h6 class="experience-info">{{ project.project_info}}</h6>
+            <p class="experience-desc">{{ project.project_description }}</p>
+            <p class="experience-desc">{{ project.project_description2 }}</p>
+            <p class="experience-desc">{{ project.project_description3 }}</p>
+            <p class="experience-desc">{{ project.project_description4 }}</p>
+            <p class="experience-desc">{{ project.project_description5 }}</p>
             <p>
               <a class="project-link" href="{{project.project_url}}">{{ project.project_url}}</a>
             </p>
