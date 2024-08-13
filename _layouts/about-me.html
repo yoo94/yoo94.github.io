@@ -8,7 +8,7 @@ layout: default
         <a href="/">
           <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
         </a>
-        <h1 class="profile-name">{{ site.title }}</h1>
+        <h2 class="profile-name">{{ site.title }}</h2>
         <p class="profile-bio">{{ site.subtitle }}</p>
         {% if site.author_location %}
         <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
@@ -22,15 +22,15 @@ layout: default
       </div>
       {% if site.author_bio %}
       <div class="card">
-        <h1 class="card-title">&#127776; About</h1>
+        <h2 class="card-title">&#127776; About</h2>
         <p>&#128077;{{ site.author_bio }}</p>
       </div>
       {% endif %}
       {% if site.show_author_work_experiences == true %}
       <div class="card">
-        <h1>Skills</h1>
+        <h2>&#128226;Skills</h2>
 <!--        {%- include author_skills.html -%}-->
-        <h2>&#128150;Front</h2>
+        <h3>Front</h3>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
           <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
@@ -41,7 +41,7 @@ layout: default
           <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typeScript&logoColor=white">
           <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
         </div>
-        <h2>&#128154;Back</h2>
+        <h3>Back</h3>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/java-ffffff?style=for-the-badge&logo=java&logoColor=black">
           <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
@@ -50,14 +50,14 @@ layout: default
 <!--          <img src="https://img.shields.io/badge/nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white">-->
 <!--          <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white">-->
         </div>
-        <h2>&#128155;server</h2>
+        <h3>server</h3>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
           <img src="https://img.shields.io/badge/apachetomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 <!--          <img src="https://img.shields.io/badge/apachemaven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white">-->
         </div>
 
-        <h2>&#128156;etc</h2>
+        <h3>etc</h3>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <img src="https://img.shields.io/badge/webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=white">
           <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
@@ -68,7 +68,7 @@ layout: default
         </div>
       </div>
       <div class="card">
-        <h1>&#128226;OSS</h1>
+        <h2>&#128226;OSS</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <div class="col-md-10">
             <a href="https://www.npmjs.com/package/typingchanger_easy?activeTab=readme"><h4 class="experience-info">&#128205;typingchanger_easy oss
@@ -81,7 +81,7 @@ layout: default
       {% endif %}
       {% if site.show_author_education_details == true %}
       <div class="card">
-        <h1 class="card-title">Education</h1>
+        <h2 class="card-title">&#128226;Education</h2>
         <br />
         {% assign education_details = site.author_education_details | where: "visibility", true %}
         {% for detail in education_details %}
