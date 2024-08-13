@@ -4,7 +4,45 @@ $nav-typeface: "Gill sans";
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
-/* First Palette: 밝고 생동감 있는 색상 */
+
+html[data-theme="dark"] {
+  // 두 번째 팔레트를 dark 모드에 적용
+  --bold-color: rgb(188, 188, 188);
+  --box-background-color: hsl(255, 30%, 20%); /* 파스텔 퍼플 계열 */
+  --highlight-color: hsl(255, 50%, 50%); /* 파스텔 퍼플 계열 */
+  --light-border-color: hsl(255, 40%, 30%); /* 파스텔 퍼플 계열 */
+  --light-text-color: rgb(220, 220, 255); /* 밝은 파스텔 퍼플색 */
+  --link-color: hsl(255, 60%, 70%); /* 파스텔 퍼플 */
+  --link-color-visited: hsl(255, 60%, 60%);
+  --main-background-color: rgb(20, 20, 40); /* 어두운 퍼플색 배경 */
+  --main-text-color: rgb(170, 170, 255); /* 중간 밝기의 퍼플색 텍스트 */
+  --medium-text-color: hsl(255, 50%, 70%); /* 중간 밝기 퍼플색 */
+  --underline-color: hsl(255, 60%, 60%);
+  --social-link-color: #b3b3ff; /* 파스텔 퍼플 */
+  --card-background-color: rgb(40, 40, 60); /* 어두운 퍼플색 카드 배경 */
+  --newsletter-background-color: #3e3e5e;
+  --button-background-color: #2a2a40; /* 어두운 퍼플색 버튼 */
+}
+@media (prefers-color-scheme: dark) {
+  html[data-theme="dark"] {
+    --bold-color: rgb(188, 188, 188);
+    --box-background-color: hsl(255, 30%, 20%); /* 파스텔 퍼플 계열 */
+    --highlight-color: hsl(255, 50%, 50%); /* 파스텔 퍼플 계열 */
+    --light-border-color: hsl(255, 40%, 30%); /* 파스텔 퍼플 계열 */
+    --light-text-color: rgb(220, 220, 255); /* 밝은 파스텔 퍼플색 */
+    --link-color: hsl(255, 60%, 70%); /* 파스텔 퍼플 */
+    --link-color-visited: hsl(255, 60%, 60%);
+    --main-background-color: rgb(20, 20, 40); /* 어두운 퍼플색 배경 */
+    --main-text-color: rgb(170, 170, 255); /* 중간 밝기의 퍼플색 텍스트 */
+    --medium-text-color: hsl(255, 50%, 70%); /* 중간 밝기 퍼플색 */
+    --underline-color: hsl(255, 60%, 60%);
+    --social-link-color: #b3b3ff; /* 파스텔 퍼플 */
+    --card-background-color: rgb(40, 40, 60); /* 어두운 퍼플색 카드 배경 */
+    --newsletter-background-color: #3e3e5e;
+    --button-background-color: #2a2a40; /* 어두운 퍼플색 버튼 */
+  }
+}
+
 $bright-color-1: #FF6F61; /* Example of bright coral */
 $bright-color-2: #F7CAC9; /* Example of soft pink */
 $bright-color-3: #92A8D1; /* Example of pastel blue */
@@ -12,43 +50,44 @@ $bright-color-4: #034F84; /* Example of deep blue */
 $bright-color-5: #88B04B; /* Example of green */
 $bright-color-6: #F0EAD6; /* Example of light beige */
 
-html[data-theme="dark"] {
-  --bold-color: $bright-color-2;
-  --box-background-color: $bright-color-1;
-  --highlight-color: $bright-color-3;
-  --light-border-color: $bright-color-4;
-  --light-text-color: $bright-color-6;
-  --link-color: $bright-color-5;
-  --link-color-visited: lighten($bright-color-5, 10%);
-  --main-background-color: $bright-color-3;
-  --main-text-color: $bright-color-6;
-  --medium-text-color: $bright-color-4;
-  --underline-color: $bright-color-1;
-  --social-link-color: $bright-color-2;
-  --card-background-color: $bright-color-4;
-  --newsletter-background-color: $bright-color-3;
-  --button-background-color: $bright-color-5;
-}
-
 html,
 html[data-theme="light"] {
-  --bold-color: $bright-color-4;
-  --box-background-color: $bright-color-6;
-  --highlight-color: lighten($bright-color-1, 20%);
-  --light-border-color: lighten($bright-color-4, 30%);
-  --light-text-color: darken($bright-color-2, 15%);
-  --link-color: $bright-color-1;
-  --link-color-visited: darken($bright-color-1, 10%);
-  --main-background-color: $bright-color-6;
-  --main-text-color: $bright-color-4;
-  --medium-text-color: $bright-color-1;
-  --underline-color: $bright-color-5;
-  --social-link-color: $bright-color-3;
-  --card-background-color: $bright-color-6;
-  --newsletter-background-color: lighten($bright-color-2, 30%);
-  --button-background-color: $bright-color-1;
+  --bold-color: $bright-color-4; /* Deep blue */
+  --box-background-color: $bright-color-6; /* Light beige */
+  --highlight-color: lighten($bright-color-1, 20%); /* Light coral */
+  --light-border-color: lighten($bright-color-4, 30%); /* Lightened deep blue */
+  --light-text-color: darken($bright-color-2, 15%); /* Darkened soft pink */
+  --link-color: $bright-color-1; /* Bright coral */
+  --link-color-visited: darken($bright-color-1, 10%); /* Darkened bright coral */
+  --main-background-color: $bright-color-6; /* Light beige */
+  --main-text-color: $bright-color-4; /* Deep blue */
+  --medium-text-color: $bright-color-1; /* Bright coral */
+  --underline-color: $bright-color-5; /* Green */
+  --social-link-color: $bright-color-3; /* Pastel blue */
+  --card-background-color: $bright-color-6; /* Light beige */
+  --newsletter-background-color: lighten($bright-color-2, 30%); /* Lightened soft pink */
+  --button-background-color: $bright-color-1; /* Bright coral */
 }
 
+@media (prefers-color-scheme: light) {
+  html {
+    --bold-color: $bright-color-4; /* Deep blue */
+    --box-background-color: $bright-color-6; /* Light beige */
+    --highlight-color: lighten($bright-color-1, 20%); /* Light coral */
+    --light-border-color: lighten($bright-color-4, 30%); /* Lightened deep blue */
+    --light-text-color: darken($bright-color-2, 15%); /* Darkened soft pink */
+    --link-color: $bright-color-1; /* Bright coral */
+    --link-color-visited: darken($bright-color-1, 10%); /* Darkened bright coral */
+    --main-background-color: $bright-color-6; /* Light beige */
+    --main-text-color: $bright-color-4; /* Deep blue */
+    --medium-text-color: $bright-color-1; /* Bright coral */
+    --underline-color: $bright-color-5; /* Green */
+    --social-link-color: $bright-color-3; /* Pastel blue */
+    --card-background-color: $bright-color-6; /* Light beige */
+    --newsletter-background-color: lighten($bright-color-2, 30%); /* Lightened soft pink */
+    --button-background-color: $bright-color-1; /* Bright coral */
+  }
+}
 html,
 html[data-theme="dark"],
 html[data-theme="light"] {
@@ -74,7 +113,7 @@ ol, ul {
 
 /* On scroll progress bar */
 #progress-bar {
-    background: linear-gradient(to right, #1a33d6 var(--progress), transparent 0);
+    background: linear-gradient(to right, #5268ff var(--progress), transparent 0);
     height: 5px;
     position: fixed;
     width: 100%;
@@ -618,8 +657,8 @@ header {
 }
 .article-card a :hover{
     text-decoration: none;
-    background: #303030!important;
-    border-color: #303030;
+    background: #93DAFF!important;
+    border-color: #93DAFF;
     background: transparent;
 }
 
