@@ -7,89 +7,90 @@ $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
 html[data-theme="dark"] {
-    --bold-color: rgb(188, 188, 188);
-    --box-background-color: hsl(0, 0%, 20%);
-    --highlight-color: hsl(0, 0%, 60%);
-    --light-border-color: hsl(0, 0%, 30%);
-    --light-text-color: rgb(199, 199, 204);
-    --link-color: #f69801;
-    --link-color-visited: hsl(250, 100%, 60%);
-    --main-background-color: rgb(28, 28, 30);
-    --main-text-color: rgb(139, 139, 139);
-    --medium-text-color: hsl(0, 0%, 70%);
-    --underline-color: hsl(0, 0%, 50%);
-    --social-link-color: #ffffff;
-    --card-background-color: rgb(32, 32, 34);
-    --newsletter-background-color: #222324;
-    --button-background-color: #111;
+  --bold-color: rgb(188, 188, 188);
+  --box-background-color: hsl(160, 100%, 20%); /* 파스텔 초록 계열 */
+  --highlight-color: hsl(160, 100%, 40%); /* 파스텔 초록 계열 */
+  --light-border-color: hsl(160, 100%, 30%); /* 파스텔 초록 계열 */
+  --light-text-color: rgb(199, 255, 204); /* 밝은 파스텔 초록색 */
+  --link-color: hsl(160, 100%, 50%); /* 파스텔 초록 */
+  --link-color-visited: hsl(160, 100%, 60%);
+  --main-background-color: rgb(28, 40, 30); /* 어두운 초록색 배경 */
+  --main-text-color: rgb(139, 199, 139); /* 중간 밝기의 초록색 텍스트 */
+  --medium-text-color: hsl(160, 100%, 50%); /* 중간 밝기 초록색 */
+  --underline-color: hsl(160, 100%, 60%);
+  --social-link-color: #ccffcc; /* 파스텔 초록 */
+  --card-background-color: rgb(32, 48, 34); /* 어두운 초록색 카드 배경 */
+  --newsletter-background-color: #2e332f;
+  --button-background-color: #203520; /* 어두운 초록색 버튼 */
 }
 
 html,
 html[data-theme="light"] {
-    --bold-color: rgb(0, 0, 0);
-    --box-background-color: rgb(249, 249, 250);
-    --highlight-color: hsl(0, 0%, 80%);
-    --light-border-color: rgb(230, 230, 230);
-    --light-text-color: rgb(72, 72, 74);
-    --link-color: rgb(0, 112, 201);
-    --link-color-visited: hsl(250, 100%, 37%);
-    --main-background-color: rgb(255, 255, 255);
-    --main-text-color: rgb(51, 51, 51);
-    --medium-text-color: hsl(0, 40%, 2%);
-    --sidebar-color: hsl(0, 0%, 90%);
-    --underline-color: hsl(0, 0%, 60%);
-    --social-link-color: #262222;
-    --card-background-color: rgb(250, 250, 250);
-    --newsletter-background-color: #00000008;
-    --button-background-color: #fff;
+  --bold-color: rgb(0, 51, 102); /* 진한 파스텔 블루 */
+  --box-background-color: rgb(224, 240, 255); /* 파스텔 블루 박스 배경 */
+  --highlight-color: hsl(210, 100%, 85%); /* 밝은 파스텔 블루 */
+  --light-border-color: rgb(204, 229, 255); /* 밝은 파스텔 블루 경계 */
+  --light-text-color: rgb(51, 102, 153); /* 중간 밝기 파스텔 블루 텍스트 */
+  --link-color: rgb(51, 153, 255); /* 파스텔 블루 링크 */
+  --link-color-visited: hsl(210, 100%, 60%);
+  --main-background-color: rgb(245, 248, 255); /* 아주 밝은 파스텔 블루 배경 */
+  --main-text-color: rgb(51, 102, 153); /* 중간 밝기 파스텔 블루 텍스트 */
+  --medium-text-color: hsl(210, 60%, 40%); /* 중간 밝기 파스텔 블루 */
+  --sidebar-color: hsl(210, 100%, 90%); /* 아주 밝은 파스텔 블루 사이드바 */
+  --underline-color: hsl(210, 100%, 80%);
+  --social-link-color: #204060; /* 어두운 파스텔 블루 */
+  --card-background-color: rgb(240, 248, 255); /* 밝은 파스텔 블루 카드 배경 */
+  --newsletter-background-color: #e0f0ff;
+  --button-background-color: #ffffff; /* 흰색 버튼 */
 }
 
 @media (prefers-color-scheme: dark) {
-     /* Dark Mode */
-    html,
-    html[data-theme="dark"] {
-        --bold-color: rgb(188, 188, 188);
-        --box-background-color: hsl(0, 0%, 20%);
-        --highlight-color: hsl(0, 0%, 60%);
-        --light-border-color: hsl(0, 0%, 30%);
-        --light-text-color: rgb(199, 199, 204);
-        --link-color: #f69801;
-        --nav-color: #131313;
-        --search-color: #FF7901;
-        --nav-link-color: rgba(255, 255, 255, .5);
-        --link-color-visited: hsl(250, 100%, 60%);
-        --main-background-color: rgb(28, 28, 30);
-        --main-text-color: rgb(139, 139, 139);
-        --medium-text-color: hsl(0, 0%, 70%);
-        --underline-color: hsl(0, 0%, 50%);
-        --social-link-color: #ffffff;
-        --card-background-color: rgb(32, 32, 34);
-        --newsletter-background-color: #222324;
-        --button-background-color: #111;
-    }
+  /* Dark Mode */
+  html,
+  html[data-theme="dark"] {
+    --bold-color: rgb(188, 188, 188);
+    --box-background-color: hsl(160, 100%, 20%);
+    --highlight-color: hsl(160, 100%, 40%);
+    --light-border-color: hsl(160, 100%, 30%);
+    --light-text-color: rgb(199, 255, 204);
+    --link-color: hsl(160, 100%, 50%);
+    --nav-color: #131313;
+    --search-color: #b3e6b3; /* 파스텔 초록 */
+    --nav-link-color: rgba(255, 255, 255, .5);
+    --link-color-visited: hsl(160, 100%, 60%);
+    --main-background-color: rgb(28, 40, 30);
+    --main-text-color: rgb(139, 199, 139);
+    --medium-text-color: hsl(160, 100%, 50%);
+    --underline-color: hsl(160, 100%, 60%);
+    --social-link-color: #ccffcc;
+    --card-background-color: rgb(32, 48, 34);
+    --newsletter-background-color: #2e332f;
+    --button-background-color: #203520;
+  }
 
-    /* Light Mode */
-    html[data-theme="light"] {
-        --bold-color: rgb(0, 0, 0);
-        --box-background-color: rgb(249, 249, 250);
-        --highlight-color: hsl(0, 0%, 80%);
-        --light-border-color: rgb(230, 230, 230);
-        --light-text-color: rgb(72, 72, 74);
-        --link-color: #ca6521;
-        --nav-color: #ffffff;
-        --nav-link-color: #111111;
-        --search-color: #ababab;
-        --link-color-visited: hsl(250, 100%, 37%);
-        --main-background-color: rgb(255, 255, 255);
-        --main-text-color: rgb(51, 51, 51);
-        --medium-text-color: hsl(0, 0%, 20%);
-        --sidebar-color: hsl(0, 0%, 90%);
-        --underline-color: hsl(0, 0%, 60%);
-        --social-link-color: #262222;
-        --card-background-color: rgb(250, 250, 250);
-        --button-background-color: #fff;
-    }
+  /* Light Mode */
+  html[data-theme="light"] {
+    --bold-color: rgb(0, 51, 102);
+    --box-background-color: rgb(224, 240, 255);
+    --highlight-color: hsl(210, 100%, 85%);
+    --light-border-color: rgb(204, 229, 255);
+    --light-text-color: rgb(51, 102, 153);
+    --link-color: rgb(51, 153, 255);
+    --nav-color: #ffffff;
+    --nav-link-color: #111111;
+    --search-color: #99c2ff; /* 파스텔 블루 */
+    --link-color-visited: hsl(210, 100%, 60%);
+    --main-background-color: rgb(245, 248, 255);
+    --main-text-color: rgb(51, 102, 153);
+    --medium-text-color: hsl(210, 60%, 40%);
+    --sidebar-color: hsl(210, 100%, 90%);
+    --underline-color: hsl(210, 100%, 80%);
+    --social-link-color: #204060;
+    --card-background-color: rgb(240, 248, 255);
+    --button-background-color: #ffffff;
+  }
 }
+
 
 html,
 html[data-theme="dark"],
