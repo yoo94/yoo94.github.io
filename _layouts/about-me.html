@@ -31,7 +31,7 @@ layout: default
         <h1>Skills</h1>
 <!--        {%- include author_skills.html -%}-->
         <h2>Front</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; background: #bbbbbb">
           <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
           <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
           <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javaScript&logoColor=white">
@@ -87,11 +87,12 @@ layout: default
         {% for detail in education_details %}
         <div class="row education-detail" style="{% if forloop.index > 2 %} display: none; {% endif %}">
           <div class="col-md-10">
-            <h4 class="experience-title">{{detail.college_name }}</h4>
-            <h6 class="experience-info">{{detail.college_degree}}</h6>
-            <p class="experience-info">{{detail.description2}}</p>
-            <p class="experience-desc">{{detail.description}}</p>
-            <p>-------------------</p>
+            <h3>&#9632;</h3>
+            <h4 class="experience-title">&#127979;{{detail.college_name}}</h4>
+            <h6 class="experience-info">&#128197;{{detail.college_degree}}</h6>
+            <p class="experience-info">&#128221;{{detail.description2}}</p>
+            <p class="experience-desc">&#128221;{{detail.description}}</p>
+            <p>&#128539;</p>
           </div>
         </div>
         {% endfor %}
