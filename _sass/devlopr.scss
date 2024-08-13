@@ -1,96 +1,53 @@
-/* devlopr-jekyll styling */
-
 /* variables */
-$body-typeface:'Quicksand', sans-serif;
+$body-typeface: 'Quicksand', sans-serif;
 $nav-typeface: "Gill sans";
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
+/* First Palette: 밝고 생동감 있는 색상 */
+$bright-color-1: #FF6F61; /* Example of bright coral */
+$bright-color-2: #F7CAC9; /* Example of soft pink */
+$bright-color-3: #92A8D1; /* Example of pastel blue */
+$bright-color-4: #034F84; /* Example of deep blue */
+$bright-color-5: #88B04B; /* Example of green */
+$bright-color-6: #F0EAD6; /* Example of light beige */
+
 html[data-theme="dark"] {
-  --bold-color: rgb(188, 188, 188);
-  --box-background-color: hsl(160, 100%, 20%); /* 파스텔 초록 계열 */
-  --highlight-color: hsl(160, 100%, 40%); /* 파스텔 초록 계열 */
-  --light-border-color: hsl(160, 100%, 30%); /* 파스텔 초록 계열 */
-  --light-text-color: rgb(199, 255, 204); /* 밝은 파스텔 초록색 */
-  --link-color: hsl(160, 100%, 50%); /* 파스텔 초록 */
-  --link-color-visited: hsl(160, 100%, 60%);
-  --main-background-color: rgb(28, 40, 30); /* 어두운 초록색 배경 */
-  --main-text-color: rgb(139, 199, 139); /* 중간 밝기의 초록색 텍스트 */
-  --medium-text-color: hsl(160, 100%, 50%); /* 중간 밝기 초록색 */
-  --underline-color: hsl(160, 100%, 60%);
-  --social-link-color: #ccffcc; /* 파스텔 초록 */
-  --card-background-color: rgb(32, 48, 34); /* 어두운 초록색 카드 배경 */
-  --newsletter-background-color: #2e332f;
-  --button-background-color: #203520; /* 어두운 초록색 버튼 */
+  --bold-color: $bright-color-2;
+  --box-background-color: $bright-color-1;
+  --highlight-color: $bright-color-3;
+  --light-border-color: $bright-color-4;
+  --light-text-color: $bright-color-6;
+  --link-color: $bright-color-5;
+  --link-color-visited: lighten($bright-color-5, 10%);
+  --main-background-color: $bright-color-3;
+  --main-text-color: $bright-color-6;
+  --medium-text-color: $bright-color-4;
+  --underline-color: $bright-color-1;
+  --social-link-color: $bright-color-2;
+  --card-background-color: $bright-color-4;
+  --newsletter-background-color: $bright-color-3;
+  --button-background-color: $bright-color-5;
 }
 
 html,
 html[data-theme="light"] {
-  --bold-color: rgb(0, 51, 102); /* 진한 파스텔 블루 */
-  --box-background-color: rgb(224, 240, 255); /* 파스텔 블루 박스 배경 */
-  --highlight-color: hsl(210, 100%, 85%); /* 밝은 파스텔 블루 */
-  --light-border-color: rgb(204, 229, 255); /* 밝은 파스텔 블루 경계 */
-  --light-text-color: rgb(51, 102, 153); /* 중간 밝기 파스텔 블루 텍스트 */
-  --link-color: rgb(51, 153, 255); /* 파스텔 블루 링크 */
-  --link-color-visited: hsl(210, 100%, 60%);
-  --main-background-color: rgb(245, 248, 255); /* 아주 밝은 파스텔 블루 배경 */
-  --main-text-color: rgb(51, 102, 153); /* 중간 밝기 파스텔 블루 텍스트 */
-  --medium-text-color: hsl(210, 60%, 40%); /* 중간 밝기 파스텔 블루 */
-  --sidebar-color: hsl(210, 100%, 90%); /* 아주 밝은 파스텔 블루 사이드바 */
-  --underline-color: hsl(210, 100%, 80%);
-  --social-link-color: #204060; /* 어두운 파스텔 블루 */
-  --card-background-color: rgb(240, 248, 255); /* 밝은 파스텔 블루 카드 배경 */
-  --newsletter-background-color: #e0f0ff;
-  --button-background-color: #ffffff; /* 흰색 버튼 */
+  --bold-color: $bright-color-4;
+  --box-background-color: $bright-color-6;
+  --highlight-color: lighten($bright-color-1, 20%);
+  --light-border-color: lighten($bright-color-4, 30%);
+  --light-text-color: darken($bright-color-2, 15%);
+  --link-color: $bright-color-1;
+  --link-color-visited: darken($bright-color-1, 10%);
+  --main-background-color: $bright-color-6;
+  --main-text-color: $bright-color-4;
+  --medium-text-color: $bright-color-1;
+  --underline-color: $bright-color-5;
+  --social-link-color: $bright-color-3;
+  --card-background-color: $bright-color-6;
+  --newsletter-background-color: lighten($bright-color-2, 30%);
+  --button-background-color: $bright-color-1;
 }
-
-@media (prefers-color-scheme: dark) {
-  /* Dark Mode */
-  html,
-  html[data-theme="dark"] {
-    --bold-color: rgb(188, 188, 188);
-    --box-background-color: hsl(160, 100%, 20%);
-    --highlight-color: hsl(160, 100%, 40%);
-    --light-border-color: hsl(160, 100%, 30%);
-    --light-text-color: rgb(199, 255, 204);
-    --link-color: hsl(160, 100%, 50%);
-    --nav-color: #131313;
-    --search-color: #b3e6b3; /* 파스텔 초록 */
-    --nav-link-color: rgba(255, 255, 255, .5);
-    --link-color-visited: hsl(160, 100%, 60%);
-    --main-background-color: rgb(28, 40, 30);
-    --main-text-color: rgb(139, 199, 139);
-    --medium-text-color: hsl(160, 100%, 50%);
-    --underline-color: hsl(160, 100%, 60%);
-    --social-link-color: #ccffcc;
-    --card-background-color: rgb(32, 48, 34);
-    --newsletter-background-color: #2e332f;
-    --button-background-color: #203520;
-  }
-
-  /* Light Mode */
-  html[data-theme="light"] {
-    --bold-color: rgb(0, 51, 102);
-    --box-background-color: rgb(224, 240, 255);
-    --highlight-color: hsl(210, 100%, 85%);
-    --light-border-color: rgb(204, 229, 255);
-    --light-text-color: rgb(51, 102, 153);
-    --link-color: rgb(51, 153, 255);
-    --nav-color: #ffffff;
-    --nav-link-color: #111111;
-    --search-color: #99c2ff; /* 파스텔 블루 */
-    --link-color-visited: hsl(210, 100%, 60%);
-    --main-background-color: rgb(245, 248, 255);
-    --main-text-color: rgb(51, 102, 153);
-    --medium-text-color: hsl(210, 60%, 40%);
-    --sidebar-color: hsl(210, 100%, 90%);
-    --underline-color: hsl(210, 100%, 80%);
-    --social-link-color: #204060;
-    --card-background-color: rgb(240, 248, 255);
-    --button-background-color: #ffffff;
-  }
-}
-
 
 html,
 html[data-theme="dark"],
@@ -241,7 +198,7 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ff7601 !important;
+    color: #3640ff !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -317,7 +274,7 @@ header {
         width: 5%;
         cursor: pointer;
         text-align: center;
-        color: orange;
+        color: #3640ff;
 
       .icon {
         vertical-align: text-top;
@@ -325,7 +282,7 @@ header {
         fill: #fff;
 
         &:hover {
-          fill: orange;
+          fill: #3640ff;
           transform: rotate(90deg);
         }
       }
@@ -406,12 +363,12 @@ header {
         text-decoration: none;
         font-size: 25px;
         line-height: 25px;
-        color: orange !important;
+        color: #3640ff !important;
         text-decoration: none;
       }
 
       &__date {
-        color: orange;
+        color: #3640ff;
         font-size: 15px;
         line-height: 15px;
       }
@@ -654,7 +611,7 @@ header {
 }
 .article-card-link, .article-card-link:hover{
     text-decoration: none;
-    color: orange !important;
+    color: #3640ff !important;
 }
 .article-card{
     list-style-type: none;
