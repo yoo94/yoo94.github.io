@@ -43,46 +43,43 @@ html[data-theme="dark"] {
   }
 }
 /* 색상 정의 */
-$base-color: rgb(242, 252, 249);  /* #F2FCF9 */
-$main-color: rgb(175, 238, 238);  /* #AFEEEE */
-$accent-color: rgb(114, 193, 223);  /* #72C1DF */
 
 html,
 html[data-theme="light"] {
-  --bold-color: $accent-color; /* Accent color */
-  --box-background-color: $base-color; /* Base color */
-  --highlight-color: lighten($accent-color, 20%); /* Lightened accent color */
-  --light-border-color: lighten($accent-color, 30%); /* Lightened accent color further */
-  --light-text-color: darken($main-color, 15%); /* Darkened main color */
-  --link-color: $main-color; /* Main color */
-  --link-color-visited: darken($main-color, 10%); /* Darkened main color */
-  --main-background-color: $base-color; /* Base color */
-  --main-text-color: $accent-color; /* Accent color */
-  --medium-text-color: $main-color; /* Main color */
-  --underline-color: $accent-color; /* Accent color */
-  --social-link-color: lighten($accent-color, 10%); /* Lightened accent color */
-  --card-background-color: $base-color; /* Base color */
-  --newsletter-background-color: lighten($base-color, 30%); /* Lightened base color */
-  --button-background-color: $main-color; /* Main color */
+  --bold-color: rgb(114, 193, 223); /* Accent color */
+  --box-background-color: rgb(242, 252, 249); /* Base color */
+  --highlight-color: lighten(rgb(114, 193, 223), 20%); /* Lightened accent color */
+  --light-border-color: lighten(rgb(114, 193, 223), 30%); /* Lightened accent color further */
+  --light-text-color: darken(rgb(175, 238, 238), 15%); /* Darkened main color */
+  --link-color: rgb(175, 238, 238); /* Main color */
+  --link-color-visited: darken(rgb(175, 238, 238), 10%); /* Darkened main color */
+  --main-background-color: rgb(242, 252, 249); /* Base color */
+  --main-text-color: rgb(114, 193, 223); /* Accent color */
+  --medium-text-color: rgb(175, 238, 238); /* Main color */
+  --underline-color: rgb(114, 193, 223); /* Accent color */
+  --social-link-color: lighten(rgb(114, 193, 223), 10%); /* Lightened accent color */
+  --card-background-color: rgb(242, 252, 249); /* Base color */
+  --newsletter-background-color: lighten(rgb(242, 252, 249), 30%); /* Lightened base color */
+  --button-background-color: rgb(175, 238, 238); /* Main color */
 }
 
 @media (prefers-color-scheme: light) {
   html {
-    --bold-color: $accent-color; /* Accent color */
-    --box-background-color: $base-color; /* Base color */
-    --highlight-color: lighten($accent-color, 20%); /* Lightened accent color */
-    --light-border-color: lighten($accent-color, 30%); /* Lightened accent color further */
-    --light-text-color: darken($main-color, 15%); /* Darkened main color */
-    --link-color: $main-color; /* Main color */
-    --link-color-visited: darken($main-color, 10%); /* Darkened main color */
-    --main-background-color: $base-color; /* Base color */
-    --main-text-color: $accent-color; /* Accent color */
-    --medium-text-color: $main-color; /* Main color */
-    --underline-color: $accent-color; /* Accent color */
-    --social-link-color: lighten($accent-color, 10%); /* Lightened accent color */
-    --card-background-color: $base-color; /* Base color */
-    --newsletter-background-color: lighten($base-color, 30%); /* Lightened base color */
-    --button-background-color: $main-color; /* Main color */
+    --bold-color: rgb(114, 193, 223); /* Accent color */
+    --box-background-color: rgb(242, 252, 249); /* Base color */
+    --highlight-color: lighten(rgb(114, 193, 223), 20%); /* Lightened accent color */
+    --light-border-color: lighten(rgb(114, 193, 223), 30%); /* Lightened accent color further */
+    --light-text-color: darken(rgb(175, 238, 238), 15%); /* Darkened main color */
+    --link-color: rgb(175, 238, 238); /* Main color */
+    --link-color-visited: darken(rgb(175, 238, 238), 10%); /* Darkened main color */
+    --main-background-color: rgb(242, 252, 249); /* Base color */
+    --main-text-color: rgb(114, 193, 223); /* Accent color */
+    --medium-text-color: rgb(175, 238, 238); /* Main color */
+    --underline-color: rgb(114, 193, 223); /* Accent color */
+    --social-link-color: lighten(rgb(114, 193, 223), 10%); /* Lightened accent color */
+    --card-background-color: rgb(242, 252, 249); /* Base color */
+    --newsletter-background-color: lighten(rgb(242, 252, 249), 30%); /* Lightened base color */
+    --button-background-color: rgb(175, 238, 238); /* Main color */
   }
 }
 html,
