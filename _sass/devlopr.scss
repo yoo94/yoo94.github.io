@@ -42,50 +42,47 @@ html[data-theme="dark"] {
     --button-background-color: #2a2a40; /* 어두운 퍼플색 버튼 */
   }
 }
-
-$bright-color-1: #FF6F61; /* Example of bright coral */
-$bright-color-2: #F7CAC9; /* Example of soft pink */
-$bright-color-3: #92A8D1; /* Example of pastel blue */
-$bright-color-4: #034F84; /* Example of deep blue */
-$bright-color-5: #88B04B; /* Example of green */
-$bright-color-6: #F0EAD6; /* Example of light beige */
+/* 색상 정의 */
+$base-color: rgb(242, 252, 249);  /* #F2FCF9 */
+$main-color: rgb(175, 238, 238);  /* #AFEEEE */
+$accent-color: rgb(114, 193, 223);  /* #72C1DF */
 
 html,
 html[data-theme="light"] {
-  --bold-color: $bright-color-4; /* Deep blue */
-  --box-background-color: $bright-color-6; /* Light beige */
-  --highlight-color: lighten($bright-color-1, 20%); /* Light coral */
-  --light-border-color: lighten($bright-color-4, 30%); /* Lightened deep blue */
-  --light-text-color: darken($bright-color-2, 15%); /* Darkened soft pink */
-  --link-color: $bright-color-1; /* Bright coral */
-  --link-color-visited: darken($bright-color-1, 10%); /* Darkened bright coral */
-  --main-background-color: $bright-color-6; /* Light beige */
-  --main-text-color: $bright-color-4; /* Deep blue */
-  --medium-text-color: $bright-color-1; /* Bright coral */
-  --underline-color: $bright-color-5; /* Green */
-  --social-link-color: $bright-color-3; /* Pastel blue */
-  --card-background-color: $bright-color-6; /* Light beige */
-  --newsletter-background-color: lighten($bright-color-2, 30%); /* Lightened soft pink */
-  --button-background-color: $bright-color-1; /* Bright coral */
+  --bold-color: $accent-color; /* Accent color */
+  --box-background-color: $base-color; /* Base color */
+  --highlight-color: lighten($accent-color, 20%); /* Lightened accent color */
+  --light-border-color: lighten($accent-color, 30%); /* Lightened accent color further */
+  --light-text-color: darken($main-color, 15%); /* Darkened main color */
+  --link-color: $main-color; /* Main color */
+  --link-color-visited: darken($main-color, 10%); /* Darkened main color */
+  --main-background-color: $base-color; /* Base color */
+  --main-text-color: $accent-color; /* Accent color */
+  --medium-text-color: $main-color; /* Main color */
+  --underline-color: $accent-color; /* Accent color */
+  --social-link-color: lighten($accent-color, 10%); /* Lightened accent color */
+  --card-background-color: $base-color; /* Base color */
+  --newsletter-background-color: lighten($base-color, 30%); /* Lightened base color */
+  --button-background-color: $main-color; /* Main color */
 }
 
 @media (prefers-color-scheme: light) {
   html {
-    --bold-color: $bright-color-4; /* Deep blue */
-    --box-background-color: $bright-color-6; /* Light beige */
-    --highlight-color: lighten($bright-color-1, 20%); /* Light coral */
-    --light-border-color: lighten($bright-color-4, 30%); /* Lightened deep blue */
-    --light-text-color: darken($bright-color-2, 15%); /* Darkened soft pink */
-    --link-color: $bright-color-1; /* Bright coral */
-    --link-color-visited: darken($bright-color-1, 10%); /* Darkened bright coral */
-    --main-background-color: $bright-color-6; /* Light beige */
-    --main-text-color: $bright-color-4; /* Deep blue */
-    --medium-text-color: $bright-color-1; /* Bright coral */
-    --underline-color: $bright-color-5; /* Green */
-    --social-link-color: $bright-color-3; /* Pastel blue */
-    --card-background-color: $bright-color-6; /* Light beige */
-    --newsletter-background-color: lighten($bright-color-2, 30%); /* Lightened soft pink */
-    --button-background-color: $bright-color-1; /* Bright coral */
+    --bold-color: $accent-color; /* Accent color */
+    --box-background-color: $base-color; /* Base color */
+    --highlight-color: lighten($accent-color, 20%); /* Lightened accent color */
+    --light-border-color: lighten($accent-color, 30%); /* Lightened accent color further */
+    --light-text-color: darken($main-color, 15%); /* Darkened main color */
+    --link-color: $main-color; /* Main color */
+    --link-color-visited: darken($main-color, 10%); /* Darkened main color */
+    --main-background-color: $base-color; /* Base color */
+    --main-text-color: $accent-color; /* Accent color */
+    --medium-text-color: $main-color; /* Main color */
+    --underline-color: $accent-color; /* Accent color */
+    --social-link-color: lighten($accent-color, 10%); /* Lightened accent color */
+    --card-background-color: $base-color; /* Base color */
+    --newsletter-background-color: lighten($base-color, 30%); /* Lightened base color */
+    --button-background-color: $main-color; /* Main color */
   }
 }
 html,
