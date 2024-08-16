@@ -12,6 +12,8 @@ urls:
     url: /blog
   - text: "&#128400; About"
     url: /about
+  - text: "&#128211; GuestBook"
+    url: /guestBook
 
 seo:
   type: "website"
