@@ -4,7 +4,7 @@ title:  "CRA 없이 react+types"
 summary: "react + typeScript 프로젝트 만들기"
 author: yoo94
 date: '2024-07-01 14:35:23 +0530'
-category: ['react','typeScript']
+category: ['myconfused','react','typeScript']
 tags: react
 thumbnail: 
 permalink: blog/react-typeScript-setting/
