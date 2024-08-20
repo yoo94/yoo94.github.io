@@ -1,14 +1,19 @@
 ---
 layout: post
 title:  "react hook useCallback "
-summary: "불 필요한 함수 재생성 방지"
+summary: "최적화:불필요한 함수 재생성 방지"
 author: yoo94
 date: '2024-03-07 04:35:23 +0530'
-category: react
+category: ['react','reactHook']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useCallback/
 ---
+### 함수 자체를 메모리에 저장하여, 의존성 배열의 값이 변경될때만 함수를 다시 생성한다.
+### 특히 자식 컴포넌트에 props로 함수를 전달할 때 불필요한 리렌더링을 방지하는데 유용하다. 
+
+* useMemo는 값을 저장 이건 함수를 저장
+
 ###### 언제 사용?  : Memoization된 콜백을 반환할때
 
 즉

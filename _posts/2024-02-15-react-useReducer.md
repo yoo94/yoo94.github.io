@@ -4,11 +4,15 @@ title:  "react hook useReducer"
 summary: "같은 state를 변화 시키는데, 여러 함수가 여기저기 선언되어 있을 때 묶음으로 만들기 위해 사용"
 author: yoo94
 date: '2024-02-15 12:35:23 +0530'
-category: react
+category: ['react','reactHook']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useReducer/
 ---
+
+### 조금 더 선언적인 데이터 상태변화를 표현하고 싶을 때.
+- action과 state를 분리하여 상태 관리를 좀 더 직관적이고 관리하기 쉽게 만들 수 있다.
+
 <img src="/blog/postImg/Pasted image 20240506161949.png" alt="Pasted image 20240506161949.png" style="max-width:100%;">
 <img src="/blog/postImg/Pasted image 20240506162047.png" alt="Pasted image 20240506162047.png" style="max-width:100%;">
 <img src="/blog/postImg/Pasted image 20240506162035.png" alt="Pasted image 20240506162035.png" style="max-width:100%;">

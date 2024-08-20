@@ -1,14 +1,18 @@
 ---
 layout: post
-title:  "react context"
-summary: "프롭스 드릴링 방지"
+title:  "react useContext"
+summary: "프롭스 드릴링 방지 -> 전역으로"
 author: yoo94
 date: '2024-03-23 08:35:23 +0530'
-category: react
+category: ['react','reactHook']
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-context/
 ---
+### 전역으로 데이터를 관리하고 싶을떄
+- 컴포넌트는 ui 단위이며 재사용을 위해 외부에서 데이터를 전달 받기위해서는 Props를 사용하는데,
+- 너무 많아지면 가독성이 떨어지게 된다.
+
 
 <img src="/blog/postImg/Pasted image 20240506180849.png" alt="Pasted image 20240506180849.png" style="max-width:100%;">
 <img src="/blog/postImg/Pasted image 20240506180941.png" alt="Pasted image 20240506180941.png" style="max-width:100%;">
