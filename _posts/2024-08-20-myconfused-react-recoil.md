@@ -5,7 +5,7 @@ summary: "컴포넌트간 데이터 공유를 위해 만들어진 bottom-up 상�
 author: yoo94
 date: '2024-08-20 13:35:23 +0530'
 category: ['react','myconfused','reactStateMangement']
-tags: react,redux
+tags: react,recoil
 thumbnail: 
 permalink: blog/react-recoil/
 ---
