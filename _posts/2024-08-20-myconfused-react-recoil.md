@@ -18,9 +18,11 @@ permalink: blog/react-recoil/
 - 호환성과 유연성
 
 ### 핵심 개념 Atoms : useState를 전역변수화 하자
+
 1. Atoms : useState의 글로벌 버전, 외부에서 정의하여 앱 전체에서 공유되는 상태 단위이다. 업데이트 시 해당 atom을 구독하는 모든
 컴포넌트가 새로운 값을 반영하여 리렌더링 된다.
-2. Selectors : redux의 selecor와 유사, 기존 atom 값들로 부터 파생된 값을 선언하며, 원본 atom값이 변경 될때마다 자동으로 반응하여
+2. 
+3. Selectors : redux의 selecor와 유사, 기존 atom 값들로 부터 파생된 값을 선언하며, 원본 atom값이 변경 될때마다 자동으로 반응하여
 업데이트된다. 변환과 파생데이터 관리를 가능하게함
 
 ```shell
