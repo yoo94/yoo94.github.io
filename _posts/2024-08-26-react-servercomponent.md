@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "react의 servercomponent"
+title:  "react의 servercomponent 및 page 이동"
 summary: "servercomponent"
 author: yoo94
 date: '2024-08-24 13:35:23 +0530'
@@ -51,3 +51,14 @@ hidration을 위해 한번더 실행되고 있었다.
 
 4. 서버컴포넌트에서 클라이언트 컴포넌트에게 직렬화 되지않는 프롭스는 전달이 불가능하다.
 - 서버컴포넌트는 브라우저로부터 요청받아서 사전렌더링 할 때, 클라이언트컴포넌트와 함께 실행이 된다.
+
+### page 이동
+
+<img src="/blog/postImg/serverComponent4.png" alt="serverComponent3.png.png" style="max-width:100%;">
+
+페이지 이동은 요청이 들어오면, 클라이언트와 서버 컴포넌트가 둘다 실행이되고 
+
+클라이언트는 js bundle, 서버는 RSC payload를 만들어서 js 번들에 담아서 주게되고
+
+그렇게 받은 것을 실행하여 페이지를 교체하게 된다.
+
