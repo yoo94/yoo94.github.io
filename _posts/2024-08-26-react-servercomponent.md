@@ -35,3 +35,19 @@ hidration을 위해 한번더 실행되고 있었다.
 #### 그래서 어떤게 클라이언트 어떤게 서버 컴포넌트로 만들어야할까
 
 간단하게 상호작용 여부로 판단하면 된다.
+
+#### 주의사항
+
+<img src="/blog/postImg/serverComponent2.png" alt="serverComponent2.png.png" style="max-width:100%;">
+
+1. 서버 컴포넌트에서는 브라우저와 관련된 이벤트핸들러, usehooks는 사용할 수 없다.
+
+2. 클라이언트 컴포넌트는 클라이언트에서만 실행되지 않는다.
+
+<img src="/blog/postImg/serverComponent3.png" alt="serverComponent3.png.png" style="max-width:100%;">
+
+3. 클라이언트 컴포넌트에서 서버 컴포넌트를 import 할 수 없다.
+- 위 그림과 같이 클라이언트와 서버 컴포넌트 코득 둘다 존재하기 때문에 반대는 가능하지만 3번은 불가능하다.
+
+4. 서버컴포넌트에서 클라이언트 컴포넌트에게 직렬화 되지않는 프롭스는 전달이 불가능하다.
+- 서버컴포넌트는 브라우저로부터 요청받아서 사전렌더링 할 때, 클라이언트컴포넌트와 함께 실행이 된다.
