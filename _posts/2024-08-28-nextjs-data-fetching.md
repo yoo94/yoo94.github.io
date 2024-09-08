@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "next Js : app 라우터의 data fetching 데이터 페칭과 캐싱"
+title:  "next app 라우터의 data fetching,caching,memo"
 summary: "사전렌더링 과정 진행"
 author: yoo94
 date: '2024-08-28 13:35:23 +0530'
@@ -34,6 +34,8 @@ permalink: blog/next-data-fetching/
 
 즉, 데이터가 필요한 컴포넌트가 있다면, 직접 호출해서 사용하는것이 원칙이 된 것이고
 ### 무려 next 공식문서에도 직접 호출을 권장한다.
+
+---
 
 # 캐싱
 
@@ -72,3 +74,24 @@ const response = await fetch('~/api',{next:{tags : ['a']}})
 
 ```
 요청이 들어왔을 때 데이터를 최신화함, on-demand Revalidate
+
+---
+
+## request 메모제이션
+
+캐시와는 완전 다르다.
+메모제이션은 하나의 페이지를 렌더링하는 동안에만 존재하는 캐시라고 생각하면된다.
+즉, 렌더링 과정이 다 끝나면 소멸되어 캐시처럼 다음요청에 응답하지 않고
+다시한번 서버로 요청을 하게된다.
+
+그렇다면 이걸 굳이 왜 사용할까?
+
+#### 서버컴포넌트가 도입되었기 때문이다.
+
+이 옵션은 next에서 자동실행된다.
+
+예를들어 같은 page.tsx에서 
+first.tsx second.tsx 둘다 
+특정 데이터가 필요해서 권장사항에 맞게 같은 api를 두곳에서 호출해도
+실제로는 1번만 호출하게 해주는것이다.
+렌더링 이후에는 소멸하여 새로고침하면 다시 호출된다.
