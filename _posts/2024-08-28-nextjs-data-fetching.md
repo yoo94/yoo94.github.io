@@ -9,7 +9,8 @@ tags: react,nextJs
 thumbnail: 
 permalink: blog/next-data-fetching/
 ---
-#페칭
+
+# 페칭
 
 ## 페이지 라우터에서는 서버측에서만 실행되는 아래와같은 함수들을 이용했다. 
 
