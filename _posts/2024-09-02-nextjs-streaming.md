@@ -27,3 +27,11 @@ Loading 할때 보여줄 컴포넌트를 만들면 자동 설정 된다.
 
 ## 페이지 말고 그냥 일반 컴포넌트에서도 스트리밍 하고싶다면?
 ### suspense를 사용하면 된다.
+
+이런 suspense는 스켈레톤 ui와 함께 사용하면 참 좋다.
+
+<img src="/blog/postImg/next-streaming.png" alt="next-streaming.png" style="max-width:100%;">
+
+위 이미지처럼 뭔가 불러올때 스켈레톤 ui를 적용해주면 된다.
+
+react-loading-skeleton 이라는 npm 라이브러리도 좋다고한다.
