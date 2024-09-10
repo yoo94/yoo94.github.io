@@ -2,7 +2,7 @@
 layout: post title:  "next server-action "
 summary: "next의 강력한 기능"
 author: yoo94 date: '2024-09-04 13:35:23 +0530' category: ['nextJs','react']
-tags: react,nextJs thumbnail:
+tags: react,nextJs
 permalink: blog/next-server-action/
 ---
 
@@ -121,7 +121,7 @@ async function getList() {
     try {
         const response = await fetch(`${process.env.NEXT_PUBLIC_API_SERVER_URL}/getList`, 
         {next:{tags:[`${bookid}`]}})
-    } catch (e) {
+    } catch (e) {  
 
     }
 }
