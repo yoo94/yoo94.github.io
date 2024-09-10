@@ -10,7 +10,7 @@ thumbnail:
 permalink: blog/nextJs-layout/
 ---
 
-## css 스타일링
+## css 스타일링 
 nextjs에서는 css파일을 import해주지 않는다 컴포넌트끼리 겹칠 수 도 있기 때무니다.
 그래서 기본으로 css모듈을 제공한다.
 index.css -> index.module.css 로 이름을 바꿔서 import하게되면 
