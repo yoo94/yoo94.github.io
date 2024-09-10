@@ -496,23 +496,21 @@ header {
 
 
 /* pagination */
-.pagination-link{
-    padding:10%;
-    background-color: var(--card-background-color);
-    text-decoration: none;
-}
 .pagination-link a:hover{
     background-color: var(--main-background-color);
     text-decoration: none;
 }
 .pagination {
-    display: -ms-flexbox;
-    display: flex;
-    padding-left: 0;
-    list-style: none;
-    border-radius: .25rem;
-    margin-left: 20px !important;
+  display: flex; /* 항목을 한 줄로 배치 */
+  justify-content: center; /* 가운데 정렬 */
+  list-style: none; /* 기본 리스트 스타일 제거 */
+  padding: 0; /* 패딩 제거 */
 }
+
+.pagination-link {
+  margin: 0 5px; /* 링크 사이 간격 조정 */
+}
+
 
 .jumbotron-heading{
     font-size: 35px;
