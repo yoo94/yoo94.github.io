@@ -2,7 +2,9 @@
 layout: post 
 title:  "next intercepting"
 summary: "next intercepting 라우팅"
-author: yoo94 date: '2024-09-07 13:35:23 +0530' category: ['nextJs','react']
+author: yoo94 
+date: '2024-09-07 13:35:23 +0530' 
+category: ['nextJs','react']
 tags: react,nextJs
 permalink: blog/next-intercepting-Routes/
 ---
