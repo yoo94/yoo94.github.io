@@ -4,7 +4,7 @@ title:  "js, java 파일 압축해서 zip 다운 받기"
 summary: "zip 다운"
 author: yoo94
 date: '2024-07-09 12:35:23 +0530'
-category: ['inner circle']
+category: ['javaScript']
 tags: webpack
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/jsZip/
@@ -57,7 +57,8 @@ $file.getFileAllDownload = function () {
 
 
 나같은 경우는 회사에 fileData들을 가져오는 api가 있기 때문에 그 부분은 생략했다.
-```java
+
+```text
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
     @RequestMapping("/file/allDownload")
