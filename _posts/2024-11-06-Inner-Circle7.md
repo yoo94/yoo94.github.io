@@ -3,7 +3,7 @@ layout: post
 title: "패스트 캠퍼스 inner circle 1기 마지막 후기"
 summary: "도비는 자유에요 "
 author: yoo94
-date: '2024-11-06 09:32:23 +0530'
+date: '2024-11-12 18:32:23 +0530'
 category: ['inner-Circle']
 tags:
   - 패스트캠퍼스
