@@ -20,7 +20,7 @@ tags:
   - 패스트캠퍼스 이너서클
   - inner circle
 thumbnail: 
-permalink: blog/InnerCircle05/
+permalink: blog/InnerCircle-last/
 ---
 
 ##### 마지막 후기는 담백하게 쓰겠습니다. 많은 분들이 보고계셔서 ㅎㅎ...
