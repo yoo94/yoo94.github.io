@@ -25,8 +25,7 @@ permalink: blog/InnerCircle-last/
 
 ##### 마지막 후기는 담백하게 쓰겠습니다. 많은 분들이 보고계셔서 ㅎㅎ...
 
-![img.png](../blog/postImg/free.png)
-<img src="/blog/postImg/free.png.png" alt="Pasted image free.png.png" style="max-width:100%;">
+<img src="/blog/postImg/free.png" alt="Pasted image free.png" style="max-width:100%;">
 
 먼저 4개월 간의 이너써클 과정이 끝났다!!! 
 부족한 저와 같이 프로젝트를 해주신 5,6조 프론트 백 여러분들 정말 고생 많으셨습니다.
@@ -44,16 +43,21 @@ permalink: blog/InnerCircle-last/
 실보다는 득이 많은 과정이라고 생각한다. 
 
 득 1. 좋은 리더님과 멘토님과의 인연 : 김태곤리더님과 멘토님 (익명보장.. ㅋ_ㅋ) 감사드립니다. 
+
 득 2. 좋은 개발자님들과의 인연
+
 득 3. 포트폴리오와 이력서에 한줄이라도 더 쓸수 있음 : 실제로 면접을 다니면 꼭 이 과정에대해 물어보고 열심히 산다고 긍정적으로 봤음
+
 득 4. 갓생사는거같은 나를 보게됨.. : 사실 출첵만하고 참여를 못한적도 있긴한데, 확실히 공부를 하게됐음
 
 실 1. 나 놀 시간 없음...
+
 실 2. 1기라 그런지 과정에서 미숙하다고 느낀 부분들이 있었음. 물론 다 얘기했고 2기부터는 고쳐지지 않을까?
 
 ---
 
 ### 우수 수료생
+
 
 ##### front - 최우수 향기님 <a href="https://github.com/2scent"> 향기님 git </a>, 우수 단비님 <a href="https://github.com/dvlpDana"> 단비님 git </a>
 
@@ -65,6 +69,7 @@ permalink: blog/InnerCircle-last/
 주소도 같이 써놓으니 꼭 가서 보세요.
 
 
+---
 
 ### 뒤풀이
 
@@ -75,7 +80,7 @@ permalink: blog/InnerCircle-last/
 가장 좋다.
 
 
-
+---
 
 ### 이너써클과정 신청을 고민한다면 
 
