@@ -51,7 +51,9 @@ const posts = await fetchPosts(); // 데이터 가져오기 함수
     return {
         props: {
         posts,
-    },
+        },
+        //isr을 사용하고 싶으면 5초마다 서버로 새 데이터를 요청함
+        revalidate:5
 };
 }
 ```
