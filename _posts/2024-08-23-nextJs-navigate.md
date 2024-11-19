@@ -14,15 +14,38 @@ permalink: blog/nextJs-navigate-pre-fetching/
 원래는 a태그를 사용하는데 이 태그는 서버로부터 요청하는 방식으로 프로세스가 잡혀있다.
 그래서 Link라는 컴포넌트를 사용하여 csr을 구현한다.
 
+- Viewport 안에 있는 모든 <Link /> 태그는 Static Generation을 사용하는 페이지에서 prefetching 됨.
+
+- 서버에서 렌더링 된 경로에 대한 데이터는 <Link />를 클릭했을 경우에만 가져옴.
+
 ```tsx
 import Link from 'next/link';
 
-<Link href={'/'}>  이동 </Link>
+function Home() {
+    return (
+        <ul>
+            <li>
+                <Link href="/">Home</Link>
+            </li>
+            <li>
+                <Link href="/about">About Us</Link>
+            </li>
+            <li>
+                <Link href="/blog/hello-world">Blog Post</Link>
+            </li>
+        </ul>
+    );
+}
+
+export default Home;
+
 
 ```
+---
 
-## programmatic navigation
+## programmatic navigation - useRouter
 - 이 말은 사용자가 링크를 클릭했을때만 이동하는게 아니라 
+
 - 특정 함수나 이벤트가 발생했을때 조건이 만족했을때 이동하는 방식이다.
 
 ```tsx
@@ -34,6 +57,12 @@ const gogoButton = () => {
 <Button onClick={gogoButton}>  이동 </Button>
 
 ```
+- router.push: 새로운 경로로 이동. (히스토리 쌓임)
+- router.replace: 현재 URL 대체.
+- router.back: 뒤로 가기.
+- router.reload: 새로고침.
+
+---
 
 ## pre-fetching 
 현재 사용자가 보고있는 페이지를 미리 불러오는것을 말한다.
