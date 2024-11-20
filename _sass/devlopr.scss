@@ -1174,7 +1174,15 @@ footer {
      transform-origin: 53px 10px;
      animation: moon .7s forwards ease;
  }
-
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
  @keyframes moon {
      0% {
          transform: rotate(0deg);
