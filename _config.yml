@@ -10,8 +10,8 @@ urls:
     url: /
   - text: "&#128203; Blog"
     url: /blog
-  - text: "&#128400; About"
-    url: /about
+ # - text: "&#128400; About"
+ #   url: /about
   - text: "&#127950; projects"
     url: /projects
   - text: "&#128211; GuestBook"
