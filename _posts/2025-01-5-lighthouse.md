@@ -4,7 +4,7 @@ title: "프론트엔드 최적화 1. lighthouse "
 summary: "lighthouse 패널을 사용하자"
 author: yoo94
 date: '2024-12-27 10:32:23 +0530'
-category: ['optimize']
+category: ['FEoptimize']
 tags:
   - lighthouse
   - 프론트엔드
