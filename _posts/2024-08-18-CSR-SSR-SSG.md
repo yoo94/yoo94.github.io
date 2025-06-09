@@ -4,7 +4,7 @@ title:  "CSR-SSR-SSG"
 summary: "렌더링"
 author: yoo94
 date: '2024-08-18 13:35:23 +0530'
-category: ['react','myconfused','reactStateMangement']
+category: ['react','myconfused','reactStatetool']
 tags: react,react-query
 thumbnail: 
 permalink: blog/csr-ssr-ssg/

@@ -4,7 +4,7 @@ title:  "react recoil이란? 사용방법은?"
 summary: "컴포넌트간 데이터 공유를 위해 만들어진 bottom-up 상태관리"
 author: yoo94
 date: '2024-08-20 13:35:23 +0530'
-category: ['react','myconfused','reactStateMangement']
+category: ['react','myconfused','reactStatetool']
 tags: react,recoil
 thumbnail: 
 permalink: blog/react-recoil/

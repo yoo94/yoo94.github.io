@@ -4,7 +4,7 @@ title:  "react redux를 쓰는이유"
 summary: ""
 author: yoo94
 date: '2023-08-11 11:35:23 +0530'
-category: ['react','myconfused','reactStateMangement']
+category: ['react','myconfused','reactStatetool']
 tags: react,redux
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/myconfused-react-redux/

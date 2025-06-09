@@ -1,14 +1,14 @@
 ---
 layout: page
 title: websecurity
-permalink: blog/categories/reactStateMangement/
+permalink: blog/categories/reactStatetool/
 ---
 
 <h5>Posts by Category: {{ page.title }}</h5>
 
 <div class="card">
-  {% for post in site.categories.reactStateMangement %}
-    {% if post.categories contains "reactStateMangement" %}
+  {% for post in site.categories.reactStatetool %}
+    {% if post.categories contains "reactStatetool" %}
       <li class="category-posts">
         <span>{{ post.date | date_to_string }}</span>
         &nbsp;
