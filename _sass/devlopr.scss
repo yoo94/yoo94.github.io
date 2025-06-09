@@ -8,79 +8,79 @@ $mono-typeface: Menlo, Monaco, monospace;
 
 
 html[data-theme="dark"] {
-  --bold-color: rgb(220, 220, 220);
-  --box-background-color: hsl(240, 25%, 15%);
-  --highlight-color: hsl(240, 40%, 50%);
-  --light-border-color: hsl(240, 30%, 25%);
-  --light-text-color: rgb(230, 230, 255);
-  --link-color: hsl(220, 60%, 70%);
-  --link-color-visited: hsl(220, 50%, 60%);
-  --main-background-color: rgb(15, 15, 30);
-  --main-text-color: rgb(200, 200, 255);
-  --medium-text-color: hsl(220, 50%, 70%);
-  --underline-color: hsl(220, 60%, 60%);
-  --social-link-color: #8ea4ff;
-  --card-background-color: rgb(35, 35, 55);
-  --newsletter-background-color: #444466;
-  --button-background-color: #28284a;
+  --bold-color: rgb(200, 200, 200); /* Neutral light gray */
+  --box-background-color: hsl(220, 15%, 15%); /* Dark neutral gray */
+  --highlight-color: hsl(220, 50%, 50%); /* Vibrant blue */
+  --light-border-color: hsl(220, 20%, 25%); /* Subtle border gray */
+  --light-text-color: rgb(220, 220, 240); /* Soft light gray */
+  --link-color: hsl(220, 70%, 60%); /* Bright blue */
+  --link-color-visited: hsl(220, 60%, 50%);
+  --main-background-color: rgb(15, 15, 25); /* Deep dark gray */
+  --main-text-color: rgb(200, 200, 230); /* Soft light blue-gray */
+  --medium-text-color: hsl(220, 40%, 70%); /* Muted blue-gray */
+  --underline-color: hsl(220, 60%, 50%);
+  --social-link-color: hsl(220, 60%, 70%); /* Soft blue */
+  --card-background-color: rgb(30, 30, 45); /* Dark gray for cards */
+  --newsletter-background-color: hsl(220, 20%, 20%);
+  --button-background-color: hsl(220, 25%, 30%); /* Neutral dark button */
 }
 @media (prefers-color-scheme: dark) {
   html[data-theme="dark"] {
-    --bold-color: rgb(220, 220, 220);
-    --box-background-color: hsl(240, 25%, 15%);
-    --highlight-color: hsl(240, 40%, 50%);
-    --light-border-color: hsl(240, 30%, 25%);
-    --light-text-color: rgb(230, 230, 255);
-    --link-color: hsl(220, 60%, 70%);
-    --link-color-visited: hsl(220, 50%, 60%);
-    --main-background-color: rgb(15, 15, 30);
-    --main-text-color: rgb(200, 200, 255);
-    --medium-text-color: hsl(220, 50%, 70%);
-    --underline-color: hsl(220, 60%, 60%);
-    --social-link-color: #8ea4ff;
-    --card-background-color: rgb(35, 35, 55);
-    --newsletter-background-color: #444466;
-    --button-background-color: #28284a;
+    --bold-color: rgb(200, 200, 200); /* Neutral light gray */
+    --box-background-color: hsl(220, 15%, 15%); /* Dark neutral gray */
+    --highlight-color: hsl(220, 50%, 50%); /* Vibrant blue */
+    --light-border-color: hsl(220, 20%, 25%); /* Subtle border gray */
+    --light-text-color: rgb(220, 220, 240); /* Soft light gray */
+    --link-color: hsl(220, 70%, 60%); /* Bright blue */
+    --link-color-visited: hsl(220, 60%, 50%);
+    --main-background-color: rgb(15, 15, 25); /* Deep dark gray */
+    --main-text-color: rgb(200, 200, 230); /* Soft light blue-gray */
+    --medium-text-color: hsl(220, 40%, 70%); /* Muted blue-gray */
+    --underline-color: hsl(220, 60%, 50%);
+    --social-link-color: hsl(220, 60%, 70%); /* Soft blue */
+    --card-background-color: rgb(30, 30, 45); /* Dark gray for cards */
+    --newsletter-background-color: hsl(220, 20%, 20%);
+    --button-background-color: hsl(220, 25%, 30%); /* Neutral dark button */
   }
 }
 /* 색상 정의 */
 
 html,
 html[data-theme="light"] {
-  --bold-color: rgb(60, 70, 90);
-  --box-background-color: rgb(245, 250, 255);
-  --highlight-color: rgb(120, 140, 200);
-  --light-border-color: rgb(180, 190, 220);
-  --light-text-color: rgb(40, 50, 80);
-  --link-color: rgb(90, 140, 180);
-  --link-color-visited: rgb(80, 130, 170);
-  --main-background-color: rgb(250, 252, 255);
-  --main-text-color: rgb(50, 60, 90);
-  --medium-text-color: rgb(120, 140, 200);
-  --underline-color: rgb(80, 100, 150);
-  --social-link-color: rgb(110, 130, 200);
-  --card-background-color: rgb(240, 245, 250);
-  --newsletter-background-color: rgb(220, 230, 250);
-  --button-background-color: rgb(140, 180, 220);
+  --bold-color: rgb(50, 50, 70); /* Neutral dark gray */
+  --box-background-color: rgb(245, 245, 250); /* Soft light gray */
+  --highlight-color: hsl(220, 60%, 70%); /* Bright blue */
+  --light-border-color: hsl(220, 40%, 85%); /* Subtle light border */
+  --light-text-color: hsl(220, 20%, 40%); /* Muted dark gray */
+  --link-color: hsl(220, 70%, 50%); /* Vibrant blue */
+  --link-color-visited: hsl(220, 60%, 40%);
+  --main-background-color: rgb(255, 255, 255); /* Clean white */
+  --main-text-color: rgb(50, 50, 70); /* Neutral dark gray */
+  --medium-text-color: hsl(220, 40%, 50%); /* Muted blue-gray */
+  --underline-color: hsl(220, 60%, 50%);
+  --social-link-color: hsl(220, 60%, 60%); /* Soft blue */
+  --card-background-color: rgb(245, 245, 250); /* Light gray for cards */
+  --newsletter-background-color: hsl(220, 80%, 95%);
+  --button-background-color: hsl(220, 50%, 80%); /* Light blue button */
 }
 
 @media (prefers-color-scheme: light) {
   html {
-    --bold-color: rgb(60, 70, 90);
-    --box-background-color: rgb(245, 250, 255);
-    --highlight-color: rgb(120, 140, 200);
-    --light-border-color: rgb(180, 190, 220);
-    --light-text-color: rgb(40, 50, 80);
-    --link-color: rgb(90, 140, 180);
-    --link-color-visited: rgb(80, 130, 170);
-    --main-background-color: rgb(250, 252, 255);
-    --main-text-color: rgb(50, 60, 90);
-    --medium-text-color: rgb(120, 140, 200);
-    --underline-color: rgb(80, 100, 150);
-    --social-link-color: rgb(110, 130, 200);
-    --card-background-color: rgb(240, 245, 250);
-    --newsletter-background-color: rgb(220, 230, 250);
-    --button-background-color: rgb(140, 180, 220);
+    --bold-color: rgb(50, 50, 70); /* Neutral dark gray */
+    --box-background-color: rgb(245, 245, 250); /* Soft light gray */
+    --highlight-color: hsl(220, 60%, 70%); /* Bright blue */
+    --light-border-color: hsl(220, 40%, 85%); /* Subtle light border */
+    --light-text-color: hsl(220, 20%, 40%); /* Muted dark gray */
+    --link-color: hsl(220, 70%, 50%); /* Vibrant blue */
+    --link-color-visited: hsl(220, 60%, 40%);
+    --main-background-color: rgb(255, 255, 255); /* Clean white */
+    --main-text-color: rgb(50, 50, 70); /* Neutral dark gray */
+    --medium-text-color: hsl(220, 40%, 50%); /* Muted blue-gray */
+    --underline-color: hsl(220, 60%, 50%);
+    --social-link-color: hsl(220, 60%, 60%); /* Soft blue */
+    --card-background-color: rgb(245, 245, 250); /* Light gray for cards */
+    --newsletter-background-color: hsl(220, 80%, 95%);
+    --button-background-color: hsl(220, 50%, 80%); /* Light blue button */
   }
 }
 html,
