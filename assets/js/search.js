@@ -28,10 +28,6 @@ $(document).ready(function() {
     $('.close-search-button').click(function() {
       $('.search-form-container').removeClass('is-active');
     });
-    // 한국어 토크나이저 설정
-    require('lunr-languages/lunr.stemmer.support')(lunr);
-    require('lunr-languages/tinyseg')(lunr);
-    require('lunr-languages/lunr.ko')(lunr);
 
     search_field.ghostHunter({
         results: search_results,
@@ -48,9 +44,11 @@ $(document).ready(function() {
         displaySearchInfo: true,
         lunrOptions: {
             usePipeline: true,
+            // 한국어 토크나이저 설정
             tokenizer: function (obj) {
-                return lunr.ko(obj); // 한국어 토크나이저 사용
+                return lunr.ko(obj);
             }
         }
     });
-});
+
+  });
