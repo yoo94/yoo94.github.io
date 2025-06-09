@@ -1,6 +1,6 @@
 ---
 layout: page
-title: front optimize
+title: FEoptimize
 permalink: blog/categories/optimize/
 ---
 
