@@ -39,7 +39,11 @@
 		item_preprocessor	: false,
 		indexing_start		: false,
 		indexing_end		: false,
-		includebodysearch	: false
+		includebodysearch	: false,
+		lunrOptions: {
+			usePipeline: true,
+			tokenizer: lunr.ko.tokenizer // 한국어 토크나이저 설정
+		}
 	};
 	var prettyDate = function(date) {
 		var d = new Date(date);
@@ -117,6 +121,9 @@
 				}
 				this.field('pubDate');
 				this.field('tag');
+				lunr.tokenizer = lunr.ko.tokenizer; // 한국어 토크나이저 설정
+				lunr.Pipeline.registerFunction(lunr.ko.stopWordFilter, 'stopWordFilterKo');
+				lunr.Pipeline.registerFunction(lunr.ko.stemmer, 'stemmerKo');
 				idxSrc.forEach(function (arrayItem) {
 					// console.log("start indexing an item: " + arrayItem.id);
 					// Track the latest value of updated_at,  to stash in localStorage
