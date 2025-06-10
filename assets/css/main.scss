@@ -7,7 +7,6 @@
 
 
 
-
 /* 페이지 나가기 애니메이션 */
 .page-exit {
   position: fixed;
@@ -18,7 +17,7 @@
   background: #000;
   opacity: 0;
   z-index: 9999;
-  animation: fadeIn 0.5s forwards;
+  animation: fadeOut 0.5s forwards;
   pointer-events: none; /* 클릭 방지 */
 }
 
@@ -32,13 +31,31 @@
   background: #000;
   opacity: 1;
   z-index: 9999;
-  animation: fadeOut 0.5s forwards;
+  animation: fadeIn 0.5s forwards;
 }
 
+/* 애니메이션 정의 */
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }}
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* 기본 스타일 초기화 */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 수평 스크롤 방지 */
+}
