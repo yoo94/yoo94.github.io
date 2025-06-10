@@ -1,31 +1,11 @@
 /**
-* ghostHunter - 0.6.0
+ * ghostHunter - 0.6.0
  * Copyright (C) 2014 Jamal Neufeld (jamal@i11u.me)
  * MIT Licensed
  * @license
-*/
+ */
 (function( $ ) {
-// 만약 lunr.ko가 없다면 직접 정의
-	if (typeof lunr.ko === 'undefined') {
-		lunr.ko = {
-			tokenizer: function(text) {
-				// 필요한 경우 더 정교한 분리 로직을 적용하세요.
-				if (!text) return [];
-				// 예시 : 공백 기준 분리 + 트림 작업
-				return text.trim().split(/\s+/);
-			},
-			stopWordFilter: function(token) {
-				// 아주 기본적인 한국어 불용어 필터 – 필요에 따라 확장하세요.
-				var stopWords = ['의', '가', '이', '은', '들', '는', '좀', '잘', '그리고'];
-				return stopWords.indexOf(token) === -1 ? token : null;
-			},
-			stemmer: function(token) {
-				// 한국어의 경우 굳이 어간 추출(stemming)이 필요없다면 그대로 반환하거나,
-				// 간단하게 소문자화 혹은 정규화를 적용할 수 있습니다.
-				return token;
-			}
-		};
-	}
+
 	/* LUNR */
 
 	/* LEVENSHTEIN */
@@ -59,16 +39,12 @@
 		item_preprocessor	: false,
 		indexing_start		: false,
 		indexing_end		: false,
-		includebodysearch	: false,
-		lunrOptions: {
-			usePipeline: true,
-			tokenizer: lunr.ko.tokenizer // 한국어 토크나이저 설정
-		}
+		includebodysearch	: false
 	};
 	var prettyDate = function(date) {
 		var d = new Date(date);
 		var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-			return d.getDate() + ' ' + monthNames[d.getMonth()] + ' ' + d.getFullYear();
+		return d.getDate() + ' ' + monthNames[d.getMonth()] + ' ' + d.getFullYear();
 	};
 
 	var getSubpathKey = function(str) {
@@ -116,7 +92,7 @@
 		// console.log('ghostHunter: grabAndIndex');
 		this.blogData = {};
 		this.latestPost = 0;
-    var url = "/ghost/api/v2/content/posts/?key=" + ghosthunter_key + "&limit=all&include=tags";
+		var url = "/ghost/api/v2/content/posts/?key=" + ghosthunter_key + "&limit=all&include=tags";
 
 		var params = {
 			limit: "all",
@@ -124,12 +100,12 @@
 		};
 		if ( this.includebodysearch ){
 			params.formats=["plaintext"]
-      url += "&formats=plaintext"
+			url += "&formats=plaintext"
 		} else {
 			params.formats=[""]
 		}
 		var me = this;
-    $.get(url).done(function(data){
+		$.get(url).done(function(data){
 			var idxSrc = data.posts;
 			// console.log("ghostHunter: indexing all posts")
 			me.index = lunr(function () {
@@ -137,19 +113,10 @@
 				this.field('title');
 				this.field('description');
 				if (me.includebodysearch){
-				this.field('plaintext');
+					this.field('plaintext');
 				}
 				this.field('pubDate');
 				this.field('tag');
-				// 여기서 기본 토크나이저를 직접 한국어 토크나이저로 덮어씁니다.
-				lunr.tokenizer = lunr.ko.tokenizer;
-
-				// 파이프라인에 한국어 불용어 필터와 스테머(어간 추출)를 등록.
-				lunr.Pipeline.registerFunction(lunr.ko.stopWordFilter, 'stopWordFilterKo');
-				lunr.Pipeline.registerFunction(lunr.ko.stemmer, 'stemmerKo');
-
-
-
 				idxSrc.forEach(function (arrayItem) {
 					// console.log("start indexing an item: " + arrayItem.id);
 					// Track the latest value of updated_at,  to stash in localStorage
@@ -283,10 +250,10 @@
 					fields: "id"
 				};
 
-        var url = "/ghost/api/v2/content/posts/?key=" + ghosthunter_key + "&limit=all&fields=id" + "&filter=" + "updated_at:>\'" + this.latestPost.replace(/\..*/, "").replace(/T/, " ") + "\'";
+				var url = "/ghost/api/v2/content/posts/?key=" + ghosthunter_key + "&limit=all&fields=id" + "&filter=" + "updated_at:>\'" + this.latestPost.replace(/\..*/, "").replace(/T/, " ") + "\'";
 
 				var me = this;
-        $.get(url).done(function(data){
+				$.get(url).done(function(data){
 					if (data.posts.length > 0) {
 						grabAndIndex.call(me);
 					} else {
