@@ -52,7 +52,7 @@ $(document).ready(function() {
     });
     // 한글 검색을 위한 lunr-ko 초기화
     if (typeof lunr !== 'undefined' && typeof lunr.ko !== 'undefined') {
-        lunr.tokenizer = lunr.ko.tokenizer;
+        lunr.tokenizer = lunr.ko;
     } else {
         console.error("lunr-ko가 제대로 로드되지 않았습니다.");
     }
