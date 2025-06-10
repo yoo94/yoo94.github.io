@@ -1,12 +1,42 @@
----
----
-
 @charset "utf-8";
 
 @import "devlopr";
 
-/* custom css goes below */
+/* 로딩 화면 스타일 */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeOut 0.5s forwards;
+}
 
+.loading-screen.hidden {
+  animation: fadeOut 0.5s forwards;
+}
+
+.loading-text {
+  color: #fff;
+  font-size: 2rem;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* 기존 애니메이션 */
 @keyframes fadeOut {
   from {
     opacity: 1;
@@ -26,9 +56,4 @@
 }
 
 .page-transition {
-  animation: fadeOut 0.5s forwards;
-}
-
-.page-enter {
-  animation: fadeIn 0.5s forwards;
-}
+  animatio
