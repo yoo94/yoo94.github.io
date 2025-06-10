@@ -11,22 +11,22 @@ $(document).ready(function() {
           </div>";
 
     toggle_search.click(function(event) {
-      event.preventDefault();
-      $('.search-form-container').addClass('is-active');
+        event.preventDefault();
+        $('.search-form-container').addClass('is-active');
 
-      setTimeout(function() {
-        search_field.focus();
-      }, 500);
+        setTimeout(function() {
+            search_field.focus();
+        }, 500);
     });
 
     $('.search-form-container').on('keyup', function(event) {
-      if (event.keyCode == 27) {
-        $('.search-form-container').removeClass('is-active');
-      }
+        if (event.keyCode == 27) {
+            $('.search-form-container').removeClass('is-active');
+        }
     });
 
     $('.close-search-button').click(function() {
-      $('.search-form-container').removeClass('is-active');
+        $('.search-form-container').removeClass('is-active');
     });
 
     search_field.ghostHunter({
@@ -44,16 +44,16 @@ $(document).ready(function() {
         displaySearchInfo: true,
         lunrOptions: {
             usePipeline: true,
-            // 한국어 토크나이저 설정
-            tokenizer: function (obj) {
-                tokenizer: lunr.tokenizer // 기본 토크나이저로 변경
-            }
+            tokenizer: lunr.ko.tokenizer // 한국어 토크나이저 설정
         },
     });
+
     // 한글 검색을 위한 lunr-ko 초기화
     if (typeof lunr !== 'undefined' && typeof lunr.ko !== 'undefined') {
-        lunr.tokenizer = lunr.ko;
+        lunr.tokenizer = lunr.ko.tokenizer;
+        lunr.Pipeline.registerFunction(lunr.ko.stopWordFilter, 'stopWordFilterKo');
+        lunr.Pipeline.registerFunction(lunr.ko.stemmer, 'stemmerKo');
     } else {
         console.error("lunr-ko가 제대로 로드되지 않았습니다.");
     }
-  });
+});
