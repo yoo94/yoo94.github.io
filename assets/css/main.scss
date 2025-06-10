@@ -6,3 +6,29 @@
 @import "devlopr";
 
 /* custom css goes below */
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page-transition {
+  animation: fadeOut 0.5s forwards;
+}
+
+.page-enter {
+  animation: fadeIn 0.5s forwards;
+}
