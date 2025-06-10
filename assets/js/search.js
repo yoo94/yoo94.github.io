@@ -48,6 +48,9 @@ $(document).ready(function() {
             tokenizer: function (obj) {
                 return lunr.ko(obj);
             }
+        },
+        tokenizer: function (obj) {
+            return lunr.ko(obj);
         }
     });
 
