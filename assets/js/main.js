@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
     pageExitOverlay.className = "page-exit";
     document.body.appendChild(pageExitOverlay);
 
+    const pageEnterOverlay = document.createElement("div");
+    pageEnterOverlay.className = "page-enter";
+    document.body.appendChild(pageEnterOverlay);
+
     links.forEach(link => {
         link.addEventListener("click", event => {
             event.preventDefault(); // 기본 링크 동작 방지
@@ -17,6 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     window.addEventListener("load", () => {
-        document.body.classList.add("page-enter"); // 밝아지는 애니메이션 트리거
+        pageEnterOverlay.style.opacity = "0"; // 밝아지는 애니메이션 트리거
+        setTimeout(() => {
+            pageEnterOverlay.remove(); // 애니메이션 완료 후 제거
+        }, 500); // fadeOut 애니메이션 시간과 동일하게 설정
     });
 });
