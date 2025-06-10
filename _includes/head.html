@@ -112,7 +112,11 @@
    </script>
 
   <!-- Jquery -->
-  <script src="https://cdn.jsdelivr.net/npm/lunr-languages/lunr.ko.min.js"></script>
+  <!-- Ensure Lunr is loaded before lunr.ko -->
+  <script src="https://unpkg.com/lunr/lunr.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/lunr-languages/tinyseg.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/lunr-languages/lunr.ko.js" charset="utf-8"></script>
 
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
