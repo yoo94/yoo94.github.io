@@ -46,12 +46,14 @@ $(document).ready(function() {
             usePipeline: true,
             // 한국어 토크나이저 설정
             tokenizer: function (obj) {
-                return lunr.ko(obj);
+                tokenizer: lunr.tokenizer // 기본 토크나이저로 변경
             }
         },
-        tokenizer: function (obj) {
-            return lunr.ko(obj);
-        }
     });
-
+    // 한글 검색을 위한 lunr-ko 초기화
+    if (typeof lunr !== 'undefined' && typeof lunr.ko !== 'undefined') {
+        lunr.tokenizer = lunr.ko.tokenizer;
+    } else {
+        console.error("lunr-ko가 제대로 로드되지 않았습니다.");
+    }
   });
