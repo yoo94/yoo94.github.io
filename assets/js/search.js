@@ -30,7 +30,7 @@ $(document).ready(function() {
     });
 // 한국어 토크나이저 직접 구현
 if (typeof lunr !== 'undefined' && typeof lunr.ko.tokenizer === 'undefined') {
-  if(lunr.ko === 'undefined') lunr.ko = {};
+  if(typeof lunr.ko === 'undefined') lunr.ko = {};
   lunr.ko.tokenizer = function(text) {
     var tokens = [];
     var str = text.toString().toLowerCase().trim();
