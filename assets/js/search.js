@@ -1,89 +1,74 @@
-lunr.ko.tokenizer = function(obj) {
-  if (!arguments.length || obj == null || obj == undefined) return [];
-  if (Array.isArray(obj)) return obj.map(function(t) { return lunr.utils.asString(t).toLowerCase(); });
-
-  var str = obj.toString().toLowerCase().trim();
-  var tokens = [];
-  
-  // 2-gram과 3-gram 생성
-  for (var i = 0; i < str.length - 1; i++) {
-    // 2-gram
-    tokens.push(str.slice(i, i + 2));
-    // 3-gram (가능한 경우)
-    if (i < str.length - 2) {
-      tokens.push(str.slice(i, i + 3));
-    }
-  }
-  
-  // 단일 문자도 추가
-  for (var i = 0; i < str.length; i++) {
-    tokens.push(str.charAt(i));
-  }
-  
-  return tokens.filter(function(token) {
-    return token.length > 0;
-  });
-};
-
 $(document).ready(function() {
-  'use strict';
-  var search_field = $('.search-form__field'),
-      search_results = $('.search-results'),
-      toggle_search = $('.toggle-search-button'),
-      close_search = $('.close-search-button'),
-      search_result_template = "\
-        <div class='search-results__item'>\
-          <a class='search-results__item__title' href='{{link}}'>{{title}}</a>\
-          <span class='post__date'>{{pubDate}}</span>\
-        </div>";
-      
-  // Korean tokenizer 직접 구현
-  if (typeof lunr !== 'undefined' && typeof lunr.ko !== 'undefined') {
-    lunr.ko.tokenizer = function(obj) {
-      if (!arguments.length || obj == null || obj == undefined) return [];
-      if (Array.isArray(obj)) return obj.map(function(t) { return lunr.utils.asString(t).toLowerCase(); });
-
-      var str = obj.toString().toLowerCase().trim();
-      var tokens = [];
-      
-      // 단어 단위 토큰화 (공백 기준)
-      var words = str.split(/[\s]+/);
-      words.forEach(function(word) {
-        tokens.push(word); // 원래 단어도 추가
-        
-        // 2-gram 추가 (한글 자모 조합 고려)
-        if (word.length > 1) {
-          for (var i = 0; i < word.length - 1; i++) {
-            tokens.push(word.slice(i, i + 2));
-          }
-        }
-      });
-      
-      return tokens.filter(function(token) {
-        return token.length > 0;
-      });
-    };
+    'use strict';
     
-    console.log('한글 검색을 위한 토크나이저를 등록했습니다.');
-  }
-  
-  // 검색 초기화
-  search_field.ghostHunter({
-    results: search_results,
-    onKeyUp: true,
-    rss: base_url + '/feed.xml',
-    info_template: "<h4 class='heading'>검색된 포스트 수: {{amount}}</h4>",
-    result_template: search_result_template,
-    before: function() {
-      search_results.fadeIn();
-    },
-    // 한글 검색 설정
-    includepages: true,
-    filterFields: ['title', 'content', 'description'],
-    lunrOptions: {
-      usePipeline: true,
-      tokenizer: lunr.ko.tokenizer,
-      language: 'ko'
+    // 검색 관련 DOM 요소
+    var search_field = $('.search-form__field'),
+        search_results = $('.search-results'),
+        toggle_search = $('.toggle-search-button'),
+        close_search = $('.close-search-button'),
+        search_result_template = "\
+          <div class='search-results__item'>\
+            <a class='search-results__item__title' href='{{link}}'>{{title}}</a>\
+            <span class='post__date'>{{pubDate}}</span>\
+          </div>";
+
+    // lunr-korean이 로드되었는지 확인
+    if (typeof lunr !== 'undefined') {
+        console.log('Lunr.js가 성공적으로 로드되었습니다.');
+        
+        // lunr-korean이 로드되었는지 확인
+        if (typeof lunr.ko !== 'undefined' || typeof lunr.korean !== 'undefined') {
+            console.log('한국어 검색 모듈이 성공적으로 로드되었습니다.');
+            
+            // GhostHunter 설정
+            search_field.ghostHunter({
+                results: search_results,
+                onKeyUp: true,
+                rss: base_url + '/feed.xml',
+                zeroResultsInfo: false,
+                info_template: "<h4 class='heading'>검색된 포스트 수: {{amount}}</h4>",
+                result_template: search_result_template,
+                before: function() {
+                    search_results.fadeIn();
+                },
+                includepages: true,
+                filterFields: {
+                    title: {
+                        boost: 10
+                    },
+                    description: {
+                        boost: 5
+                    },
+                    content: {
+                        boost: 1
+                    }
+                },
+                lunrOptions: {
+                    // lunr-korean 사용 설정
+                    // lunr.ko 또는 lunr.korean 둘 중 사용 가능한 것 선택
+                    tokenizer: typeof lunr.korean !== 'undefined' ? 
+                        lunr.korean.tokenizer : 
+                        (typeof lunr.ko !== 'undefined' ? lunr.ko.tokenizer : undefined),
+                    usePipeline: true
+                }
+            });
+        } else {
+            console.error("한국어 검색 모듈이 로드되지 않았습니다.");
+            
+            // 기본 검색 설정 (한국어 지원 없음)
+            search_field.ghostHunter({
+                results: search_results,
+                onKeyUp: true,
+                rss: base_url + '/feed.xml',
+                zeroResultsInfo: false,
+                info_template: "<h4 class='heading'>검색된 포스트 수: {{amount}}</h4>",
+                result_template: search_result_template,
+                before: function() {
+                    search_results.fadeIn();
+                }
+            });
+        }
+    } else {
+        console.error("Lunr.js가 로드되지 않았습니다.");
     }
-  });
 });
