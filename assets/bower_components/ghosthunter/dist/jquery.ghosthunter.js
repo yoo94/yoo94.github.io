@@ -232,43 +232,107 @@ lunr.Token.prototype.clone = function (fn) {
  * @param {?(string|object|object[])} obj - The object to convert into tokens
  * @returns {lunr.Token[]}
  */
-lunr.tokenizer = function (obj) {
-  if (obj == null || obj == undefined) {
-    return []
-  }
+// lunr.tokenizer = function (obj) {
+//   if (obj == null || obj == undefined) {
+//     return []
+//   }
+//
+//   if (Array.isArray(obj)) {
+//     return obj.map(function (t) {
+//       return new lunr.Token(lunr.utils.asString(t).toLowerCase())
+//     })
+//   }
+//
+//   var str = obj.toString().trim().toLowerCase(),
+//       len = str.length,
+//       tokens = []
+//
+//   for (var sliceEnd = 0, sliceStart = 0; sliceEnd <= len; sliceEnd++) {
+//     var char = str.charAt(sliceEnd),
+//         sliceLength = sliceEnd - sliceStart
+//
+//     if ((char.match(lunr.tokenizer.separator) || sliceEnd == len)) {
+//
+//       if (sliceLength > 0) {
+//         tokens.push(
+//           new lunr.Token (str.slice(sliceStart, sliceEnd), {
+//             position: [sliceStart, sliceLength],
+//             index: tokens.length
+//           })
+//         )
+//       }
+//
+//       sliceStart = sliceEnd + 1
+//     }
+//
+//   }
+//
+//   return tokens
+// }
 
-  if (Array.isArray(obj)) {
-    return obj.map(function (t) {
-      return new lunr.Token(lunr.utils.asString(t).toLowerCase())
-    })
-  }
-
-  var str = obj.toString().trim().toLowerCase(),
-      len = str.length,
-      tokens = []
-
-  for (var sliceEnd = 0, sliceStart = 0; sliceEnd <= len; sliceEnd++) {
-    var char = str.charAt(sliceEnd),
-        sliceLength = sliceEnd - sliceStart
-
-    if ((char.match(lunr.tokenizer.separator) || sliceEnd == len)) {
-
-      if (sliceLength > 0) {
-        tokens.push(
-          new lunr.Token (str.slice(sliceStart, sliceEnd), {
-            position: [sliceStart, sliceLength],
-            index: tokens.length
-          })
-        )
+    lunr.tokenizer = function (obj) {
+      if (obj == null || obj == undefined) {
+        return [];
       }
 
-      sliceStart = sliceEnd + 1
-    }
+      if (Array.isArray(obj)) {
+        return obj.map(function (t) {
+          return new lunr.Token(lunr.utils.asString(t).toLowerCase());
+        });
+      }
 
-  }
+      var str = obj.toString().trim().toLowerCase(),
+          len = str.length,
+          tokens = [];
 
-  return tokens
-}
+      for (var sliceEnd = 0, sliceStart = 0; sliceEnd <= len; sliceEnd++) {
+        var char = str.charAt(sliceEnd),
+            sliceLength = sliceEnd - sliceStart;
+
+        if ((char.match(lunr.tokenizer.separator) || sliceEnd == len)) {
+          if (sliceLength > 0) {
+            var token = str.slice(sliceStart, sliceEnd);
+
+            // Add original token
+            tokens.push(
+                new lunr.Token(token, {
+                  position: [sliceStart, sliceLength],
+                  index: tokens.length
+                })
+            );
+
+            // Add 2-gram and 3-gram for Korean text
+            if (token.length > 1) {
+              for (var i = 0; i < token.length - 1; i++) {
+                tokens.push(
+                    new lunr.Token(token.substring(i, i + 2), {
+                      position: [sliceStart + i, 2],
+                      index: tokens.length
+                    })
+                );
+              }
+            }
+            if (token.length > 2) {
+              for (var i = 0; i < token.length - 2; i++) {
+                tokens.push(
+                    new lunr.Token(token.substring(i, i + 3), {
+                      position: [sliceStart + i, 3],
+                      index: tokens.length
+                    })
+                );
+              }
+            }
+          }
+
+          sliceStart = sliceEnd + 1;
+        }
+      }
+
+      return tokens;
+    };
+
+// Update separator to handle Korean-specific delimiters if needed
+lunr.tokenizer.separator = /[\s\-가-힣]+/;
 
 /**
  * The separator used to split a string into tokens. Override this property to change the behaviour of
@@ -277,7 +341,7 @@ lunr.tokenizer = function (obj) {
  * @static
  * @see lunr.tokenizer
  */
-lunr.tokenizer.separator = /[\s\-]+/
+// lunr.tokenizer.separator = /[\s\-]+/
 /*!
  * lunr.Pipeline
  * Copyright (C) 2017 Oliver Nightingale
