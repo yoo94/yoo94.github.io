@@ -29,8 +29,8 @@ $(document).ready(function() {
         $('.search-form-container').removeClass('is-active');
     });
 // 한국어 토크나이저 직접 구현
-if (typeof lunr !== 'undefined' && typeof lunr.ko === 'undefined') {
-  lunr.ko = {};
+if (typeof lunr !== 'undefined' && typeof lunr.ko.tokenizer === 'undefined') {
+  if(lunr.ko === 'undefined' || lunr.ko.length() < 1) lunr.ko = {};
   lunr.ko.tokenizer = function(text) {
     var tokens = [];
     var str = text.toString().toLowerCase().trim();
