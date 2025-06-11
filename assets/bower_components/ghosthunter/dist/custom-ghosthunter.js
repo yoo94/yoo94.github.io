@@ -119,6 +119,7 @@
     loadRSS: function() {
       if (this.isInit) return false;
       
+      var that = this;
       var index = this.index,
           rssURL = this.rss,
           blogData = this.blogData;
