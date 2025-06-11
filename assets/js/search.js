@@ -1,7 +1,5 @@
 $(document).ready(function() {
     'use strict';
-    
-    // 검색 관련 DOM 요소
     var search_field = $('.search-form__field'),
         search_results = $('.search-results'),
         toggle_search = $('.toggle-search-button'),
@@ -11,6 +9,25 @@ $(document).ready(function() {
             <a class='search-results__item__title' href='{{link}}'>{{title}}</a>\
             <span class='post__date'>{{pubDate}}</span>\
           </div>";
+
+    toggle_search.click(function(event) {
+        event.preventDefault();
+        $('.search-form-container').addClass('is-active');
+
+        setTimeout(function() {
+            search_field.focus();
+        }, 500);
+    });
+
+    $('.search-form-container').on('keyup', function(event) {
+        if (event.keyCode == 27) {
+            $('.search-form-container').removeClass('is-active');
+        }
+    });
+
+    $('.close-search-button').click(function() {
+        $('.search-form-container').removeClass('is-active');
+    });
 // 한국어 토크나이저 직접 구현
 if (typeof lunr !== 'undefined' && typeof lunr.ko === 'undefined') {
   lunr.ko = {};
@@ -40,8 +57,8 @@ if (typeof lunr !== 'undefined' && typeof lunr.ko === 'undefined') {
       return token.length > 0;
     });
   };
-   // GhostHunter 검색 설정
-  search_field.ghostHunter({
+}
+    search_field.ghostHunter({
     results: search_results,
     onKeyUp: true,
     rss: base_url + '/feed.xml',
@@ -67,7 +84,4 @@ if (typeof lunr !== 'undefined' && typeof lunr.ko === 'undefined') {
       tokenizer: lunr.ko && lunr.ko.tokenizer ? lunr.ko.tokenizer : undefined
     }
   });
-}
-    
-    
 });
