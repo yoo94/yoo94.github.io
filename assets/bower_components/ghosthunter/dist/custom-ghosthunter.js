@@ -137,7 +137,8 @@
             link: post.find("link").text()
           };
           
-          index.add(parsedData);
+          // Lunr 2.x 방식으로 문서 추가 (중요 수정 부분)
+          that.index.add(parsedData);
           blogData.push(parsedData);
         }
       });
