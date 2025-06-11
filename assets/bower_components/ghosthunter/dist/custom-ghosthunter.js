@@ -120,17 +120,18 @@
       if (this.isInit) return false;
       
       var that = this;
-      var index = this.index,
-          rssURL = this.rss,
+      var rssURL = this.rss,
           blogData = this.blogData;
 
       $.get(rssURL, function(data) {
         var posts = $(data).find("item");
+        var documents = []; // 문서 배열 생성
         
+        // 먼저 모든 문서 데이터 수집
         for (var i = 0; i < posts.length; i++) {
           var post = posts.eq(i);
           var parsedData = {
-            id: i + 1,
+            id: (i + 1).toString(), // 문자열로 변환 (중요)
             title: post.find("title").text(),
             description: post.find("description").text(),
             category: post.find("category").text(),
@@ -138,10 +139,31 @@
             link: post.find("link").text()
           };
           
-          // Lunr 2.x 방식으로 문서 추가 (중요 수정 부분)
-          that.index.add(parsedData);
-          blogData.push(parsedData);
+          documents.push(parsedData); // 문서 배열에 추가
+          blogData.push(parsedData); // blogData에도 추가
         }
+        
+        // 모든 문서를 가지고 새 인덱스 생성
+        that.index = lunr(function() {
+          // 한글 분석기 추가
+          if (lunr.ko) {
+            this.use(lunr.ko);
+          }
+          
+          this.ref('id');
+          this.field('title', { boost: 10 });
+          this.field('description');
+          this.field('category');
+          this.field('link');
+          this.field('pubDate');
+          
+          // 모든 문서를 한 번에 추가
+          documents.forEach(function(doc) {
+            this.add(doc);
+          }, this);
+        });
+        
+        console.log("인덱스 생성 완료: ", documents.length + "개 문서 색인됨");
       });
 
       this.isInit = true;
