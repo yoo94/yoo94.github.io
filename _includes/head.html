@@ -128,7 +128,7 @@
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/ghosthunter/dist/jquery.ghostHunter.min.js"></script>
+  <!-- <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/ghosthunter/dist/jquery.ghostHunter.min.js"></script> -->
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/js/lightgallery-all.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
@@ -158,14 +158,7 @@
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"
   ></script>
-  <script>
-    lunr.tokenizer = function (obj) {
-      if (!obj) return [];
-      const str = obj.toString().toLowerCase();
-      const tokens = str.match(/[\u3131-\uD79D\w]+/g);
-      return tokens ? tokens.map(token => new lunr.Token(token)) : [];
-    };
-  </script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/ghosthunter/dist/custom-ghosthunter.js"></script>
 
   <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
   <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
