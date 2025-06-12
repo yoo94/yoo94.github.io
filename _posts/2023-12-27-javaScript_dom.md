@@ -10,22 +10,26 @@ keywords: dom
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/javaScript_dom/
 ---
-# DOM 이란?
 
+# DOM Tree + CSSOM Tree = Render Tree
+
+## 요약
+브라우저라는 공장에 HTML 문서라는 설계도에 나와있는 모든 요소들 하나하나를 각각의 종류에 맞는
+클래스의 객체들로 생성한다음, 트리구조로 연결하여 DOM 이라는 실체를 만들어준다.
+html로 부터 dom이 만들어지고, css로 부터 cssom이 만들어진다. cssom도 마찬가지로 트리구조이며 만들어지는
+원리는 dom과 동일하다.
+
+# DOM 이란?
 DOM ( DOM은 독립적으로 디자인된 기술이기 때문에, 어떠한 언어에서도 가능하고, 가장 많이 사용되는 언어가 JS일 뿐이다.) - 문서 객체 모들 The Document Object Model 의 약자이다 - html, xml문서
 
----
+DOM은 HTML 문서의 구조를 표현하는 객체 모델로, 웹 페이지의 요소들을 프로그래밍적으로 조작할 수 있게 해준다. DOM은 문서의 각 요소를 객체로 표현하며,
+이를 통해 JavaScript와 같은 프로그래밍 언어로 HTML 문서를 동적으로 변경할 수 있다. 
 
-console.dir(elem)과 console.log(elem)의 차이  
-두 명령어는 인수를 출력해준다. 인수가 **자바스크립트 객체**라면 보통 같은 결과를 보여주지만 인수가 **DOM 요소일 때**는 다른 결과를 출력한다.  
-**console.log(el)는 요소의 DOM 트리를 출력.  
-**console.dir(el)는 요소를 DOM 객체처럼 취급하여 출력. 따라서 프로퍼티를 확인하기 쉽다.
-<img src="/blog/postImg/Pasted image 20240202164423.png" alt="Pasted image 20240202164423.png" style="max-width:100%;">
+## DOM의 구조
+DOM은 트리 구조로 되어 있으며, 각 노드는 문서의 요소를 나타낸다. 이 트리 구조는 HTML 문서의 계층적 구조를 반영한다. 
+예를 들어, HTML 문서의 `<body>` 태그는 DOM 트리에서 루트 노드가 되고, 그 안에 있는 `<div>`, `<p>`, `<span>` 등의 태그는 자식 노드로 표현된다.
 
-자바스크립트에서 DOM은 document 객체에 구현되어 있기 때문에 브라우저에서 작동되는 자바스크립트 코드에서는 document 객체를 조회할 수 있다.
-
-`document.body`를 `console`로 찍어보면 body의 엘리먼트(Element)들을 확인할 수 있다.
-body의 자식 엘리먼트도 찾을 수 있다.
+```html
 
 ```javascript
 console.dir(document.body.children);
@@ -38,21 +42,6 @@ let children = document.body.children[1];
 children.parentElement;
 ```
 
-createElement - CREATE  
-querySelector, querySelectorAll - READ  
-textContent, id, classList, setAttribute - UPDATE  
-remove, removeChild, innerHTML = "" , textContent = "" - DELETE  
-appendChild - APPEND  
-innerHTML과 textContent의 차이  
-Advanced Challenge  
-DOM의 더 깊은 내용에 대해서 이해할 수 있다.  
-createDocumentFragment를 활용하여, 더 효율적으로 DOM을 제어할 수 있다.  
-HTML5 template tag 사용법을 이해할 수 있다.  
-children과 childNodes의 차이를 이해할 수 있다.  
-remove와 removeChild의 차이를 이해할 수 있다.  
-같은 엘리먼트를 appendChild 하면, 기존 엘리먼트를 복사할까?  
-좌표 정보 조회를 할 수 있다. - offsetTop...  
-크기 정보 조회를 할 수 있다. - offsetWidth...
 
 ## 1) Element 생성
 
@@ -63,6 +52,7 @@ DOM을 JavaScript로 조작하여 HTML Element를 추가하거나 삭제, 혹은
 `createElement()` 를 사용해 엘리먼트를 생성해 줄 수 있다.
 
 div를 하나 생성해준다고 예시를 들어보자.
+
 ```javascript
 const tweetDiv = document.createElement('div');
 ```
