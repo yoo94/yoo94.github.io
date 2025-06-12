@@ -47,7 +47,7 @@ chmod 700 ~/.ssh
 chmod u+rwx,g=-rwx,o=-rwx ~/.ssh
 ```
 
-### 소유자에게 파일 실행 권한 부여
+##### 소유자에게 파일 실행 권한 부여
 
 ```bash
 chmod u+x file
@@ -58,7 +58,7 @@ chmod u+x file
 ```
 
 
-### .ssh 폴더를 소유자만 접근 가능하게 설정
+##### .ssh 폴더를 소유자만 접근 가능하게 설정
 
 숫자로 권한 지정
 
@@ -79,26 +79,26 @@ chmod u+rwx,g=,o=- ~/.ssh
 ```
 
 
-### other 에 group 과 동일 권한 부여
+##### other 에 group 과 동일 권한 부여
 
 ```shell
 chmod o=g file
 ```
 
-### other 는 모든 권한 제거
+##### other 는 모든 권한 제거
 ```shell
 chmod -R /varo= file
 ```
 
-### 하위 파일/디렉터리 권한 지정
+##### 하위 파일/디렉터리 권한 지정
 
 ```shell
 chmod -R 755 /var/www/myapp
 ```
 
-#### chown와 chmod를 하위 파일과 폴더들에 한번에 적용하기
+###### chown와 chmod를 하위 파일과 폴더들에 한번에 적용하기
 둘다 공통적으로 `-R` 옵션을 적용해주면 됩니다.
-#### chmod의 경우
+###### chmod의 경우
 
 ```shell
 $ chmod -R [8bit permission] [file name or folder name]
@@ -114,7 +114,7 @@ $ chmod -R 666 example
 
 
 
-#### chown의 경우
+###### chown의 경우
 
 ```shell
 $ chown -R [owner name]:[group name] [filename or directory]

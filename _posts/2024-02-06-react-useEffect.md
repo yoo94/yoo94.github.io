@@ -9,13 +9,13 @@ tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useEffect/
 ---
-## 부수효과, 의존성 배열과 정리함수!
+#### 부수효과, 의존성 배열과 정리함수!
 
 <img src="/blog/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:100%;">
 
 <img src="/blog/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:100%;">
 
-### 필요성
+##### 필요성
 - useState에서는 우리가 내부상태를 변경시키면 컴포넌트함수를 실행시켜 리랜더링 시킨다.
 모든 코드를 다시 다 실행시키기 때문에 원치않는 동작을 유도할 수 있어서 나오게 되었다.
 - 브라우저의 크기에 따라 반응해야하는 코드를 작성해야 할때, eventListener를 쓰게 되면 리렌더링 할때마다 중첩되기 때문에 서버를 죽이는 상황이 발생한다.
@@ -38,7 +38,7 @@ useEffect(()=>{
 #### 두 번째 인자에 있는 값이 변화하면 콜백 함수가 실행되는 것이다.
 ##### 즉 배열 안에 값이 변하는 인자를 넣게 되면 변할 때 마다 callback 함수가 실행된다는 얘기이다!
 
-## Mount
+#### Mount
 ```jsx
 useEffect(()=>{
 	console.log('mount')
@@ -48,7 +48,7 @@ useEffect(()=>{
 *즉 컴포넌트가 처음 렌더링 될 때, 한번만 실행된다.*
 
 ---
-## Update
+#### Update
 ```jsx
 useEffect(()=>{
    console.log("update")
@@ -81,7 +81,7 @@ useEffect(()=>{
 
 
 ---
-## unmount
+#### unmount
 ```jsx
 useEffect(()=>{
     console.log('mount')

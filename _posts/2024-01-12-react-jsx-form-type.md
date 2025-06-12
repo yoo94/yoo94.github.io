@@ -9,7 +9,7 @@ tags: react
 thumbnail: /blog/postImg/Pasted image 20240505144527.png
 permalink: blog/react-jsx-form-type/
 ---
-### state
+##### state
 ```jsx
 const [state,setstate] = useState({
    author: "",
@@ -33,22 +33,22 @@ const handlesubmmit = ()=>{
 }
 ```
 
-### onChange , onClick
-## input
+##### onChange , onClick
+#### input
 ```jsx
 <input name="author" value={autor} onChange={(e)=>{
      setautor(e.target.value)
 }}/>
 ```
 
-## textarea
+#### textarea
 ```jsx
 <textarea name="content" value={content} onChange={(e)=>{
      setcontent(e.target.value)
 }}/>
 ```
 
-## select
+#### select
 ```jsx
 <div>
     <select name="emotion" value={state.emotion} onChange={handleChangeEvent}>
@@ -61,7 +61,7 @@ const handlesubmmit = ()=>{
    </div>
 ```
 
-## button
+#### button
 ```jsx
 <div>
 	<button name="save" onClick={handlesubmmit}>일기 저장</button>

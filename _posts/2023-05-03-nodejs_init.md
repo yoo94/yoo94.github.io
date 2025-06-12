@@ -10,7 +10,7 @@ keywords: nodejs
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTogwU6U5z0Zf2lUxTE72JAKxVd52klwPe-Q&s
 permalink: blog/nodejs_init/
 ---
-## 시작
+#### 시작
 nodejs.org/ko/
 에서 lts버전을 설치 한다.
 
@@ -32,7 +32,7 @@ node index.js
 를 사용하면 실행이 된다.
 
 ---
-## 작동
+#### 작동
 calc.js
 ```javascript
 const add =(a,b)=> a+b;
@@ -57,7 +57,7 @@ cal.sub(3,5);
 
 ---
 
-### 모듈사용
+##### 모듈사용
 https://www.npmjs.com/
 이 사이트에 들어가면 모듈들에 대한 설명을 볼 수 있다.
 
@@ -71,13 +71,13 @@ https://www.npmjs.com/
 <img src="/blog/postImg/Pasted image 20240111192544.png" alt="Pasted image 20240111192544.png" style="max-width:100%;">
 
 설치하게 되면 이렇게
-### package.json에 dependencies
+##### package.json에 dependencies
 라는 필드가 생기고 설치한 패키지이름과 버전이 써져있다.
 여기 버전에 "^0.6.2" 처럼 ^이게 붙어있으면 패키지의 버전이 아니라 이 모듈은 0.6.2 이상의 버전만 설치가 된다라고 명시해 놓은 것이다.
 
-### package-lock.json
+##### package-lock.json
 여기에 정확하게 어떤 버전으로 설치 되어있는지 명시되어있다.
-### node_modules
+##### node_modules
 실제 모듈과 관련된 파일을 보관하는
 
 

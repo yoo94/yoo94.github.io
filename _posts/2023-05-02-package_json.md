@@ -10,7 +10,7 @@ keywords: react
 thumbnail: https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png
 permalink: blog/package_json/
 ---
-## package.json은 React의 문서가 아니라 node.js의 문서이다.**
+#### package.json은 React의 문서가 아니라 node.js의 문서이다.**
 
 package 는 라이브러리,프레임워크 등의 통칭이고
 
@@ -62,7 +62,7 @@ license : 패키지 라이센스
 "start":"node js파일.js"
 
 
-## npm run start를 터미널에 입력하면 js파일에 있는 js가 실행된다.
+#### npm run start를 터미널에 입력하면 js파일에 있는 js가 실행된다.
 
 즉 터미널에 node js파일.js를 그냥 쳐버린거랑 같은 것이다.
 
@@ -70,4 +70,4 @@ license : 패키지 라이센스
 
 npm run (command) 은 약어이고 npm runt-script (command) 가 정석이다
 
-## 참고로 npm run command에서 command가 start, stop, restart, test + command는 run을 생략할 수 있다.**
+#### 참고로 npm run command에서 command가 start, stop, restart, test + command는 run을 생략할 수 있다.**

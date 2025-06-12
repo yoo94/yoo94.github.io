@@ -9,11 +9,11 @@ tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/Virtual-Dom/
 ---
-## Virtual DOM?
+#### Virtual DOM?
 
 DOM이란 문서 객체 모델로, html/css <--> DOM <--> JavaScript 의 역할을 한다.
 
-### Virtual DOM이 나온 이유
+##### Virtual DOM이 나온 이유
 
 DOM에는 브라우저가 화면을 그리는데 필요한 모든 정보가 들어있어 실제 DOM을 조작하는 작업의 비용이 크기 때문이다
 React에서는 실제 DOM의 변경 사항을 빠르게 파악하고 반영하기 위해서 내부적으로 가상 DOM을 만들어서 관리한다. 

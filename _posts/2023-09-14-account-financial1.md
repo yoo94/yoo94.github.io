@@ -10,7 +10,7 @@ keywords: account
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Money_Coin_Icon.svg/75px-Money_Coin_Icon.svg.png
 permalink: blog/account3/
 ---
-## **채권 채무 의미**
+#### **채권 채무 의미**
 
 **채권**이란 일방이 타방에 대하여 금전에 대한 일정한 행위를 할 것을 요구할 수 있는 권리를 말하며, **채무**는 이에 대응하여 금전에 대한 일정한 행위를 해야 하는 의무를 말한다.  
 여기서 일정한 행위를 할 것을 요구할 수 있는 일방을 ‘**채권자**‘, 일정한 행위를 해야 하는 의무자를 **‘채무자’**라고 한다.

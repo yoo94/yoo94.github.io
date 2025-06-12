@@ -10,7 +10,7 @@ keywords: react, module, nesting
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/module_nesting/
 ---
-## Module
+#### Module
 
 - 모듈은 파일을 분리해서 필요 시점에 필요한 것만 사용하려고 만든것이다.
 
@@ -20,7 +20,7 @@ permalink: blog/module_nesting/
 
 - export 대상은 변수, 함수, class, object 이다.
 
-## 네스팅
+#### 네스팅
 
 - checkbox 같은 컴포넌트는 여러군데에서 쓰니까 독립된 컴포넌트로 정의하고 여기저기서 쓴다.
 

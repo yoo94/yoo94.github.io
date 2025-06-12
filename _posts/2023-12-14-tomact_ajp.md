@@ -10,7 +10,7 @@ keywords: tomcat,apache,ajp
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s
 permalink: blog/apche_ajp/
 ---
-### **아파치 -    톰캣 연동 동작 플로우**
+##### **아파치 -    톰캣 연동 동작 플로우**
 
 1. 아파치 웹서버의 httpd.conf에 톰캣 연동을 위한 설정을 추가하고 톰캣에서 처리할 요청을 지정한다.
 
@@ -25,7 +25,7 @@ permalink: blog/apche_ajp/
 6. 아파치 웹 서버는 톰캣으로 전달받은 처리 결과를 사용자에게 전송한다.      
 
 
-### 설정해야 할 파일
+##### 설정해야 할 파일
 |  |  |  |  |
 | ---- | ---- | ---- | ---- |
 |  | 파일명 | 위치 | 설명 |
@@ -36,7 +36,7 @@ permalink: blog/apche_ajp/
 | 5 | server.xml | {tomcat설치경로}/conf | tomcat 기본설정파일 |
 |  |  |  |  |
 ''
-### **아파치 - 톰캣 연동 순서**   
+##### **아파치 - 톰캣 연동 순서**   
 
 **1. 아파치, 톰캣 각각 설치**
 
@@ -132,7 +132,7 @@ JkMount 뒤에 오는 /* 는 모든 url의 요청을 의미한다.
 
 이 ajp커넥터에 등록한 정보와 아파치 workers.properties의 정보가 일치해야 통신이 가능하다.
 
-###    ***AJP란?   Apache JServ Protocol**   
+#####    ***AJP란?   Apache JServ Protocol**   
 
 웹서버 뒤에 있는 와스로 부터 웹서버에서 받은 요청을 와스로 전달해주는 프로토콜이다.   
 

@@ -10,7 +10,7 @@ keywords: linux, tar, gz
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp
 permalink: blog/linux_ssh_os/
 ---
-## os확인
+#### os확인
 상세하게
 ```shell
 $cat /etc/*release
@@ -26,7 +26,7 @@ $cat /etc/issue*
 $cat /proc/version
 ```
 
-## open ssh 설치
+#### open ssh 설치
 
 ```shell
 yum install openssh-server openssh-clients openssh-askpass`

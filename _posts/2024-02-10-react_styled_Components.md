@@ -10,7 +10,7 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: blog/react_styled_Components/
 ---
 
-## 패키지 설치
+#### 패키지 설치
 
 Styled Components는 `styled-components`라는 NPM 패키지명을 가지고 있다. 따라서 React 프로젝트에 다음과 같이 `npm` 커맨드로 간단히 설치할 수 있다.
 
@@ -28,7 +28,7 @@ $ npm i styled-components
   },
 ```
 
-## 기본 문법
+#### 기본 문법
 
 먼저 위에서 설치한 `styled-components` 패키지에서 `styled` 함수를 임포트한다. `styled`는 Styled Components의 근간이 되는 가장 중요한 녀석인데. HTML 엘리먼트나 React 컴포넌트에 원하는 스타일을 적용하기 위해서 사용된다.
 
@@ -95,7 +95,7 @@ function Button({ children }) {
 ```
 
 
-### 가변 스타일링
+##### 가변 스타일링
 
 ```javascript
 import React from "react";

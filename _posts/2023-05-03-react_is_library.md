@@ -10,7 +10,7 @@ keywords: react
 thumbnail: /blog/postImg/Pasted image 20240205195107.png
 permalink: blog/react_is_library/
 ---
-### **1. React 는 프레임워크일까? 라이브러리일까?**
+##### **1. React 는 프레임워크일까? 라이브러리일까?**
 
 그 답은 React 공식 홈페이지에서 얻을 수 있었다.
 https://ko.legacy.reactjs.org/

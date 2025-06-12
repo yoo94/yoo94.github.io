@@ -9,7 +9,7 @@ tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-staticFiles/
 ---
-## 이미지 넣기
+#### 이미지 넣기
 
 ```jsx
 import './App.css';
@@ -75,7 +75,7 @@ export function getEmotionImage(emotionId){
   }
 }
 ```
-## 폰트
+#### 폰트
 
 ```css
 @font-face {

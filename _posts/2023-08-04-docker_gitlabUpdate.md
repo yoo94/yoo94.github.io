@@ -14,7 +14,7 @@ https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
 
 위 순서에 따라 버전을 하나씩 올려가면서 진행
 
-## 절차
+#### 절차
 <img src="/blog/postImg/Pasted image 20240119135605.png" alt="Pasted image 20240119135605.png" style="max-width:100%;">
 도커에 올라가 있는 깃랩을 업데이트한다.
 

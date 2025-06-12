@@ -10,7 +10,7 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: blog/react-event-handling/
 ---
 
-# 1. 태그안에 바로 정의
+##### 1. 태그안에 바로 정의
 ```jsx
 const Button=({text,color,children})=>{
     return (
@@ -31,7 +31,7 @@ export default Button;
 위에처럼 태그 안에 바로 정의 해도 되고
 아래처럼 이벤트 로직이 길면 빼서해도 된다.
 
-# 2. 함수로 빼서 정의
+##### 2. 함수로 빼서 정의
 
 ```jsx
 const Button=({text,color,children})=>{
@@ -55,7 +55,7 @@ export default Button;
 함수 이름만 전달해야지 ()이거 붙여서 하면 안된다.
 
 ---
-# 이벤트 객체
+##### 이벤트 객체
 리액트에서는 모든 이벤트핸들러 함수에 이벤트 객체라는 것을 제공한다.
 ```jsx
 const onClickButton=(e)=>{
@@ -69,8 +69,8 @@ const onClickButton=(e)=>{
 이것이 바로 합성 이벤트 객체이다.
 브라우저가 너무 많아서 동작이 조금씩 다 다르다.
 크롬,엣지,파이어 폭스 등등. 이벤트 객체들도 브라우저 마다 조금씩 다르기 때문에 브라우저 별로 스펙이달라서 발생하는 문제를
-## cross browsing lssue 라고 한다.
+###### cross browsing lssue 라고 한다.
 
 여러 브라우저들의 규격을 통합해서 만들어 놓은 것이
-# 합성이벤트라고 하는 것이다.
+##### 합성이벤트라고 하는 것이다.
 

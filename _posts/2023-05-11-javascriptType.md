@@ -21,7 +21,7 @@ unidefined - 원시
 object
 symbol
 
-### Number
+##### Number
 
 ```javascript
 let n = 123;
@@ -34,7 +34,7 @@ _숫자형(number type)_ 은 정수 및 부동소수점 숫자(floating point nu
 
 숫자형엔 일반적인 숫자 외에 `Infinity`, `-Infinity`, `NaN`같은 '특수 숫자 값(special numeric value)'이 포함
 
-### BigInt
+##### BigInt
 
 내부 표현 방식 때문에 자바스크립트에선 `(253-1)`(`9007199254740991`) 보다 큰 값 혹은 `-(253-1)` 보다 작은 정수는 '숫자형’을 사용해 나타낼 수 없다.
 
@@ -47,7 +47,7 @@ const bigInt = 1234567890123456789012345678901234567890n;
 ```
 
 
-### string
+##### string
 
 자바스크립트에선 문자열(string)을 따옴표로 묶는다.
 
@@ -75,25 +75,25 @@ alert( `Hello, ${name}!` ); // Hello, John!
 alert( `the result is ${1 + 2}` ); // the result is 3
 ```
 
-### boolean
+##### boolean
 
 불린형(논리 타입)은 `true`와 `false` 두 가지 값밖에 없는 자료형
 
-### null
+##### null
 
 `null` 값은 지금까지 소개한 자료형 중 어느 자료형에도 속하지 않는 값
 
 . 다른 언어에선 `null`을 '존재하지 않는 객체에 대한 참조’나 '널 포인터(null pointer)'를 나타낼 때 사용
 하지만 자바스크립트에선 `null`을 ‘존재하지 않는(nothing)’ 값, ‘비어 있는(empty)’ 값, ‘알 수 없는(unknown)’ 값을 나타내는 데 사용
 
-### undefined
+##### undefined
 
 `undefined` 값도 `null` 값처럼 자신만의 자료형을 형성
 
 `undefined`는 '값이 할당되지 않은 상태’를 나타낼 때 사용
 
 
-### object , symbol
+##### object , symbol
 
 객체형을 제외한 다른 자료형은 문자열이든 숫자든 한 가지만 표현할 수 있기 때문에 원시(primitive) 자료형이라 부른다. 반면 객체는 데이터 컬렉션이나 복잡한 개체(entity)를 표현
 

@@ -10,7 +10,7 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: blog/create-react-app/
 ---
 
-## CRA란
+#### CRA란
 주요 특징과 장점
 - 설정 간소화: Create React App을 사용하면 Webpack이나 Babel과 같은 도구들의 복잡한 설정 없이 바로 React 애플리케이션을 개발할 수 있습니다.
 
@@ -38,7 +38,7 @@ npm start
 로 시작하면 localhost:3000로 리액트가 시작된다.
 
 ---
-## 리액트 시작 index.js
+#### 리액트 시작 index.js
 
 리액트든, 스프링이든 어떤 웹사이트의 시작은 대부분
 index.js
@@ -49,11 +49,11 @@ index.js
 APP 컨포넌트는 App.js에 있고, *root* 는 src가 아닌 public에 ![[Pasted image 20240114133734.png]]
 index.html을 보면 들어있는것을 알 수 있다.
 
-## SPA
+#### SPA
 리액트는 spa 즉 single page app 이기 때문에 하나의 페이지에서 dom 을 렌더링하면서 바꿔주고 있다.
 
 
-## node_modules
+#### node_modules
 react-app으로 프로젝트를 설치하게 되면, 기본적으로node_modules에는 굉장히 많은 모듈들이 설치되게 된다.
 <img src="/blog/postImg/Pasted image 20240114134144.png" alt="Pasted image 20240114134144.png" style="max-width:100%;">
 
@@ -67,11 +67,11 @@ npm i
 라는 명령어를 날리면 자동으로 다운받게 된다.
 
 ---
-### logo192.png , logo512.png. mainfest.json
+##### logo192.png , logo512.png. mainfest.json
 이 세개의 파일은 나중에 모바일 환경에서 보게되었을때 관련된 파일들이다.
 
-### robots.txt
+##### robots.txt
 구글같은 웹사이트에서 데이터 수집 시, 어떤건 수집하고 이건 하지말아라 하는 것을 나타내는것이다.
 
-### App.jest.js
+##### App.jest.js
 테스트 용도 없어도됨

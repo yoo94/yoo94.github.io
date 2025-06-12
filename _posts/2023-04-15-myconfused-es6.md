@@ -10,7 +10,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u20
 permalink: blog/es6/
 ---
 
-## ES6에 추가된 문법
+#### ES6에 추가된 문법
 •	let, const
 •	템플릿 리터럴 `eee ${val}`
 •	화살표 함수

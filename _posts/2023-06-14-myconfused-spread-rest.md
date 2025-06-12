@@ -10,7 +10,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u20
 permalink: blog/spread-rest/
 ---
 
-## Spread 
+#### Spread 
 연산자(...)는 배열이나 객체를 개별 요소로 분해하여 사용할 수 있게 해준다. 배열의 요소를 새로운 배열에 복사하거나 객체의 속성을 새로운 객체에 복사할 때 유용.
 
 예제:
@@ -27,7 +27,7 @@ const obj2 = {...obj1, c: 3};
 console.log(obj2); // {a: 1, b: 2, c: 3}
 ```
 
-## Rest 
+#### Rest 
 
 Rest 연산자(...)는 함수의 매개변수나 배열/객체의 일부 요소를 변수에 할당할 때 사용. 
 함수의 인자 목록을 배열로 받을 때나, 배열/객체에서 일부 요소를 분리하고 나머지를 한 변수에 담을 때 유용.
@@ -51,7 +51,7 @@ console.log(a); // 1
 console.log(restObj); // {b: 2, c: 3}
 ```
 
-### 구조분해 할당
+##### 구조분해 할당
 
 구조분해 할당은 배열이나 객체의 속성을 쉽게 추출하여 변수에 할당할 수 있게 해줍니다.
 

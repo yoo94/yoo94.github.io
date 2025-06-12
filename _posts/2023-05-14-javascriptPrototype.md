@@ -15,7 +15,7 @@ permalink: blog/javascriptPrototype/
 클래스는 현재 널리 채택되어 JavaScript의 새로운 패러다임이 되었지만, 클래스는 새로운 상속 패턴을 가져오지 않는다
 
 그 프로토타입 객체도 자신만의 프로토타입을 가지고 있으며, 프로토타입으로  `null`을 가진 객체에 도달할 때까지 이 연결은 계속된다.
-## 프로토타입 체인을 이용한 상속
+#### 프로토타입 체인을 이용한 상속
 
 객체의  `[[Prototype]]`을 지정하는 방법에는 여러 가지가 있으며,  {__proto__: ... } 구문이 표준
 
@@ -54,7 +54,7 @@ const o = {
 console.log(o.d); // 5
 ```
 
-### 메서드 상속
+##### 메서드 상속
 
 상속된 함수가 실행 될 때,  [`this`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)  값은 함수가 자체 속성인 프로토타입 객체가 아니라 상속 객체를 가리킵니다.
 
@@ -88,7 +88,7 @@ console.log(child.method()); // 5
 // 자식은 이제 'value' 속성을 가지므로 'this.value'는 child.value를 의미합니다.
 ```
 
-## 생성자
+#### 생성자
 
 모든 인스턴스가 동일한 몇가지 동일한 속성을 공유하는 경우
 

@@ -15,7 +15,7 @@ permalink: blog/ant_maven_gradle/
 
 Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 파일을 사용한다.
 그래서 Ant에서 스크립트로 메이븐을 실행 할 수 도있고, 젠킨스 역할을 할 수 있다.
-### 1. Apache ANT
+##### 1. Apache ANT
 
 [**Ant**](http://ant.apache.org/)는 Java 기반의 빌드 도구로 다른 빌드 도구보다 역사가 오래되었다. Ant는 개발자가 원하는 것을 개발할 수 있다는 유연성에 큰 장점이 있다.   
 **[ANT의 특징]**
@@ -31,7 +31,7 @@ Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 
 - XML, Remote Repository를 가져올 수 없었음 (IVY 도입)
 - 스크립트의 재사용이 어려움
 
-### 2. Apache Maven
+##### 2. Apache Maven
 
 [**Maven**](https://maven.apache.org/)은 프로젝트에 필요한 모든 'Dependency (종속성)'를 리스트의 형태로 Maven에게 알려 관리 할 수 있도록 돕는 방식을 말한다. 
 
@@ -45,7 +45,7 @@ Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 
 - 계층적인 데이터를 표현하기에 좋지만, 플로우나 조건부 상황을 표현하기엔 어려움
 - 편리하나 맞춤화된 로직 실행이 어려움
 
-### 3. Apache Gradle
+##### 3. Apache Gradle
 
 최근 소프트웨어개발 범위의 변화에 따라 빌드의 자동화에대한 요구도증가하게 되었다. **[Gradle](https://gradle.org/)**은 JVM 기반의 빌드 도구로 기존의 Ant와 Maven을 보완하였다. 따라서 JAVA 혹은 Groovy를 이용해 logic을 개발자의 의도에 따라 설계할 수 있다.
 

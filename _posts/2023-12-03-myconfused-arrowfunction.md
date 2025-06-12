@@ -10,7 +10,7 @@ thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u20
 permalink: blog/arrow-func/
 ---
 
-## 일반 함수 (Function Declaration)
+#### 일반 함수 (Function Declaration)
 
 전통적인 방식의 함수 선언.
 this 키워드가 함수가 호출된 객체를 가리킴.
@@ -24,7 +24,7 @@ return `Hello, ${name}!`;
 console.log(sayHello('Alice')); // Hello, Alice!
 ```
 
-## 화살표 함수 (Arrow Function)
+#### 화살표 함수 (Arrow Function)
 
 더 간결한 문법.
 this 키워드가 상위 스코프(lexical scope)를 가리킴.
@@ -35,12 +35,12 @@ const sayHello = (name) => `Hello, ${name}!`;
 console.log(sayHello('Bob')); // Hello, Bob!
 ```
 
-## 주요 차이점
-### 문법의 간결함:
+#### 주요 차이점
+##### 문법의 간결함:
 - 일반 함수는 function 키워드를 사용하고, 화살표 함수는 =>를 사용
 - 화살표 함수는 중괄호 {}와 return 키워드 생략이 가능
 
-### this 바인딩:
+##### this 바인딩:
 
 - 일반 함수는 호출된 객체에 따라 this가 동적으로 바인딩.
 - 화살표 함수는 this가 정의된 위치의 상위 스코프를 따르므로, this가 변하지 않음.

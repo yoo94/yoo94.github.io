@@ -13,7 +13,8 @@ permalink: blog/Currying/
 커링 (Currying) 이란, 함수의 재사용성을 높이기 위해 함수자체를 return하는 함수이다.
 
 *커링과 같이 함수 자체를 인자로 받거나 반환하는 함수를 고차함수라고 하기도 한다.
-##### 일반함수
+###### 일반함수
+
 ```javascript
 function add(num1, num2) {
     console.log(num1 + num2);
@@ -22,7 +23,9 @@ function add(num1, num2) {
 add(5, 8); // 13
 
 ```
-##### 커링함수
+
+###### 커링함수
+
 ```javascript
 function add(num1, num2) {
     return num1 + num2;
@@ -44,6 +47,7 @@ addPlus(5)(4); // 9
 ```
 
 일반함수
+
 ```javascript
 // first = 010, tel = 010이후의 8자리
 function phoneNum(first, tel) {
