@@ -1,35 +1,36 @@
 ---
 layout: post
-title:  "0.패캠 inner circle 사전설명회"
+title: "0.패캠 inner circle 사전설명회"
 summary: "선발 후기"
 author: yoo94
-date: '2024-07-13 13:35:23 +0530'
-category: ['inner-Circle']
+date: "2024-07-13 13:35:23 +0530"
+category: ["inner-Circle"]
 tags:
-- 패스트캠퍼스
-- 이너서클
-- 이너써클
-- inner-Circle
-- fast campus
-- developer
-- inner circle
-- 패스트 캠퍼스
-- 이너서클
+  - 패스트캠퍼스
+  - 이너서클
+  - 이너써클
+  - inner-Circle
+  - fast campus
+  - developer
+  - inner circle
+  - 패스트 캠퍼스
+  - 이너서클
 thumbnail: https://cdn.day1company.io/prod/uploads/202406/134545-1416/simbol-black.png
 permalink: blog/InnerCircle01/
 ---
-# 물경력 개발자의  inner circle 도전
+
+# 물경력 개발자의 inner circle 도전
 
 이직을 준비중인 와중에,
 
-패스트 캠퍼스에서 하는 inner circle에 최종 선발 되어서, 그 내용을 기록해 보고자 한다. 
+패스트 캠퍼스에서 하는 inner circle에 최종 선발 되어서, 그 내용을 기록해 보고자 한다.
 
 내가 다니는 회사는 it si, 솔루션 회사이다. it 종사자라면 알 고있을 테지만, si,솔루션 회사에 취업하게 되면
 개발자로써 역량을 키우기가 굉장히 애매해지고 어려워진다.
 
 이유는 따로 말안해도 알것이다.
 
-내가 다니는 회사는 굉장히 레거시한 기술들을 사용하고 있어서, 신입이 들어와서 좋은 개발자가 되기에는 힘겨움이 있지만 
+내가 다니는 회사는 굉장히 레거시한 기술들을 사용하고 있어서, 신입이 들어와서 좋은 개발자가 되기에는 힘겨움이 있지만
 처음 신입으로 들어올때는 내가 열심히 하면 되겠지 라고 생각했다.
 
 ### 근데 아니였다.
@@ -43,9 +44,9 @@ permalink: blog/InnerCircle01/
 
 # ㅇㅁㅇ ..;;
 
-풀스택 개발이지만 프론트앤드 개발자를 지향하는 나는 
+풀스택 개발이지만 프론트앤드 개발자를 지향하는 나는
 
-1. 나름 인프런 같은 곳에서 인강도 듣고 
+1. 나름 인프런 같은 곳에서 인강도 듣고
 2. 개인 프로젝트도 진행해보기
 3. 전문서적도 사서 읽어보기
 4. 비전공자라 방통대도 입학해서 cs지식 채우기

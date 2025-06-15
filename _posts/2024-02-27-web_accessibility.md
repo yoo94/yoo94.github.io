@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "웹접근성"
+title: "웹접근성"
 summary: "웹 표준은 웹에서 사용되는 기술들의 표준화를 의미한다"
 author: yoo94
-date: '2024-02-27 17:35:23 +0530'
+date: "2024-02-27 17:35:23 +0530"
 category: websecurity
 tags: websecurity
 keywords: websecurity
 thumbnail: https://i.namu.wiki/i/kq9NDC2Dsxbpqwn1L4dDwjo4fH7A9Rb76kbTrqpRirwq1VjPHDyr0Rp_P_Y0MhxFadKjqT5yBClhRDIWxapZNIdIrW8EkbT6KVv90O9wZqZ0ouYllY8gkIa39etQZDdg1d2fR6odJZ7_hYgF4FaLXg.webp
 permalink: blog/web_accessibility/
 ---
+
 ## **웹 표준 (Web Standards)**
 
 웹 표준은 웹에서 사용되는 기술들의 표준화를 의미한다. 즉, 웹 사이트를 구성하는 HTML, CSS, JavaScript 등의 언어들이 표준화된 방식으로 작성되어야 한다는 것이다. 쉽게 말하면 사용자가 어떤 브라우저나 기기를 사용하더라도 홈페이지 화면을 동일하게 볼 수 있도록 하는 것이 웹 표준인 것이다.
 
-<img src="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" alt="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" style="max-width:100%;">
----
+## <img src="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" alt="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" style="max-width:100%;">
 
 ### **웹 표준의 장점**
 
@@ -23,7 +23,7 @@ permalink: blog/web_accessibility/
 
 #### **1. 웹 페이지의 호환성**
 
-웹 표준을 준수하면, 웹 페이지가 모든 브라우저에서 일관적으로 표시되게 된다. 이를 통해 사용자들은 어떤 브라우저를 사용하더라도 동일한 사용자 경험을 얻을 수 있어 오래된 브라우저에서도 컨텐츠가 적절하게 표시되고 호환성과 운용성이 확보된다.    
+웹 표준을 준수하면, 웹 페이지가 모든 브라우저에서 일관적으로 표시되게 된다. 이를 통해 사용자들은 어떤 브라우저를 사용하더라도 동일한 사용자 경험을 얻을 수 있어 오래된 브라우저에서도 컨텐츠가 적절하게 표시되고 호환성과 운용성이 확보된다.
 
 #### **2. 검색 엔진 최적화 (SEO)**
 
@@ -31,49 +31,50 @@ permalink: blog/web_accessibility/
 
 #### **3. 유지보수 및 확장성**
 
-웹 표준을 준수하면, 웹 페이지를 만드는 데 필요한 시간과 비용을 줄일 수 있어 유지보수 및 확장성이 좋아진다. 또한    논리적이고 효율적으로 작성된 웹 문서는 코드의 양이 줄어 파일 크기가 줄고 서버 부담의 감소로 이어진다.
+웹 표준을 준수하면, 웹 페이지를 만드는 데 필요한 시간과 비용을 줄일 수 있어 유지보수 및 확장성이 좋아진다. 또한 논리적이고 효율적으로 작성된 웹 문서는 코드의 양이 줄어 파일 크기가 줄고 서버 부담의 감소로 이어진다.
 
 #### **4. 웹 접근성 향상**
 
 웹 표준을 준수하면, 모든 사용자가 쉽게 웹 페이지에 접근할 수 있도록 웹 접근성을 고려할 수 있다. 예를들어
 
-다양한 브라우저, 휴대폰 PDA, 장애인 지원용 프로그램에서도 대응이 가능하므로 접근성이 향상되고 크린리더기 등 보조공학 기기 사용자들이 조금 더 정확한 정보를 얻을 수 있도록 도움을 준다.    
+다양한 브라우저, 휴대폰 PDA, 장애인 지원용 프로그램에서도 대응이 가능하므로 접근성이 향상되고 크린리더기 등 보조공학 기기 사용자들이 조금 더 정확한 정보를 얻을 수 있도록 도움을 준다.
 
 ---
 
-### **웹    표준을    준수하는    방법**
+### **웹 표준을 준수하는 방법**
 
 [![웹표준-웹접근성](https://blog.kakaocdn.net/dn/I4aWB/btrmRu0E89b/O43xnP9Jwq4uDAkjSoLfnK/img.png)](https://blog.kakaocdn.net/dn/I4aWB/btrmRu0E89b/O43xnP9Jwq4uDAkjSoLfnK/img.png)
 
 #### **1. DOCTYPE 선언**
 
-웹    페이지의    최상단에    DOCTYPE을    선언하여    웹    페이지가    어떤    버전의    HTML,    XHTML을    사용하는지    명시한다.
+웹 페이지의 최상단에 DOCTYPE을 선언하여 웹 페이지가 어떤 버전의 HTML, XHTML을 사용하는지 명시한다.
 
 html
 
-```html
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>HTML !DOCTYPE declaration</title>
-</head>
-<body>
-    <p>이 문서는 HTML 문서입니다.</p>
-</body>
-</html>
-```
-
-####  2. 시맨틱 태그 사용
-
-시맨틱 태그는 HTML5에서 새로 추가된 태그로, header,nav,section, footer등의 태그를 사용하여 웹 페이지의 구조를 더욱 명확하게 표현할 수 있다.
-
-html
 ```html
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <title>HTML !DOCTYPE declaration</title>
+  </head>
+  <body>
+    <p>이 문서는 HTML 문서입니다.</p>
+  </body>
+</html>
+```
+
+#### 2. 시맨틱 태그 사용
+
+시맨틱 태그는 HTML5에서 새로 추가된 태그로, header,nav,section, footer등의 태그를 사용하여 웹 페이지의 구조를 더욱 명확하게 표현할 수 있다.
+
+html
+
+```html
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
     <title>시맨틱 태그 예제</title>
   </head>
   <body>
@@ -87,22 +88,22 @@ html
         </ul>
       </nav>
     </header>
-    
+
     <section>
       <h2>섹션 1</h2>
       <p>본문 내용입니다.</p>
     </section>
-    
+
     <section>
       <h2>섹션 2</h2>
       <p>본문 내용입니다.</p>
     </section>
-    
+
     <aside>
       <h2>광고</h2>
       <p>광고 내용입니다.</p>
     </aside>
-    
+
     <footer>
       <p>저작권 © 2021 Upstage. All Rights Reserved.</p>
     </footer>
@@ -110,7 +111,8 @@ html
 </html>
 ```
 
-####   
+####
+
 **3. CSS 스타일 시트 사용**
 
 CSS 스타일 시트를 사용하여 디자인과 레이아웃을 분리하고, 웹 페이지의 내용과 디자인을 분리하여 유지보수 및 확장성을 높일 수 있다.
@@ -120,41 +122,39 @@ html
 ```html
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>HTML !DOCTYPE declaration</title>
-    <link href="/media/examples/link-element-example.css" rel="stylesheet"> <!-- css 파일 분리 -->
-</head>
-<body>
+    <link href="/media/examples/link-element-example.css" rel="stylesheet" />
+    <!-- css 파일 분리 -->
+  </head>
+  <body>
     <p>이 문서는 HTML 문서입니다.</p>
-</body>
+  </body>
 </html>
 ```
 
-####  4. 웹 접근성 고려**
+#### 4. 웹 접근성 고려\*\*
 
 웹 페이지를 만들 때 모든 사용자가 쉽게 접근할 수 있도록 웹 접근성을 고려해야 한다. 예를 들어, 시각 장애인이 스크린 리더를 사용하여 웹 페이지를 읽을 수 있도록 alt 속성을 사용하여 이미지에 대한 설명을 제공하거나, 키보드만으로 모든 기능을 사용할 수 있도록 tabindex 속성을 사용하는 등의 세심한 작업이 필요하다.
 
 html
+
 ```html
-
-<input type="text" name="name" tabindex="1">
-<input type="text" name="email" tabindex="2">
-<input type="submit" value="Submit" tabindex="3">
-
+<input type="text" name="name" tabindex="1" />
+<input type="text" name="email" tabindex="2" />
+<input type="submit" value="Submit" tabindex="3" />
 ```
 
 ---
 
-## 웹 접근성 (Web    Accessibility)
+## 웹 접근성 (Web Accessibility)
 
 웹 접근성은 **장애를 가진 사람들**도 신체적, 환경적 조건에 관계없이 인터넷을 통해 정보에 접근하고 이용할 수 있도록 하는 것을 말한다. 이는 인터넷을 더욱 공평하고 인종, 성별, 연령, 장애 유무와 상관없이 모두가 이용할 수 있는 공간으로 만드는 것을 목표로 한다.
 
 예를들자면, 시각장애인의 경우 화면을 눈으로 볼 수 없기 때문에 '스크린 리더'라는 별도의 소프트웨어를 컴퓨터에 설치하여 음성으로 웹페이지에 담긴 정보를 이해 한다.
 
-
 > 웹 접근성을 위해 사용되는 보조기기에는 자막, 스크린리더, 자동완성 기능, 마우스스틱, 색상 대비 디자인 등이 있다.
-
 
 하지만 스크린 리더는 스스로 웹페이지의 내용을 분석하지 못한다. 만일 로그인 페이지일 경우, 이 로그인 페이지의 디자인을 '로그인' 이라는 텍스트 대신 로그인 이미지를 사용할 경우 스크린 리더는 이를 인식하지 못하여 시각 장애인이 홈페이지를 이용할 수 없게 되는 차별이 일어난다. 따라서 이미지 대신 소스코드에 내용을 그대로 담는 것이 권장되며, 부득이하게 이미지를 사용할 경우 반드시 이미지가 어떤 내용인지 아래와 같이 ~~alt~~ 속성을 통해 설명을 추가 해야 한다.
 
@@ -190,7 +190,7 @@ html
 
 WCAG는 4가지 원칙, 13가지 지침, 78가지 성공 기준으로 구성되어 있다.
 
-#### ****1.**    인식의 용이성**
+#### \***\*1.** 인식의 용이성\*\*
 
 정보와 사용자 인터페이스 요소는 그들이 인지할 수 있도록 사용자에게 표시될 수 있어야 한다.
 
@@ -198,7 +198,7 @@ WCAG는 4가지 원칙, 13가지 지침, 78가지 성공 기준으로 구성되�
 2. 정보와 구조의 손실 없이 콘텐츠를 다른 방식(예를 들면 더욱 간단한 형태로)들로 표현할 수 있어야 한다.
 3. 사용자들이 보다 쉽게 보고 들을 수 있는 전경에서 배경을 분리한 콘텐츠를 만들어야 한다.
 
-#### 2. 운용의    용이성
+#### 2. 운용의 용이성
 
 사용자 인터페이스 요소와 탐색은 운용 가능해야 한다.
 
@@ -214,8 +214,8 @@ WCAG는 4가지 원칙, 13가지 지침, 78가지 성공 기준으로 구성되�
 2. 웹 페이지의 탑재와 운용을 예측 가능한 방법으로 제작해야 한다.
 3. 사용자의 실수를 방지하고 수정할 수 있도록 도와야 한다.
 
-#### 4.**    내구성**
+#### 4.** 내구성**
 
 콘텐츠는 보조 기술을 포함한 넓고 다양한 사용자 에이전트에 의존하여 해석될 수 있도록 충분히 내구성을 가져야 한다.
 
-1. 웹    기술    사용,    호환성    검사,    오류    정정    등
+1. 웹 기술 사용, 호환성 검사, 오류 정정 등

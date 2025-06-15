@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "next app 라우터의 full router cache"
+title: "next app 라우터의 full router cache"
 summary: "페이지 캐싱을 해준다."
 author: yoo94
-date: '2024-08-30 13:35:23 +0530'
-category: ['nextJs','react']
+date: "2024-08-30 13:35:23 +0530"
+category: ["nextJs", "react"]
 tags: react,nextJs
-thumbnail: 
+thumbnail:
 permalink: blog/next-full-router-cache/
 ---
 
-##  full route cache란?
+## full route cache란?
 
 next 서버에서 빌드 타임에 특정 페이지의 렌더링 결과를 캐싱하는 기능
 
@@ -44,10 +44,8 @@ next js는 정적페이지와 동적페이지 두가지로 나뉜다.
 
 <img src="/blog/postImg/next083002.png" alt="next083002.png" style="max-width:100%;">
 
-
-- 3초를 설정해 놓게되면 3초 뒤에 요청이 들어왔을 때에 풀라우트 캐시에서 현재 페이지는 
-html을 반환하지만 캐싱된 페이지는 상했다고 세팅을한다. 일단 상한 html을 보내면서 서버로 새로운 페이지를 요처하고
-새로운 html을 받아와서 다음 요청에 새로운 것을 보내준다.
+- 3초를 설정해 놓게되면 3초 뒤에 요청이 들어왔을 때에 풀라우트 캐시에서 현재 페이지는
+  html을 반환하지만 캐싱된 페이지는 상했다고 세팅을한다. 일단 상한 html을 보내면서 서버로 새로운 페이지를 요처하고
+  새로운 html을 받아와서 다음 요청에 새로운 것을 보내준다.
 
 #### 설정은 data fetch를 할때 revalidate 설정을 해주면 페이지도 같이 그시간에 맞춰 업데이트 된다.
-

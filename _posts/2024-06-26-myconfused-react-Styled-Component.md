@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "react Styled Component"
+title: "react Styled Component"
 summary: "Styled Component를 사용하는 이유"
 author: yoo94
-date: '2024-06-26 11:35:23 +0530'
-category: ['myconfused','react']
+date: "2024-06-26 11:35:23 +0530"
+category: ["myconfused", "react"]
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/Styled-Component/
 ---
+
 ### 사용하는 이유
+
 CSS-in-JS: 스타일을 컴포넌트 내에서 정의하여, 스타일과 컴포넌트를 하나의 단위로 관리할 수 있다.
 동적 스타일링: React props를 사용하여 동적으로 스타일을 변경할 수 있다.
 범위 제한: 각 컴포넌트에 고유한 클래스명을 자동으로 생성하여 CSS 범위를 제한. 이를 통해 스타일 충돌을 방지할 수 있다.
@@ -22,9 +24,10 @@ npm install styled-components
 ```
 
 #### 기본 사용법
+
 ```javascript
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
@@ -45,14 +48,15 @@ const App = () => (
 
 export default App;
 ```
-#### 동적 사용법
-```javascript
 
-import React from 'react';
-import styled from 'styled-components';
+#### 동적 사용법
+
+```javascript
+import React from "react";
+import styled from "styled-components";
 
 const Button = styled.button`
-  background-color: ${props => props.primary ? 'blue' : 'gray'};
+  background-color: ${(props) => (props.primary ? "blue" : "gray")};
   color: white;
   font-size: 16px;
   margin: 10px;
@@ -62,7 +66,7 @@ const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: ${props => props.primary ? 'darkblue' : 'darkgray'};
+    background-color: ${(props) => (props.primary ? "darkblue" : "darkgray")};
   }
 `;
 
@@ -75,11 +79,12 @@ const App = () => (
 
 export default App;
 ```
+
 #### props로 전달하여 스타일링
 
 ```javascript
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Card = styled.div`
   border: 1px solid #ddd;
@@ -90,7 +95,7 @@ const Card = styled.div`
 `;
 
 const Title = styled.h2`
-  color: ${props => props.color || 'black'};
+  color: ${(props) => props.color || "black"};
 `;
 
 const App = () => (
@@ -107,17 +112,17 @@ const App = () => (
 );
 
 export default App;
-
 ```
+
 #### scss 사용
 
 ```javascript
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 // 변수 정의
-const primaryColor = 'blue';
-const secondaryColor = 'gray';
+const primaryColor = "blue";
+const secondaryColor = "gray";
 
 const Button = styled.button`
   background-color: ${primaryColor};
@@ -141,5 +146,4 @@ const App = () => (
 );
 
 export default App;
-
 ```

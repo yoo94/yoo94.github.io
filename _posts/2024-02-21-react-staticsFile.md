@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "react 정적파일 설정"
+title: "react 정적파일 설정"
 summary: "이미지, 폰트"
 author: yoo94
-date: '2024-02-21 13:35:23 +0530'
+date: "2024-02-21 13:35:23 +0530"
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-staticFiles/
 ---
+
 #### 이미지 넣기
 
 ```jsx
@@ -23,11 +24,11 @@ import { getEmotionImage } from './util/get-emotion-image';
   <>
   //img태그에 src에 함수를 호출해
    <div>
-    <img  src={getEmotionImage(1)}/>  
-    <img  src={getEmotionImage(2)}/>  
-    <img  src={getEmotionImage(3)}/>  
-    <img  src={getEmotionImage(4)}/> 
-    <img  src={getEmotionImage(5)}/>  
+    <img  src={getEmotionImage(1)}/>
+    <img  src={getEmotionImage(2)}/>
+    <img  src={getEmotionImage(3)}/>
+    <img  src={getEmotionImage(4)}/>
+    <img  src={getEmotionImage(5)}/>
    </div>
 ...
 <Routes>
@@ -45,7 +46,6 @@ export default App
 ```
 
 ```jsx
-
 //이미지들을 경로에 맞춰서 잘 설정해 주고
 import emotion1 from "./../assets/emotion1.png";
 
@@ -55,11 +55,11 @@ import emotion3 from "./../assets/emotion3.png";
 
 import emotion4 from "./../assets/emotion4.png";
 
-import emotion5 from "./../assets/emotion5.png";  
+import emotion5 from "./../assets/emotion5.png";
 
 //함수를 호출하면 이미지를 불러올수있게 함수를 설정해준다.
-export function getEmotionImage(emotionId){
-  switch (emotionId){
+export function getEmotionImage(emotionId) {
+  switch (emotionId) {
     case 1:
       return emotion1;
     case 2:
@@ -75,14 +75,15 @@ export function getEmotionImage(emotionId){
   }
 }
 ```
+
 #### 폰트
 
 ```css
 @font-face {
-font-family: "NanumPenScript";
-src: url("/NanumPenScript-Regular.ttf");
+  font-family: "NanumPenScript";
+  src: url("/NanumPenScript-Regular.ttf");
 }
 body * {
-font-family: "NanumPenScript";
+  font-family: "NanumPenScript";
 }
 ```

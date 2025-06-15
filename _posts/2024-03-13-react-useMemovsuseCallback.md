@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "react useMemo vs useCallback"
+title: "react useMemo vs useCallback"
 summary: "useMemo와 useCallback"
 author: yoo94
-date: '2024-03-13 04:35:23 +0530'
+date: "2024-03-13 04:35:23 +0530"
 category: react
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/useMemo-useCallback/
 ---
+
 #### ❌ useMemo와 useCallback을 사용하지 말아야 할 경우
 
 - 연산이 복잡하지 않은 함수에 useCallback을 사용하는 것은 메모리 낭비이므로, 간단한 일반 함수들에는 useCallback을 사용하지 않는게 좋다.

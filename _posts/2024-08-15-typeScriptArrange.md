@@ -3,19 +3,21 @@ layout: post
 title: "헷갈리는 타입스크립트들 정리1"
 summary: "인터페이스 부터 컨디셔널타입까지"
 author: yoo94
-date: '2024-08-15 09:32:23 +0530'
-category: ['myconfused','javaScript','typeScript']
+date: "2024-08-15 09:32:23 +0530"
+category: ["myconfused", "javaScript", "typeScript"]
 tags:
   - javaScript
   - typeScript
-thumbnail: 
+thumbnail:
 permalink: blog/typeScriptArrange/
 ---
+
 ### 타입스크립트 공부를 하다보니.. 어떤게 어떻게 써야하는지 제대로 정리가 안돼서 여기다가 한번 정리하고자 한다.
 
 ### 1. 인터페이스 (Interface)
 
 인터페이스는 객체의 구조를 정의할 때 사용 객체가 가져야 할 속성과 메서드의 타입을 지정할 수 있다.
+
 #### 언제 사용하는가?
 
 인터페이스는 특정 객체가 가져야 할 구조를 미리 정의하고, 그 구조를 따르는 객체만 사용하고 싶을 때 사용합니다.
@@ -36,7 +38,7 @@ const person: Person = {
   age: 30,
   greet() {
     console.log(`Hello, my name is ${this.name}`);
-  }
+  },
 };
 ```
 
@@ -62,11 +64,11 @@ userId = 123;
 userId = "abc";
 ```
 
---- 
+---
+
 ### 3. 리터럴 타입 (Literal Type)
 
 리터럴 타입은 특정 값 자체를 타입으로 사용할 수 있게 한다.
-
 
 #### 언제 사용하는가?
 
@@ -80,14 +82,15 @@ userId = "abc";
 type Direction = "up" | "down" | "left" | "right";
 
 function move(direction: Direction) {
-    console.log(`Moving ${direction}`);
+  console.log(`Moving ${direction}`);
 }
 
-move("up");  // OK
-move("sideways");  // Error
+move("up"); // OK
+move("sideways"); // Error
 ```
 
---- 
+---
+
 ### 4. 튜플 (Tuple)
 
 튜플은 고정된 수의 요소를 가지며, 각 요소가 특정 타입을 가지는 배열
@@ -102,11 +105,12 @@ move("sideways");  // Error
 
 ```typescript
 let person: [string, number];
-person = ["John", 30];  // OK
-person = [30, "John"];  // Error
+person = ["John", 30]; // OK
+person = [30, "John"]; // Error
 ```
 
---- 
+---
+
 ### 5. 네임스페이스 (Namespace)
 
 네임스페이스는 코드를 모듈화하여 동일한 이름을 가진 변수를 충돌 없이 사용할 수 있게 한다.
@@ -121,19 +125,19 @@ person = [30, "John"];  // Error
 
 ```typescript
 namespace Animals {
-    export class Dog {
-        bark() {
-            console.log("Woof!");
-        }
+  export class Dog {
+    bark() {
+      console.log("Woof!");
     }
+  }
 }
 
 namespace Vehicles {
-    export class Dog {
-        honk() {
-            console.log("Beep!");
-        }
+  export class Dog {
+    honk() {
+      console.log("Beep!");
     }
+  }
 }
 
 let pet = new Animals.Dog();
@@ -141,10 +145,10 @@ pet.bark();
 
 let car = new Vehicles.Dog();
 car.honk();
-
 ```
 
---- 
+---
+
 ### 6. 인덱스 접근 타입 (Indexed Access Type)
 
 인덱스 접근 타입은 객체 타입의 특정 속성 타입을 가져올 수 있게한다.
@@ -159,14 +163,15 @@ car.honk();
 
 ```typescript
 interface Person {
-    name: string;
-    age: number;
+  name: string;
+  age: number;
 }
 
-type NameType = Person['name'];  // string 타입
+type NameType = Person["name"]; // string 타입
 ```
 
---- 
+---
+
 ### 7. 매핑된 객체 타입 (Mapped Type)
 
 매핑된 타입은 기존 타입을 변형하여 새로운 타입을 생성할 때 사용.
@@ -181,23 +186,24 @@ type NameType = Person['name'];  // string 타입
 
 ```typescript
 type ReadOnly<T> = {
-    readonly [P in keyof T]: T[P];
+  readonly [P in keyof T]: T[P];
 };
 
 interface Person {
-    name: string;
-    age: number;
+  name: string;
+  age: number;
 }
 
 const readonlyPerson: ReadOnly<Person> = {
-    name: "John",
-    age: 30
+  name: "John",
+  age: 30,
 };
 
-readonlyPerson.name = "Doe";  // Error
+readonlyPerson.name = "Doe"; // Error
 ```
 
---- 
+---
+
 ### 8. 유니언과 인터섹션 (Union & Intersection)
 
 - 유니언 타입은 여러 타입 중 하나의 타입을 허용.
@@ -215,15 +221,15 @@ readonlyPerson.name = "Doe";  // Error
 type A = { name: string };
 type B = { age: number };
 
-type AB = A & B;  // { name: string; age: number }
+type AB = A & B; // { name: string; age: number }
 type AorB = A | B;
 
-let person1: AB = { name: "John", age: 30 };  // OK
-let person2: AorB = { name: "Doe" };  // OK
-
+let person1: AB = { name: "John", age: 30 }; // OK
+let person2: AorB = { name: "Doe" }; // OK
 ```
 
---- 
+---
+
 ### 9. 제네릭 (Generic)
 
 제네릭은 타입을 변수처럼 다뤄서 다양한 타입에 대해 재사용 가능한 코드를 작성할 수 있게 해줌
@@ -238,13 +244,14 @@ let person2: AorB = { name: "Doe" };  // OK
 
 ```typescript
 function identity<T>(arg: T): T {
-    return arg;
+  return arg;
 }
 
 let output = identity<string>("Hello");
-
 ```
---- 
+
+---
+
 ### 10. 컨디셔널 타입 (Conditional Type)
 
 컨디셔널 타입은 조건에 따라 타입을 선택할 수 있게 해줌
@@ -260,7 +267,6 @@ let output = identity<string>("Hello");
 ```typescript
 type IsString<T> = T extends string ? true : false;
 
-type A = IsString<string>;  // true
-type B = IsString<number>;  // false
+type A = IsString<string>; // true
+type B = IsString<number>; // false
 ```
-

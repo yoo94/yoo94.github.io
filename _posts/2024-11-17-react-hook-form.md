@@ -3,13 +3,13 @@ layout: post
 title: "react-hook-form"
 summary: " 폼 처리를 더욱 간편하게 "
 author: yoo94
-date: '2024-11-17 18:32:23 +0530'
-category: ['nextJs']
+date: "2024-11-17 18:32:23 +0530"
+category: ["nextJs"]
 tags:
   - nextJs
   - react-hook-form
   - react
-thumbnail: 
+thumbnail:
 permalink: blog/react-hook-form/
 ---
 
