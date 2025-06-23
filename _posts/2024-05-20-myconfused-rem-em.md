@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "rem과 em의 차이? "
+title: "rem과 em의 차이? "
 summary: "동적 크기?"
 author: yoo94
-date: '2024-05-20 19:35:23 +0530'
-category: ['myconfused','css']
+date: "2024-05-20 19:35:23 +0530"
+category: ["myconfused", "css"]
 tags: myconfused, rem, em
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/rem-em/
@@ -27,4 +27,3 @@ REM은 루트 요소(html)의 폰트 크기를 기준으로 하며, EM은 부모
 따라서, 폰트 크기뿐만 아니라 패딩, 마진 등의 크기를 지정할 때도 REM을 사용하면 더 일관된 레이아웃을 구성할 수 있다.
 
 EM은 컴포넌트의 상대적 크기 조정이 필요할 때 유용하게 사용될 수 있다.
-

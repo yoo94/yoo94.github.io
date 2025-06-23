@@ -1,24 +1,24 @@
 ---
 layout: post
-title:  "next app 라우터의 data fetching,caching,memo"
+title: "next app 라우터의 data fetching,caching,memo"
 summary: "사전렌더링 과정 진행"
 author: yoo94
-date: '2024-08-28 13:35:23 +0530'
-category: ['nextJs','react']
+date: "2024-08-28 13:35:23 +0530"
+category: ["nextJs", "react"]
 tags: react,nextJs
-thumbnail: 
+thumbnail:
 permalink: blog/next-data-fetching/
 ---
 
 # 페칭
 
-## 페이지 라우터에서는 서버측에서만 실행되는 아래와같은 함수들을 이용했다. 
+## 페이지 라우터에서는 서버측에서만 실행되는 아래와같은 함수들을 이용했다.
 
 1. SSR - getServerSideProps()
 2. SSG - getStaticProps()
 3. Dynamic SSG - getStaticPaths()
 
-#### 구조는 
+#### 구조는
 
 <img src="/blog/postImg/next090801.png" alt="next090801.png" style="max-width:100%;">
 
@@ -34,6 +34,7 @@ permalink: blog/next-data-fetching/
 이미지 처럼 asymc 키워드를 붙여서 서버 컴포넌트에 비동기 함수를 추가할수있다.
 
 즉, 데이터가 필요한 컴포넌트가 있다면, 직접 호출해서 사용하는것이 원칙이 된 것이고
+
 ### 무려 next 공식문서에도 직접 호출을 권장한다.
 
 ---
@@ -44,36 +45,35 @@ permalink: blog/next-data-fetching/
 참고로 무조건 fetch를 사용해야한다.
 
 ## no-store
+
 ```js
-
-const response = await fetch('~/api',{cache:"no-store"})
-
+const response = await fetch("~/api", { cache: "no-store" });
 ```
+
 데이터 페칭의 결과를 저장하지 않는 옵션, 즉 캐싱을 아예 하지 않는다. 옵션설정 안하면 이게 기본값이다.
 
 ## force-cache
+
 ```js
-
-const response = await fetch('~/api',{cache:"force-cache"})
-
+const response = await fetch("~/api", { cache: "force-cache" });
 ```
+
 요청의 결과를 무조건 캐싱한, 한번 호출 된 이후에는 다시는 호출되지 않음
 
-
 ## revalidate
+
 ```js
-
-const response = await fetch('~/api',{next:{revalidate : 10}})
-
+const response = await fetch("~/api", { next: { revalidate: 10 } });
 ```
+
 특정 시간을 주기로 캐시를 업데이트함, 페이지 라우터의 ISR 방식과 유사
 
 ## tags
+
 ```js
-
-const response = await fetch('~/api',{next:{tags : ['a']}})
-
+const response = await fetch("~/api", { next: { tags: ["a"] } });
 ```
+
 요청이 들어왔을 때 데이터를 최신화함, on-demand Revalidate
 
 ---
@@ -91,8 +91,8 @@ const response = await fetch('~/api',{next:{tags : ['a']}})
 
 이 옵션은 next에서 자동실행된다.
 
-예를들어 같은 page.tsx에서 
-first.tsx second.tsx 둘다 
+예를들어 같은 page.tsx에서
+first.tsx second.tsx 둘다
 특정 데이터가 필요해서 권장사항에 맞게 같은 api를 두곳에서 호출해도
 실제로는 1번만 호출하게 해주는것이다.
 렌더링 이후에는 소멸하여 새로고침하면 다시 호출된다.

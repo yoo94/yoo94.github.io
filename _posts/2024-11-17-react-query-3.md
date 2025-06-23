@@ -3,13 +3,13 @@ layout: post
 title: "react query iniginiteQuery"
 summary: "무한스크롤 해보자"
 author: yoo94
-date: '2024-11-17 11:32:23 +0530'
-category: ['nextJs']
+date: "2024-11-17 11:32:23 +0530"
+category: ["nextJs"]
 tags:
   - nextJs
   - react-query
   - react
-thumbnail: 
+thumbnail:
 permalink: blog/react-query3/
 ---
 
@@ -22,7 +22,6 @@ permalink: blog/react-query3/
 React Query의 Infinite Queries를 사용해서 무한 스크롤을 구현할 수 있음
 
 공식 문서: tanstack.com/query/v4/docs/react/guides/infinite-queries
-
 
 ## React Query의 infiniteQuery란?
 
@@ -41,13 +40,11 @@ const {
   isFetchingNextPage,
   status,
 } = useInfiniteQuery({
-  queryKey: ['projects'],
+  queryKey: ["projects"],
   queryFn: fetchProjects,
   getNextPageParam: (lastPage, pages) => lastPage.nextCursor,
 });
-
 ```
-
 
 ### React Query의 infiniteQuery 기능
 
@@ -56,7 +53,7 @@ const {
 - getNextPageParam: 콜백 함수를 사용해서 다음 페이지를 정의
 
 ```tsx
-import { useInfiniteQuery } from 'react-query';
+import { useInfiniteQuery } from "react-query";
 
 const fetchPosts = async ({ pageParam = 1 }) => {
   const response = await fetch(`/api/posts?page=${pageParam}`);
@@ -64,7 +61,7 @@ const fetchPosts = async ({ pageParam = 1 }) => {
 };
 
 const { data, fetchNextPage, hasNextPage } = useInfiniteQuery(
-  'posts', // 고유한 쿼리 키
+  "posts", // 고유한 쿼리 키
   fetchPosts, // 데이터 가져오는 비동기 함수
   {
     getNextPageParam: (lastPage, pages) => lastPage.nextPage, // 다음 페이지 파라미터 추출
@@ -93,7 +90,7 @@ return (
 
     {hasNextPage ? (
       <button onClick={() => fetchNextPage()} disabled={isFetching}>
-        {isFetching ? '로딩 중...' : '더 불러오기'}
+        {isFetching ? "로딩 중..." : "더 불러오기"}
       </button>
     ) : null}
   </div>
@@ -108,8 +105,8 @@ return (
 - 마지막 페이지에 다다를 때까지 위 단계를 반복
 
 ```tsx
-import useIntersectionObserver from '@hooks/useIntersectionObserver';
-import { useInfiniteQuery } from 'react-query';
+import useIntersectionObserver from "@hooks/useIntersectionObserver";
+import { useInfiniteQuery } from "react-query";
 
 const listRef = useRef<HTMLDivElement | null>(null);
 const listEnd = useIntersectionObserver(listRef, {});
@@ -132,7 +129,7 @@ useEffect(() => {
 - hasNextPage, hasPreviousPage: 다음 페이지 및 이전 페이지가 있는지 여부를 나타내는 불리언 값
 - isFetchingNextPage, isFetchingPreviousPage: 다음 페이지 또는 이전 페이지의 데이터를 가져오는 동안 로딩 상태를 나타내는 불리언 값
 
---- 
+---
 
 ## Intersection Observer란?
 
@@ -148,45 +145,43 @@ useEffect(() => {
 
 ```tsx
 // IntersectionObserver 등록
-const io = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
     // 관심 대상이 viewport 안에 들어온 경우 'active' 클래스 추가
     if (entry.intersectionRatio > 0) {
-      entry.target.classList.add('active');
+      entry.target.classList.add("active");
     } else {
       // 그 외의 경우 'active' 클래스 제거
-      entry.target.classList.remove('active');
+      entry.target.classList.remove("active");
     }
   });
 });
 
 // 관찰할 대상을 선택하고, 해당 속성을 관찰
-const boxList = document.querySelectorAll('.box');
-boxList.forEach(el => {
+const boxList = document.querySelectorAll(".box");
+boxList.forEach((el) => {
   io.observe(el);
 });
-
 ```
 
-
 ### Intersection Observer Options 알아보기
+
 - Intersection Observer는 Options를 통해 관찰이 시작되는 상황에 대한 옵션을 설정할 수 있음
 - root: 대상 객체(target)의 가시성을 확인할 때 사용되는 뷰포트 요소
 - rootMargin: root가 가진 바깥 여백(Margin). margin 값을 이용해 root 범위를 확장/축소할 수 있음
-예시: "10px 20px 30px 40px" (top, right, bottom, left). 기본값은 0
+  예시: "10px 20px 30px 40px" (top, right, bottom, left). 기본값은 0
 - threshold: observer의 콜백이 실행될 대상 요소(target)의 가시성이 얼마나 필요하거나 나타내는 값
 
 ```tsx
 // Options를 설정하고 적용하는 예제
 let options = {
-  root: document.querySelector('#scrollArea'),
-  rootMargin: '0px',
+  root: document.querySelector("#scrollArea"),
+  rootMargin: "0px",
   threshold: 1.0,
 };
 
 let observer = new IntersectionObserver(callback, options);
 ```
-
 
 ### Intersection Observer 기본 문법
 
@@ -202,10 +197,11 @@ let observer = new IntersectionObserver(callback, options);
 ```tsx
 // observer 초기화
 let io = new IntersectionObserver(callback, options);
-io.observe(element) // 관찰 대상 등록
+io.observe(element); // 관찰 대상 등록
 ```
 
 ### Intersection Observer Callback: Entry 속성
+
 - IntersectionObserverEntry는 읽기 전용의 여러 가지 속성들을 포함:
 - boundingClientRect: 관찰 대상의 경계 사각형을 DOMRectReadOnly로 반환
 - intersectionRect: 관찰 대상의 교차한 영역 정보를 DOMRectReadOnly로 반환
@@ -217,7 +213,7 @@ io.observe(element) // 관찰 대상 등록
 
 ```tsx
 let callback = (entries, observer) => {
-  entries.forEach(entry => {
+  entries.forEach((entry) => {
     // Each entry describes an intersection change for one observed target element:
     entry.boundingClientRect;
     entry.intersectionRatio;
@@ -231,6 +227,7 @@ let callback = (entries, observer) => {
 ```
 
 ### Intersection Observer 메서드
+
 - observe: 대상 요소(target)의 관찰을 시작할 때 사용
 - unobserve: 대상 요소의 관찰을 중지할 때 사용. 관찰을 중지할 하나의 대상 요소를 인수로 지정해야 함
 - disconnect: IntersectionObserver 인스턴스가 관찰하는 모든 요소의 관찰을 중지할 때 사용
@@ -238,28 +235,29 @@ let callback = (entries, observer) => {
 ```tsx
 const io = new IntersectionObserver(callback, options);
 
-const div = document.querySelector('div');
-const li = document.querySelector('li');
+const div = document.querySelector("div");
+const li = document.querySelector("li");
 
 io.observe(div); // div 요소 관찰 시작
-io.observe(li);  // li 요소 관찰 시작
+io.observe(li); // li 요소 관찰 시작
 
 io.unobserve(div); // div 요소 관찰 중지
-io.unobserve(li);  // li 요소 관찰 중지
+io.unobserve(li); // li 요소 관찰 중지
 
 io.disconnect(); // io가 관찰하는 모든 요소 (div, li) 관찰 중지
 ```
 
 ### Intersection Observer hook 예시
+
 참고: https://usehooks-ts.com/
 elementRef, options 두 개의 인수를 받아, Intersection Observer API를 사용하여 DOM 요소의 가시성을 감시하고 관찰 결과를 반환하는 훅
 
 ```tsx
-import { RefObject, useEffect, useState } from 'react';
+import { RefObject, useEffect, useState } from "react";
 
 function useIntersectionObserver(
   elementRef: RefObject<Element>,
-  { threshold = 0.1, root = null, rootMargin = '0%' }: IntersectionObserverInit
+  { threshold = 0.1, root = null, rootMargin = "0%" }: IntersectionObserverInit
 ) {
   const [entry, setEntry] = useState<IntersectionObserverEntry | undefined>();
 
@@ -302,27 +300,25 @@ getBoundingClientRect 메서드: 계산을 할 때마다 리플로우 현상이 
 
 ```js
 // 빈 리스트 선택
-const listElem = document.querySelector('#infinite-list');
+const listElem = document.querySelector("#infinite-list");
 let nextItem = 1;
 
 // 20개의 아이템 추가 함수
 const loadMore = function () {
   for (let i = 0; i < 20; i++) {
-    let item = document.createElement('li');
-    item.innerText = 'List Item #' + nextItem++;
+    let item = document.createElement("li");
+    item.innerText = "List Item #" + nextItem++;
     listElem.appendChild(item);
   }
-}
+};
 
 // ul 리스트 바닥까지 스크롤 했는지 확인
-listElem.addEventListener('scroll', function () {
+listElem.addEventListener("scroll", function () {
   if (listElem.scrollTop + listElem.clientHeight >= listElem.scrollHeight) {
-    loadMore()
+    loadMore();
   }
 });
 
 // 아이템 20개씩 더 가져오는 loadMore 함수 실행
-loadMore()
-
+loadMore();
 ```
-

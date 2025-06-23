@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "js arrow vs function()"
+title: "js arrow vs function()"
 summary: ""
 author: yoo94
-date: '2023-12-03 15:35:23 +0530'
-category: ['myconfused','javaScript']
+date: "2023-12-03 15:35:23 +0530"
+category: ["myconfused", "javaScript"]
 tags: myconfused, arrow
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/arrow-func/
@@ -18,10 +18,10 @@ this 키워드가 함수가 호출된 객체를 가리킴.
 
 ```js
 function sayHello(name) {
-return `Hello, ${name}!`;
+  return `Hello, ${name}!`;
 }
 
-console.log(sayHello('Alice')); // Hello, Alice!
+console.log(sayHello("Alice")); // Hello, Alice!
 ```
 
 #### 화살표 함수 (Arrow Function)
@@ -32,7 +32,7 @@ this 키워드가 상위 스코프(lexical scope)를 가리킴.
 ```js
 const sayHello = (name) => `Hello, ${name}!`;
 
-console.log(sayHello('Bob')); // Hello, Bob!
+console.log(sayHello("Bob")); // Hello, Bob!
 ```
 
 #### 주요 차이점

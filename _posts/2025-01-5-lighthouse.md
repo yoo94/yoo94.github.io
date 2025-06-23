@@ -3,14 +3,14 @@ layout: post
 title: "프론트엔드 최적화 1. lighthouse "
 summary: "lighthouse 패널을 사용하자"
 author: yoo94
-date: '2025-01-05 10:32:23 +0530'
-category: ['FEoptimize']
+date: "2025-01-05 10:32:23 +0530"
+category: ["FEoptimize"]
 tags:
   - lighthouse
   - 프론트엔드
   - 최적화
   - front end optimization
-thumbnail: 
+thumbnail:
 permalink: blog/optimization_1/lighthouse/
 ---
 
@@ -21,24 +21,24 @@ permalink: blog/optimization_1/lighthouse/
 ### Mode
 
 - Navigation
-    - 기본값, 초기 페이지 로딩 시 발생하는 성능 분석
+  - 기본값, 초기 페이지 로딩 시 발생하는 성능 분석
 - Timespan
-    - 사용자가 정의한 시간 동안 발생한 성능 분석
+  - 사용자가 정의한 시간 동안 발생한 성능 분석
 - Snapshot
-    - 현재 상태의 성능 문제를 분석
+  - 현재 상태의 성능 문제를 분석
 
 ### Categories
 
 - Performance
-    - 로딩 과정에서 발생하는 문제 분석
+  - 로딩 과정에서 발생하는 문제 분석
 - Accessibility
-    - 서비스의 사용자 접근석 문제 분석
+  - 서비스의 사용자 접근석 문제 분석
 - Best practices
-    - 웹사이트의 보안 측면과 최신 표준으로 분석
+  - 웹사이트의 보안 측면과 최신 표준으로 분석
 - SEO
-    - 검색엔진 분석
+  - 검색엔진 분석
 - PWA
-    - 서비스 워커와 오프라인 동장 등, pwa관련 분석
+  - 서비스 워커와 오프라인 동장 등, pwa관련 분석
 
 ---
 
@@ -49,7 +49,6 @@ permalink: blog/optimization_1/lighthouse/
 <img src="/blog/postImg/bital1.png" alt="bital1.png" style="max-width:100%;">
 
 <img src="/blog/postImg/bital2.png" alt="bital2.png" style="max-width:100%;">
-
 
 ### FCP ( First Conentful Paint) - 가중치 : 10%
 

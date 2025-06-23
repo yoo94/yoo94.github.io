@@ -3,8 +3,8 @@ layout: post
 title: "잔디 기부 캠페인 참여! 및 연말 회고"
 summary: "항해99"
 author: yoo94
-date: '2024-12-27 10:32:23 +0530'
-category: ['webetc']
+date: "2024-12-27 10:32:23 +0530"
+category: ["webetc"]
 tags:
   - 잔디기부
   - 잔디 기부
@@ -12,7 +12,7 @@ tags:
   - 항해99
   - 개발자 회고
   - 연말 회고
-thumbnail: 
+thumbnail:
 permalink: blog/git-donation/
 ---
 
@@ -21,7 +21,6 @@ permalink: blog/git-donation/
 <img src="/blog/postImg/donation1.png" alt="donation1.png" style="max-width:100%;">
 
 내가 기부할때는 누적 557,479개!!!
-
 
 <img src="/blog/postImg/donation2.png" alt="donation2.png" style="max-width:100%;">
 
@@ -32,8 +31,7 @@ permalink: blog/git-donation/
 
 <img src="/blog/postImg/donation3.png" alt="donation3.png" style="max-width:100%;">
 
-#### 나는 983개의 잔디를 기부했다.. 내 아주 작은 잔디가 좋은곳에 쓰이길... 
-
+#### 나는 983개의 잔디를 기부했다.. 내 아주 작은 잔디가 좋은곳에 쓰이길...
 
 기부를 하고 나면 기부증서를 받을수 있는데
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
@@ -61,10 +59,12 @@ permalink: blog/git-donation/
 ## 2025년 목표
 
 ### 상반기 목표
+
 - 이직한 회사에서 맡게된 프로젝트 성공적으로 마무리하기
 - 현재 회사는 테스트커버리지가 0에 수렴해서 조금 올려볼까 한다.
 
 ### 하반기 목표
+
 - 이게 맞는지는 모르고 고민을 많이 해보겠지만 특수대학원을 도전해볼 생각이다.
 - 본인보다 나를 먼저 생각해주는 좋은 인연을 4년전에 만났는데, 그분과 평생 함께 할 계획도 생각하고있다.
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "react classname을 쓰는 이유"
+title: "react classname을 쓰는 이유"
 summary: ""
 author: yoo94
-date: '2024-03-01 11:35:23 +0530'
-category: ['react','myconfused']
+date: "2024-03-01 11:35:23 +0530"
+category: ["react", "myconfused"]
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-classname/

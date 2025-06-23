@@ -3,13 +3,13 @@ layout: post
 title: "react query"
 summary: "비동기 작업을 위한 라이브러리"
 author: yoo94
-date: '2024-11-16 18:32:23 +0530'
-category: ['nextJs']
+date: "2024-11-16 18:32:23 +0530"
+category: ["nextJs"]
 tags:
   - nextJs
   - react-query
   - react
-thumbnail: 
+thumbnail:
 permalink: blog/react-query/
 ---
 
@@ -45,10 +45,10 @@ permalink: blog/react-query/
 useQuery 함수를 사용하여 데이터 불러오기, 자동 캐싱, 중복 요청 방지 가능
 
 ```ts
-import { useQuery } from 'react-query';
+import { useQuery } from "react-query";
 
 function MyComponent() {
-  const { data } = useQuery('querykey', fetchDataFunction);
+  const { data } = useQuery("querykey", fetchDataFunction);
   // 쿼리 키를 기준으로 캐싱되기 때문에 여러개 사용하면 데이터마다 각각 쿼리키를 다르게 줘야한다.
 }
 ```
@@ -56,24 +56,24 @@ function MyComponent() {
 2. 자동 리페치
 
 데이터를 주기적으로 업데이트해야 하는 경우, refetchInterval 옵션을 사용하여 설정 가능
+
 ```ts
-const { data } = useQuery('myData', fetchDataFunction, {
+const { data } = useQuery("myData", fetchDataFunction, {
   refetchInterval: 10000, // 10 seconds
 });
-
 ```
 
 3. 뮤테이션
 
 데이터 변경 작업(생성, 수정, 삭제)을 간단하게 수행할 때 사용 가능
+
 ```ts
-import { useMutation } from 'react-query';
+import { useMutation } from "react-query";
 
 function MyComponent() {
   const { mutation } = useMutation(createDataFunction);
   // ...
 }
-
 ```
 
 ---
@@ -88,10 +88,10 @@ fetch만을 사용한다 했을 때, 새로고침이나 앞뒤로 왓다갔다�
 React Query에서 사용되는 중요한 옵션 중 하나로, 캐시된 데이터의 "잘못된" 상태(stale state)를 얼마 동안 허용할지 설정하는 데 사용
 
 ```ts
-import { useQuery } from 'react-query';
+import { useQuery } from "react-query";
 
 function MyComponent() {
-  const { data } = useQuery('myData', fetchDataFunction, {
+  const { data } = useQuery("myData", fetchDataFunction, {
     staleTime: 60000, // 60 seconds
   });
   // ...
@@ -117,7 +117,7 @@ staleTime은 기본적으로 0으로, 데이터가 한 번 불러와지면 다�
 - error: 데이터 가져오는 중 발생한 에러 정보
 
 ```tsx
-const { isLoading, isError, data, error } = useQuery('profile', fetchData);
+const { isLoading, isError, data, error } = useQuery("profile", fetchData);
 
 if (isLoading) {
   return <p>Loading...</p>;
@@ -134,13 +134,13 @@ if (isError) {
 const queryClient = useQueryClient();
 
 // Todo 목록 가져오기
-const { data: todos } = useQuery('todos', fetchTodos);
+const { data: todos } = useQuery("todos", fetchTodos);
 
 const handleUpdateTodo = (id, text) => {
   // Todo 업데이트 API 호출
 
   // 다른 쿼리 캐시 갱신: 'todos' 쿼리 다시 로드
-  queryClient.invalidateQueries('todos');
+  queryClient.invalidateQueries("todos");
 };
 ```
 
@@ -154,31 +154,35 @@ const mutation = useMutation({
   mutationFn: postTodo,
   onSuccess: () => {
     // Invalidate and refetch
-    queryClient.invalidateQueries({ queryKey: ['todos'] });
+    queryClient.invalidateQueries({ queryKey: ["todos"] });
   },
 });
 
 return (
-  <button onClick={() => {
-    mutation.mutate({
-      id: Date.now(),
-      title: 'Do Laundry',
-    });
-  }}>
+  <button
+    onClick={() => {
+      mutation.mutate({
+        id: Date.now(),
+        title: "Do Laundry",
+      });
+    }}
+  >
     Add Todo
   </button>
 );
 ```
+
 ---
 
 ## 세팅방법
-#### 최상단 파일(_app.tsx)에 QueryClientProvider로 애플리케이션을 감싸고, queryClient 설정
+
+#### 최상단 파일(\_app.tsx)에 QueryClientProvider로 애플리케이션을 감싸고, queryClient 설정
 
 ```tsx
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 // Create a client
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 function App() {
   return (
@@ -186,7 +190,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <Todos />
     </QueryClientProvider>
-  )
+  );
 }
 ```
 
@@ -200,16 +204,16 @@ function App() {
 
 ```tsx
 export async function getStaticProps() {
-  const posts = await getPosts()
-  return { props: { posts } }
+  const posts = await getPosts();
+  return { props: { posts } };
 }
 
 function Posts(props) {
   const { data } = useQuery({
-    queryKey: ['posts'],
+    queryKey: ["posts"],
     queryFn: getPosts,
     initialData: props.posts,
-  })
+  });
 
   // ...
 }

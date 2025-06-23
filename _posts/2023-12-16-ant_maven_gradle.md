@@ -1,23 +1,25 @@
 ---
 layout: post
-title:  "빌드 도구들 Ant, Maven, Gradle"
+title: "빌드 도구들 Ant, Maven, Gradle"
 summary: "빌드 도구들 Ant, Maven, Gradle"
 author: yoo94
-date: '2023-12-16 17:35:23 +0530'
+date: "2023-12-16 17:35:23 +0530"
 category: webetc
 tags: webetc
 keywords: Ant, Maven, Gradle
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s
 permalink: blog/ant_maven_gradle/
 ---
+
 빌드도구는 소스코드에서 어플리케이션 생성을 자동화 하기 위한 프로그램이다. 빌드는 코드를 사용 or 실행 가능한 형태로 컴파일링, 링킹, 패키징 하는것을 포함한다.  
 기본적으로 빌드 자동화는 아래와 같은 정형화된 다양한 작업을 스크립팅하거나 자동화 하는 행위이다.
 
 Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 파일을 사용한다.
 그래서 Ant에서 스크립트로 메이븐을 실행 할 수 도있고, 젠킨스 역할을 할 수 있다.
+
 ##### 1. Apache ANT
 
-[**Ant**](http://ant.apache.org/)는 Java 기반의 빌드 도구로 다른 빌드 도구보다 역사가 오래되었다. Ant는 개발자가 원하는 것을 개발할 수 있다는 유연성에 큰 장점이 있다.   
+[**Ant**](http://ant.apache.org/)는 Java 기반의 빌드 도구로 다른 빌드 도구보다 역사가 오래되었다. Ant는 개발자가 원하는 것을 개발할 수 있다는 유연성에 큰 장점이 있다.  
 **[ANT의 특징]**
 
 - 각 프로젝트에 대한 XML기반 빌드 스크립트 개발
@@ -33,7 +35,7 @@ Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 
 
 ##### 2. Apache Maven
 
-[**Maven**](https://maven.apache.org/)은 프로젝트에 필요한 모든 'Dependency (종속성)'를 리스트의 형태로 Maven에게 알려 관리 할 수 있도록 돕는 방식을 말한다. 
+[**Maven**](https://maven.apache.org/)은 프로젝트에 필요한 모든 'Dependency (종속성)'를 리스트의 형태로 Maven에게 알려 관리 할 수 있도록 돕는 방식을 말한다.
 
 - Dependency를 관리하고, 표준화된 프로젝트(Standardized project)를 제공
 - XML, remote repository를 가져 올 수 있음 : 개발에 필요한 종속되는 'jar', 'class path'를 다운로드 할 필요 없이 선언만으로 사용 가능
@@ -51,7 +53,7 @@ Ant는 XML 기반의 스크립트를 사용하고 Maven은 XML 기반의 설정 
 
 - 오픈소스기반의 build 자동화 시스템으로 Groovy 기반 DSL(Domain-Specific Language)로 작성
 - Build-by-convention을 바탕으로함: 스크립트 규모가 작고 읽기 쉬움
-- Multi 프로젝트의 빌드를 지원하기 위해 설계됨 
+- Multi 프로젝트의 빌드를 지원하기 위해 설계됨
 - 설정 주입 방식 (Configuration Injection)
 
-따라서 초기 프로젝트 설정에 드는 시간을 절약할 수 있으며 기존의 Maven이나 Ivy등과 같은 빌드 도구들과도 호완이 가능하다는 점이다.  
+따라서 초기 프로젝트 설정에 드는 시간을 절약할 수 있으며 기존의 Maven이나 Ivy등과 같은 빌드 도구들과도 호완이 가능하다는 점이다.
