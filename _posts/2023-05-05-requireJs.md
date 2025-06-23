@@ -10,7 +10,9 @@ keywords: requirejs
 thumbnail: https://avatars.githubusercontent.com/u/1781835?s=280&v=4
 permalink: blog/requirejs/
 ---
-<require js 사용>  
+
+
+#### require js 사용
 require js : AMD 기반 스크립트 로더. 자바스크립트 파일/모듈 로더.  
 *AMD : 비동기적으로 스크립트를 로딩하기 위한 방법을 정의한 API를 의미.
 
@@ -57,6 +59,7 @@ require([
 });
 
 ```
+
 로딩 순서가 중요하다면 아래와 같이 require를 중첩해서 사용하는 방법이 있다.
 
 
