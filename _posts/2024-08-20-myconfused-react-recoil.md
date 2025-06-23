@@ -49,7 +49,7 @@ npm install recoil
 ```
 ### RecoilRoot
 recoil 상태를 사용하는 컴포넌트는 부모 트리 어딘가에 나타나는 RecoilRoot 가 필요하다
-```javascript
+```js
 import React from 'react';
 import {
   RecoilRoot,
@@ -71,14 +71,14 @@ function App() {
 ### atom 함수를 사용해 생성한다.
 Atoms는 어떤 컴포넌트에서나 읽고 쓸 수 있다. atom의 값을 읽는 컴포넌트들은 암묵적으로 atom을 구독한다. 그래서 atom에 어떤 변화가 
 있으면 그 atom을 구독하는 모든 컴포넌트가 재 렌더링 되는 결과가 발생할 것이다.
-```javascript
+```js
 const textState = atom({
   key: 'textState', // unique ID (with respect to other atoms/selectors)
   default: '', // default value (aka initial value)
 });
 ```
 컴포넌트가 atom을 읽고 쓰게 하기 위해서는 useRecoilState()를 아래와 같이 사용하면 된다
-```javascript
+```js
 function CharacterCounter() {
   return (
     <div>
@@ -106,7 +106,7 @@ function TextInput() {
 ```
 ### Selector
 아톰들을 결합해서 새로운 값을 만들어내는것을 말한다. usememo와 비슷한거같다
-```javascript
+```js
 const charCountState = selector({
   key: 'charCountState', // unique ID (with respect to other atoms/selectors)
   get: ({get}) => {
@@ -117,7 +117,7 @@ const charCountState = selector({
 });
 ```
 useRecoilValue() 훅을 사용
-```javascript
+```js
 function CharacterCount() {
   const count = useRecoilValue(charCountState);
 

@@ -31,13 +31,13 @@ DOM은 트리 구조로 되어 있으며, 각 노드는 문서의 요소를 나�
 
 ```html
 
-```javascript
+```js
 console.dir(document.body.children);
 ```
 
 반대로 부모 엘리먼트를 찾고 싶을 때는 `parentElement`를 써주면 된다.
 
-```javascript
+```js
 let children = document.body.children[1];
 children.parentElement;
 ```
@@ -53,7 +53,7 @@ DOM을 JavaScript로 조작하여 HTML Element를 추가하거나 삭제, 혹은
 
 div를 하나 생성해준다고 예시를 들어보자.
 
-```javascript
+```js
 const tweetDiv = document.createElement('div');
 ```
 
@@ -63,7 +63,7 @@ const tweetDiv = document.createElement('div');
 
 그림에서 봤던 공중에 떠있는 엘리먼트를, `append` 해야만 실제 웹 페이지 상에도 보여진다.
 
-```javascript
+```js
 document.body.append(tweetDiv);
 ```
 ###### append()
@@ -73,7 +73,7 @@ ParentNode.append() 메서드는 ParentNode의 마지막 자식 뒤에 Node 객�
 요소나 문자를 추가하는 예시들을 보자.  
 요소(element) 추가하기
 
-```javascript
+```js
 let parent = document.createElement("div");
 let p = document.createElement("p");
 parent.append(p);
@@ -82,7 +82,7 @@ console.dir(parent.childNodes)  //NodeList(1)  0: p
 
 문자(text) 추가하기
 
-```javascript
+```js
 let parent = document.createElement("div");
 parent.append("Some text");
 
@@ -91,7 +91,7 @@ console.log(parent.textContent); // "Some text"
 
 요소(element)와 문자(text) 함께 추가하기
 
-```javascript
+```js
 let parent = document.createElement("div");
 let p = document.createElement("p");
 parent.append("Some text", p);
@@ -105,7 +105,7 @@ Node.appendChild() 메소드는 한 노드를 특정 부모 노드의 자식 노
 
 이는 한 노드가 문서상의 두 지점에 동시에 존재할 수 없다는 것을 의미한다. 그래서 만약 노드가 이미 부모를 가지고 있다면 우선 삭제되고 새로운 위치로 이동한다.
 
-```javascript
+```js
 // 새로운 단락 요소를 생성하고 문서에 있는 바디 요소의 끝에 붙인다.
 let p = document.createElement("p");
 document.body.appendChild(p);
@@ -148,7 +148,7 @@ querySelector는 한글로 셀렉터를 기반으로 한 질문을 한다, 쿼�
 </body>
 ```
 
-```javascript
+```js
 const oneTweet = document.querySelector('.tweet')
 ```
 
@@ -167,7 +167,7 @@ querySelectorAll로 class가 tweet인 Element에 접근할 수있다.
 </body>
 ```
 
-```javascript
+```js
 const oneTweet = document.querySelectorAll('.tweet')
 ```
 
@@ -190,7 +190,7 @@ Element의 class 이름으로 접근할 수 있다.
 - 매개 변수 : value  
   DOMString값을 포함는 속성에 할당.
 
-```javascript
+```js
 let aElement = document.createElement('a')
 
 aElement.setAttibute('id', 'javascipt')
@@ -200,7 +200,7 @@ aElement.setAttibute('id', 'javascipt')
 
 Element에 class name을 추가할 수 있다.
 
-```javascript
+```js
 let aElement = document.createElement('a')
 
 aElement.classList.add('name')
@@ -211,7 +211,7 @@ aElement.classList.add('name')
 Element 및 Node에 텍스트를 추가할 수 있는 메서드이다.  
 반환값은 문자열 또는 `null`이다.
 
-```javascript
+```js
 aElement.textContent = 'awesome'
 ```
 
@@ -219,7 +219,7 @@ aElement.textContent = 'awesome'
 
 이 방법도 되긴 하는데, innerHTML 사용은 꼭 필요하지 않으면 쓰지 않는 것이 좋다.
 
-```javascript
+```js
  aElement.innerHTML = 'awesome'
 ```
 
@@ -233,12 +233,12 @@ innerHTML는 이름 그대로 HTML을 반환한다. HTML tag를 직접 삽입하
 
 **remove()**는 노드를 메모리에서 삭제하고 종료한다.  
 반면에 **removeChild()**는 메모리에 해당 노드는 그대로 존재하며, 부모 노드와의 부모-자식관계를 끊어 DOM 트리에서 제거한다. 최종적으로는 관계를 끊은 해당 노드의 참조를 반환한다.
-```javascript
+```js
 const container = document.querySelector('#container')
 const tweetDiv = document.createElement('div')
 container.append(tweetDiv)
 ```
 
-```javascript
+```js
 tweetDiv.remove() // 이렇게 append 했던 엘리먼트를 삭제할 수 있다.
 ```

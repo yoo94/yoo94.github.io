@@ -36,7 +36,7 @@ const add = useCallback(() => x + y, [x, y]);
 
 앞서 말한 useCallback 사용법을 정리하자면 아래와 같다. 첫번째 인자로 넘긴 함수를, 두번째 인자로 넘긴 의존성 배열내의 값이 변경되기 전까지 저장하고 재사용할 수 있게 해준다.
 
-```javascript
+```js
 const memoizedFunction = useCallback(함수, 배열);
 ```
 

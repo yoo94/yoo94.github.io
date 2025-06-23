@@ -22,7 +22,7 @@ npm install styled-components
 ```
 
 #### 기본 사용법
-```javascript
+```js
 import React from 'react';
 import styled from 'styled-components';
 
@@ -46,7 +46,7 @@ const App = () => (
 export default App;
 ```
 #### 동적 사용법
-```javascript
+```js
 
 import React from 'react';
 import styled from 'styled-components';
@@ -77,7 +77,7 @@ export default App;
 ```
 #### props로 전달하여 스타일링
 
-```javascript
+```js
 import React from 'react';
 import styled from 'styled-components';
 
@@ -111,7 +111,7 @@ export default App;
 ```
 #### scss 사용
 
-```javascript
+```js
 import React from 'react';
 import styled from 'styled-components';
 

@@ -27,7 +27,7 @@ npm install redux
 
 ## (1) 액션 생성자 (Action Creator)
 액션을 생성
-```javascript
+```js
 // actions.js
 export const increment = () => ({
   type: 'INCREMENT'
@@ -39,7 +39,7 @@ export const decrement = () => ({
 ```
 ## (2) 리듀서 (Reducer)
 액션을 처리하여 새로운 상태를 반환하는 함수
-```javascript
+```js
 // reducers.js
 const initialState = { count: 0 };
 
@@ -60,7 +60,7 @@ export default counterReducer;
 (3) 스토어 생성 (Store Creation)
 스토어를 생성하고 리듀서를 연결.
 
-```javascript
+```js
 // store.js
 import { createStore } from 'redux';
 import counterReducer from './reducers';
@@ -71,7 +71,7 @@ export default store;
 ```
 ###(4) 디스패치 액션 (Dispatch Actions)
 스토어에 액션을 디스패치하여 상태를 변경
-```javascript
+```js
 // index.js
 import store from './store';
 import { increment, decrement } from './actions';
@@ -87,7 +87,7 @@ store.dispatch(decrement()); // count: 1
 ## react 에서의 redux
 ### (1) Provider로 애플리케이션 감싸기
 Provider 컴포넌트를 사용하여 Redux 스토어를 React 컴포넌트 트리에 제공
-```javascript
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -104,7 +104,7 @@ ReactDOM.render(
 ### (2) React 컴포넌트에서 상태와 액션 사용
 useSelector와 useDispatch 훅을 사용하여 Redux 상태와 액션을 사용.
 
-```javascript
+```js
 // Counter.js
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';

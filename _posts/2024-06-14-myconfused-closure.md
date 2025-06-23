@@ -16,7 +16,7 @@ permalink: blog/closure/
 클로저는 내부 함수가 외부 함수의 스코프에 접근할 수 있게 해주며, 
 외부 함수의 실행이 끝난 후에도 외부 함수의 변수에 접근할 수 있게 한다.
 이러한 특성 때문에 클로저는 모듈 패턴, 콜백 함수, 고차 함수 등 다양한 곳에서 활용된다.
-```javascript
+```js
 
 const myModule = (function() {
 let privateVariable = 'I am private';

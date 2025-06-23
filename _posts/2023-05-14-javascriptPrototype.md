@@ -19,7 +19,7 @@ permalink: blog/javascriptPrototype/
 
 객체의  `[[Prototype]]`을 지정하는 방법에는 여러 가지가 있으며,  {__proto__: ... } 구문이 표준
 
-```javascript
+```js
 const o = {
   a: 1,
   b: 2,
@@ -34,7 +34,7 @@ const o = {
 
 
 
-```javascript
+```js
 const o = {
   a: 1,
   b: 2,
@@ -58,7 +58,7 @@ console.log(o.d); // 5
 
 상속된 함수가 실행 될 때,  [`this`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)  값은 함수가 자체 속성인 프로토타입 객체가 아니라 상속 객체를 가리킵니다.
 
-```javascript
+```js
 const parent = {
   value: 2,
   method() {
@@ -92,7 +92,7 @@ console.log(child.method()); // 5
 
 모든 인스턴스가 동일한 몇가지 동일한 속성을 공유하는 경우
 
-```javascript
+```js
 const boxPrototype = {
   getValue() {
     return this.value;
@@ -106,7 +106,7 @@ const boxes = [
 ];
 ```
 
-```javascript
+```js
 // 생성자 함수
 function Box(value) {
   this.value = value;
@@ -123,7 +123,7 @@ const boxes = [new Box(1), new Box(2), new Box(3)];
 
 위 생성자 함수는  [classes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes)에서 다음과 같이 다시 작성할 수 있습니다.
 
-```javascript
+```js
 class Box {
   constructor(value) {
     this.value = value;
@@ -138,7 +138,7 @@ class Box {
 
 아래처럼 재할당이 가능하지만 하지 않는 것이 좋다.
 
-```javascript
+```js
 function Box(value) {
   this.value = value;
 }

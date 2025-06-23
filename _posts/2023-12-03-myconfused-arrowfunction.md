@@ -16,7 +16,7 @@ permalink: blog/arrow-func/
 this 키워드가 함수가 호출된 객체를 가리킴.
 
 
-```javascript
+```js
 function sayHello(name) {
 return `Hello, ${name}!`;
 }
@@ -29,7 +29,7 @@ console.log(sayHello('Alice')); // Hello, Alice!
 더 간결한 문법.
 this 키워드가 상위 스코프(lexical scope)를 가리킴.
 
-```javascript
+```js
 const sayHello = (name) => `Hello, ${name}!`;
 
 console.log(sayHello('Bob')); // Hello, Bob!
@@ -45,7 +45,7 @@ console.log(sayHello('Bob')); // Hello, Bob!
 - 일반 함수는 호출된 객체에 따라 this가 동적으로 바인딩.
 - 화살표 함수는 this가 정의된 위치의 상위 스코프를 따르므로, this가 변하지 않음.
 
-```javascript
+```js
 const person = {
         name: 'Carol',
         regularFunction: function() {

@@ -36,7 +36,7 @@ $ npm i styled-components
 
 - HTML 엘리먼트를 스타일링 할 때는 모든 알려진 HTML 태그에 대해서 이미 속성이 정의되어 있기 때문에 해당 태그명의 속성에 접근한다.
 
-```javascript
+```js
 import styled from "styled-components";
 
 styled.button`
@@ -46,7 +46,7 @@ styled.button`
 
 - React 컴포넌트를 스타일링 할 때는 해당 컴포넌트를 임포트 후 인자로 해당 컴포넌트를 넘기면 된다.
 
-```javascript
+```js
 import styled from "styled-components";
 import Button from "./Button";
 
@@ -59,7 +59,7 @@ styled(Button)`
 
 예를 들어, 다음과 같이 Styled Components로 작성된 JavaScript 코드는
 
-```javascript
+```js
 import styled from "styled-components";
 
 styled.button`
@@ -75,7 +75,7 @@ button {
 }
 ```
 
-```javascript
+```js
 import React from "react";
 import styled from "styled-components";
 
@@ -97,7 +97,7 @@ function Button({ children }) {
 
 ##### 가변 스타일링
 
-```javascript
+```js
 import React from "react";
 import styled from "styled-components";
 

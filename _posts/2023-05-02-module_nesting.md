@@ -26,7 +26,7 @@ permalink: blog/module_nesting/
 
 필요한 컴포넌트에 React JSX콘텐츠를 포함하는 개념이 네스팅이다.
 
-```javascript
+```js
 //----- Checkbox.js
 import './App.css';
 function Checkbox() {

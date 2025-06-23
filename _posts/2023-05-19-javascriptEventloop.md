@@ -19,7 +19,7 @@ JavaScript의 런타임 모델은 코드의 실행, 이벤트의 수집과 처�
 
 함수의 호출들은 '프레임' 스택을 형성합니다.
 
-```javascript
+```js
 function foo(b) {
   const a = 10;
   return a + b + 11;
@@ -57,7 +57,7 @@ JavaScript 런타임은 메시지 큐, 즉 처리할 메시지의 대기열입�
 **이벤트 루프**는 이 기능을 구현할 때 보통 사용하는 방식에서 그 이름을 얻었으며, 대략 다음과 같은 형태입니다.
 
 
-```javascript
+```js
 while (queue.waitForMessage()) {
   queue.processNextMessage();
 }

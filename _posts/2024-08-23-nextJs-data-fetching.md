@@ -45,7 +45,7 @@ Next.js에서 엔드포인트를 생성/사용하여 데이터를 가져오는 �
 예를 들어, 거의 변동이 없는 FAQ 글 목록을 가져올 때 사용됨
 
 props로 넘겨서 페이지에서 사용 가능
-```javascript
+```js
 export async function getStaticProps() {
 const posts = await fetchPosts(); // 데이터 가져오기 함수
     return {
@@ -80,7 +80,7 @@ const posts = await fetchPosts(); // 데이터 가져오기 함수
 예를 들어, 하나의 FAQ 데이터(id: 1)가 존재한다고 했을 때, 
 faqs/1라는 경로를 빌드 타임에 미리 사전 렌더링할 수 있음
 
-```javascript
+```js
 export async function getStaticPaths() {
 const paths = await fetchDynamicPaths(); // 동적 경로 생성 함수
     return {

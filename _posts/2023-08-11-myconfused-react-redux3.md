@@ -16,7 +16,7 @@ Redux의 기본 createStore 함수보다 간편하게 스토어를 설정할 수
 Redux Toolkit에서는 configureStore 함수를 사용하여 미들웨어 설정,
 Redux DevTools Extension 연결 등의 작업을 자동으로 처리할 수 있다.
 #### 기본 구조
-```javascript
+```js
 import { configureStore } from "@reduxjs/toolkit";
 
 const store = configureStore({

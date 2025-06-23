@@ -58,7 +58,7 @@ Repaint는 스타일 변경 시 발생하며, Reflow보다 비용이 적습니�
 
 여러 DOM 요소에 대한 스타일 변경을 한 번에 처리.
 예시: 스타일 속성을 클래스에 일괄 적용하여 한 번에 변경.
-```javascript
+```js
 코드 복사
 // 예시: 여러 요소의 스타일을 개별적으로 변경하는 대신 클래스 변경을 통해 한 번에 처리
 document.body.classList.add('new-style');

@@ -19,7 +19,7 @@ constructor는 인스턴스를 만들 때, 그안에 값들을 초기화해준�
 메서드는 생성방식이 여러가지이다.
 
 1. 클래스 선언 내부에 메서드 정의
-```javascript
+```js
 class MyClass {
 constructor(name) {
 this.name = name;
@@ -35,7 +35,7 @@ const myInstance = new MyClass('Alice');
 myInstance.sayHello(); // Hello, Alice!
 ```
 2. 프로토타입을 사용하여 메서드 추가
-```javascript
+```js
 class MyClass {
 constructor(name) {
 this.name = name;
@@ -50,7 +50,7 @@ const myInstance = new MyClass('Bob');
 myInstance.sayHello(); // Hello, Bob!
 ```
 3. ES6 화살표 함수를 사용한 메서드 추가
-```javascript
+```js
 class MyClass {
 constructor(name) {
 this.name = name;
@@ -65,7 +65,7 @@ const myInstance = new MyClass('Charlie');
 myInstance.sayHello(); // Hello, Charlie!
 ```
 4. 클래스 필드 문법을 사용하여 메서드 추가
-```javascript
+```js
 class MyClass {
 name = '';
 
@@ -85,7 +85,7 @@ myInstance.sayHello(); // Hello, Dave!
 5. 동적으로 메서드 추가
    객체를 생성한 후 동적으로 메서드를 추가할 수도 있습니다.
 
-```javascript
+```js
 class MyClass {
 constructor(name) {
 this.name = name;
@@ -110,7 +110,7 @@ static 키워드를 사용하여 선언된 메서드는 클래스 자체의 메�
 #### 프로토타입 체인에서의 차이
 정적 메서드는 클래스 자체에 속하고, 프로토타입 체인에 속하지 않습니다. 이를 확인하기 위해 객체의 프로토타입 체인을 살펴볼 수 있습니다.
 
-```javascript
+```js
 class MyClass {
 static staticMethod() {
 console.log('This is a static method');

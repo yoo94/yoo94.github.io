@@ -14,7 +14,7 @@ permalink: blog/curring/
 커링은 인자를 여러개 받는 함수를 분리하여, 인자를 하나씩만 받는 함수의 체인으로 만드는 방법이다
 
 인자가 많아지거나 재사용의 필요성이 느껴질 경우 커링 기법은 이와 같이 많은 도움이 될 수 있다.또한 재사용성이 증가한다.
-```javascript
+```js
 // 커링을 사용한 함수 
 
 const currying = a => b => c => a*b*c; console.log(currying(1)(2)(3)); 
@@ -25,7 +25,7 @@ const alwaysMultiple2 = currying(1)(2); console.log(alwaysMultiple2(3));
 ```
 
 
-```javascript
+```js
 const curry = (func) => {
 return curried = (...args) => {
 if (args.length >= func.length) {

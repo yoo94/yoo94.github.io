@@ -12,7 +12,7 @@ permalink: blog/javascript-constructor/
 ---
 
 기본적인 생성자 함수의 동작
-```javascript
+```js
 function MyClass(name) {
 // this 객체는 자동으로 생성됩니다
 this.name = name;
@@ -26,7 +26,7 @@ console.log(instance.name); // Alice
 객체를 반환하는 경우
 만약 생성자 함수에서 명시적으로 객체를 반환하면, 그 객체가 반환된다.
 
-```javascript
+```js
 function MyClass(name) {
 this.name = name;
 return {}; // 명시적으로 빈 객체를 반환
@@ -39,7 +39,7 @@ console.log(instance.name); // undefined
 원시 값을 반환하는 경우
 생성자 함수가 원시 값을 반환하면, 해당 반환 값은 무시되고 this가 반환된다
 
-```javascript
+```js
 function MyClass(name) {
 this.name = name;
 return 'hello'; // 원시 값을 반환

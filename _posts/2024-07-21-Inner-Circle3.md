@@ -37,7 +37,7 @@ pullRequest도 제대로 안돼서... 한시간 반을 날렸다...ㅜㅜ 죄송
 
 방법이 중요하다기 보다는, 왜 그랬느냐가 중요하다. 합당한 이유 효율적인 이유가 필요하다.
 
-```javascript
+```js
 const baseUrl = 'https://date.nager.at/api/v3/';
 const publicHolidaysUrl = `${baseUrl}PublicHolidays`;
 const nextPublicHolidaysUrl = `${baseUrl}NextPublicHolidays`;

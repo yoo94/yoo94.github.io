@@ -23,7 +23,7 @@ symbol
 
 ##### Number
 
-```javascript
+```js
 let n = 123;
 n = 12.345;
 ```
@@ -41,7 +41,7 @@ _숫자형(number type)_ 은 정수 및 부동소수점 숫자(floating point nu
 `BigInt`형은 표준으로 채택된 지 얼마 안 된 자료형으로, 길이에 상관없이 정수를 나타낼 수 있습다.
 `BigInt`형 값은 정수 리터럴 끝에 `n`을 붙이면 만들 수 있다.
 
-```javascript
+```js
 // 끝에 'n'이 붙으면 BigInt형 자료입니다.
 const bigInt = 1234567890123456789012345678901234567890n;
 ```
@@ -51,7 +51,7 @@ const bigInt = 1234567890123456789012345678901234567890n;
 
 자바스크립트에선 문자열(string)을 따옴표로 묶는다.
 
-```javascript
+```js
 let str = "Hello";
 let str2 = 'Single quotes are ok too';
 let phrase = `can embed another ${str}`;
@@ -65,7 +65,7 @@ let phrase = `can embed another ${str}`;
 
 역 따옴표로 변수나 표현식을 감싼 후 `${…}`안에 넣어주면, 아래와 같이 원하는 변수나 표현식을 문자열 중간에 손쉽게 넣을 수 있다.
 
-```javascript
+```js
 let name = "John";
 
 // 변수를 문자열 중간에 삽입

@@ -47,7 +47,7 @@ store는 가 변경된 값들을 컴포넌트들에게 제공한다.
 ##### Action Creator
 액션 생성함수라 불리는 Action Creator는 액션을 만드는 **함수**이다.
 파라미터를 입력받아, 액션 객체 형태로 만들어준다.
-```javascript
+```js
 function addTodo(data) {
   return {
     type: "ADD",
@@ -61,7 +61,7 @@ function addTodo(data) {
 
 리듀서는 변화를 일으키는 함수입니다. 이 함수는 이전 상태와 액션을 파라미터로 입력받는다.
 
-```javascript
+```js
 function reducer(state, action) {
 ...
 return alteredState;

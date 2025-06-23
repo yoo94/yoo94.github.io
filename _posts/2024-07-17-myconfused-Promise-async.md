@@ -39,13 +39,13 @@ reject(error) — 에러가 발생한 경우 에러 객체를 나타내는 error
 ### 대기(Pending)
 먼저 아래와 같이 new Promise() 메서드를 호출하면 대기(Pending) 상태가 된다.
 
-```javascript
+```js
 new Promise();
 ```
 ### Fulfilled(이행)
 여기서 콜백 함수의 인자 resolve를 아래와 같이 실행하면 이행(Fulfilled) 상태가 됩니다.
 #### then() 을통해 처리 할수 있다.
-```javascript
+```js
 new Promise(function(resolve, reject) {
 resolve();
 });
@@ -53,14 +53,14 @@ resolve();
 ### reject(실패)
 reject를 아래와 같이 호출하면 실패(Rejected) 상태가된다.
 #### catch() 을통해 처리 할수 있다.
-```javascript
+```js
 new Promise(function(resolve, reject) {
   reject();
 });
 ```
 
 
-```javascript
+```js
 
 const fetchData = () => {
   return new Promise((resolve, reject) => {
@@ -86,7 +86,7 @@ async/await는 Promise를 더 쉽게 사용할 수 있도록 하는 문법
 async 키워드를 함수 앞에 붙이면 그 함수는 항상 Promise를 반환
 await 키워드는 Promise가 처리될 때까지 기다렸다가 결과를 반환
 
-```javascript
+```js
 const fetchData = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {

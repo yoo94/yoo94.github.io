@@ -38,7 +38,7 @@ Redux Promise: 프로미스를 반환하는 액션을 처리하는 미들웨어.
 ## 1. Redux Thunk
 비동기 액션을 처리하는 가장 기본적인 방법. API 호출과 같은 간단한 비동기 작업에 적합.
 
-```javascript
+```js
 // actions.js
 export const fetchData = () => {
     return async (dispatch) => {
@@ -63,7 +63,7 @@ const store = createStore(rootReducer, applyMiddleware(thunk));
 ## 2. Redux Logger
 Redux Logger는 디버깅을 위해 액션과 상태 변화를 로그로 기록하는 미들웨어
 
-```javascript
+```js
 // store.js
 import { createStore, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
@@ -75,7 +75,7 @@ const store = createStore(rootReducer, applyMiddleware(logger));
 ## 3. Redux Saga
 edux Saga는 복잡한 비동기 로직을 제너레이터 함수를 통해 관리하는 데 유용, 흐름 제어와 같은 고급 비동기 작업
 
-```javascript
+```js
 // sagas.js
 import { call, put, takeEvery } from 'redux-saga/effects';
 
@@ -108,7 +108,7 @@ sagaMiddleware.run(rootSaga);
 Redux Promise는 프로미스를 반환하는 액션을 자동으로 처리하는 미들웨어
 단순한 비동기 액션을 더 쉽게 처리
 
-```javascript
+```js
 // actions.js
 // actions.js
 export const fetchData = () => {

@@ -34,7 +34,7 @@ node index.js
 ---
 #### 작동
 calc.js
-```javascript
+```js
 const add =(a,b)=> a+b;
 const sub=(a,b)=> a-b;
 
@@ -47,7 +47,7 @@ module.exports ={
 이런 식으로 export로 내보낼 모듈을 설정하고 나서
 
 index.js
-```javascript
+```js
 const calc = require("./calc");
 
 calc.add(1,3);
@@ -81,7 +81,7 @@ https://www.npmjs.com/
 실제 모듈과 관련된 파일을 보관하는
 
 
-```javascript
+```js
 var randomColor = require('randomcolor');
 var color = randomColor();
 ```

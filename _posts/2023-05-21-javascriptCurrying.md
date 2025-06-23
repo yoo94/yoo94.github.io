@@ -15,7 +15,7 @@ permalink: blog/Currying/
 *커링과 같이 함수 자체를 인자로 받거나 반환하는 함수를 고차함수라고 하기도 한다.
 ###### 일반함수
 
-```javascript
+```js
 function add(num1, num2) {
     console.log(num1 + num2);
 }
@@ -26,7 +26,7 @@ add(5, 8); // 13
 
 ###### 커링함수
 
-```javascript
+```js
 function add(num1, num2) {
     return num1 + num2;
 }
@@ -48,7 +48,7 @@ addPlus(5)(4); // 9
 
 일반함수
 
-```javascript
+```js
 // first = 010, tel = 010이후의 8자리
 function phoneNum(first, tel) {
 	console.log(first + tel);
@@ -60,7 +60,7 @@ phoneNum(01005253433); // 01005253433
 ```
 
 커링 함수 활용
-```javascript
+```js
 function phoneNum(first, tel) {
 	console.log(first + tel);
 }

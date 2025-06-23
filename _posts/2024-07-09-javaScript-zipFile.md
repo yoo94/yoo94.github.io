@@ -11,7 +11,7 @@ permalink: blog/jsZip/
 ---
 # 클라이언트
 
-```javascript
+```js
 window.$file = {}
 $file.getFileAllDownload = function () {
             var fileList = [];

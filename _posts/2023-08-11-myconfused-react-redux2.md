@@ -23,7 +23,7 @@ npm install redux react-redux
    src/store.js 파일 생성
    리덕스 스토어를 설정하기 위해 src 폴더에 store.js 파일을 생성.
 
-```javascript
+```js
 // src/store.js
 import { createStore } from 'redux';
 
@@ -54,7 +54,7 @@ export default store;
    src/index.js 파일 수정
    리덕스 스토어를 리액트 애플리케이션에 연결합니다.
 
-```javascript
+```js
 
 // src/index.js
 import React from 'react';
@@ -76,7 +76,7 @@ document.getElementById('root')
 src/App.js 파일 수정
 리덕스 상태를 사용하여 카운터 애플리케이션을 구현합니다.
 
-```javascript
+```js
 // src/App.js
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';

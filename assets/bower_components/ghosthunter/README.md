@@ -217,7 +217,7 @@ the previous section sets the `results` option.
 >
 > Example:
 
-````javascript
+````js
 $("#search-field").ghostHunter({
     results: "#results",
     before: function() {
@@ -233,7 +233,7 @@ $("#search-field").ghostHunter({
 > Use to optionally set a callback function that is executed immediately after the list of search results is displayed. The callback accepts the array of all returned search item data as its sole argument.
 > A function like that shown in the following example could be used with search-as-you-type to hide and reveal a search area and the current page content, depending on whether the search box contains any text.
 
-````javascript
+````js
 $("#search-field").ghostHunter({
     results: "#results",
     onComplete: function(results) {
@@ -255,7 +255,7 @@ $("#search-field").ghostHunter({
 >
 > Example:
 
-````javascript
+````js
 item_preprocessor: function(item) {
     var ret = {};
     var thisDate = new Date(item.updated_at);
@@ -270,7 +270,7 @@ item_preprocessor: function(item) {
 ````
 > With the sample function above, ``result_template`` could be set to something like this:
 
-````javascript
+````js
 result_template: '<p>{{#if recent}}NEW! {{/if}}{{title}}</p>'
 ````
 > Default value is ``false``.
@@ -282,7 +282,7 @@ result_template: '<p>{{#if recent}}NEW! {{/if}}{{title}}</p>'
 > that indexing is in progress. (On small sites, the time required for indexing will be so small that
 > such flourishes would not be notice.)
 
-````javascript
+````js
 indexing_start: function() {
     $('.search-field')
         .prop('disabled', true)
@@ -298,7 +298,7 @@ indexing_start: function() {
 > Use to optionally set a callback that is executed after an indexing operation completes.
 > This is a companion to ``indexing_start`` above.
 
-````javascript
+````js
 indexing_end: function() {
     $('.search-field')
         .prop('placeholder', 'Search …')

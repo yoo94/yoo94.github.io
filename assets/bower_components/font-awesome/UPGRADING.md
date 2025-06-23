@@ -60,7 +60,7 @@ What does that mean?
 
 ~~Old way:~~
 
-```javascript
+```js
 import fontawesome from '@fortawesome/fontawesome'
 import solid from '@fortawesome/fontawesome-free-solid'
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
@@ -71,7 +71,7 @@ library.add(solid, faTwitter)
 
 New way:
 
-```javascript
+```js
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -85,7 +85,7 @@ dom.watch()
 
 This is also a valid way to import icons that works if your tool does not support tree shaking:
 
-```javascript
+```js
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 ```
 
@@ -99,7 +99,7 @@ If you've previously configured tree shaking by modifying your webpack or rollup
 
 **We recommend that you check your bundle size after upgrading an ensure that file sizes are as you would expect.**
 
-```javascript
+```js
 module.exports = {
   // ...
   resolve: {
@@ -110,7 +110,7 @@ module.exports = {
 }
 ```
 
-```javascript
+```js
 const alias = require('rollup-plugin-alias')
 
 rollup({

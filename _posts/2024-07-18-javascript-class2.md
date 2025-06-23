@@ -15,7 +15,7 @@ permalink: blog/javascript-class2/
 - 클래스 생성자를 사용한 인스턴스 멤버 추가는 각 인스턴스가 고유한 메서드를 가지게 하며, 인스턴스별로 개별적인 동작을 정의할 수 있습니다.
 
 프로토타입을 사용한 메서드 추가
-```javascript
+```js
 function MyClass(name) {
 this.name = name;
 }
@@ -29,7 +29,7 @@ instance1.sayHello(); // Hello, Alice!
 
 ```
 클래스 문법을 사용한 인스턴스 메서드 추가
-```javascript
+```js
 class MyClass {
 constructor(name) {
    this.name = name;

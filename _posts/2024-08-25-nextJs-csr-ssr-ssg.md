@@ -153,7 +153,7 @@ SEO 어려움: CSR은 초기 HTML에 콘텐츠가 없으므로 검색 엔진 최
 CSR 코드 예시
 
 useEffect 내부에 데이터를 가져오는 코드를 짜서 클라이언트 측에서 데이터 로드
-```javascript
+```js
 
 import { useEffect, useState } from 'react';
 

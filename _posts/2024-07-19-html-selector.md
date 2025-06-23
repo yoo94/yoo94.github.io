@@ -16,13 +16,13 @@ html의 요소를 선택 할 때에는 여러 선택지가 있다.
 예를 들어 
 ## querySelector
 css 선택자를 사용하여 문서에서 일치하는 요소들을 반환한다.
-```javascript
+```js
 const element = document.querySelector('.myClass');
 const elements = document.querySelectorAll('.myClass');
 ```
 
 아래 선택자들은 html의 특정 속성을 가지고  id, class 등으로 선택한다.
-```javascript
+```js
 const element = document.getElementById('myId');
 const elements = document.getElementsByClassName('myClass');
 const elements = document.getElementsByTagName('div');
@@ -44,7 +44,7 @@ const elements = document.getElementsByName('username');
 
 즉
 NodeList
-```javascript
+```js
 const item = document.querySelectorAll('.item');
 
 //스타일 지정
@@ -67,7 +67,7 @@ document.getElementById('addItemButton').addEventListener('click', () => {
 yellow가 지정안된 item이 추가된다.
 
 HTMLCollection
-```javascript
+```js
 const item = document.getElementsByClassName('item');
 
 document.getElementById('addItemButton').addEventListener('click', () => {
