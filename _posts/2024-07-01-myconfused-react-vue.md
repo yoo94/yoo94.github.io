@@ -4,7 +4,7 @@ title:  "react vue 차이는 무엇인가?"
 summary: "react-vue"
 author: yoo94
 date: '2024-02-21 13:35:23 +0530'
-category: ['myconfused','react']
+category: DevLog
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-vue/

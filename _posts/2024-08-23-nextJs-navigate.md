@@ -4,7 +4,7 @@ title: "next navigate와 pre-fetching"
 summary: "화면을 이동하고 불러오는법"
 author: yoo94
 date: "2024-08-23 13:35:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/nextJs-navigate-pre-fetching/

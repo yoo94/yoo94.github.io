@@ -3,8 +3,8 @@ layout: post
 title:  "react Styled Component"
 summary: "Styled Component를 사용하는 이유"
 author: yoo94
-date: '2024-06-26 11:35:23 +0530'
-category: ['myconfused','react']
+date: "2024-06-26 11:35:23 +0530"
+category: DevLog
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/Styled-Component/

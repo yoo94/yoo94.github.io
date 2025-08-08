@@ -4,7 +4,7 @@ title: "RESTful API란?"
 summary: ""
 author: yoo94
 date: "2023-12-14 17:35:23 +0530"
-category: ["myconfused", "webetc"]
+category: DevLog
 tags: webetc
 keywords:
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png

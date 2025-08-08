@@ -4,7 +4,7 @@ title:  "nodejs 시작부터 모듈 사용까지"
 summary: "nodejs 시작부터 모듈 사용까지"
 author: yoo94
 date: '2023-05-03 16:35:23 +0530'
-category: nodejs
+category: Backend_infra
 tags: nodejs
 keywords: nodejs
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTogwU6U5z0Zf2lUxTE72JAKxVd52klwPe-Q&s

@@ -3,8 +3,8 @@ layout: post
 title:  "reflow repaint"
 summary: ""
 author: yoo94
-date: '2024-07-02 19:35:23 +0530'
-category: ['myconfused','css']
+date: "2024-07-02 19:35:23 +0530"
+category: DevLog
 tags: eventloop
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/reflow-repaint/

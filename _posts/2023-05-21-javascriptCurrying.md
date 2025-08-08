@@ -4,7 +4,7 @@ title:  "커링 (Currying)"
 summary: "함수의 재사용성을 높이기 위해 함수자체를 return하는 함수이다."
 author: yoo94
 date: '2023-05-21 17:35:23 +0530'
-category: javaScript
+category: Frontend1
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png

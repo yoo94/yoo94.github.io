@@ -4,7 +4,7 @@ title: "헷갈리는 타입스크립트들 정리1"
 summary: "인터페이스 부터 컨디셔널타입까지"
 author: yoo94
 date: "2024-08-15 09:32:23 +0530"
-category: ["myconfused", "javaScript", "typeScript"]
+category: DevLog
 tags:
   - javaScript
   - typeScript

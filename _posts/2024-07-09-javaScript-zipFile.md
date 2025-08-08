@@ -3,8 +3,8 @@ layout: post
 title:  "js, java 파일 압축해서 zip 다운 받기"
 summary: "zip 다운"
 author: yoo94
-date: '2024-07-09 12:35:23 +0530'
-category: ['javaScript']
+date: "2024-07-09 12:35:23 +0530"
+category: Frontend1
 tags: webpack
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/jsZip/

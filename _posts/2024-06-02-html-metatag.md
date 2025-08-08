@@ -4,7 +4,7 @@ title: "메타 태그(Meta Tag)"
 summary: "차이"
 author: yoo94
 date: "2024-06-02 16:35:23 +0530"
-category: ["myconfused", "html"]
+category: DevLog
 tags: metatag
 keywords: metatag
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png

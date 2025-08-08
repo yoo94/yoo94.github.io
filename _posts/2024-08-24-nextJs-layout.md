@@ -4,7 +4,7 @@ title: "next page router layout"
 summary: "스타일링"
 author: yoo94
 date: "2024-08-24 13:35:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/nextJs-layout/

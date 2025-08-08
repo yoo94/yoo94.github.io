@@ -4,7 +4,7 @@ title: "react query iniginiteQuery"
 summary: "무한스크롤 해보자"
 author: yoo94
 date: "2024-11-17 11:32:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags:
   - nextJs
   - react-query

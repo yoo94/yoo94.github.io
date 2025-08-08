@@ -4,7 +4,7 @@ title:  "상속과 프로토타입?"
 summary: "상속과 관련하여, JavaScript에는 객체라는 하나의 구조만 있다."
 author: yoo94
 date: '2023-05-14 17:35:23 +0530'
-category: javaScript
+category: Frontend1
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png

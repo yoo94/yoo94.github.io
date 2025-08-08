@@ -4,7 +4,7 @@ title:  "선택자 (selector)"
 summary: "차이"
 author: yoo94
 date: '2024-07-19 12:35:23 +0530'
-category: ['myconfused','html','javaScript']
+category: DevLog
 tags: selector,javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
 permalink: blog/javascript-selector/

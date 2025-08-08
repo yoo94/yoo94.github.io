@@ -4,7 +4,7 @@ title: "react useContext"
 summary: "프롭스 드릴링 방지 -> 전역으로"
 author: yoo94
 date: "2024-03-23 08:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-context/

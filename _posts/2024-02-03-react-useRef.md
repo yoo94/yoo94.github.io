@@ -4,7 +4,7 @@ title: "react hook useRef"
 summary: "DOM에 있는 선택 요소에 참조를 걸어 놔서, 바로 접근 할 수 있게 한다."
 author: yoo94
 date: "2024-02-03 11:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useRef/

@@ -4,7 +4,7 @@ title:  "js 이벤트 위임이란(event delegation)"
 summary: "자바스크립트 이벤트 위임이란?"
 author: yoo94
 date: '2024-07-17 20:35:23 +0530'
-category: ['myconfused','javaScript']
+category: DevLog
 tags: myconfused, event, delegation
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/event-delegation/

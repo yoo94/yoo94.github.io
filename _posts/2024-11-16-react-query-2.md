@@ -4,7 +4,7 @@ title: "react query page nation"
 summary: "페이지 네이션 해보자"
 author: yoo94
 date: "2024-11-16 19:32:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags:
   - nextJs
   - react-query

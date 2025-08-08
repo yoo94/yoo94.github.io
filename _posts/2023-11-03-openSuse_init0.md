@@ -4,7 +4,7 @@ title: "open Suse에 설정 및 네트워크설정"
 summary: "sap설치를 위한 os 설치"
 author: yoo94
 date: "2023-11-04 17:35:23 +0530"
-category: openSuse
+category: Backend_infra
 tags: openSuse
 keywords: openSuse,sap
 thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png

@@ -4,7 +4,7 @@ title:  "채권과 채무"
 summary: ""
 author: yoo94
 date: '2023-09-14 17:35:23 +0530'
-category: account
+category: WebSecurity
 tags: account
 keywords: account
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Money_Coin_Icon.svg/75px-Money_Coin_Icon.svg.png

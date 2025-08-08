@@ -4,7 +4,7 @@ title: "page Router"
 summary: "page Router -> App Router"
 author: yoo94
 date: "2024-08-22 13:35:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/nextJs-router/

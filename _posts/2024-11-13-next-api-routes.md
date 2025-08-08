@@ -4,7 +4,7 @@ title: "next-api-routes"
 summary: "서버리스 백엔드 역할 수행"
 author: yoo94
 date: "2024-11-13 18:32:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags:
   - nextJs
   - next-api-routes

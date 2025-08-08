@@ -4,7 +4,7 @@ title: "잔디 기부 캠페인 참여! 및 연말 회고"
 summary: "항해99"
 author: yoo94
 date: "2024-12-27 10:32:23 +0530"
-category: ["webetc"]
+category: TechMisc
 tags:
   - 잔디기부
   - 잔디 기부

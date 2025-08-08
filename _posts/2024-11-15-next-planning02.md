@@ -4,7 +4,7 @@ title: "next js application 페이지,레이아웃 설정"
 summary: "step 2"
 author: yoo94
 date: "2024-11-15 18:32:23 +0530"
-category: ["planning"]
+category: DevLog
 tags:
   - nextjs
   - planning

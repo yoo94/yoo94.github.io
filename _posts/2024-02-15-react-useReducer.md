@@ -4,7 +4,7 @@ title: "react hook useReducer"
 summary: "같은 state를 변화 시키는데, 여러 함수가 여기저기 선언되어 있을 때 묶음으로 만들기 위해 사용"
 author: yoo94
 date: "2024-02-15 12:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useReducer/

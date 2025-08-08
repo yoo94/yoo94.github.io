@@ -4,7 +4,7 @@ title: "next js application 기획 및 폴더구조 파악"
 summary: "step 1"
 author: yoo94
 date: "2024-11-14 18:32:23 +0530"
-category: ["planning"]
+category: DevLog
 tags:
   - nextjs
   - planning

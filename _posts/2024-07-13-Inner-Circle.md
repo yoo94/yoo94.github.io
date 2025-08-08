@@ -4,7 +4,7 @@ title: "0.패캠 inner circle 사전설명회"
 summary: "선발 후기"
 author: yoo94
 date: "2024-07-13 13:35:23 +0530"
-category: ["inner-Circle"]
+category: DevLog
 tags:
   - 패스트캠퍼스
   - 이너서클

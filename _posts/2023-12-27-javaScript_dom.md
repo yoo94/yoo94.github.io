@@ -3,8 +3,8 @@ layout: post
 title:  "DOM 조작"
 summary: "DOM 이란?"
 author: yoo94
-date: '2023-12-27 17:35:23 +0530'
-category: javaScript
+date: "2023-12-27 17:35:23 +0530"
+category: Frontend1
 tags: javaScript
 keywords: dom
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png

@@ -4,7 +4,7 @@ title: "react axios fetch"
 summary: "axios는 fetch API"
 author: yoo94
 date: "2024-04-08 08:35:23 +0530"
-category: react
+category: Frontend1
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-axios-fetch/

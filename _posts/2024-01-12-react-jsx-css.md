@@ -4,7 +4,7 @@ title: "JSX with css"
 summary: "JSX css"
 author: yoo94
 date: "2024-01-12 15:35:23 +0530"
-category: react
+category: Frontend1
 tags: react
 thumbnail: /blog/postImg/Pasted image 20240505144527.png
 permalink: blog/react-jsx-css/

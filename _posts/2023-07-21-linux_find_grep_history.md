@@ -4,7 +4,7 @@ title:  "리눅스 자주쓰는 명령어 find,grep,hisory"
 summary: "명령어"
 author: yoo94
 date: '2023-07-21 17:35:23 +0530'
-category: linux
+category: Backend_infra
 tags: linux
 keywords: find, grep, hisory
 thumbnail: https://i.namu.wiki/i/u3xN1dzCaWAEf6Tb5X0oSiVFU4DTQ_355FJmLCSTY7GZNyOnv60tkvcu0s0cD4Oce9vK6kylpAIEU-BYcju6Ww.webp

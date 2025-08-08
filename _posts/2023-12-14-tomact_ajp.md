@@ -4,7 +4,7 @@ title: "아파치, 톰캣 AJP 통신하기"
 summary: "아파치, 톰캣 AJP 통신하기"
 author: yoo94
 date: "2023-12-14 17:35:23 +0530"
-category: webetc
+category: TechMisc
 tags: webetc
 keywords: tomcat,apache,ajp
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s

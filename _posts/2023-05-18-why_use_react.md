@@ -4,7 +4,7 @@ title:  "React 왜!! react"
 summary: "왜 리액트를 쓸까"
 author: yoo94
 date: '2023-05-18 15:35:23 +0530'
-category: react
+category: Frontend1
 tags: react
 keywords: react, nodeJs
 thumbnail: https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png

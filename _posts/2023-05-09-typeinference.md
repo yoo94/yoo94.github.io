@@ -4,7 +4,7 @@ title:  "타입 추론 호환 단언"
 summary: "타입 추론이란 타입스크립트가 코드를 해석해 나가는 동작"
 author: yoo94
 date: '2023-05-09 14:35:23 +0530'
-category: typeScript
+category: Frontend1
 tags: typeScript
 keywords: typeScript
 thumbnail: https://i.namu.wiki/i/EY559r31H-um8uTtptPIbCZoBGxsumSlwEH0T_rA6WmxQq1UwqyAf3cJQJXN7Fv5CoEz0kv5CBXzjkkPU_XWig.svg

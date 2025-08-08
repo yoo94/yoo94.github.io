@@ -4,7 +4,7 @@ title: "react hook useCallback "
 summary: "최적화:불필요한 함수 재생성 방지"
 author: yoo94
 date: "2024-03-07 04:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useCallback/

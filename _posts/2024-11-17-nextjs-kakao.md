@@ -4,7 +4,7 @@ title: "next kakao Developers 세팅 및 지도 불러오기"
 summary: "next 에서 지도를 가져오자"
 author: yoo94
 date: "2024-11-08 1:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 permalink: blog/next-kakao-Developers/
 ---

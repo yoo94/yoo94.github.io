@@ -4,7 +4,7 @@ title: "next streaming"
 summary: "스트리밍을 가능케한다."
 author: yoo94
 date: "2024-09-02 13:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/next-streaming/

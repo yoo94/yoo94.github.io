@@ -4,7 +4,7 @@ title: "빌드 도구들 Ant, Maven, Gradle"
 summary: "빌드 도구들 Ant, Maven, Gradle"
 author: yoo94
 date: "2023-12-16 17:35:23 +0530"
-category: webetc
+category: TechMisc
 tags: webetc
 keywords: Ant, Maven, Gradle
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s

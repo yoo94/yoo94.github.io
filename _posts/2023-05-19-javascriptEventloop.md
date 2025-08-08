@@ -4,7 +4,7 @@ title:  "상속과 프로토타입?"
 summary: "작업을 처리하는 이벤트 루프에 기반하고 있다."
 author: yoo94
 date: '2023-05-19 17:35:23 +0530'
-category: javaScript
+category: Frontend1
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png

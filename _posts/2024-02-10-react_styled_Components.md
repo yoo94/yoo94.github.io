@@ -4,7 +4,7 @@ title: "styled Components"
 summary: "`styled-components`라는 NPM 패키지명을 가지고 있다"
 author: yoo94
 date: "2024-02-10 14:35:23 +0530"
-category: react
+category: Frontend1
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react_styled_Components/

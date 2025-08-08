@@ -4,7 +4,7 @@ title: "react query"
 summary: "비동기 작업을 위한 라이브러리"
 author: yoo94
 date: "2024-11-16 18:32:23 +0530"
-category: ["nextJs"]
+category: Frontend2
 tags:
   - nextJs
   - react-query

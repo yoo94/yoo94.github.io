@@ -4,7 +4,7 @@ title: "open Suse에 sap 세팅하기"
 summary: "sap 세팅"
 author: yoo94
 date: "2023-11-03 17:35:23 +0530"
-category: openSuse
+category: Backend_infra
 tags: openSuse
 keywords: openSuse,sap
 thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png

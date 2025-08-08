@@ -3,8 +3,8 @@ layout: post
 title:  "js curring?"
 summary: "커링이란 무엇인가"
 author: yoo94
-date: '2024-06-15 15:35:23 +0530'
-category: ['myconfused','javaScript']
+date: "2024-06-15 15:35:23 +0530"
+category: DevLog
 tags: myconfused, curring
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/curring/

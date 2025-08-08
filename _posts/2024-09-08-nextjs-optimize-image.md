@@ -4,7 +4,7 @@ title:  "next optimize image"
 summary: "next 이미지 최적화"
 author: yoo94 
 date: '2024-09-08 14:35:23 +0530' 
-category: ['nextJs','react']
+category: Frontend2
 tags: react,nextJs
 permalink: blog/next-optimize-image/
 ---

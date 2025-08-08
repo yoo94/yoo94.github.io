@@ -3,8 +3,8 @@ layout: post
 title:  "nextJs 페이지 라우터 data-fetching"
 summary: "nextJs-data-fetching"
 author: yoo94
-date: '2024-08-23 13:35:23 +0530'
-category: ['nextJs']
+date: "2024-08-23 13:35:23 +0530"
+category: Frontend2
 tags: react,nextJs
 thumbnail: 
 permalink: blog/nextJs-data-fetching/

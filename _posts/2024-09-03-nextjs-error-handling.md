@@ -4,7 +4,7 @@ title: "next error 핸들링"
 summary: "에러 실헝.."
 author: yoo94
 date: "2024-09-02 13:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/next-error/

@@ -4,10 +4,10 @@ title:  "Virtual Dom 이란 무엇인가?"
 summary: "Virtual DOM이 나온 이유?"
 author: yoo94
 date: '2024-02-21 13:35:23 +0530'
-category: ['myconfused','javaScript','react']
-tags: react
+category: Frontend1
+tags: react,Frontend
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
-permalink: blog/Virtual-Dom/
+permalink: blog/Virtual-Dom
 ---
 #### Virtual DOM?
 

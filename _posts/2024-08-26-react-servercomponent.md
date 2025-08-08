@@ -4,7 +4,7 @@ title: "react의 servercomponent 및 page 이동"
 summary: "servercomponent"
 author: yoo94
 date: "2024-08-24 13:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/react-servercomponent/

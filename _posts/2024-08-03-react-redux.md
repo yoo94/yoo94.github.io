@@ -4,7 +4,7 @@ title: "react의 redux!"
 summary: "리덕스"
 author: yoo94
 date: '2024-08-03 16:32:23 +0530'
-category: ['myconfused','react']
+category: DevLog
 tags:
   - react
   - redux

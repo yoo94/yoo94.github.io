@@ -4,7 +4,7 @@ title:  "instance 와 prototype 의 멤버추가"
 summary: "차이"
 author: yoo94
 date: '2024-07-18 16:35:23 +0530'
-category: ['myconfused','javaScript']
+category: DevLog
 tags: javaScript
 keywords: javaScript
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png

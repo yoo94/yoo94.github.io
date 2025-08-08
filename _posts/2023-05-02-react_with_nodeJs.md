@@ -4,7 +4,7 @@ title:  "React 개발에서 Node.js"
 summary: "nodeJs"
 author: yoo94
 date: '2023-05-02 14:35:23 +0530'
-category: react
+category: Frontend1
 tags: react
 keywords: react, nodeJs
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
@@ -14,7 +14,7 @@ React를 사용하기 위해서는 React , nodejs , 툴로는 vscode가 필요�
 
 React니까 당연히 React이고 .. 툴은 vsCode가 아니라 인텔리제이도 사용가능하긴한데...
 
-#### nodeJs는 왜일까??? 알아보자
+#### 왜 nodeJs 일까??? 알아보자
 
 <img src="https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
 

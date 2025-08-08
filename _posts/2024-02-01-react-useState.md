@@ -4,7 +4,7 @@ title: "react hook useState"
 summary: "화면에서 값이 변하는 것들을 담아두고 관리할 때"
 author: yoo94
 date: "2024-02-01 18:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useState/

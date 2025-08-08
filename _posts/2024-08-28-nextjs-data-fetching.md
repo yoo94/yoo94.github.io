@@ -4,7 +4,7 @@ title: "next app 라우터의 data fetching,caching,memo"
 summary: "사전렌더링 과정 진행"
 author: yoo94
 date: "2024-08-28 13:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/next-data-fetching/

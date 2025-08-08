@@ -4,7 +4,7 @@ title: "react 정적파일 설정"
 summary: "이미지, 폰트"
 author: yoo94
 date: "2024-02-21 13:35:23 +0530"
-category: react
+category: Frontend1
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-staticFiles/

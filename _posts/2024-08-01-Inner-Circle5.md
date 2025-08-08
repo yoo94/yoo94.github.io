@@ -4,7 +4,7 @@ title: "3.패캠 inner circle 2주차 후기"
 summary: "npm에 퍼블리싱"
 author: yoo94
 date: '2024-08-01 20:32:23 +0530'
-category: ['inner-Circle']
+category: DevLog
 tags:
   - 패스트캠퍼스
   - 이너서클

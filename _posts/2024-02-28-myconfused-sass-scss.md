@@ -4,7 +4,7 @@ title: "sass scss  무엇인가?"
 summary: "sass-scss"
 author: yoo94
 date: "2024-02-21 13:35:23 +0530"
-category: ["myconfused", "javaScript", "css"]
+category: DevLog
 tags: sass-scss
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png
 permalink: blog/sass-scss/

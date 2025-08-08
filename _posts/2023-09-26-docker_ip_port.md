@@ -4,7 +4,7 @@ title:  "docker ip,port 확인"
 summary: "명령어"
 author: yoo94
 date: '2023-09-26 20:35:23 +0530'
-category: docker
+category: Backend_infra
 tags: docker
 keywords: docker
 thumbnail: https://i.namu.wiki/i/KHNL7eMAx46cUBgM-wQRF1OPwkvHCF6oKMXDD3MpOwiUZedqQ_IZuA-vI2d1jMZIkDm9zQCFxb4FFS1HKvqJd5iHeA3PYSFRBYOYewHg6wvR4BwrQjucTirP9s5I4GGtpGBrtAqGgKl_vlGROsWrTA.svg

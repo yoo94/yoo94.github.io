@@ -4,7 +4,7 @@ title: "왜 자바스크립트에서 C++ 라이브러리를 사용하는가?"
 summary: ""
 author: yoo94
 date: "2024-02-09 13:35:23 +0530"
-category: ["myconfused", "javaScript"]
+category: DevLog
 tags: javaScript,c++
 keywords: c++
 thumbnail:

@@ -4,7 +4,7 @@ title: "react React.memo"
 summary: "component 불필요한 렌더링 방지"
 author: yoo94
 date: "2024-03-03 07:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/React.memo/

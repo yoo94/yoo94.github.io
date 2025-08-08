@@ -4,7 +4,7 @@ title:  "React는 라이브러리"
 summary: "프레임워크가 아니다!"
 author: yoo94
 date: '2023-05-03 12:35:23 +0530'
-category: react
+category: Frontend1
 tags: react
 keywords: react
 thumbnail: /blog/postImg/Pasted image 20240205195107.png

@@ -4,7 +4,7 @@ title: "react hook useParams, useSearchParams"
 summary: "동적 경로"
 author: yoo94
 date: "2024-04-23 13:35:23 +0530"
-category: react
+category: Frontend1
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-useParams-useSearchParams/

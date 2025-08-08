@@ -4,7 +4,7 @@ title: "웹접근성"
 summary: "웹 표준은 웹에서 사용되는 기술들의 표준화를 의미한다"
 author: yoo94
 date: "2024-02-27 17:35:23 +0530"
-category: websecurity
+category: WebSecurity
 tags: websecurity
 keywords: websecurity
 thumbnail: https://i.namu.wiki/i/kq9NDC2Dsxbpqwn1L4dDwjo4fH7A9Rb76kbTrqpRirwq1VjPHDyr0Rp_P_Y0MhxFadKjqT5yBClhRDIWxapZNIdIrW8EkbT6KVv90O9wZqZ0ouYllY8gkIa39etQZDdg1d2fR6odJZ7_hYgF4FaLXg.webp

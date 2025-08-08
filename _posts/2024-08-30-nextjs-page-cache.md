@@ -4,7 +4,7 @@ title: "next app 라우터의 full router cache"
 summary: "페이지 캐싱을 해준다."
 author: yoo94
 date: "2024-08-30 13:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 thumbnail:
 permalink: blog/next-full-router-cache/

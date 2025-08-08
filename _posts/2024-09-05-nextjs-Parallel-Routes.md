@@ -4,7 +4,7 @@ title: "next Parallel Routes "
 summary: "next 병렬 라우팅"
 author: yoo94
 date: "2024-09-05 13:35:23 +0530"
-category: ["nextJs", "react"]
+category: Frontend2
 tags: react,nextJs
 permalink: blog/next-Parallel-Routes/
 ---

@@ -4,7 +4,7 @@ title: "react hook useEffect"
 summary: "모든 또는 특정 state 가 변할 때 마다 , 무엇인가 실행하고 싶으면 사용"
 author: yoo94
 date: "2024-02-06 15:35:23 +0530"
-category: ["react", "reactHook"]
+category: Frontend2
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-hook-useEffect/
