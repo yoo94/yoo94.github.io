@@ -4,7 +4,7 @@ title: "URL URI URN"
 summary: "URI와 URL이 혼동되기 쉽다. 결론부터 말하자면 URI는 URL의 상위 개념이다."
 author: yoo94
 date: "2023-10-29 17:35:23 +0530"
-category: TechMisc
+category: WebSecurity
 tags: webetc
 thumbnail: https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7s4zgKH2ffUBQnZgOH4FQQ.png
 permalink: blog/URL_URI_URN/

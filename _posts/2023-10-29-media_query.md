@@ -4,7 +4,7 @@ title: "반응형 디자인과 미디어 쿼리"
 summary: "responsive web design"
 author: yoo94
 date: "2023-10-29 17:35:23 +0530"
-category: TechMisc
+category: Frontend1
 tags: webetc
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/180px-CSS3_logo_and_wordmark.svg.png
 permalink: blog/media_query/

@@ -4,7 +4,7 @@ title: "프론트엔드 최적화 2. 병목코드 퇴치 "
 summary: "코드분할과 지연로딩"
 author: yoo94
 date: "2025-01-10 10:32:23 +0530"
-category: Frontend3
+category: Frontend2
 tags:
   - 병목코드
   - 코드분할
