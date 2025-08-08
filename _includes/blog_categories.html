@@ -1,13 +1,28 @@
-{% for tag in site.categories %}
-{% capture tag_name %}{{ tag | first }}{% endcapture %}
-{% assign posts = tag[1] %}
-{% assign post_count = posts | size %}
+{% assign category_order = 'DevLog,Frontend1,Frontend2,Frontend3,Backend_infra,WebSecurity,TechMisc' | split: ',' %}
+{% assign category_names = 'DevLog:🧠 1. 개발 일지 & 생각,Frontend1:🌐 2. 프론트엔드 초급,Frontend2:🌐 2. 프론트엔드 중급,Frontend3:🌐 2. 프론트엔드 고급,Backend_infra:🛠️ 3. 백엔드 & 서버,WebSecurity:🔐 4. 보안,TechMisc:🧰 5. 기타 기술 & 툴' | split: ',' %}
 
-<li class="tag-head">
-    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}" id="{{ tag_name | slugify }}" name="{{ tag_name | slugify }}">
-        {{ tag_name }} ({{ post_count }})
-    </a>
-</li>
+{% for category_key in category_order %}
+  {% for tag in site.categories %}
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    {% if tag_name == category_key %}
+      {% assign posts = tag[1] %}
+      {% assign post_count = posts | size %}
+      {% if post_count > 0 %}
+        {% for name_pair in category_names %}
+          {% assign name_parts = name_pair | split: ':' %}
+          {% if name_parts[0] == category_key %}
+            <li class="tag-head">
+                <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}" id="{{ tag_name | slugify }}" name="{{ tag_name | slugify }}">
+                    {{ name_parts[1] }} ({{ post_count }})
+                </a>
+            </li>
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 <!--{% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}-->
