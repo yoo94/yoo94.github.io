@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frontend 초급
+title: 🌐 Frontend 초급
 permalink: blog/categories/Frontend1/
 ---
 
@@ -10,9 +10,9 @@ permalink: blog/categories/Frontend1/
   {% for post in site.categories.Frontend1 %}
     {% if post.categories contains "Frontend1" %}
       <li class="category-posts">
-        <span>{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
         &nbsp;
-        <a href="{{ post.url }}">프론트엔드 초급</a>
+        <span>{{ post.date | date_to_string }}</span>
       </li>
     {% endif %}
   {% endfor %}

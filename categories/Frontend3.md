@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frontend 고급
+title: 🌐 Frontend 고급
 permalink: blog/categories/Frontend3/
 ---
 
@@ -10,9 +10,9 @@ permalink: blog/categories/Frontend3/
   {% for post in site.categories.Frontend3 %}
     {% if post.categories contains "Frontend3" %}
       <li class="category-posts">
-        <span>{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
         &nbsp;
-        <a href="{{ post.url }}">프론트엔드 고급</a>
+        <span>{{ post.date | date_to_string }}</span>
       </li>
     {% endif %}
   {% endfor %}

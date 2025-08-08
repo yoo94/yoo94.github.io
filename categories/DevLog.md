@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DevLog
+title: 🧠 개발 일지 & 생각 
 permalink: blog/categories/DevLog/
 ---
 
@@ -10,9 +10,9 @@ permalink: blog/categories/DevLog/
   {% for post in site.categories.DevLog %}
     {% if post.categories contains "DevLog" %}
       <li class="category-posts">
-        <span>{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
         &nbsp;
-        <a href="{{ post.url }}">개발일지 & 생각</a>
+        <span>{{ post.date | date_to_string }}</span>
       </li>
     {% endif %}
   {% endfor %}

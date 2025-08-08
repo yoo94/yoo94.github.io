@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TechMisc
+title: 🧰 기타 기술 & 툴 TechMisc
 permalink: blog/categories/TechMisc/
 ---
 
@@ -10,9 +10,9 @@ permalink: blog/categories/TechMisc/
   {% for post in site.categories.TechMisc %}
     {% if post.categories contains "TechMisc" %}
       <li class="category-posts">
-        <span>{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
         &nbsp;
-        <a href="{{ post.url }}">기타 기술 & 툴</a>
+        <span>{{ post.date | date_to_string }}</span>
       </li>
     {% endif %}
   {% endfor %}

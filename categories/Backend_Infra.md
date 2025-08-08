@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Backend_infra
+title: 🛠️ 백엔드 & 서버
 permalink: blog/categories/Backend_infra/
 ---
 
@@ -10,9 +10,9 @@ permalink: blog/categories/Backend_infra/
   {% for post in site.categories.Backend_infra %}
     {% if post.categories contains "Backend_infra" %}
       <li class="category-posts">
-        <span>{{ post.date | date_to_string }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
         &nbsp;
-        <a href="{{ post.url }}">백엔드 & 서버</a>
+        <span>{{ post.date | date_to_string }}</span>
       </li>
     {% endif %}
   {% endfor %}
