@@ -4,7 +4,7 @@ title: "react-query? 하기전에 서버상태관리!"
 summary: "서버상태관리!"
 author: yoo94
 date: "2024-08-21 13:35:23 +0530"
-category: DevLog
+category: Frontend1
 tags: react,react-query
 thumbnail:
 permalink: blog/react-query/

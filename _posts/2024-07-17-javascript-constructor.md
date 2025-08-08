@@ -4,7 +4,7 @@ title:  "constructor 생성자 함수에서의 매커니즘"
 summary: "차이"
 author: yoo94
 date: '2024-07-17 17:35:23 +0530'
-category: DevLog
+category: Frontend1
 tags: javaScript
 keywords: javaScript,constructor
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png

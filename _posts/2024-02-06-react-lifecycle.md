@@ -4,7 +4,7 @@ title: "react 컴포넌트 라이프사이클"
 summary: "컴포넌트 라이프사이클"
 author: yoo94
 date: "2024-02-06 11:35:23 +0530"
-category: DevLog
+category: Frontend1
 tags: react
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-component-lifecycle/

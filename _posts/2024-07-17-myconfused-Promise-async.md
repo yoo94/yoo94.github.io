@@ -4,7 +4,7 @@ title:  "js Promise와 async/await"
 summary: "차이점과 주의점, 비동기의 필요이유?"
 author: yoo94
 date: '2024-07-17 18:35:23 +0530'
-category: DevLog
+category: Frontend1
 tags: Promise,async,await,myconfused
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/promise-async-await/

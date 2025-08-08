@@ -4,7 +4,7 @@ title:  "react redux configureStore 사용방법"
 summary: ""
 author: yoo94
 date: '2023-08-11 16:35:23 +0530'
-category: DevLog
+category: Frontend
 tags: react,redux
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-redux3/

@@ -4,7 +4,7 @@ title:  "타입스크립트 모듈"
 summary: "타입스크립트에서 가리키는 모듈이라는 개념은 ES6+의 Modules개념과 유사"
 author: yoo94
 date: '2023-05-06 14:35:23 +0530'
-category: Frontend1
+category: Frontend2
 tags: typeScript
 keywords: typeScript
 thumbnail: https://i.namu.wiki/i/EY559r31H-um8uTtptPIbCZoBGxsumSlwEH0T_rA6WmxQq1UwqyAf3cJQJXN7Fv5CoEz0kv5CBXzjkkPU_XWig.svg

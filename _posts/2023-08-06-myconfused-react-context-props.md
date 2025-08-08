@@ -4,7 +4,7 @@ title:  "react context 와 props"
 summary: ""
 author: yoo94
 date: '2023-08-06 11:35:23 +0530'
-category: DevLog
+category: Frontend1
 tags: react,context,props
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/react-context-props/

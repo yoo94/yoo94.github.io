@@ -4,7 +4,7 @@ title: "DOM이란"
 summary: ""
 author: yoo94
 date: "2023-11-16 13:35:23 +0530"
-category: DevLog
+category: Frontend1
 tags: javaScript,DOM
 keywords: DOM
 thumbnail:

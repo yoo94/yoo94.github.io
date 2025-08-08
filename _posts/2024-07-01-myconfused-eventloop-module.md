@@ -4,7 +4,7 @@ title: "js eventloop "
 summary: "자바스크립트 모듈 시스템을 사용하는 이유?"
 author: yoo94
 date: "2024-07-01 19:35:23 +0530"
-category: DevLog
+category: Frontend2
 tags: eventloop
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/eventloop/

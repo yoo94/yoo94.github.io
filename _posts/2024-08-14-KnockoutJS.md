@@ -4,7 +4,7 @@ title: "최초의 MVVM패턴의 라이브러리 KnockoutJS"
 summary: "MVVM KnockoutJS"
 author: yoo94
 date: "2024-08-14 19:32:23 +0530"
-category: DevLog
+category: Frontend2
 tags:
   - npm
   - node

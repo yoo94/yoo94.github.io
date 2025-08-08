@@ -4,7 +4,7 @@ title: "let const var 차이점"
 summary: "스코프의 차이?"
 author: yoo94
 date: "2024-05-06 17:35:23 +0530"
-category: DevLog
+category: Frontend1
 tags: myconfused, let, const, var
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/let_const_var/

@@ -4,7 +4,7 @@ title: "React의 업데이트 매커니즘!"
 summary: "virtual DOM"
 author: yoo94
 date: "2024-08-16 10:32:23 +0530"
-category: DevLog
+category: Frontend1
 tags:
   - react
 thumbnail:
