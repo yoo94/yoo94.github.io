@@ -16,23 +16,21 @@
         <div id="article-container">
           <div id="article-img">
             {% if post.author %}
-              {% assign author = post.author %}
-              {% if author %}
-               {% assign author_data = site.data.authors[author] %}
-               <img
-                src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
-                width="50px"
-                height="50px"
-             />
-              {% else %}
-               <img
-                src="https://www.snunews.com/news/photo/201609/16240_9455_4715.jpg"
-                width="50px"
-                height="50px"
-             />
-              {% endif %}
+                {% assign author = post.author %}
+                {% if post.thumbnail %}
+                <img
+                  src="{{site.url}}{{site.baseurl}}/{{post.thumbnail}}"
+                  width="50px"
+                  height="50px"
+                />
+                {% else %}
+                <img
+                  src="https://www.snunews.com/news/photo/201609/16240_9455_4715.jpg"
+                  width="50px"
+                  height="50px"
+                />
+                {% endif %}
             {% endif %}
-
           </div>
           <div id="article-link">
               <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
