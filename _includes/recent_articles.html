@@ -20,6 +20,12 @@
               {% if author %}
                {% assign author_data = site.data.authors[author] %}
                <img
+                src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
+                width="50px"
+                height="50px"
+             />
+              {% else %}
+               <img
                 src="https://www.snunews.com/news/photo/201609/16240_9455_4715.jpg"
                 width="50px"
                 height="50px"

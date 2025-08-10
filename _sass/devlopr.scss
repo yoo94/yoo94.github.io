@@ -258,6 +258,22 @@ header {
     margin: 15px;
 }
 
+/* 포스트 내용 안의 모든 이미지가 카드 영역을 벗어나지 않도록 설정 */
+.card-body img {
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* div로 감싸진 이미지도 동일하게 처리 */
+.card-body div img {
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
 .author_bio{
     margin-top:5px;
 }
@@ -721,6 +737,16 @@ header {
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     width: 45%;
     margin: 20px auto !important;
+    overflow: hidden; /* 카드 영역을 벗어나는 내용 숨김 */
+}
+
+/* 포스트 상세 페이지의 카드도 동일하게 처리 */
+article.card {
+    overflow: hidden;
+}
+
+article.card .card-body {
+    overflow-x: hidden; /* 가로 스크롤 방지 */
 }
 
 .blog-post:hover {

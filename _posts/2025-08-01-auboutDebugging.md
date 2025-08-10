@@ -20,7 +20,7 @@ tags:
   - debug
   - 디버깅꿀팁
   - DevTools
-thumbnail: /blog/postImg/250810debugmain.png
+thumbnail: /blog/postImg/20250811bughunter.png
 permalink: blog/react/react-up12/
 ---
 
@@ -169,3 +169,4 @@ console.log()와 워치 표현식(Watch Expressions)을 사용해 특정 변수�
 
 버그 헌터가 되어 코드 속 사건 현장을 누비며, 단 한 줄의 로그와 브레이크포인트로 범인을 지목하는 짜릿한 경험이 바로 디버깅이다. 
 문제 재현 → 로그 확인 → 디버거 활용 → 가설 검증의 순서는 개발자라면 반드시 숙지하고 있어야한다고 생각한다.
+![버그헌터](/blog/postImg/20250811bughunter.png)
