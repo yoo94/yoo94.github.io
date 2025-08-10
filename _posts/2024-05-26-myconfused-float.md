@@ -19,26 +19,26 @@ float는 CSS에서 요소를 왼쪽 또는 오른쪽으로 정렬하여 텍스�
 <div class="container">
   <div
     class="box"
-    style="float: left; width: 150px; height: 100px; background-color: lightblue;"
+    style="float: left; width:auto; height:auto; background-color: lightblue;"
   >
     Left Float
   </div>
   <div
     class="box"
-    style="float: right; width: 150px; height: 100px; background-color: lightcoral;"
+    style="float: right; width:auto; height:auto; background-color: lightcoral;"
   >
     Right Float
   </div>
-  <div class="content" style="background-color: lightgray; height: 200px;">
+  <div class="content" style="background-color: lightgray; height:auto;">
     This is some content that flows around the floated elements.
   </div>
 </div>
 ```
 
 <div class="container">
-  <div class="box" style="float: left; width: 150px; height: 100px; background-color: lightblue;">Left Float</div>
-  <div class="box" style="float: right; width: 150px; height: 100px; background-color: lightcoral;">Right Float</div>
-  <div class="content" style="background-color: lightgray; height: 200px;">This is some content that flows around the floated elements.</div>
+  <div class="box" style="float: left; width:auto; height:auto; background-color: lightblue;">Left Float</div>
+  <div class="box" style="float: right; width:auto; height:auto; background-color: lightcoral;">Right Float</div>
+  <div class="content" style="background-color: lightgray; height:auto;">This is some content that flows around the floated elements.</div>
 </div>
 
 ```html

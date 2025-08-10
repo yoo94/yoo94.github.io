@@ -26,7 +26,7 @@ permalink: blog/InnerCircle02/
 접속을 하면 이미지와 같이 개발코스와, pm ux ui 코스가 있다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img.png" style="width:auto; height:auto;">
 </div>
 
 클릭하면서 돌아다닐수도 있고, 바람의 생각나서 재밌었다. 
@@ -34,13 +34,13 @@ permalink: blog/InnerCircle02/
 혼자 여기저기 돌아다니면서 구경하다 보니 어느덧 오후 2시가 되었고 ot가 시작됐다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img_1.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img_1.png" style="width:auto; height:auto;">
 </div>
 
 나... 10:1 뚫었네..왜지..
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img_3.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img_3.png" style="width:auto; height:auto;">
 </div>
 
 
@@ -53,7 +53,7 @@ permalink: blog/InnerCircle02/
 ### 아래는 바뀌었음에도 개빡센 스케줄표 ... 이건 끝까지 버티기만하면 실력 향상은 보장일듯
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img_4.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img_4.png" style="width:auto; height:auto;">
 </div>
 
 수료 혜택도 준단다... 국비지원에 무료로 이런 기회 준것도 감사한데... 수료혜택이라니...! 무료 수강권!!! 
@@ -61,20 +61,20 @@ permalink: blog/InnerCircle02/
 행사초대!! 멘토링 매칭..? 음.. .난 성향상 멘토가 된다는게 걸리긴 하지만, 내가 받은거 전해주는건 내 실력이 늘수있는 좋은 방법이라 생각했다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img_5.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img_5.png" style="width:auto; height:auto;">
 </div>
 
 훈련장려금도 준단다... 꼭 받아야징
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img_6.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img_6.png" style="width:auto; height:auto;">
 </div>
 
 
 이건 바람의 나라같아서 귀여워서 캡처 ㅋ_ㅋ
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/img_2.png" style="width:70%; height:70%;">
+  <img src="/blog/postImg/img_2.png" style="width:auto; height:auto;">
 </div>
 
 ot는 위의 pt와 함께 질문으로 이어졌고 매니저님들과 리더님들이 친절하게 답변해 주셨다.

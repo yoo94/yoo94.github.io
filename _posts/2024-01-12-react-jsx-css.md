@@ -33,10 +33,10 @@ export default Main;
 
 2. css파일을 만들어서 하기
    <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240505150240.png" alt="Pasted image 20240505150240.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240505150240.png" alt="Pasted image 20240505150240.png" style="max-width:auto;; height:auto;">
 </div>
    이렇게 따로 뺀다음
    <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240505150347.png" alt="Pasted image 20240505150347.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240505150347.png" alt="Pasted image 20240505150347.png" style="max-width:auto;; height:auto;">
 </div>
    이렇게 넣는다.

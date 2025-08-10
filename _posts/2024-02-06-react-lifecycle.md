@@ -11,7 +11,7 @@ permalink: blog/react-component-lifecycle/
 ---
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506123745.png" alt="Pasted image 20240506123745.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240506123745.png" alt="Pasted image 20240506123745.png" style="max-width:auto;; height:auto;">
 </div>
 
 1. 마운트 : 컴포넌트가 처음으로 렌더링된 순간 / 컴포넌트가 DOM에 삽입되는 과정

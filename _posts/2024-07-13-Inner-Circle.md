@@ -62,7 +62,7 @@ permalink: blog/InnerCircle01/
 3년차 이상 개발자들끼리 프로젝트도 할 수 있다고 하니.. 정말 좋은 기회일거같다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="../assets/img/innercircle1.png" alt="img.png" style="width:70%; height:70%;">
+  <img src="../assets/img/innercircle1.png" alt="img.png" style="width:auto; height:auto;">
 </div>
 
 사전 설명회를 듣고, 시작하길 잘했다는 생각이 들었다.

@@ -82,8 +82,7 @@ background-color: blue;
 ```css
 /* 예시: 요소의 크기를 고정 */
 .fixed-size {
-width: 100px;
-height: 100px;
+width:auto; height:auto;
 }
 ```
 

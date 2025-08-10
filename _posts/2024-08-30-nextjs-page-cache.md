@@ -15,7 +15,7 @@ permalink: blog/next-full-router-cache/
 next 서버에서 빌드 타임에 특정 페이지의 렌더링 결과를 캐싱하는 기능
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next083001.png" alt="next083001.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/next083001.png" alt="next083001.png" style="max-width:auto;; height:auto;">
 </div>
 
 위 이미지처럼, 페이지 경로가 /a라는 페이지가 있을때 ,
@@ -45,7 +45,7 @@ next js는 정적페이지와 동적페이지 두가지로 나뉜다.
 #### revalidate도 가능하다. 즉 특정 시간마다 업데이트를 할 수 있다는 것이다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next083002.png" alt="next083002.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/next083002.png" alt="next083002.png" style="max-width:auto;; height:auto;">
 </div>
 
 - 3초를 설정해 놓게되면 3초 뒤에 요청이 들어왔을 때에 풀라우트 캐시에서 현재 페이지는

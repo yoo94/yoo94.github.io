@@ -47,11 +47,11 @@ permalink: blog/optimization_1/lighthouse/
 종합 점수 : 64점
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/bital1.png" alt="bital1.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/bital1.png" alt="bital1.png" style="max-width:auto;; height:auto;">
 </div>
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/bital2.png" alt="bital2.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/bital2.png" alt="bital2.png" style="max-width:auto;; height:auto;">
 </div>
 
 ### FCP ( First Conentful Paint) - 가중치 : 10%
@@ -81,7 +81,7 @@ permalink: blog/optimization_1/lighthouse/
 - 사용자가 페이지와 상호작용이 가능한 시점까지의 시간 ( 클릭 또는 키보드 누름)
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/TTI1.png" alt="TTI.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/TTI1.png" alt="TTI.png" style="max-width:auto;; height:auto;">
 </div>
 
 ## **Diagnostics**
@@ -89,7 +89,7 @@ permalink: blog/optimization_1/lighthouse/
 - 로드 속도와 직접적인 관계는 없지만 성능과 관련된 기타 정보
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Diagnostics.png" alt="Diagnostics.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Diagnostics.png" alt="Diagnostics.png" style="max-width:auto;; height:auto;">
 </div>
 
 - Emulated Desktop with Lighthouse 12.2.1 - CPU 성능에 제한을 뒀는지 1x(제한안둠) 4x(제한둠 보통 모바일)

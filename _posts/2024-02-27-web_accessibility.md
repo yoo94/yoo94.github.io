@@ -16,7 +16,7 @@ permalink: blog/web_accessibility/
 웹 표준은 웹에서 사용되는 기술들의 표준화를 의미한다. 즉, 웹 사이트를 구성하는 HTML, CSS, JavaScript 등의 언어들이 표준화된 방식으로 작성되어야 한다는 것이다. 쉽게 말하면 사용자가 어떤 브라우저나 기기를 사용하더라도 홈페이지 화면을 동일하게 볼 수 있도록 하는 것이 웹 표준인 것이다.
 
 ## <div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" alt="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" style="max-width:100%;; height:70%;">
+  <img src="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" alt="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" style="max-width:auto;; height:auto;">
 </div>
 
 ### **웹 표준의 장점**
@@ -162,7 +162,7 @@ html
 
 ```html
 <div style="display: flex; justify-content: center;">
-  <img arc = "img/login.png" alt="로그인 / style="width:70%; height:70%;">
+  <img arc = "img/login.png" alt="로그인 / style="width:auto; height:auto;">
 </div>
 ```
 

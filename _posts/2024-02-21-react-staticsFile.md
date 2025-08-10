@@ -25,19 +25,19 @@ import { getEmotionImage } from './util/get-emotion-image';
   //img태그에 src에 함수를 호출해
    <div>
     <div style="display: flex; justify-content: center;">
-  <img  src={getEmotionImage(1)}/ style="width:70%; height:70%;">
+  <img  src={getEmotionImage(1)}/ style="width:auto; height:auto;">
 </div>
     <div style="display: flex; justify-content: center;">
-  <img  src={getEmotionImage(2)}/ style="width:70%; height:70%;">
+  <img  src={getEmotionImage(2)}/ style="width:auto; height:auto;">
 </div>
     <div style="display: flex; justify-content: center;">
-  <img  src={getEmotionImage(3)}/ style="width:70%; height:70%;">
+  <img  src={getEmotionImage(3)}/ style="width:auto; height:auto;">
 </div>
     <div style="display: flex; justify-content: center;">
-  <img  src={getEmotionImage(4)}/ style="width:70%; height:70%;">
+  <img  src={getEmotionImage(4)}/ style="width:auto; height:auto;">
 </div>
     <div style="display: flex; justify-content: center;">
-  <img  src={getEmotionImage(5)}/ style="width:70%; height:70%;">
+  <img  src={getEmotionImage(5)}/ style="width:auto; height:auto;">
 </div>
    </div>
 ...

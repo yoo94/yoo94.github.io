@@ -26,7 +26,7 @@ permalink: blog/InnerCircle-last/
 ##### 마지막 후기는 담백하게 쓰겠습니다. 많은 분들이 보고계셔서 ㅎㅎ...
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/free.png" alt="Pasted image free.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/free.png" alt="Pasted image free.png" style="max-width:auto;; height:auto;">
 </div>
 
 먼저 4개월 간의 이너써클 과정이 끝났다!!!

@@ -31,10 +31,10 @@ services:
 ```
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616200511.png" alt="Pasted image 20240616200511.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240616200511.png" alt="Pasted image 20240616200511.png" style="max-width:auto;; height:auto;">
 </div>
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616200520.png" alt="Pasted image 20240616200520.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240616200520.png" alt="Pasted image 20240616200520.png" style="max-width:auto;; height:auto;">
 </div>
 
 
@@ -42,8 +42,8 @@ services:
 docker-compose up
 ```
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616201405.png" alt="Pasted image 20240616201405.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240616201405.png" alt="Pasted image 20240616201405.png" style="max-width:auto;; height:auto;">
 </div>
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616201517.png" alt="Pasted image 20240616201517.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240616201517.png" alt="Pasted image 20240616201517.png" style="max-width:auto;; height:auto;">
 </div>

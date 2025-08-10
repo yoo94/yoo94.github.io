@@ -18,7 +18,7 @@ Enhancemnet라고 불리기도 하는데, SAP R/3의 표준기능, 테이블에 
 Batch Data Communication 엑셀의 매크로 처럼 데이터를 form 이나 테이블 안에 다건, 단건 전송할 수 있는 기술
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240312130753.png" alt="Pasted image 20240312130753.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240312130753.png" alt="Pasted image 20240312130753.png" style="max-width:auto;; height:auto;">
 </div>
 
 ##### TCODE

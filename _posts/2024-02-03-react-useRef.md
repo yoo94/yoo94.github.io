@@ -18,11 +18,11 @@ permalink: blog/react-hook-useRef/
 
 ####### 언제 사용? : DOM에 있는 선택 요소에 참조를 걸어 놔서, 바로 접근 할 수 있게 한다.
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240505232013.png" alt="Pasted image 20240505232013.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240505232013.png" alt="Pasted image 20240505232013.png" style="max-width:auto;; height:auto;">
 </div>
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240505232034.png" alt="Pasted image 20240505232034.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240505232034.png" alt="Pasted image 20240505232034.png" style="max-width:auto;; height:auto;">
 </div>
 
 ```jsx
@@ -44,7 +44,7 @@ const inputVal = selectInput.current.value;
 ##### validation
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240119134225.png" alt="Pasted image 20240119134225.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240119134225.png" alt="Pasted image 20240119134225.png" style="max-width:auto;; height:auto;">
 </div>
 
 옛날 방식으로는 이런식으로 alert창을 띄운다. 그치만 요새 방식은 이런식으로 하지 않는다고 한다.
@@ -52,7 +52,7 @@ const inputVal = selectInput.current.value;
 
 이렇게 import 해주고
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240119134451.png" alt="Pasted image 20240119134451.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240119134451.png" alt="Pasted image 20240119134451.png" style="max-width:auto;; height:auto;">
 </div>
 사진과 같이 선언하면 저 변수에 ,
 
@@ -60,14 +60,14 @@ const inputVal = selectInput.current.value;
 
 이라는 객체가 저장된다. 이 객체는 DOM요소에 접근하는 기능을 해준다.
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240119134613.png" alt="Pasted image 20240119134613.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240119134613.png" alt="Pasted image 20240119134613.png" style="max-width:auto;; height:auto;">
 </div>
 
 이런식으로 input 태그에 ref={선언한 변수}
 를 해주면 저 변수를 통해 input 태그에 접근한다.
 content 도 마찬가지로
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240123133430.png" alt="Pasted image 20240123133430.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240123133430.png" alt="Pasted image 20240123133430.png" style="max-width:auto;; height:auto;">
 </div>
 
 만들어준다.

@@ -15,23 +15,23 @@ permalink: blog/react-hook-useReducer/
 - action과 state를 분리하여 상태 관리를 좀 더 직관적이고 관리하기 쉽게 만들 수 있다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506161949.png" alt="Pasted image 20240506161949.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240506161949.png" alt="Pasted image 20240506161949.png" style="max-width:auto;; height:auto;">
 </div>
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506162047.png" alt="Pasted image 20240506162047.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240506162047.png" alt="Pasted image 20240506162047.png" style="max-width:auto;; height:auto;">
 </div>
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506162035.png" alt="Pasted image 20240506162035.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240506162035.png" alt="Pasted image 20240506162035.png" style="max-width:auto;; height:auto;">
 </div>
 
 ###### 언제 사용? : 같은 state를 변화 시키는데, 여러 함수가 여기저기 선언되어 있을 때 묶음으로 만들기 위해 사용
 
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240204234130.png" alt="Pasted image 20240204234130.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240204234130.png" alt="Pasted image 20240204234130.png" style="max-width:auto;; height:auto;">
 </div>
 이런 식으로, 상태를 변화 시켜야 하는 것들이 있으면  한 곳에 다 때려 박는 로직은 좋은 로직 이 아니다.
 <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240204234233.png" alt="Pasted image 20240204234233.png" style="max-width:100%;; height:70%;">
+  <img src="/blog/postImg/Pasted image 20240204234233.png" alt="Pasted image 20240204234233.png" style="max-width:auto;; height:auto;">
 </div>
 이런 식으로 따로 빼서 useReducer안에 담아서 사용하면 더 좋다.
 

@@ -19,7 +19,7 @@ permalink: blog/KnockoutJS/
 직접적인 DOM조작이 아니라 tmeplate를 통해서 선언적으로 개발을 지원해준다.
 
 <div style="display: flex; justify-content: center;">
-  <img src="../blog/postImg/knockoutjs.png" style="width: 70%; height:70%;">
+  <img src="../blog/postImg/knockoutjs.png" style="width:auto; height:auto;">
 </div>
 
 ## 핵심 기능
