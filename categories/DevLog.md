@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🧠 개발 일지 & 생각 
+title: 🧠 개발 일지 & 회고 & 생각
 permalink: blog/categories/DevLog/
 ---
 

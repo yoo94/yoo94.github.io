@@ -22,17 +22,25 @@ permalink: blog/optimization_1/bottleneck/
 
 **Diagnostics 에서** Reduce JavaScript execution time
 
-<img src="/blog/postImg/bottleneck1.png" alt="bottleneck1.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck1.png" alt="bottleneck1.png" style="max-width:100%;; height:70%;">
+</div>
 
 …chunks/framework-e651e4d700632ed4.js 이게 오랫동안 실행되었고 느려진 원인이라는것은 알겠다.
 
-<img src="/blog/postImg/bottleneck2.png" alt="bottleneck2.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck2.png" alt="bottleneck2.png" style="max-width:100%;; height:70%;">
+</div>
 
 퍼포먼스 패널로가서 새로고침을 누르면 다음과 같이 결과가 나온다.
 
-<img src="/blog/postImg/bottleneck3.png" alt="bottleneck3.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck3.png" alt="bottleneck3.png" style="max-width:100%;; height:70%;">
+</div>
 
-<img src="/blog/postImg/bottleneck4.png" alt="bottleneck4.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck4.png" alt="bottleneck4.png" style="max-width:100%;; height:70%;">
+</div>
 
 ---
 
@@ -49,7 +57,9 @@ permalink: blog/optimization_1/bottleneck/
 
 빨간색 부분들은 병목이 발생하고 있는 지점. 즉 특정 작업이 메인 스레드를 오랫동안 잡아 두고 있다 라는 뜻.
 
-<img src="/blog/postImg/bottleneck5.png" alt="bottleneck5.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck5.png" alt="bottleneck5.png" style="max-width:100%;; height:70%;">
+</div>
 
 ### Network
 
@@ -64,7 +74,9 @@ permalink: blog/optimization_1/bottleneck/
 
 ---
 
-<img src="/blog/postImg/bottleneck6.png" alt="bottleneck6.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck6.png" alt="bottleneck6.png" style="max-width:100%;; height:70%;">
+</div>
 
 ### frames, timings, main
 
@@ -74,7 +86,9 @@ permalink: blog/optimization_1/bottleneck/
 
 ## 하단탭
 
-<img src="/blog/postImg/bottleneck7.png" alt="bottleneck7.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck7.png" alt="bottleneck7.png" style="max-width:100%;; height:70%;">
+</div>
 
 - summary : 선택 영역에서 발생한 작업시간의 총합과 각 작업이 차지하는 비중
 - bottom-up : 가장 최하위에 있는 작업부터 상위 작업까지 역순으로
@@ -83,12 +97,16 @@ permalink: blog/optimization_1/bottleneck/
 
 ---
 
-<img src="/blog/postImg/bottleneck7.png" alt="bottleneck7.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck7.png" alt="bottleneck7.png" style="max-width:100%;; height:70%;">
+</div>
 
 네트워크, 타이밍, 메인 탭을 눌러보면서 어떤 실행에서 얼만큼 걸리는지 파악하고
 
 제일 오래 걸리는 부분이나 빨간색 표시된 부분을 확인하면서 처리를 해야한다.
 
-<img src="/blog/postImg/bottleneck8.png" alt="bottleneck8.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/bottleneck8.png" alt="bottleneck8.png" style="max-width:100%;; height:70%;">
+</div>
 
 현재는 app.js가 가장 오래 걸린다.

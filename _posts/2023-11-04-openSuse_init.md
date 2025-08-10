@@ -11,7 +11,9 @@ thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXW
 permalink: blog/opensusesapSetting/
 ---
 
-![](https://blog.kakaocdn.net/dn/buI7WL/btsCgs7mJ6v/tvC1vZa76KETuKrkiqxKQ0/img.png)
+<div style="display: flex; justify-content: center;">
+  <img src="https://blog.kakaocdn.net/dn/buI7WL/btsCgs7mJ6v/tvC1vZa76KETuKrkiqxKQ0/img.png" alt="" style="width:70%; height:70%;">
+</div>
 
 **# OS** **기본 언어는 EN**
 
@@ -71,7 +73,9 @@ libatomic1-11.2.1+git610-1.3.9.x86_64
 
 zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 에러가 났다... 15.5 는 참 별로인거같긴한데...
 
-![](https://blog.kakaocdn.net/dn/xMkMe/btsCfBKzTIs/fdqqbfPvKk5fJ66qkTKhOK/img.png)
+<div style="display: flex; justify-content: center;">
+  <img src="https://blog.kakaocdn.net/dn/xMkMe/btsCfBKzTIs/fdqqbfPvKk5fJ66qkTKhOK/img.png" alt="" style="width:70%; height:70%;">
+</div>
 
 **일단 제일먼저 해볼게**
 
@@ -83,7 +87,9 @@ zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 �
 
 이걸 통해서 다시 참조 해주면 된다고 공식문서에 나와있다. 근데 안됨 ㅡㅡ
 
-![](https://blog.kakaocdn.net/dn/bZH9nN/btsCew3z2gZ/h23hmMRK2cWE4noNsFx9U0/img.png)
+<div style="display: flex; justify-content: center;">
+  <img src="https://blog.kakaocdn.net/dn/bZH9nN/btsCew3z2gZ/h23hmMRK2cWE4noNsFx9U0/img.png" alt="" style="width:70%; height:70%;">
+</div>
 
 그래서
 
@@ -91,7 +97,9 @@ zypper install saptune 을 하니까 repo-non-free (15.5) is invalid 하면서 �
 
 자동적으로 키를 임포트해서 신뢰하게 만드는 그런거다.
 
-![](https://blog.kakaocdn.net/dn/c79b0L/btsClaYHSgY/IEORbmIuCx3RjaQjauAB7K/img.png)
+<div style="display: flex; justify-content: center;">
+  <img src="https://blog.kakaocdn.net/dn/c79b0L/btsClaYHSgY/IEORbmIuCx3RjaQjauAB7K/img.png" alt="" style="width:70%; height:70%;">
+</div>
 
 짜란.. 다 됐다. 근데 이게 임시로 해결한거고
 

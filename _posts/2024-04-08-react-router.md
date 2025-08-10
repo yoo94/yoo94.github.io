@@ -10,7 +10,9 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: blog/react-router/
 ---
 
-<img src="/blog/postImg/Pasted image 20240507184422.png" alt="Pasted image 20240507184422.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/Pasted image 20240507184422.png" alt="Pasted image 20240507184422.png" style="max-width:100%;; height:70%;">
+</div>
 
 ```shell
 npm i react-router-dom

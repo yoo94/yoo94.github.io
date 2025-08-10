@@ -12,9 +12,13 @@ permalink: blog/react-hook-useEffect/
 
 #### 부수효과, 의존성 배열과 정리함수!
 
-<img src="/blog/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:100%;; height:70%;">
+</div>
 
-<img src="/blog/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:100%;; height:70%;">
+</div>
 
 ##### 필요성
 

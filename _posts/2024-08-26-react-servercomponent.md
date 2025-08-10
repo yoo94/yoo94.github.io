@@ -28,7 +28,9 @@ jsbundle안에는 모든 컴포넌트가 포함될 필요가 없다. react hooks
 
 ## 서버컴포넌트(정적)는 제외하게 된다.
 
-<img src="/blog/postImg/serverComponent.png" alt="serverComponent.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/serverComponent.png" alt="serverComponent.png" style="max-width:100%;; height:70%;">
+</div>
 
 # nextJs에서는 페이지 대부분을 서버 컴포넌트로 구성할 것을 권장한다.
 
@@ -38,13 +40,17 @@ jsbundle안에는 모든 컴포넌트가 포함될 필요가 없다. react hooks
 
 #### 주의사항
 
-<img src="/blog/postImg/serverComponent2.png" alt="serverComponent2.png.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/serverComponent2.png" alt="serverComponent2.png.png" style="max-width:100%;; height:70%;">
+</div>
 
 1. 서버 컴포넌트에서는 브라우저와 관련된 이벤트핸들러, usehooks는 사용할 수 없다.
 
 2. 클라이언트 컴포넌트는 클라이언트에서만 실행되지 않는다.
 
-<img src="/blog/postImg/serverComponent3.png" alt="serverComponent3.png.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/serverComponent3.png" alt="serverComponent3.png.png" style="max-width:100%;; height:70%;">
+</div>
 
 3. 클라이언트 컴포넌트에서 서버 컴포넌트를 import 할 수 없다.
 
@@ -56,7 +62,9 @@ jsbundle안에는 모든 컴포넌트가 포함될 필요가 없다. react hooks
 
 ### page 이동
 
-<img src="/blog/postImg/serverComponent4.png" alt="serverComponent3.png.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/serverComponent4.png" alt="serverComponent3.png.png" style="max-width:100%;; height:70%;">
+</div>
 
 페이지 이동은 요청이 들어오면, 클라이언트와 서버 컴포넌트가 둘다 실행이되고
 

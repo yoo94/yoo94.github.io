@@ -15,7 +15,9 @@ permalink: blog/web_accessibility/
 
 웹 표준은 웹에서 사용되는 기술들의 표준화를 의미한다. 즉, 웹 사이트를 구성하는 HTML, CSS, JavaScript 등의 언어들이 표준화된 방식으로 작성되어야 한다는 것이다. 쉽게 말하면 사용자가 어떤 브라우저나 기기를 사용하더라도 홈페이지 화면을 동일하게 볼 수 있도록 하는 것이 웹 표준인 것이다.
 
-## <img src="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" alt="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" style="max-width:100%;">
+## <div style="display: flex; justify-content: center;">
+  <img src="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" alt="https://blog.kakaocdn.net/dn/7LYhu/btr682QDXkE/bJx4qAPIUiMnekRmSDS0f1/img.png" style="max-width:100%;; height:70%;">
+</div>
 
 ### **웹 표준의 장점**
 
@@ -159,7 +161,9 @@ html
 하지만 스크린 리더는 스스로 웹페이지의 내용을 분석하지 못한다. 만일 로그인 페이지일 경우, 이 로그인 페이지의 디자인을 '로그인' 이라는 텍스트 대신 로그인 이미지를 사용할 경우 스크린 리더는 이를 인식하지 못하여 시각 장애인이 홈페이지를 이용할 수 없게 되는 차별이 일어난다. 따라서 이미지 대신 소스코드에 내용을 그대로 담는 것이 권장되며, 부득이하게 이미지를 사용할 경우 반드시 이미지가 어떤 내용인지 아래와 같이 ~~alt~~ 속성을 통해 설명을 추가 해야 한다.
 
 ```html
-<img arc = "img/login.png" alt="로그인 />
+<div style="display: flex; justify-content: center;">
+  <img arc = "img/login.png" alt="로그인 / style="width:70%; height:70%;">
+</div>
 ```
 
 ### **웹 접근성을 준수하는 방법**

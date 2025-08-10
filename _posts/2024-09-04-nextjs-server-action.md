@@ -96,7 +96,9 @@ revalidatePath이걸 호출하게 되면 이 안에 전달된 인수경로에대
 
 ##### 게다가 풀 라우터 캐시까지 다 초기화 시키고, 다시 업데이트 치진 않는다.. 이건 큰 문제이다. 그래서 새로고침을 다시 해줘야한다.
 
-<img src="/blog/postImg/next-server-action0904.png" alt="next-server-action0904.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/next-server-action0904.png" alt="next-server-action0904.png" style="max-width:100%;; height:70%;">
+</div>
 
 이미지와 같이 각종 fetch 데이터들은 다시 set 되지만 풀라우트 캐시는 안되기때문에 재접속시에 풀라우트 캐시를 set 해주게된다. 재접속하게 되었을때 무조건 최신의 데이터를 보장하기위해 이렇게 동작한다고한다.
 

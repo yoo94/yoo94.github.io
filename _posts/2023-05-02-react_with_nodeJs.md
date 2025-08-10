@@ -16,7 +16,9 @@ React니까 당연히 React이고 .. 툴은 vsCode가 아니라 인텔리제이�
 
 #### 왜 nodeJs 일까??? 알아보자
 
-<img src="https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png" alt="Pasted image 20240114133527.png" style="max-width:100%;">
+<div style="display: flex; justify-content: center;">
+  <img src="https://blog.kakaocdn.net/dn/CXCxi/btszJHkBdaR/gzidgB00mb931TLMKkS3QK/img.png" alt="Pasted image 20240114133527.png" style="max-width:100%;; height:70%;">
+</div>
 
 nodejs는 웹서버역할을 대신 해주는 자바스크립트 런타임이다.( 런타임은 프로그래밍 언어가 구동되는 환경이다. - 프로그램이 동작하는 장소라고 생각하면 되겠다.  브라우저도 런타임이다.)
 
