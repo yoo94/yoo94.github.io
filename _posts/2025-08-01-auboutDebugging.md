@@ -59,9 +59,7 @@ permalink: blog/react/react-up12/
 
  1940년대에 하버드 대학에서 근무했던 Grace Hopper 제독의 동료 중 한 명이 대학의 컴퓨터 작동을 방해하는 나방을 발견하자, 그녀는 동료들에게 ‘시스템ㅁ을 디버깅하고 있구나’라고 말했다고한다. 컴퓨터 프로그래머들은 1950년대에 버그와 디버깅이라는 용어를 처음 사용한 것으로 기록되었고, 1960년대 초에 프로그래밍 커뮤니티에서 디버깅이라는 용어를 일반적으로 사용하게 되었다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/debugwhen.png" alt="디버깅유래" style="width:auto; height:auto;">
-</div>
+![디버깅유래](/blog/postImg/debugwhen.png)
 
 ---
 
@@ -132,9 +130,7 @@ ci/cd 과정 중(특히 빌드과정) 에서 대부분의 ux/ui오류는 잡힌�
 ##### 바로 api통신 오류이다.
 third-party 이든, 백엔드 api든 간에 거의 대부분이 버그는 데이터 패칭에서 발생하고, 개발자 도구의 네트워크 탭에서 확인이 가능하다. 
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/250811devtool1.png" alt="디버깅유래" style="width:auto; height:auto;">
-</div>
+![디버깅유래](/blog/postImg/250811devtool1.png)
 
 - 정적리소스(이미지, 영상, js, css 파일들)들과 클라이언트에서 호출하는 대부분의 api는 여기서 확인 할 수 있다.
    - 상태코드들도 확인 가능하며, 그안에 호출 파라미터가 무엇인지, 응답값은 무엇인지 검색도 가능하다.

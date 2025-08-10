@@ -10,9 +10,7 @@ thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ
 permalink: blog/react-component-lifecycle/
 ---
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506123745.png" alt="Pasted image 20240506123745.png" style="max-width:auto;; height:auto;">
-</div>
+![이미지](/blog/postImg/Pasted image 20240506123745.png)
 
 1. 마운트 : 컴포넌트가 처음으로 렌더링된 순간 / 컴포넌트가 DOM에 삽입되는 과정
 2. 업데이트 : 컴포넌트가 리렌더링 된 순간 / 컴포넌트의 props 또는 state가 변경될 때

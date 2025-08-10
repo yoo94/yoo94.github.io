@@ -12,13 +12,9 @@ permalink: blog/react-hook-useEffect/
 
 #### 부수효과, 의존성 배열과 정리함수!
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506123932.png" alt="Pasted image 20240506123932.png" style="max-width:auto;; height:auto;">
-</div>
+![useEffect 개념](/blog/postImg/Pasted image 20240506123932.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506124009.png" alt="Pasted image 20240506124009.png" style="max-width:auto;; height:auto;">
-</div>
+![useEffect 사용법](/blog/postImg/Pasted image 20240506124009.png)
 
 ##### 필요성
 

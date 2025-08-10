@@ -57,9 +57,7 @@ div를 하나 생성해준다고 예시를 들어보자.
 const tweetDiv = document.createElement('div');
 ```
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240202164646.png" alt="Pasted image 20240202164646.png" style="max-width:auto;; height:auto;">
-</div>
+![이미지](/blog/postImg/Pasted image 20240202164646.png)
 
 ##### 2) Element 추가
 

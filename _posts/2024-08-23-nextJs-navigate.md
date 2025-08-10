@@ -79,9 +79,7 @@ import Link from 'next/link';
 
 이런식으로 있으면 이동 가능성이 있는 페이지를 서버에 요청해서 미리 불러와 있는 기능이다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/nextprocess.png" alt="nextprocess" style="max-width:auto;; height:auto;">
-</div>
+![nextprocess](/blog/postImg/nextprocess.png)
 
 #### 추가적으로 서버에 리소스를 요청할 이유가 있나?
 

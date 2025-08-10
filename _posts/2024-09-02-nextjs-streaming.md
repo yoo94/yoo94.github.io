@@ -32,9 +32,7 @@ Loading 할때 보여줄 컴포넌트를 만들면 자동 설정 된다.
 
 이런 suspense는 스켈레톤 ui와 함께 사용하면 참 좋다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next-streaming.png" alt="next-streaming.png" style="max-width:auto;; height:auto;">
-</div>
+![next-streaming.png](/blog/postImg/next-streaming.png)
 
 위 이미지처럼 뭔가 불러올때 스켈레톤 ui를 적용해주면 된다.
 

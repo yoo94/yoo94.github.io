@@ -1,0 +1,221 @@
+---
+layout: post
+title:  "commonjs amd"
+summary: "이제는 사장된... 그 라이브러리.."
+author: yoo94
+date: '2023-05-05 18:35:23 +0530'
+category: Frontend1
+tags: requirejs
+keywords: requirejs
+thumbnail: https://avatars.githubusercontent.com/u/1781835?s=280&v=4
+permalink: blog/requirejscommonjs/
+---
+
+일반적으로 클라이언트 측에서는 AMD(Asynchronous Module Definition)가, 서버 측에서는 CommonJS가 적합하다는 주장에는 몇 가지 이유가 있습니다.
+
+1. **클라이언트 측에서의 비동기 로딩**: 클라이언트 측에서는 일반적으로 자원을 비동기적으로 로드하는 것이 중요합니다. 웹 애플리케이션은 여러 모듈이 동시에 로드되어야 하고, AMD는 이러한 비동기 로딩을 지원하여 페이지의 성능을 향상시킵니다.
+
+2. **브라우저 환경의 모듈 시스템**: 브라우저 환경에서는 기본적으로 모듈 시스템이 없으며, AMD는 이러한 부족한 부분을 보완합니다. AMD는 브라우저 환경에서 모듈을 정의하고 로드하는데 적합한 방법을 제공합니다.
+
+3. **의존성 관리**: AMD는 의존성 관리를 지원하여 모듈 간의 의존성을 명시적으로 선언할 수 있습니다. 이는 복잡한 클라이언트 측 애플리케이션에서 모듈 간의 의존성을 쉽게 관리할 수 있게 해줍니다.
+
+
+반면에 서버 측에서는 CommonJS가 일반적으로 선호됩니다.
+
+1. **동기적 로딩**: 서버 측에서는 일반적으로 자원을 동기적으로 로드하는 것이 일반적입니다. 이는 서버 환경에서는 네트워크 지연이나 비동기적 로딩이 필요하지 않으며, 모듈 로딩을 위한 추가 오버헤드를 피할 수 있습니다.
+
+2. **네이티브 지원**: Node.js와 같은 서버 사이드 환경에서는 CommonJS 모듈 시스템이 네이티브로 지원됩니다. 따라서 서버 측에서는 CommonJS를 사용함으로써 추가적인 설정이나 라이브러리의 필요성이 줄어듭니다.
+
+#### CJS, AMD, UMD, ESM의 목적
+
+> 처음 JS는 모듈로 가져오거나 내보내는 방법이 없어, 하나의 파일에 모든 기능을 담아야 했다.
+>
+> **JS 프로그램을 모듈로 개발하고, 배포**할 수 있게 하기 위하여,
+>
+> CJS, AMD, UMD, ESM을 개발했다.
+
+#### CJS - CommonJS
+
+> javascript를 브라우저에서만 아니라, 다른 곳에서도 사용할 수 있게 해주는 API
+
+##### API란?
+프로그래밍 API란?
+
+API란? 서로 다른 프로그램끼리 연결해주는 도구 Application Programming Interface 앱 프로그래밍 인터페이스 API 예시 REST API : 서버와 클라이언트를 연결 GraphQL API : 서버와 클라이언트를 연결
+
+
+##### CJS 구문 ( 사용법 )
+
+```js
+Copy// require를 통해 모듈을 변수에 담을 수 있게 되었다
+var lib = require('package/lib');
+
+// 가져온 모듈을 사용할 수 있게 되었다.
+function foo() {
+  lib.log('hello world!');
+}
+
+// foo 함수를 다른 파일에서 사용할 수 있도록, 다른 모듈로 추출할 수 있게 되었다
+exports.foobar = foo;
+```
+
+##### CJS 특징 - 동기적 방식을 사용한다.
+
+##### 동기적 방식이란?
+
+프로그래밍 동기처리, 비동기처리 란?
+
+동기(synchronous) 처리 이전 작업이 끝나야, 다음 작업을 처리하는 방식 비동기(asynchronous) 처리 여러 작업을 동시에 처리하는 방식 // 스트리밍도 비동기 처리 방식중에 하나다.
+##### 동기적 방식 예시
+
+```js
+var foo = require('foo');
+var bar = require('bar');
+
+foo.log('It is foo');
+bar.log('It is bar');
+
+
+// 출력 결과
+//It is foo
+//It is bar
+```
+
+##### CJS를 사용하는 라이브러리
+
+- Node.js
+- PINF
+
+#### AMD (Asynchronous Module Definition)
+
+> CommonJS는 모든 파일이 로컬 디스크에 있어, 필요할 때 바로 불러올 수 있는 상황에서만 사용한다.  
+> 브라우저에서 이런 방식을 사용하면, 필요한 모듈이 모두 다운로드될 때까지 아무것도 할 수 없다.
+>
+> 비동기 방식으로 자바스크립트 모듈을 사용하는 API인, AMD를 만들었다.
+
+##### AMD 구문 ( 사용법 )
+<div style="display: flex; justify-content: center;">
+  <img src="https://defineall.tistory.com/916#AMD%20%EA%B5%AC%EB%AC%B8%20(%20%EC%82%AC%EC%9A%A9%EB%B2%95%20)-1" alt="https://defineall.tistory.com/916#AMD%20%EA%B5%AC%EB%AC%B8%20(%20%EC%82%AC%EC%9A%A9%EB%B2%95%20)-1" style="max-width:auto;; height:auto;">
+</div>
+
+```js
+Copy// myModule.js
+// define을 이용해 새로운 모듈을 불러오고, 콜백함수로 전해줌
+define(['package/lib'], function (lib) {
+
+  // 콜백함수 이용해서, 불러온 모듈 사용가능
+  function foo () {
+    lib.log('hello world!');
+  }
+  
+  // 다른파일에서 foo함수를, foobar이란 이름의 모듈로 불러올 수 있게 만듬
+  return {
+    foobar: foo
+  };
+});
+```
+
+```js
+Copy// 위에서 선언한 모듈 불러오기
+require(['package/myModule'], function (myModule) {
+  myModule.foobar();
+});
+```
+
+##### AMD를 사용하는 라이브러리
+  <div style="display: flex; justify-content: center;">
+  <img src="https://defineall.tistory.com/916#AMD%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-1" alt="https://defineall.tistory.com/916#AMD%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-1" style="max-width:auto;; height:auto;">
+</div>
+
+- RequireJS
+- PINF
+
+#### UMD (Univarsal Module Definition)
+  <div style="display: flex; justify-content: center;">
+  <img src="https://defineall.tistory.com/916#%F0%9F%91%89%C2%A0UMD%20(Univarsal%20Module%20Definition)-1" alt="sss" style="max-width:auto;; height:auto;">
+</div>
+
+> AMD와 CommonJS가 서로 호환되지 않는 문제를 해결하기 위한 API
+
+##### UMD 구문 ( 사용법 )
+  <div style="display: flex; justify-content: center;">
+  <img src="https://defineall.tistory.com/916#UMD%20%EA%B5%AC%EB%AC%B8%20(%20%EC%82%AC%EC%9A%A9%EB%B2%95%20)-1" alt="png" style="max-width:auto;; height:auto;">
+</div>
+
+```js
+Copy(function (root, factory) {
+  if(typeof define === 'function' && define.amd) {
+    // define이 함수이고, define.amd가 존재할때 AMD사용
+    define(['exports', 'b'], factory);
+  } else if (typeof exports === 'object' && typeof exports.nodeName !== 'string') {
+    // export가 객체이고, export.nodeName이 문자열이 아닐때, CommonJS사용
+    factory(exports, require('b'));
+  } else {
+    //Browser globals
+    factory((root.commonJsStrict = {}), root.b);
+  }
+}(this, function (exports, b) {
+  // use b in some fashion.
+  // attach properties to the exports object to define
+  // the
+  exports.action = function () {};
+}));
+```
+
+##### UMD 특징 - 여러 모듈 로더에서 사용 가능
+
+AMD와 CommonJS에서 모두 사용가능하다.  
+AMD - 클라이언트 사이드
+CommonJS - 서버 사이드
+
+
+
+
+##### ESM 특징 - javascript 자체 모듈 시스템
+ECMAScript에서 지원하는 자바 스크립트 공식 모듈
+import와 export를 지원하지 않는 브라우저가 많으므로, 번들러를 함께 사용해야한다.
+script태그에 type="module"을 선언하면 자바스크립트 파일을 모듈로 사용할 수 있다.  
+  
+이때, 모듈이라는 것을 정확히 표현하기 위해 mjs 확장자를 사용하도록 권장한다.
+
+```js
+<html>
+<body>
+  <script type="module" src="foo.mjs"></script>
+  <script type="module" src="foo.mjs"></script>
+</body>
+</html>
+```
+
+```js
+Copy// foo.mjs
+var x = 'foo';
+
+console.log(x);  // foo
+
+console.log(window.x);
+```
+
+```js
+Copy// bar.mjs
+// import를 사용해, 모듈을 불러온다
+
+import test from "./module.mjs";
+console.log(test);
+
+var x = 'bar';
+
+console.log(x);
+
+console.log(window.x);
+```
+
+```js
+Copy// module.mjs
+const test = 'hello world';
+
+// export를 사용해, 모듈로 내보낼 수 있다.
+export default test;
+
+```
+

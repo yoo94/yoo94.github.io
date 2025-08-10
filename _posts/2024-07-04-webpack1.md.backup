@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Webpack이란 무엇인가? 정의와 설치"
+summary: "필요성"
+author: yoo94
+date: "2024-07-04 13:35:23 +0530"
+category: Frontend1
+tags: webpack
+thumbnail: https://webpack.kr/site-logo.c0e60df418e04f58.svg
+permalink: blog/Webpack1/
+---
+
+#### 참고용
+
+<a src="https://survivejs.com/books/webpack/appendices/comparison/">이전의 빌드 도구들</a>
+
+# webpack이란 무엇인가?
+
+<div style="display: flex; justify-content: center;">
+  <img src="/blog/postImg/webpack1.png" alt="/blog/postImg/webpack1.png" style="max-width:auto;; height:auto;">
+</div>
+
+자바스크립트 기반의 모듈번들러이다.
+
+간단하게 js나 img,css 같은 것들을 모듈로 판단해서 하나의 파일로 병합 및 압축을 해줘서 배포용으로 만들어주는 것이 번들링이며
+
+웹팩이 현재는 우리나라 기준으로 가장 널리 쓰인다.
+
+주요한 요소로는 Entry, Output, Loaders, Plugins, Mode, Browser Compatibility가 있다.
+
+효율적 배포와 관련하여 개발자 자신이 선호하건 안하건 프로젝트 종류에 따라 그리고 프로젝트 사이즈가 크면 클수록 사용이 필수라고 해도 과언이 아닌 것이 사실이다.
+
+## 설치
+
+기본적으로 Node.js가 설치되어 있다면, npm을 통해서 다운 받을 수 있다.
+
+```shell
+$ npm install -D webpack webpack-cli webpack-dev-server
+```
+
+- webpack: 모듈(패키지) 번들러의 핵심 패키지입니다.
+- webpack-cli: 터미널에서 Webpack 명령(CLI)을 사용할 수 있습니다.
+- webpack-dev-server: 개발용으로 Live Server를 실행(HMR),
+  애플리케이션 코드에 변경이 발생하면 브라우저를 새로 고치지 않고도 모듈 단위로 변경된 부분만 업데이트할 수 있도록 하는 HMR을 지원합니다.
+  이를 통해 애플리케이션을 다시 빌드하거나 브라우저를 새로고침할 필요 없이 수정된 코드를 빠르게 확인할 수 있습니다.
+
+Node.js의 비공식 매니저인 yarn으로도 설치할 수 있다.
+
+```shell
+$ yarn add webpack --dev
+```
+
+## 단점
+
+- 복잡한 configuration
+- 번들의 크기가 크다
+
+## 장점
+
+- 성능 최적화 & 자동화
+- 번들러가 제공하는 편의성 (내가 어떤것을 사용하는냐에 따라 자동으로 플러그인을 추가하여 번들링해준다.)

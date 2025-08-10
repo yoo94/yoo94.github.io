@@ -18,24 +18,18 @@ permalink: blog/git-donation/
 
 ## 항해 99 에서 잔디기부 캠페인을 한다고해서 참여해 봤다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/donation1.png" alt="donation1.png" style="max-width:auto;; height:auto;">
-</div>
+![donation1.png](/blog/postImg/donation1.png)
 
 내가 기부할때는 누적 557,479개!!!
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/donation2.png" alt="donation2.png" style="max-width:auto;; height:auto;">
-</div>
+![donation2.png](/blog/postImg/donation2.png)
 
 ### 1개당 100원으로 환산해서 저소득 아동에게 코딩 교육을 지원하는 기부 캠페인이라고 한다!!
 
 항해99는 개발자 양성 학원으로, 평가가 좋은 부트캠프였던거로 기억한다.
 이번 캠페인을 통해서 더 이미지가 좋아지는거 같다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/donation3.png" alt="donation3.png" style="max-width:auto;; height:auto;">
-</div>
+![donation3.png](/blog/postImg/donation3.png)
 
 #### 나는 983개의 잔디를 기부했다.. 내 아주 작은 잔디가 좋은곳에 쓰이길...
 
@@ -44,9 +38,7 @@ permalink: blog/git-donation/
 
 이런 귀여운 인형과 함께 준다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/donation4.png" alt="donation4.png" style="max-width:auto;; height:auto;">
-</div>
+![donation4.png](/blog/postImg/donation4.png)
 
 ## 연말 간단 회고
 

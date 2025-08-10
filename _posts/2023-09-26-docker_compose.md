@@ -30,20 +30,15 @@ services:
         - ./data:/var/lib/postgresql/data
 ```
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616200511.png" alt="Pasted image 20240616200511.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616200520.png" alt="Pasted image 20240616200520.png" style="max-width:auto;; height:auto;">
-</div>
+![Docker Compose 설정](/blog/postImg/Pasted image 20240616200511.png)
+
+![Docker Compose 실행](/blog/postImg/Pasted image 20240616200520.png)
 
 
 ```yml
 docker-compose up
 ```
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616201405.png" alt="Pasted image 20240616201405.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240616201517.png" alt="Pasted image 20240616201517.png" style="max-width:auto;; height:auto;">
-</div>
+
+![Docker Compose Up 명령어](/blog/postImg/Pasted image 20240616201405.png)
+
+![Docker Compose 실행 결과](/blog/postImg/Pasted image 20240616201517.png)

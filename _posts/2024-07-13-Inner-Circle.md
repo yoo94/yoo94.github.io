@@ -61,9 +61,7 @@ permalink: blog/InnerCircle01/
 그러던 도중 발견한것이, 패스트캠퍼스 이너서클이다. 취업, 이직 노하우도 전수해 준다하고
 3년차 이상 개발자들끼리 프로젝트도 할 수 있다고 하니.. 정말 좋은 기회일거같다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="../assets/img/innercircle1.png" alt="img.png" style="width:auto; height:auto;">
-</div>
+![img.png](../assets/img/innercircle1.png)
 
 사전 설명회를 듣고, 시작하길 잘했다는 생각이 들었다.
 패스트 캠퍼스에서 정말 많은 것을 준비했다는 것도 알았다.

@@ -20,9 +20,7 @@ permalink: blog/next-Parallel-Routes/
 
 이런식으로 @ 이걸 붙여주면, 그안에 있는 page.tsx는 parallel/layout.tsx 라는 부모 컴 포넌트의 레이아웃에 자동으로 props로 전달이된다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next-parallel.png" alt="next-parallel.png" style="max-width:auto;; height:auto;">
-</div>
+![next-parallel.png](/blog/postImg/next-parallel.png)
 
 sidebar라는 이름으로 전달 될 것이다.
 

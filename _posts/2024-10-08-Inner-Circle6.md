@@ -76,9 +76,7 @@ _개발 요청서는 외부로 유출해도 되는지 몰라서 나중에 물어
 
 - 여기서부터는 개인적으로 일사천리였다고 생각하는데, 아닌 조원분들이 있을까봐 ㅎ\_ㅎ 개인적인 생각입니다.
 - 어쨋든 조장이 필요했기에 제일 활발하신분을 조장으로 밀어버렸다.
-  <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/innercircleleader.png" alt="Pasted image innercircleleader.png" style="max-width:auto;; height:auto;">
-</div>
+  ![이미지](/blog/postImg/innercircleleader.png)
 
 - 이제와서 하는 말이지만 조장을 맡으신 분이 고생을 많이 하게 된다 ^\_^ 근데 누군가는 해야하는데 어떻해!!!!
 
@@ -104,9 +102,7 @@ _개발 요청서는 외부로 유출해도 되는지 몰라서 나중에 물어
 
 - 9월 중순에 오프라인으로 프로젝트 중간 점검을 하였다. 다들 처음 얼굴을 대면하는 순간이라 이쁘게 하고 가야하나.. 고민하다가
 - 애초에 안이쁜 얼굴인데 그냥 가자! 하고 갔고 다들 그런 생각 하고 오신듯 ㅎ\_ㅎ 히히 (넝담...)
-  <div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/joke.png" alt="Pasted image innercircleleader.png" style="max-width:auto;; height:auto;">
-</div>
+  ![이미지](/blog/postImg/joke.png)
 
 - 다들 진행한 프로젝트 발표하고 투표하고 ( UX/UI PM 섹션 분들도 같이 발표하고 투표하고) 질문하고 서로 기술 물어보고 진짜 좋았다.
 - 이런기회가 더있었으면 했다. 아숩...

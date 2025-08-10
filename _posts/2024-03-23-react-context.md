@@ -15,21 +15,11 @@ permalink: blog/react-context/
 - 컴포넌트는 ui 단위이며 재사용을 위해 외부에서 데이터를 전달 받기위해서는 Props를 사용하는데,
 - 너무 많아지면 가독성이 떨어지게 된다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506180849.png" alt="Pasted image 20240506180849.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506180941.png" alt="Pasted image 20240506180941.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506180959.png" alt="Pasted image 20240506180959.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506181019.png" alt="Pasted image 20240506181019.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506181039.png" alt="Pasted image 20240506181039.png" style="max-width:auto;; height:auto;">
-</div>
+![이미지](/blog/postImg/Pasted image 20240506180849.png)
+![이미지](/blog/postImg/Pasted image 20240506180941.png)
+![이미지](/blog/postImg/Pasted image 20240506180959.png)
+![이미지](/blog/postImg/Pasted image 20240506181019.png)
+![이미지](/blog/postImg/Pasted image 20240506181039.png)
 
 ## 사용하기
 
@@ -37,18 +27,12 @@ createContext는 보통 컴포넌트 밖에서 한다.
 
 렌더링할때마다 새로운 컨텍스트를 다시 만들 필요가 없기 때문이다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506181813.png" alt="Pasted image 20240506181813.png" style="max-width:auto;; height:auto;">
-</div>
+![이미지](/blog/postImg/Pasted image 20240506181813.png)
 
 ## 분리하기
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506182819.png" alt="Pasted image 20240506182819.png" style="max-width:auto;; height:auto;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/Pasted image 20240506182926.png" alt="Pasted image 20240506182926.png" style="max-width:auto;; height:auto;">
-</div>
+![이미지](/blog/postImg/Pasted image 20240506182819.png)
+![이미지](/blog/postImg/Pasted image 20240506182926.png)
 
 # 부모
 

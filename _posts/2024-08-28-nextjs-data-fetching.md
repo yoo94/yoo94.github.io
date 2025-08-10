@@ -20,22 +20,16 @@ permalink: blog/next-data-fetching/
 
 #### 구조는
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next090801.png" alt="next090801.png" style="max-width:auto;; height:auto;">
-</div>
+![next090801.png](/blog/postImg/next090801.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next090802.png" alt="next090802.png" style="max-width:auto;; height:auto;">
-</div>
+![next090802.png](/blog/postImg/next090802.png)
 
 위 이미지와 같이 실행하여 프롭스로 넘겨서 데이터를 사용했다.
 그래서 최상단 page컴포넌트에서 받은 데이터를 자식 컴포넌트들에게 넘겨줘야하는 번거로움이있었다.
 
 ## 앱라우터에서는
 
-<div style="display: flex; justify-content: center;">
-  <img src="/blog/postImg/next090803.png" alt="next090803.png" style="max-width:auto;; height:auto;">
-</div>
+![next090803.png](/blog/postImg/next090803.png)
 
 이미지 처럼 asymc 키워드를 붙여서 서버 컴포넌트에 비동기 함수를 추가할수있다.
 

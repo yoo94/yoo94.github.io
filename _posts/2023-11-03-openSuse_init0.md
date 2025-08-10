@@ -15,9 +15,7 @@ open suse 설치해서 해보고자 하였다
 
 [https://get.opensuse.org/ko/](https://get.opensuse.org/ko/)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png)
 
 먼저 다운로드부터 받고,
 
@@ -28,51 +26,31 @@ openSUSE-Leap-15.5-DVD-s390x-Build491.1-Media 난 이것을 다운 받았다.
 rufus(루퍼스)는 안됐다.
 universal usb installer이라는 것을 설치해서 구웠다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/wwQ6O/btsB6OP5nwy/F4BENGOUTy5iC6r5dPO5Zk/img.webp" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/wwQ6O/btsB6OP5nwy/F4BENGOUTy5iC6r5dPO5Zk/img.webp)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/bobwZm/btsB6vXanO0/DxFyjqWdZC2fLrEWBgg0Rk/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/bobwZm/btsB6vXanO0/DxFyjqWdZC2fLrEWBgg0Rk/img.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/bo4OUm/btsB7dhFYpA/qrXY5FTbGArcQKroOdRz9K/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/bo4OUm/btsB7dhFYpA/qrXY5FTbGArcQKroOdRz9K/img.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/Am0BS/btsCawOpVlz/gVZOAxHykk0r3c0Ryv72W1/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/Am0BS/btsCawOpVlz/gVZOAxHykk0r3c0Ryv72W1/img.png)
 
 이제 제일 중요한 볼륨 파티셔닝. 제일 중요하다. **XFS 파일 시스템으로 파티션**
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/Ovu3S/btsCbc97R4H/0H28kKnd9Ez2TquEBrQBU1/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/Ovu3S/btsCbc97R4H/0H28kKnd9Ez2TquEBrQBU1/img.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/vV8D0/btsB5BXVE36/Fis3yuTED7qva6SazALT6K/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/vV8D0/btsB5BXVE36/Fis3yuTED7qva6SazALT6K/img.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/Cy91U/btsB7UWBxTK/J2Stfrss3YmGkR9nbztpX0/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/Cy91U/btsB7UWBxTK/J2Stfrss3YmGkR9nbztpX0/img.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/rDdTt/btsB5VB82Th/bPHxjNS0llFmChwddqNZ71/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/rDdTt/btsB5VB82Th/bPHxjNS0llFmChwddqNZ71/img.png)
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/92MKT/btsB5XtdkYs/exkdZLJK0kLc1Jjjzbi6H1/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/92MKT/btsB5XtdkYs/exkdZLJK0kLc1Jjjzbi6H1/img.png)
 
 시간도 서울로 맞춰주고
 
 root 계정 만들어주고
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/yG382/btsB4Q2bu52/LyX22ElFKbWx718nkkDQeK/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/yG382/btsB4Q2bu52/LyX22ElFKbWx718nkkDQeK/img.png)
 
 나는 어차피 우리회사 방화벽을 내가 설정하기 때문에, ssh만 열었다.
 
@@ -80,9 +58,7 @@ open SUSE를 설치하고 그냥 리눅스처럼 ipconfig를 갈겼는데,
 
 바로 안된다. ..;;;
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/bmkn09/btsB6gsq8HQ/t8GaQxWcWYdzP2kZGY6gs0/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/bmkn09/btsB6gsq8HQ/t8GaQxWcWYdzP2kZGY6gs0/img.png)
 
 오픈 수세 15 버전 이상부터 **arp, route, netstat, iptunnel, ipmaddr, ifconfig 명령어가 안된단다.**
 
@@ -92,15 +68,11 @@ open SUSE를 설치하고 그냥 리눅스처럼 ipconfig를 갈겼는데,
 
 바뀐거로 써보자
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/dBDIpL/btsB7et7vfL/rAhxV7esdhsCIy5BZjKMMk/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/dBDIpL/btsB7et7vfL/rAhxV7esdhsCIy5BZjKMMk/img.png)
 
 ip addr 하면 이렇게 연결된 네트워크가 나온다.
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://blog.kakaocdn.net/dn/bfb0rs/btsB7TwACRa/NCRmXK3ytvlkIE0RR9TqZk/img.png" alt="" style="width:auto; height:auto;">
-</div>
+![](https://blog.kakaocdn.net/dn/bfb0rs/btsB7TwACRa/NCRmXK3ytvlkIE0RR9TqZk/img.png)
 
 네트워크 설정은 GUI로 설치했으면 그냥
 
