@@ -821,11 +821,42 @@ header {
 }
 
 .blog-post {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     width: 45%;
     margin: 20px auto !important;
     overflow: hidden; /* 카드 영역을 벗어나는 내용 숨김 */
+    border-radius: 12px; /* 더 둥근 모서리 */
+    background: var(--card-background-color);
+    border: 1px solid var(--light-border-color);
+    
+    .card-body {
+        padding: 20px;
+        
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 1.3;
+            color: var(--main-text-color);
+        }
+        
+        .card-subtitle {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .card-text {
+            line-height: 1.5;
+            color: var(--medium-text-color);
+        }
+        
+        img {
+            transition: transform 0.3s ease;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    }
 }
 
 /* 포스트 상세 페이지의 카드도 동일하게 처리 */
@@ -839,6 +870,11 @@ article.card .card-body {
 
 .blog-post:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transform: translateY(-5px); /* 호버시 살짝 올라오는 효과 */
+    
+    .card-body img {
+        transform: scale(1.05); /* 호버시 이미지 살짝 확대 */
+    }
 }
 
 
@@ -953,8 +989,8 @@ footer {
 
             .blog-post {
                 width: 100%;
-                height: 40%;
-                margin: 20px !important;
+                height: auto; /* 높이를 자동으로 조정 */
+                margin: 15px 0 !important; /* 상하 마진만 적용 */
             }
 
             .product{
@@ -1033,8 +1069,8 @@ footer {
 
       .blog-post {
           width: 100%;
-          height: 40%;
-          margin: 20px !important;
+          height: auto; /* 높이를 자동으로 조정 */
+          margin: 15px 0 !important; /* 상하 마진만 적용 */
       }
 
       .product{
