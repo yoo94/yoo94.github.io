@@ -6,7 +6,7 @@ permalink: blog/categories/Frontend3/
 
 <h5>Posts by Category: {{ page.title }}</h5>
 
-<div class="card" style="width: 100%; max-width: 900px; margin: 0 auto;">
+<div class="card" >
   {% for post in site.categories.Frontend3 %}
     {% if post.categories contains "Frontend3" %}
       <li class="category-posts">

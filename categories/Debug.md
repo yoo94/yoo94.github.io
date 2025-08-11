@@ -6,7 +6,7 @@ permalink: blog/categories/Debug/
 
 <h5>Posts by Category: {{ page.title }}</h5>
 
-<div class="card" style="width: 100%; max-width: 900px; margin: 0 auto;">
+<div class="card" >
   {% for post in site.categories.Debug %}
     {% if post.categories contains "Debug" %}
       <li class="category-posts">
