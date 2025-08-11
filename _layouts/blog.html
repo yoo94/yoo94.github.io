@@ -12,7 +12,11 @@ layout: default
                         <div class="card-body center">
                             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" >
                             <h4 class="card-title" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">&#128204;{{ post.title }}</h4>
-
+                            {% if post.thumbnail %}
+                                <img src="{{ post.thumbnail }}" alt="Thumbnail for {{ post.title }}" class="img-fluid mb-2" style="max-height: 100px; object-fit: cover; width: 100%;">
+                            {% else %}
+                                <img src="https://www.snunews.com/news/photo/201609/16240_9455_4715.jpg" alt="Default thumbnail" class="img-fluid mb-2" style="max-height: 100px; object-fit: cover; width: 100%;">
+                            {% endif %}
                             <h6 class="card-subtitle mb-2 text-muted">&#128198;{{ post.date | date: "%b %-d, %Y" }}</h6>
                             </a>
                             <p class="card-text" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
