@@ -23,6 +23,7 @@ thumbnail: /blog/postImg/20250811bughunter.png
 permalink: blog/react/react-up12/
 published: false
 
+---
 ## 
 
 
