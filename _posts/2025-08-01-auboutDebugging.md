@@ -89,7 +89,7 @@ permalink: blog/react/react-up12/
 
 ## 4. 내가 생각하는 디버깅절차?
 
- ```txt
+ ```bash
 1. 문제 재현하기 가장 먼저 해야 할 일은 버그를 재현하는 것 언제, 어떤 조건에서 문제가 발생하는지 확인해야 원인을 찾을 수 있음 
 예: "로그인 버튼을 누르면 앱이 멈춘다 → 특정 브라우저에서만 발생" 
 
@@ -113,6 +113,7 @@ document.getElementById("myBtn").addEventListener("click", function() {
   console.log("Button clicked!");
 });
 ```
+
 디버깅 순서:
 1. 콘솔에 에러 메시지 있는지 확인
 2. myBtn이라는 ID가 실제로 존재하는지 HTML 확인
@@ -138,7 +139,7 @@ third-party 이든, 백엔드 api든 간에 거의 대부분이 버그는 데이
 - 재실행 및 복제 특정 요청을 우클릭해 ‘Replay XHR’ 또는 ‘Copy as cURL’을 선택해 동일한 요청을 반복 테스트할 수 있다.
 
 또한 개발자도구에서 브레이크 포인트를 잡아 펑션키들을 이용해 흐름을 따라 갈 수 있다.
-```txt
+```bash
 F8 – 계속(Resume) 실행 
 F10 – 한 줄씩 실행(Step Over) 
 F11 – 함수 내부로 들어가기(Step Into)
@@ -165,4 +166,5 @@ console.log()와 워치 표현식(Watch Expressions)을 사용해 특정 변수�
 
 버그 헌터가 되어 코드 속 사건 현장을 누비며, 단 한 줄의 로그와 브레이크포인트로 범인을 지목하는 짜릿한 경험이 바로 디버깅이다. 
 문제 재현 → 로그 확인 → 디버거 활용 → 가설 검증의 순서는 개발자라면 반드시 숙지하고 있어야한다고 생각한다.
+
 ![버그헌터](/blog/postImg/20250811bughunter.png)
