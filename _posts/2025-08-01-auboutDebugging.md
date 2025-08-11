@@ -3,7 +3,7 @@ layout: post
 title: "개발자는 디버깅을 잘하자"
 summary: "디버깅에대한 중요성과 회고"
 author: yoo94
-date: "2025-03-11 5:30:23 +0530"
+date: "2025-08-01 5:30:23 +0530"
 category: DevLog
 keywords: 디버깅 방법,브레이크포인트 활용법,콘솔 로그 팁,네트워크 탭 분석,프론트엔드 디버깅,DevTools 가이드
 tags:
