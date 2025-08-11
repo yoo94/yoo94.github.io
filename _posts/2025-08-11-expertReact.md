@@ -11,7 +11,6 @@ tags:
   - 좋은코딩
   - 디버깅의 유래
   - 개발자도구
-  - 리액트
   - react
   - front end
   - 프론트엔드
@@ -22,12 +21,10 @@ tags:
   - DevTools
 thumbnail: /blog/postImg/20250811bughunter.png
 permalink: blog/react/react-up12/
----
+published: false
 
 ## 
 
----
 
 ### 목차
 
----
