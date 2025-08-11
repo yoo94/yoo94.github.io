@@ -21,7 +21,7 @@ tags:
   - 디버깅꿀팁
   - DevTools
 thumbnail: /blog/postImg/20250811bughunter.png
-permalink: blog/react/react-up12/
+permalink: blog/react/debugging/
 ---
 
 ## 왜 디버깅을 잘 안할까..
