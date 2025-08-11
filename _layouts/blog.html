@@ -8,7 +8,7 @@ layout: default
             <ul>
                 <div class="row">
                     {% for post in paginator.posts %}
-                    <div class="card blog-post" style=" height: 20vh;">
+                    <div class="card blog-post">
                         <div class="card-body center">
                             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" >
                             <h4 class="card-title" style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">&#128204;{{ post.title }}</h4>
