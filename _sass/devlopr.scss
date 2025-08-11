@@ -1158,8 +1158,8 @@ footer {
 
           .blog-post {
                 width: 100%;
-                height: 40%;
-                margin: 20px !important;
+                height: auto; /* 높이를 자동으로 조정 */
+                margin: 15px 0 !important; /* 상하 마진만 적용 */
             }
 
             .product{
