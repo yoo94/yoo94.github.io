@@ -8,6 +8,7 @@ layout: default
             <ul>
                 <div class="row">
                     {% for post in paginator.posts %}
+                    {% unless post.published == false %}
                     <div class="card blog-post">
                         <div class="card-body center">
                             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" >
@@ -25,6 +26,7 @@ layout: default
                         </div>
 
                     </div>
+                    {% endunless %}
                     {% endfor %}
                 </div>
             </ul>
