@@ -21,9 +21,11 @@ tags:
   - FE 생산성
   - 유지보수
   - 개발 팁
-thumbnail: /blog/postImg/20250811bughunter.png
+thumbnail: /blog/postImg/goodCodeThumbnail.png
 permalink: blog/react/goodCodeFrontebd.md/
 ---
+
+![좋은코드](/blog/postImg/goodCodeThumbnail.png)
 
 ## 토스FE의 좋은 코드를 위한 4가지 기준을 읽고나서.
 
