@@ -27,23 +27,23 @@
   </div>
 
   <div class="card-body" itemprop="articleBody">
-    <br />
-    <br />
     {{ content }}
-    <br />
-    <script src="https://utteranc.es/client.js"
-            repo="yoo94/yoo94.github.io"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-    {%- include share_page.html -%}
-    <!-- Author box -->
-    {% assign author = site.data.authors[page.author] %}
-      {% if author %}
-      {% include author.html %}
-    {% endif %}
+    
+    <div class="post-footer">
+      <script src="https://utteranc.es/client.js"
+              repo="yoo94/yoo94.github.io"
+              issue-term="pathname"
+              theme="preferred-color-scheme"
+              crossorigin="anonymous"
+              async>
+      </script>
+      {%- include share_page.html -%}
+      <!-- Author box -->
+      {% assign author = site.data.authors[page.author] %}
+        {% if author %}
+        {% include author.html %}
+      {% endif %}
+    </div>
   </div>
   {%- if site.hyvor_talk_website_id -%}
   <div class="comments">

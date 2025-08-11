@@ -214,9 +214,104 @@ header {
 //    margin-top: 10px !important;
 //}
 .card {
-    margin: 4% !important;
-    padding: 3%;
+    margin: 2rem auto !important;
+    max-width: 900px !important;
+    padding: 2.5rem !important;
     background-color: var(--card-background-color) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    border: 1px solid var(--light-border-color) !important;
+}
+
+/* Article specific card styling */
+article.card {
+    margin: 2rem auto !important;
+    max-width: 900px !important;
+}
+
+article.card .card-header {
+    padding-bottom: 2rem !important;
+    border-bottom: 2px solid var(--light-border-color) !important;
+    margin-bottom: 2rem !important;
+}
+
+article.card .card-body {
+    padding-top: 0 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.7 !important;
+    color: var(--main-text-color) !important;
+}
+
+/* Typography improvements for article content */
+article.card .card-body h1,
+article.card .card-body h2,
+article.card .card-body h3,
+article.card .card-body h4,
+article.card .card-body h5,
+article.card .card-body h6 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+    font-weight: 600 !important;
+    color: var(--bold-color) !important;
+}
+
+article.card .card-body h1 { font-size: 2.2rem !important; }
+article.card .card-body h2 { font-size: 1.9rem !important; }
+article.card .card-body h3 { font-size: 1.6rem !important; }
+article.card .card-body h4 { font-size: 1.4rem !important; }
+
+article.card .card-body p {
+    margin-bottom: 1.5rem !important;
+    text-align: justify !important;
+}
+
+article.card .card-body ul,
+article.card .card-body ol {
+    margin-bottom: 1.5rem !important;
+    padding-left: 2rem !important;
+}
+
+article.card .card-body li {
+    margin-bottom: 0.5rem !important;
+}
+
+article.card .card-body code {
+    background-color: var(--box-background-color) !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 4px !important;
+    font-size: 0.9rem !important;
+    color: var(--highlight-color) !important;
+}
+
+article.card .card-body pre {
+    background-color: var(--box-background-color) !important;
+    padding: 1.5rem !important;
+    border-radius: 8px !important;
+    overflow-x: auto !important;
+    margin: 1.5rem 0 !important;
+    border: 1px solid var(--light-border-color) !important;
+}
+
+article.card .card-body blockquote {
+    border-left: 4px solid var(--highlight-color) !important;
+    padding-left: 1.5rem !important;
+    margin: 2rem 0 !important;
+    font-style: italic !important;
+    color: var(--medium-text-color) !important;
+    background-color: var(--box-background-color) !important;
+    padding: 1rem 1.5rem !important;
+    border-radius: 0 8px 8px 0 !important;
+}
+
+/* Post Footer Styles */
+.post-footer {
+    margin-top: 3rem !important;
+    padding-top: 2rem !important;
+    border-top: 2px solid var(--light-border-color) !important;
+}
+
+.post-footer script {
+    margin-bottom: 2rem !important;
 }
 
 #topNav{
@@ -258,13 +353,64 @@ header {
     margin: 15px;
 }
 
+/* Blog Post Article Styles */
+.post-title {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5rem !important;
+    color: var(--bold-color) !important;
+}
+
+.post-meta {
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    color: var(--medium-text-color) !important;
+    margin-bottom: 1rem !important;
+    font-style: italic;
+}
+
+.post-summary {
+    font-size: 0.95rem !important;
+    color: var(--light-text-color) !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 1px solid var(--light-border-color);
+    padding-bottom: 1rem;
+}
+
+.post-categories {
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.post-categories a {
+    display: inline-block;
+    padding: 0.25rem 0.75rem !important;
+    margin-right: 0.5rem !important;
+    background-color: var(--highlight-color) !important;
+    color: white !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+
+.post-categories a:hover {
+    background-color: var(--link-color) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+}
+
 /* 포스트 내용 안의 모든 이미지가 카드 영역을 벗어나지 않도록 설정 */
 .card-body img {
     max-width: 100% !important;
     height: auto !important;
     object-fit: contain !important;
     border-radius: 8px;
-    margin: 10px 0;
+    margin: 15px auto !important;
+    display: block !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
 }
 
 /* div로 감싸진 이미지도 동일하게 처리 */
@@ -859,24 +1005,6 @@ header {
     }
 }
 
-/* 포스트 상세 페이지의 카드도 동일하게 처리 */
-article.card {
-    overflow: hidden;
-}
-
-article.card .card-body {
-    overflow-x: hidden; /* 가로 스크롤 방지 */
-}
-
-.blog-post:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    transform: translateY(-5px); /* 호버시 살짝 올라오는 효과 */
-    
-    .card-body img {
-        transform: scale(1.05); /* 호버시 이미지 살짝 확대 */
-    }
-}
-
 
 #newsletter_footer {
     background-color: var(--newsletter-background-color);
@@ -919,6 +1047,37 @@ footer {
     padding: 20px;
     background-color: var(--main-background-color);
     color: var(--main-text-color);
+}
+
+/* Mobile responsive styles for blog posts */
+@media (max-width: 768px) {
+    .card {
+        margin: 1rem 0.5rem !important;
+        padding: 1.5rem !important;
+    }
+    
+    .post-title {
+        font-size: 2rem !important;
+    }
+    
+    .post-meta {
+        font-size: 1rem !important;
+    }
+    
+    article.card .card-body {
+        font-size: 1rem !important;
+        line-height: 1.6 !important;
+    }
+    
+    article.card .card-body h1 { font-size: 1.8rem !important; }
+    article.card .card-body h2 { font-size: 1.5rem !important; }
+    article.card .card-body h3 { font-size: 1.3rem !important; }
+    article.card .card-body h4 { font-size: 1.1rem !important; }
+    
+    .post-categories a {
+        font-size: 0.8rem !important;
+        padding: 0.2rem 0.6rem !important;
+    }
 }
 
 
