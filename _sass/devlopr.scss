@@ -549,8 +549,96 @@ header {
 }
 
 .product{
-    width: 29%;
-    float:left;
+    width: 22%; /* 4개씩 나오도록 조정 (100% / 4 - 마진 고려) */
+    float: left;
+    margin: 1.5%; /* 상품간 간격 추가 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 그림자 효과 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    overflow: hidden; /* 이미지가 둥근 모서리를 따르도록 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 호버 애니메이션 */
+    background: var(--card-background-color); /* 배경색 적용 */
+    border: 1px solid var(--light-border-color); /* 테두리 추가 */
+    
+    &:hover {
+        transform: translateY(-5px); /* 호버시 살짝 올라오는 효과 */
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* 호버시 그림자 강화 */
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    
+    &:hover img {
+        transform: scale(1.05); /* 호버시 이미지 약간 확대 */
+    }
+    
+    .product-info {
+        padding: 15px;
+        
+        h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+            color: var(--main-text-color);
+            font-weight: 600;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #4C7791;
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+        }
+        
+        .description {
+            margin-top: 10px;
+            color: var(--medium-text-color);
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+    }
+}
+
+/* 상품 컨테이너 스타일 */
+.products-container {
+    margin: 0 -1.5%; /* 양쪽 마진 상쇄 */
+    
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/* 상품 그리드 레이아웃 (선택사항 - Grid 사용시) */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 기본 4개 컬럼 */
+    gap: 20px;
+    padding: 20px 0;
+    
+    .product {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    
+    /* 반응형 그리드 */
+    @media (max-width: 1199px) {
+        grid-template-columns: repeat(4, 1fr); /* 4개 컬럼 유지 */
+    }
+    
+    @media (max-width: 767px) {
+        grid-template-columns: repeat(2, 1fr); /* 2개 컬럼 */
+        gap: 15px;
+    }
+    
+    @media (max-width: 480px) {
+        grid-template-columns: 1fr; /* 1개 컬럼 */
+        gap: 10px;
+    }
 }
 
 /* Share page buttons */
@@ -870,8 +958,9 @@ footer {
             }
 
             .product{
-                width: auto;
-                float:left;
+                width: 47%; /* 작은 모바일에서 2개씩 */
+                float: left;
+                margin: 1.5%;
             }
             #topNav {
                 padding-left:  0px;
@@ -949,8 +1038,9 @@ footer {
       }
 
       .product{
-          width: auto;
-          float:left;
+          width: 100%; /* 작은 화면에서 1개씩 */
+          float: none;
+          margin: 10px 0; /* 위아래 마진만 */
       }
       #topNav {
           padding-left:  0px;
@@ -1037,11 +1127,26 @@ footer {
             }
 
             .product{
-                width: auto;
-                float:left;
+                width: 30%; /* 태블릿에서 3개씩 */
+                float: left;
+                margin: 1.5%;
             }
  }
 
+/* 큰 화면에서의 상품 레이아웃 최적화 */
+@media (min-width: 1200px) {
+    .product {
+        width: 18%; /* 큰 화면에서 5개씩 */
+        margin: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .product {
+        width: 22%; /* 중간 화면에서 4개씩 유지 */
+        margin: 1.5%;
+    }
+}
 
  /* Github Follow Button */
 .widget-lg .btn, .widget-lg .social-count {
