@@ -1,5 +1,5 @@
 ---
-title: projects
-layout: projects
-permalink: /projects/
+title: policy
+layout: policy
+permalink: /policy/
 ---

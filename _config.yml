@@ -11,7 +11,7 @@ urls:
     url: /blog
 #  - text: "&#128400; About"
 #    url: /about
-  - text: "&#127950; projects"
+  - text: "🔒 policy"
     url: /projects
   - text: "&#128211; GuestBook"
     url: /guestBook
