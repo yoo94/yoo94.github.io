@@ -5,10 +5,32 @@ summary: "불편해서 만들어야겟어!"
 author: yoo94
 date: "202-08-11 5:30:23 +0530"
 category: 임시DevLog,임시TechMisc
-keywords: 
+layout: post
+title: "크롬 확장자 만들기"
+summary: "불편해서 만들어야겟어!"
+author: yoo94
+date: "2025-08-18 5:30:23 +0530"
+category: DevLog
+keywords: 크롬 확장프로그램 만들기,Chrome Extension 개발,manifest.json 작성법,브라우저 확장프로그램,웹스토어 등록,JavaScript 확장프로그램,개발자 도구,크롬 웹스토어,확장프로그램 개발 가이드,브라우저 커스터마이징
+tags:
+  - 크롬확장프로그램
+  - Chrome Extension  
+  - 웹개발
+  - JavaScript
+  - manifest.json
+  - 브라우저개발
+  - 웹스토어
+  - 개발도구
+  - 생산성도구
+  - 사이드프로젝트
+  - 개발자도구
+  - HTML
+  - CSS
+  - 웹팩
+  - 번들링
 tags:
   - DevTools
-thumbnail: /blog/postImg/20250811bughunter.png
+thumbnail: /blog/postImg/2508whatthebug.png
 permalink: blog/react/googleExtention/
 published: false
 
@@ -85,9 +107,10 @@ published: false
 
 ## 4. 이제 만들어보자
 
-4-1. manifest.json 생성
+## 4-1. manifest.json 생성
 
-아래는 기본
+아래는 기본이고 아이콘이 필요하다 16은 16x16이라고 생각하면되고
+이미지 크기 조절사이트나 그림판에서도 조절 가능하다.
 
 ```json
 {
@@ -134,7 +157,89 @@ published: false
   },
 ```
 
+js나 html 같은건 기능에 맞게 잘 만들면된다. 웹뷰로 빌드한 파일을 보여준다고 생각하면 된다.
+내 소스가 궁금하면 **[what the bug](https://github.com/yoo94/whatthebug)** 요기 참고 바란다.
 
+다 개발하고 로컬에서 확인 했으면 내 로컬 개발자도구에 등록해서 사용해 볼 수도 있다.
 
+## 4-2 테스트를 위한 개발자도구 (로컬)
+
+먼저 **[크롬 익스텐션](chrome://extensions/)** 오른쪽에 확장프로그램 툴바에 맨 끝에 있는 확장프로그램 관리를 클릭해도되고
+chrome://extensions/ 이 문자열을 크롬 주소창에 넣어도 된다.
+
+![first](/blog/postImg/250821local.png)
+
+여기서 압축해제된 확장 프로그램 로드라는 버튼이 있는데, 클릭해서 번들링 툴이나 빌드 툴을 이용한 빌트 디렉토리를 넣어주면 된다.
+
+```json
+{
+  "name": "whatthebug",
+  "version": "1.0.0",
+  "description": "개발하면서 발생하는 에러코드 검색",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "webpack",
+    "zip": "zip -r whatthebug-extension.zip build/"
+  },
+  "keywords": [],
+  "author": "yoo94",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}
+
+```
+
+나같은 경우는 웹팩을 설치해서 번들링을 해주었고, 
+등록을 하게되면 위에 보여준 이미지처럼 whtthebug가 생겼다.
+그다음 툴바에서 다른 확장프로그램 사용하듯이 하면 된다.
 
 ## 5. 크롬에 등록을 해보자
+
+#### [크롬 확장프로그램 대시보드](https://chrome.google.com/webstore/devconsole/)
+여기 들어가면 등록할수 있다.
+
+![dashboard](/blog/postImg/250821dash.png)
+
+오른쪽 위에 새항목을 클릭하면, zip 파일을 입력하라고하는데
+
+스토어 등록 정보를 입력하는곳이 나온다. 
+
+![side](/blog/postImg/250821side.png)
+
+이 사이드 메뉴에서 **빌드** 부분을 작성하면된다. 
+
+
+![first](/blog/postImg/250821first.png)
+
+쓸때마다 대학생때 처럼 저장안해서 다 날려먹지말고 반드시 오른쪽 위에 임시저장을 눌러가면서 하면된다.
+
+**또한 임시저장 옆에 제출할 수 없는 이유 라는게 있는데 누르면 어느 부분이 부족해서 제출을 못하는지 알려준다.**
+
+![second](/blog/postImg/250821second.png)
+
+
+![third](/blog/postImg/250821third.png)
+
+위에서 말했듯이 백그라운드나 사이드패널, 스토리지를 사용하는 경우에는 왜 사용하는지에대한 항목도 작성해야한다.
+
+사실 대충쓰면 되니까 ai시키면 다 만들어준다. ㅋㅋ 
+
+그리고 개인정보 보호탭ㅇ
+
+개인정보처리방침 페이지를 입력해야하는 부분이 있는데 
+
+나같은 경우에는 [https://yoo94.github.io/policy/](https://yoo94.github.io/policy) 여기에 만들었으니 참고 부탁합니다~
+
+다 채운다음에 제출을 하면~~
+
+![250821dashmain](/blog/postImg/250821dashmain.png)
+
+
+이렇게 검토 대기중이 되고, 3일정도 기다리면 승인해준다.
+
+끝!!
