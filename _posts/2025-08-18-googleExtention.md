@@ -3,7 +3,7 @@ layout: post
 title: "크롬 확장자 만들기"
 summary: "불편해서 만들어야겟어!"
 author: yoo94
-date: "202-08-11 5:30:23 +0530"
+date: "202-08-20 15:30:23 +0530"
 category: 임시DevLog,임시TechMisc
 layout: post
 title: "크롬 확장자 만들기"
