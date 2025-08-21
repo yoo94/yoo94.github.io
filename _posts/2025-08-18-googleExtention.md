@@ -3,12 +3,6 @@ layout: post
 title: "크롬 확장자 만들기"
 summary: "불편해서 만들어야겟어!"
 author: yoo94
-date: "202-08-20 15:30:23 +0530"
-category: 임시DevLog,임시TechMisc
-layout: post
-title: "크롬 확장자 만들기"
-summary: "불편해서 만들어야겟어!"
-author: yoo94
 date: "2025-08-18 5:30:23 +0530"
 category: DevLog
 keywords: 크롬 확장프로그램 만들기,Chrome Extension 개발,manifest.json 작성법,브라우저 확장프로그램,웹스토어 등록,JavaScript 확장프로그램,개발자 도구,크롬 웹스토어,확장프로그램 개발 가이드,브라우저 커스터마이징
