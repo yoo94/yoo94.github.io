@@ -22,8 +22,6 @@ tags:
   - CSS
   - 웹팩
   - 번들링
-tags:
-  - DevTools
 thumbnail: /blog/postImg/2508whatthebug.png
 permalink: blog/react/googleExtention/
 ---
