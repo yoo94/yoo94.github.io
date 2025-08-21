@@ -23,7 +23,7 @@ tags:
   - 웹팩
   - 번들링
 thumbnail: /blog/postImg/2508whatthebug.png
-permalink: blog/react/googleExtention/
+permalink: blog/react/googleExtention
 ---
 
 ## 뭔가 불편하다 -> 개발자다 -> 만들어서 해결하자 

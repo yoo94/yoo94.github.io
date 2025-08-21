@@ -22,7 +22,7 @@ tags:
   - 유지보수
   - 개발 팁
 thumbnail: /blog/postImg/goodCodeThumbnail.png
-permalink: blog/react/goodCodeFrontebd.md/
+permalink: blog/react/goodCodeFrontebd
 ---
 
 ![좋은코드](/blog/postImg/goodCodeThumbnail.png)

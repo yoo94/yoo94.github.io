@@ -21,7 +21,7 @@ tags:
   - 디버깅꿀팁
   - DevTools
 thumbnail: /blog/postImg/20250811bughunter.png
-permalink: blog/react/debugging/
+permalink: blog/react/debugging
 ---
 
 ### 목차
