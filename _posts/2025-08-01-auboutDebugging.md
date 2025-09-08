@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "개발자는 디버깅을 잘하자"
-summary: "디버깅에대한 중요성과"
+summary: "디버깅에대한 중요성과 고찰?"
 author: yoo94
 date: "2025-08-01 5:30:23 +0530"
 category: DevLog
