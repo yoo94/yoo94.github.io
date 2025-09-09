@@ -5,8 +5,17 @@ summary: "sap설치를 위한 os 설치"
 author: yoo94
 date: "2023-11-04 17:35:23 +0530"
 category: Backend_infra
-tags: openSuse
-keywords: openSuse,sap
+tags:
+- openSUSE
+- 리눅스설치
+- 네트워크설정
+- SAP환경
+- OS설정
+- XFS파일시스템
+- YaST2
+- 서버구축
+- 백엔드인프라
+keywords: openSUSE, SAP 설치 환경, 리눅스 OS 설정, 네트워크 설정, YaST2, XFS 파일 시스템, ifconfig 대체, ip addr, DHCP 설정, 수동 IP 설정, 서버 구축, 방화벽 설정, USB 부팅, openSUSE Leap
 thumbnail: https://blog.kakaocdn.net/dn/b4s4Dm/btsCc1tQAzr/hkkJvX7AcZUa3A1kzHZXWK/img.png
 permalink: blog/opensuseOSsetting_network/
 ---

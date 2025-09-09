@@ -5,7 +5,18 @@ summary: "zip 다운"
 author: yoo94
 date: "2024-07-09 12:35:23 +0530"
 category: Frontend2
-tags: webpack
+tags:
+- JavaScript
+- Java
+- 파일압축
+- zip다운로드
+- 클라이언트서버
+- Blob
+- fetch
+- ZipOutputStream
+- 프론트엔드
+- 백엔드통신
+keywords: zip 다운로드, 파일 압축, JavaScript Blob, fetch API, 파일 리스트 다운로드, Java ZipOutputStream, HttpServletResponse, 파일 스트리밍, 클라이언트 파일 다운로드, 서버 zip 생성, 파일 병합 다운로드, 파일 응답 처리
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/jsZip/
 ---
@@ -44,6 +55,7 @@ $file.getFileAllDownload = function () {
                 });
         };
 ```
+
 먼저 클라이언트에서 호출한다.
 - contentType: 'application/json': 서버로 보내는 요청 데이터의 타입을 지정
 - responseType: 'blob': 서버로부터 어떤 타입의 데이터를 받을지 : (Binary Large Object)을 반환받기
@@ -58,7 +70,7 @@ $file.getFileAllDownload = function () {
 
 나같은 경우는 회사에 fileData들을 가져오는 api가 있기 때문에 그 부분은 생략했다.
 
-```text
+```java
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
     @RequestMapping("/file/allDownload")

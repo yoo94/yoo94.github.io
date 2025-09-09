@@ -5,8 +5,16 @@ summary: "함수의 재사용성을 높이기 위해 함수자체를 return하�
 author: yoo94
 date: '2023-05-21 17:35:23 +0530'
 category: Frontend2
-tags: javaScript
-keywords: javaScript
+tags:
+- JavaScript
+- 커링
+- 고차함수
+- 함수형프로그래밍
+- 함수재사용
+- 화살표함수
+- 프론트엔드
+- 함수조합
+keywords: JavaScript, 커링, Currying, 고차 함수, 함수형 프로그래밍, 함수 재사용, 함수 조합, 화살표 함수, 함수 반환, 인자 분리, 재사용성 향상, 유연한 함수 설계
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/Currying/
 ---

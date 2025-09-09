@@ -5,7 +5,18 @@ summary: "Virtual DOM이 나온 이유?"
 author: yoo94
 date: '2024-02-21 13:35:23 +0530'
 category: Frontend1
-tags: react,Frontend
+tags:
+- React
+- Frontend
+- VirtualDOM
+- SPA
+- DOM
+- 웹성능
+- 컴포넌트
+- 렌더링
+- JavaScript
+- Diffing
+keywords: Virtual DOM, React, SPA, DOM, 렌더링 최적화, 컴포넌트, 상태 업데이트, Diffing, Patching, 웹 성능, 프론트엔드, JavaScript, 초기 렌더링, 상태 변화, 실제 DOM, 가상 DOM
 thumbnail: https://blog.kakaocdn.net/dn/dpwvVE/btrBqolp4WG/xU2kPsR8hJ0Rpx9B1LSoZ1/img.png
 permalink: blog/Virtual-Dom
 ---

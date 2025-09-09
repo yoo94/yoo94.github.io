@@ -5,8 +5,18 @@ summary: "타입스크립트에서 가리키는 모듈이라는 개념은 ES6+�
 author: yoo94
 date: '2023-05-06 14:35:23 +0530'
 category: Frontend2
-tags: typeScript
-keywords: typeScript
+tags:
+- TypeScript
+- ES6Modules
+- 모듈시스템
+- CommonJS
+- AMD
+- UMD
+- SystemJS
+- tsconfig
+- import-export
+- 프론트엔드
+keywords: TypeScript, ES6 Modules, 모듈 시스템, import, export, tsconfig, CommonJS, AMD, UMD, SystemJS, 모듈 변환, 컴파일러 옵션, 모듈 로딩, 선택적 로딩, 고급 모듈 기법, 타입스크립트 모듈
 thumbnail: https://i.namu.wiki/i/EY559r31H-um8uTtptPIbCZoBGxsumSlwEH0T_rA6WmxQq1UwqyAf3cJQJXN7Fv5CoEz0kv5CBXzjkkPU_XWig.svg
 permalink: blog/typescriptModule/
 ---

@@ -5,7 +5,18 @@ summary: "자바스크립트 이벤트 위임이란?"
 author: yoo94
 date: '2024-07-17 20:35:23 +0530'
 category: Frontend2
-tags: myconfused, event, delegation
+tags:
+- JavaScript
+- 이벤트위임
+- 이벤트버블링
+- 이벤트캡처링
+- DOM이벤트
+- 프론트엔드
+- event delegation
+- event propagation
+- 이벤트핸들링
+- myconfused
+keywords: JavaScript, 이벤트 위임, event delegation, 이벤트 버블링, 이벤트 캡처링, event.target, event.currentTarget, event.stopPropagation, event.stopImmediatePropagation, DOM 이벤트 흐름, 이벤트 전파, 이벤트 핸들링 최적화, 성능 개선
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/event-delegation/
 ---

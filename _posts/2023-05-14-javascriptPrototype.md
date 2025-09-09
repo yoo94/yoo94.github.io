@@ -5,11 +5,22 @@ summary: "상속과 관련하여, JavaScript에는 객체라는 하나의 구조
 author: yoo94
 date: '2023-05-14 17:35:23 +0530'
 category: Frontend1
-tags: javaScript
-keywords: javaScript
+tags:
+- JavaScript
+- 프로토타입
+- 상속
+- 객체지향
+- 생성자함수
+- 클래스
+- this바인딩
+- 프로토타입체인
+- __proto__
+- 프론트엔드
+keywords: JavaScript, 프로토타입 상속, 객체지향, 생성자 함수, 클래스 문법, __proto__, [[Prototype]], 프로토타입 체인, this 바인딩, 메서드 상속, Object.prototype, new 키워드, 클래스 기반 상속, 프로퍼티 섀도잉
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/javascriptPrototype/
 ---
+
 상속과 관련하여, JavaScript에는 객체라는 하나의 구조만 있다. 각 객체에는  **프로토타입**이라는 다른 객체에 대한 링크를 보유하는 비공개 속성이 있다
 
 클래스는 현재 널리 채택되어 JavaScript의 새로운 패러다임이 되었지만, 클래스는 새로운 상속 패턴을 가져오지 않는다

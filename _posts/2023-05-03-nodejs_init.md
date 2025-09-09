@@ -5,8 +5,18 @@ summary: "nodejs 시작부터 모듈 사용까지"
 author: yoo94
 date: '2023-05-03 16:35:23 +0530'
 category: Backend_infra
-tags: nodejs
-keywords: nodejs
+tags:
+- Node.js
+- Backend
+- JavaScript
+- npm
+- 모듈
+- 패키지관리
+- 서버사이드
+- 개발환경
+- 코드실행
+- require
+keywords: Node.js, npm, 모듈 사용법, 패키지 설치, require, module.exports, package.json, package-lock.json, node_modules, randomcolor, 백엔드 개발, 자바스크립트, 서버사이드 자바스크립트, 코드 실행, 개발환경 설정
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTogwU6U5z0Zf2lUxTE72JAKxVd52klwPe-Q&s
 permalink: blog/nodejs_init/
 ---

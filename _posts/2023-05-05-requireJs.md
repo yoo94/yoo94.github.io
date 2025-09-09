@@ -5,8 +5,17 @@ summary: "이제는 사장된... 그 라이브러리.."
 author: yoo94
 date: '2023-05-05 12:35:23 +0530'
 category: Frontend1
-tags: requirejs
-keywords: requirejs
+tags:
+- RequireJS
+- JavaScript
+- AMD
+- 모듈시스템
+- 비동기로딩
+- 프론트엔드
+- 모듈화
+- 스크립트로더
+- 의존성관리
+keywords: RequireJS, AMD, JavaScript 모듈, define, require, 비동기 로딩, 모듈 정의, 의존성 관리, 스크립트 로더, 모듈화, 프론트엔드 구조, 코드 분할, 모듈 패턴
 thumbnail: https://avatars.githubusercontent.com/u/1781835?s=280&v=4
 permalink: blog/requirejs/
 ---

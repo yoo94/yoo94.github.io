@@ -5,8 +5,18 @@ summary: "servercomponent"
 author: yoo94
 date: "2024-08-24 13:35:23 +0530"
 category: Frontend2
-tags: react,nextJs
-thumbnail:
+tags:
+- Next.js
+- React
+- SSR
+- CSR
+- Hydration
+- 페이지라우터
+- 앱라우터
+- 프론트엔드
+- 웹프레임워크
+- 서버컴포넌트
+keywords: Next.js, React 프레임워크, 서버 사이드 렌더링, 클라이언트 사이드 렌더링, Hydration, pre-fetching, 페이지 라우터, 앱 라우터, _app.tsx, _document.tsx, useRouter, next/router, next/navigation, 라우팅 구조, SEO 최적화, 서버컴포넌트
 permalink: blog/react-servercomponent/
 ---
 

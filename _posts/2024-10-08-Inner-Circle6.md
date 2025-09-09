@@ -6,19 +6,17 @@ author: yoo94
 date: "2024-10-08 20:32:23 +0530"
 category: DevLog
 tags:
-  - 패스트캠퍼스
-  - 이너서클
-  - 이너써클
-  - inner-Circle
-  - fast campus
-  - developer
-  - inner circle
-  - 패스트 캠퍼스
-  - 패스트 캠퍼스 중간 후기
-  - 이너서클
-  - ZEP
-  - 패스트캠퍼스 이너서클
-  - inner circle
+- 패스트캠퍼스
+- 이너서클
+- inner circle
+- 개발자이직
+- 커리어전환
+- DevLog
+- 프론트엔드
+- 개발자성장
+- 교육후기
+- 개발자커뮤니티
+keywords: 패스트캠퍼스, 이너서클, inner circle, 개발자 이직, 커리어 성장, 개발자 커뮤니티, 사전 설명회 후기, 개발자 교육 프로그램, 프론트엔드 개발자, 레거시 환경, 개발자 불안, 프로젝트 기반 학습, 개발자 커리어 설계
 thumbnail:
 permalink: blog/InnerCircle05/
 ---

@@ -5,8 +5,17 @@ summary: "DOM 이란?"
 author: yoo94
 date: "2023-12-27 17:35:23 +0530"
 category: Frontend1
-tags: javaScript
-keywords: dom
+tags:
+- JavaScript
+- DOM조작
+- 웹프로그래밍
+- 프론트엔드
+- HTML요소
+- 이벤트핸들링
+- 웹개발기초
+- DOM트리
+- CSSOM
+keywords: DOM, Document Object Model, JavaScript DOM 조작, createElement, appendChild, querySelector, innerHTML, textContent, removeChild, remove, DOM 트리 구조, CSSOM, 렌더 트리, 엘리먼트 생성, 엘리먼트 삭제, 엘리먼트 업데이트
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/javaScript_dom/
 ---

@@ -5,7 +5,17 @@ summary: "JSX css"
 author: yoo94
 date: "2024-01-12 15:35:23 +0530"
 category: Frontend1
-tags: react
+tags:
+- React
+- JSX
+- 프론트엔드
+- 컴포넌트
+- 조건부렌더링
+- Fragment
+- 스타일링
+- 자바스크립트
+- UI개발
+keywords: DOM, Document Object Model, JavaScript DOM 조작, createElement, appendChild, querySelector, innerHTML, textContent, removeChild, remove, DOM 트리 구조, CSSOM, 렌더 트리, 엘리먼트 생성, 엘리먼트 삭제, 엘리먼트 업데이트
 thumbnail: /blog/postImg/Pasted image 20240505144527.png
 permalink: blog/react-jsx-css/
 ---

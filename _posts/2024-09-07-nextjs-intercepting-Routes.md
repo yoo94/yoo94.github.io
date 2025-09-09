@@ -5,7 +5,19 @@ summary: "next intercepting 라우팅"
 author: yoo94
 date: "2024-09-07 13:35:23 +0530"
 category: Frontend2
-tags: react,nextJs
+tags:
+- Next.js
+- React
+- SSR
+- CSR
+- Hydration
+- 페이지라우터
+- 앱라우터
+- 프론트엔드
+- 웹프레임워크
+- 인터셉터
+- 인터셉터 라우팅
+keywords: Next.js, React 프레임워크, 서버 사이드 렌더링, 클라이언트 사이드 렌더링, Hydration, pre-fetching, 페이지 라우터, 앱 라우터, _app.tsx, _document.tsx, useRouter, next/router, next/navigation, 라우팅 구조, SEO 최적화, 서버컴포넌트, 인터셉터, 인터셉터 라우팅
 permalink: blog/next-intercepting-Routes/
 ---
 

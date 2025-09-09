@@ -5,8 +5,22 @@ summary: "Enhancemnet"
 author: yoo94
 date: '2023-05-21 17:35:23 +0530'
 category: TechMisc
-tags: sap
-keywords: sap
+tags:
+- SAP
+- SAPClient
+- 시스템구조
+- 클라이언트개념
+- ClientDependent
+- ClientIndependent
+- RepositoryObject
+- IMGClient
+- SAPCustomizing
+- ERP시스템
+- CBO
+- BDC
+- T-CODE
+
+keywords: SAP, Client Concept, Client Dependent, Client Independent, SAP 시스템 구조, SAP 클라이언트, Repository Object, IMG Client, SAP Customizing, Master Data, Transaction Data, User Master Data, SAP 환경 분리, SAP 개발 환경, CBO, BDC, T-CODE
 thumbnail: https://i.namu.wiki/i/8714nM2OTlIubL44Exdh4QUXbuNUkGYZwJ2dc0kPkwtjBo85ZgCst0OmlfHM1kvsUNAx6rqjD4j1J7Plv1BgdA.svg
 permalink: blog/sap_cbo_tcode/
 ---

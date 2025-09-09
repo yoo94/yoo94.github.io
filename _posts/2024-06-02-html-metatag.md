@@ -5,8 +5,18 @@ summary: "차이"
 author: yoo94
 date: "2024-06-02 16:35:23 +0530"
 category: Frontend1
-tags: metatag
-keywords: metatag
+tags:
+- MetaTag
+- HTML
+- 웹표준
+- SEO
+- 웹접근성
+- OpenGraph
+- viewport
+- 웹퍼블리싱
+- 프론트엔드
+- 문서정보
+keywords: Meta Tag, HTML 메타 태그, http-equiv, content 속성, name 속성, viewport 설정, SEO 최적화, Open Graph, 페이지 정보, 캐시 제어, 리디렉션, 문서 인코딩, 소셜 미디어 공유, 웹 접근성, 웹 표준
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
 permalink: blog/javascript-metatag/
 ---

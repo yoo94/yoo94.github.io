@@ -5,8 +5,18 @@ summary: "보안이슈로 업데이트해야한다!"
 author: yoo94
 date: '2023-09-02 17:35:23 +0530'
 category: Backend_infra
-tags: docker
-keywords: docker
+tags:
+- Docker
+- GitLab
+- 컨테이너
+- 백엔드인프라
+- CI/CD
+- docker-compose
+- GitLab업데이트
+- 백업복원
+- 보안패치
+- DevOps
+keywords: Docker, GitLab, GitLab CE, 컨테이너 업데이트, docker-compose, GitLab 백업, restore.sh, GitLab 업그레이드, GitLab 버전 관리, GitLab 보안 패치, GitLab 이미지 태그, GitLab migration, GitLab-ctl, GitLab-rake
 thumbnail: https://i.namu.wiki/i/KHNL7eMAx46cUBgM-wQRF1OPwkvHCF6oKMXDD3MpOwiUZedqQ_IZuA-vI2d1jMZIkDm9zQCFxb4FFS1HKvqJd5iHeA3PYSFRBYOYewHg6wvR4BwrQjucTirP9s5I4GGtpGBrtAqGgKl_vlGROsWrTA.svg
 permalink: blog/docker_gitlab_update/
 ---

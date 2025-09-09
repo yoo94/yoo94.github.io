@@ -5,8 +5,18 @@ summary: "빌드 도구들 Ant, Maven, Gradle"
 author: yoo94
 date: "2023-12-16 17:35:23 +0530"
 category: Backend_infra
-tags: webetc
-keywords: Ant, Maven, Gradle
+tags:
+- BuildTool
+- Ant
+- Maven
+- Gradle
+- Java
+- DependencyManagement
+- 자동화
+- 백엔드인프라
+- 소프트웨어빌드
+- Groovy
+keywords: Ant, Maven, Gradle, Java 빌드 도구, 빌드 자동화, Dependency 관리, POM.xml, build.gradle, Groovy DSL, Ivy, 멀티 프로젝트 빌드, 설정 주입, 생명주기 관리, XML 기반 빌드, Gradle 속도
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s
 permalink: blog/ant_maven_gradle/
 ---

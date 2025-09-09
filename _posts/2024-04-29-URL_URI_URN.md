@@ -5,7 +5,18 @@ summary: "URI와 URL이 혼동되기 쉽다. 결론부터 말하자면 URI는 UR
 author: yoo94
 date: "2023-10-29 17:35:23 +0530"
 category: WebSecurity
-tags: webetc
+tags:
+- URI
+- URL
+- URN
+- 웹주소
+- 리소스식별자
+- 웹보안
+- 네트워크기초
+- 웹개발
+- 인터넷표준
+- 프로토콜
+keywords: URI, URL, URN, Uniform Resource Identifier, Uniform Resource Locator, Uniform Resource Name, 웹 주소 구조, 리소스 식별자, URL 구성요소, scheme, host, path, query, fragment, 프로토콜, 웹 리소스 접근
 thumbnail: https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7s4zgKH2ffUBQnZgOH4FQQ.png
 permalink: blog/URL_URI_URN/
 ---

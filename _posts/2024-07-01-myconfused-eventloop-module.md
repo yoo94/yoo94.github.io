@@ -5,8 +5,18 @@ summary: "자바스크립트 모듈 시스템을 사용하는 이유?"
 author: yoo94
 date: "2024-07-01 19:35:23 +0530"
 category: Frontend2
-tags: eventloop
-thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
+tags:
+- JavaScript
+- 이벤트루프
+- 비동기처리
+- 콜스택
+- 힙메모리
+- 메시지큐
+- 논블로킹
+- 웹워커
+- postMessage
+- 프론트엔드
+keywords: JavaScript, 이벤트 루프, 비동기 처리, 콜 스택, 힙 메모리, 메시지 큐, 논블로킹, postMessage, 웹 워커, iframe 통신, IndexedDB, XHR, 런타임 모델, 스택 프레임, 중첩 함수thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/eventloop/
 ---
 

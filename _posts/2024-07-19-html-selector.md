@@ -5,7 +5,18 @@ summary: "차이"
 author: yoo94
 date: '2024-07-19 12:35:23 +0530'
 category: Frontend1
-tags: selector,javaScript
+tags:
+- JavaScript
+- 선택자
+- DOM조작
+- querySelector
+- getElementById
+- NodeList
+- HTMLCollection
+- 프론트엔드
+- 웹개발기초
+- selector
+keywords: JavaScript 선택자, querySelector, getElementById, getElementsByClassName, getElementsByTagName, NodeList, HTMLCollection, DOM 요소 선택, 실시간 업데이트, 정적 선택자, 동적 선택자, 요소 스타일 변경, DOM 탐색
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png
 permalink: blog/javascript-selector/
 ---

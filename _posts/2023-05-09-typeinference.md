@@ -5,8 +5,18 @@ summary: "타입 추론이란 타입스크립트가 코드를 해석해 나가�
 author: yoo94
 date: '2023-05-09 14:35:23 +0530'
 category: Frontend2
-tags: typeScript
-keywords: typeScript
+tags:
+- TypeScript
+- 타입추론
+- 타입호환
+- 타입단언
+- 구조적타이핑
+- 제네릭
+- 타입스크립트기초
+- 프론트엔드
+- 타입검사
+- 타입가드
+keywords: TypeScript, 타입 추론, 타입 호환, 타입 단언, 구조적 타이핑, Duck Typing, Best Common Type, Contextual Typing, 타입스크립트 타입 검사, as 키워드, 제네릭 호환성, 인터페이스 호환, 클래스 타입 비교, Enum 타입 주의사항
 thumbnail: https://i.namu.wiki/i/EY559r31H-um8uTtptPIbCZoBGxsumSlwEH0T_rA6WmxQq1UwqyAf3cJQJXN7Fv5CoEz0kv5CBXzjkkPU_XWig.svg
 permalink: blog/typeinference/
 ---
