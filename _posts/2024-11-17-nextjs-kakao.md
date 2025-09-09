@@ -5,7 +5,18 @@ summary: "next 에서 지도를 가져오자"
 author: yoo94
 date: "2024-11-08 1:35:23 +0530"
 category: Frontend2
-tags: react,nextJs
+tags:
+- Next.js
+- Kakao지도
+- 지도API
+- React
+- 프론트엔드
+- 마커커스터마이징
+- 인포윈도우
+- 지도연동
+- nextJs
+- 지도컴포넌트
+keywords: Kakao 지도 API, Next.js 지도 연동, 카카오 지도 마커, 커스텀 마커, 인포윈도우, 지도 스크립트 로딩, Script 태그, afterInteractive, kakao.maps.load, 지도 초기화, 환경변수 설정, 지도 이벤트 등록, 지도 컴포넌트 구현
 permalink: blog/next-kakao-Developers/
 ---
 
