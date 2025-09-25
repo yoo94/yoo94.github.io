@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WhaTap 와탭 브라우저 모니터링 세션 후기"
-summary: "불편해서 만들어야겟어!"
+summary: "9월의 막바지, 개발자 세션!"
 author: yoo94
 date: "2025-09-25 18:30:23 +0530"
 category: TechMisc
