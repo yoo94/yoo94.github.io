@@ -5,11 +5,21 @@ summary: "함수가 선언된 어휘적 환경(Lexical Environment)의 조합"
 author: yoo94
 date: '2023-05-11 15:35:23 +0530'
 category: Frontend1
-tags: javaScript
-keywords: javaScript
+tags:
+- JavaScript
+- 클로저
+- 함수스코프
+- 캡슐화
+- 모듈화
+- 상태관리
+- LexicalEnvironment
+- 프론트엔드
+- 함수형프로그래밍
+keywords: JavaScript, 클로저, Lexical Environment, 함수 스코프, 캡슐화, 모듈화, 상태 유지, 전역 변수 억제, 내부 함수, 외부 변수 접근, 함수형 프로그래밍, private method, 클로저 활용
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/Closure/
 ---
+
 클로저는 함수와 함수가 선언된 어휘적 환경(Lexical Environment)의 조합이다. 즉, 
  **함수 안에 함수를 선언한 환경에서의 관계를 의미한다.
 

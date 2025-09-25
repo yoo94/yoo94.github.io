@@ -5,8 +5,18 @@ summary: "웹 표준은 웹에서 사용되는 기술들의 표준화를 의미�
 author: yoo94
 date: "2024-02-27 17:35:23 +0530"
 category: WebSecurity
-tags: websecurity
-keywords: websecurity
+tags:
+- 웹접근성
+- 웹표준
+- WCAG
+- 시맨틱태그
+- HTML5
+- CSS분리
+- 키보드접근성
+- 스크린리더
+- 웹보안
+- 웹개발
+keywords: 웹접근성, 웹표준, WCAG, 웹 콘텐츠 접근성, 시맨틱 태그, DOCTYPE 선언, 키보드 접근성, 스크린 리더, 대체 텍스트, 웹 호환성, SEO, 웹 유지보수, 웹 확장성, 웹 접근성 검사, 웹 디자인, 웹 개발 지침
 thumbnail: https://i.namu.wiki/i/kq9NDC2Dsxbpqwn1L4dDwjo4fH7A9Rb76kbTrqpRirwq1VjPHDyr0Rp_P_Y0MhxFadKjqT5yBClhRDIWxapZNIdIrW8EkbT6KVv90O9wZqZ0ouYllY8gkIa39etQZDdg1d2fR6odJZ7_hYgF4FaLXg.webp
 permalink: blog/web_accessibility/
 ---

@@ -5,7 +5,17 @@ summary: ""
 author: yoo94
 date: "2023-12-03 15:35:23 +0530"
 category: Frontend1
-tags: myconfused, arrow
+tags:
+- JavaScript
+- 함수비교
+- 화살표함수
+- this바인딩
+- 함수선언
+- ES6
+- 프론트엔드
+- 객체지향
+- 함수형프로그래밍
+keywords: JavaScript, 화살표 함수, 일반 함수, function vs arrow, this 바인딩, lexical scope, 함수 선언 방식, ES6 문법, 객체 메서드, 함수 호출 컨텍스트, 함수형 프로그래밍, 코드 간결성
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/arrow-func/
 ---

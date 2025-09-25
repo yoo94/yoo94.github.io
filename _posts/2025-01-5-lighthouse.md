@@ -6,10 +6,17 @@ author: yoo94
 date: "2025-01-05 10:32:23 +0530"
 category: Frontend2
 tags:
-  - lighthouse
-  - 프론트엔드
-  - 최적화
-  - front end optimization
+- Lighthouse
+- 웹성능
+- 프론트엔드최적화
+- 웹바이탈
+- Performance
+- SEO
+- Accessibility
+- PWA
+- 개발자도구
+- front end optimization
+keywords: Lighthouse, 웹 성능 측정, 웹 바이탈, FCP, LCP, TBT, CLS, Speed Index, TTI, 성능 최적화, 프론트엔드 성능, 개발자 도구, 웹 접근성, SEO 분석, PWA 진단, Diagnostics, Emulated Desktop
 thumbnail:
 permalink: blog/optimization_1/lighthouse/
 ---

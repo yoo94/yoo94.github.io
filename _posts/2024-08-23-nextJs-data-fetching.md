@@ -5,7 +5,19 @@ summary: "nextJs-data-fetching"
 author: yoo94
 date: "2024-08-23 13:35:23 +0530"
 category: Frontend2
-tags: react,nextJs
+tags:
+- Next.js
+- React
+- SSR
+- CSR
+- Hydration
+- 페이지라우터
+- 앱라우터
+- 프론트엔드
+- 웹프레임워크
+- 데이터
+- 데이터 페칭
+keywords: Next.js, React 프레임워크, 서버 사이드 렌더링, 클라이언트 사이드 렌더링, Hydration, pre-fetching, 페이지 라우터, 앱 라우터, _app.tsx, _document.tsx, useRouter, next/router, next/navigation, 라우팅 구조, SEO 최적화, data, data fetching, datafetching
 thumbnail: 
 permalink: blog/nextJs-data-fetching/
 ---

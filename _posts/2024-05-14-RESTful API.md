@@ -5,8 +5,18 @@ summary: ""
 author: yoo94
 date: "2023-12-14 17:35:23 +0530"
 category: Frontend1
-tags: webetc
-keywords:
+tags:
+- REST
+- RESTfulAPI
+- API설계
+- HTTP메서드
+- URI설계
+- 웹아키텍처
+- 프론트엔드
+- 백엔드통신
+- 웹표준
+- 클라이언트서버
+keywords: REST, RESTful API, HTTP Method, URI 설계, Resource Oriented Architecture, CRUD, 웹 아키텍처, API 설계 원칙, GET POST PUT DELETE, JSON 응답, 클라이언트 서버 구조, 무상태성, REST 구성요소, REST 장단점, API 표준화
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/RESTful-API/
 ---

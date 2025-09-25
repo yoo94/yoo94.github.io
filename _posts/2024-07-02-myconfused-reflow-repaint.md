@@ -5,7 +5,18 @@ summary: ""
 author: yoo94
 date: "2024-07-02 19:35:23 +0530"
 category: Frontend1
-tags: eventloop
+tags:
+- Reflow
+- Repaint
+- 브라우저렌더링
+- 렌더링최적화
+- DOM조작
+- 성능최적화
+- 프론트엔드
+- CSS성능
+- Layout
+- Painting
+keywords: Reflow, Repaint, 브라우저 렌더링, DOM 트리, Layout 계산, Painting 단계, 렌더링 성능, 스타일 변경, 레이아웃 변경, CSS 최적화, transform, opacity, batch processing, 가상 요소, 크기 고정
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fxemoji_u2049.svg/255px-Fxemoji_u2049.svg.png
 permalink: blog/reflow-repaint/
 ---

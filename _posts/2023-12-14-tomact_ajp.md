@@ -5,8 +5,18 @@ summary: "아파치, 톰캣 AJP 통신하기"
 author: yoo94
 date: "2023-12-14 17:35:23 +0530"
 category: Backend_infra
-tags: webetc
-keywords: tomcat,apache,ajp
+tags:
+- Apache
+- Tomcat
+- AJP
+- mod_jk
+- 웹서버연동
+- 백엔드인프라
+- 서버설정
+- WAS연동
+- httpd.conf
+- server.xml
+keywords: Apache, Tomcat, AJP, mod_jk, workers.properties, httpd.conf, server.xml, 웹서버 연동, AJP 커넥터, JkMount 설정, 포트 설정, 웹서버와 WAS 통신, Apache JServ Protocol, 톰캣 연동, 백엔드 서버 구성
 thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UXT3Ous2UpkMSNSv6b20E5pnwqT2VvQ8aA&s
 permalink: blog/apche_ajp/
 ---

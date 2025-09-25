@@ -5,8 +5,18 @@ summary: "객체가 생성되었을 때 자동으로 메모리를 할당하고 �
 author: yoo94
 date: '2023-05-14 15:35:23 +0530'
 category: Frontend2
-tags: javaScript
-keywords: javaScript
+tags:
+- JavaScript
+- 메모리관리
+- 가비지컬렉션
+- V8엔진
+- Node.js
+- WeakMap
+- WeakRef
+- FinalizationRegistry
+- 메모리누수
+- 고급자바스크립트
+keywords: JavaScript, 메모리 관리, 가비지 컬렉션, reference counting, mark and sweep, V8 엔진, Node.js 메모리 설정, 메모리 누수, WeakMap, WeakSet, WeakRef, FinalizationRegistry, 자동 메모리 해제, 순환 참조, 힙 메모리
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png
 permalink: blog/javascriptMemory/
 ---
