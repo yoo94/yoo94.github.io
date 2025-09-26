@@ -4,7 +4,7 @@ title: "WhaTap 와탭 브라우저 모니터링 세션 후기"
 summary: "9월의 막바지, 개발자 세션!"
 author: yoo94
 date: "2025-09-25 18:30:23 +0530"
-category: TechMisc
+category: DevLog
 keywords: WhaTap,브라우저 모니터링,APM,사용자 경험,성능 최적화,웹 성능 분석,RUM,Real User Monitoring,페이지 로드 타임,오류 추적,사용자 행동 분석,프론트엔드 모니터링,SPA 모니터링,웹 비타민
 tags:
   - 애플리케이션모니터링
