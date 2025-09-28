@@ -3,7 +3,7 @@ layout: post
 title: "무책임한 AI 북리뷰"
 summary: "기계의 판단, 인간의 책임"
 author: yoo94
-date: "202-09-23 5:30:23 +0530"
+date: "2025-09-23 5:30:23 +0530"
 category: BookReport
 keywords: 인공지능 윤리,알고리즘 편향성,AI 책임,기계학습 윤리,알고리즘 공정성,인공지능 차별,데이터 윤리,AI 의사결정,기술 책임,사회적 편견
 tags:
