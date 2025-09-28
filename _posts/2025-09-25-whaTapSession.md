@@ -22,6 +22,7 @@ tags:
 thumbnail: /blog/postImg/2025-09-25-whaTap1.png
 permalink: blog/whaTapSession/
 ---
+
 ![2025-09-25-whaTap1](/blog/postImg/2025-09-25-whaTap1.png)
 
 ## whatap의 아카데미 세션을 다녀왓다.
