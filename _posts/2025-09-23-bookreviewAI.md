@@ -23,8 +23,6 @@ tags:
   - 책임있는AI
 thumbnail: /blog/postImg/2025-09-22AI.jpeg
 permalink: blog/bookreport/irresponsible-ai/
-published: false
-
 ---
 
 ![blog/postImg/2025-09-22AI](/blog/postImg/2025-09-22AI.jpeg)
