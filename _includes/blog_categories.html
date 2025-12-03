@@ -1,5 +1,5 @@
-{% assign category_order = 'DevLog,Frontend1,Frontend2,Frontend3,Backend_infra,WebSecurity,TechMisc,BookReport' | split: ',' %}
-{% assign category_names = 'DevLog:🧠 1.개발일지 & 생각,Frontend1:🌐 2.FE 초급,Frontend2:🌐 2.FE 중급,Frontend3:🌐 2.FE 고급,Backend_infra:🛠️ 3.백엔드 & 서버,WebSecurity:🔐 4.보안,TechMisc:🧰 5.기타 기술 & 툴,BookReport:📚 6.독서 기록' | split: ',' %}
+{% assign category_order = 'DevLog,Algorithm,Frontend1,Frontend2,Frontend3,Backend_infra,WebSecurity,TechMisc,BookReport' | split: ',' %}
+{% assign category_names = 'DevLog:🧠 1.개발일지 & 생각,Algorithm:🔢 1.알고리즘,Frontend1:🌐 2.FE 초급,Frontend2:🌐 2.FE 중급,Frontend3:🌐 2.FE 고급,Backend_infra:🛠️ 3.백엔드 & 서버,WebSecurity:🔐 4.보안,TechMisc:🧰 5.기타 기술 & 툴,BookReport:📚 6.독서 기록' | split: ',' %}
 
 {% for category_key in category_order %}
   {% for tag in site.categories %}
