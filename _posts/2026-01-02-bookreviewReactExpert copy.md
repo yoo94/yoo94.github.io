@@ -22,7 +22,7 @@ tags:
   - 자바스크립트
   - 웹개발
   - 책리뷰
-thumbnail: /blog/postImg/expertreactbook.jpeg
+thumbnail: /blog/postImg/expertreactbook.jpg
 permalink: blog/bookreport/expertreactbook/
 ---
 
@@ -64,6 +64,7 @@ permalink: blog/bookreport/expertreactbook/
 보안 : xss나 csrf 등을 방지하기 위해 import되는 것들을 모두 소독해야했다.
 
 ---
+
 #### 1.2 리액트 이전의 세계
 
 - 클릭 -> 대기 -> 클릭 후 성공 또는 실패
