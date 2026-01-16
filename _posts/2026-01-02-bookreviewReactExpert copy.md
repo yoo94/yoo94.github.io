@@ -267,18 +267,16 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 > 단, if문이나 for문 같은 "문장"은 사용할 수 없고, 삼항 연산자나 map 함수 등 "표현식"만 사용 가능합니다.
 
----
-
-
 <!-- 맨 아래 접기 버튼 추가 -->
 <br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
-</details>
 
 ---
 
 ## 3-가상 DOM
+<details>
+<summary>펼치기/접기</summary>
 
 #### 3.1 가상 DOM 소개
 
@@ -290,11 +288,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 3.3 가상 DOM 작동 방식
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 4-재조정
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 4.1 재조정 이해하기
 
@@ -310,11 +312,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 4.4 파이버 재조정자
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 5-자주 묻는 질문과 유용한 패턴
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 5.1 React.memo를 사용한 메모화
 
@@ -334,11 +340,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 5.5 강력한 패턴
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 6-서버 사이드 리액트
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 6.1 클라이언트 사이드 렌더링 한계
 
@@ -362,11 +372,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 6.6 직접 구현하지 마세요
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 7-리액트 동시성
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 7.1 동기식 렌더링의 문제
 
@@ -398,11 +412,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 7.8 동시성 렌더링 관련 문제
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 8-프레임워크
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 8.1 프레임워크가 필요한 이유
 
@@ -422,11 +440,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 8.5 프레임워크 선택
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 9-서버 컴포넌트
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 9.1 장점
 
@@ -446,11 +468,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 9.5 리액트 서버 컴포넌트의 미래
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 10-리액트 대체제
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 10.1 뷰
 
@@ -482,11 +508,15 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 10.8 리액트의 미래
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
 
 ## 11-마치며
+
+<details>
+<summary>펼치기/접기</summary>
 
 #### 11.1 핵심 요약
 
@@ -506,6 +536,7 @@ JSX 내부에서는 중괄호 `{}`를 사용해 자바스크립트 표현식을 
 
 #### 11.5 트렌드 따라잡기
 
+<br><button onclick="this.closest('details').removeAttribute('open'); var t=document.getElementById('section1title'); if(t){t.scrollIntoView({behavior:'smooth'});} ">접기</button>
 </details>
 
 ---
