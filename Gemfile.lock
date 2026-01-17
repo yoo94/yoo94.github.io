@@ -86,7 +86,7 @@ GEM
     public_suffix (6.0.1)
     puma (6.4.2)
       nio4r (~> 2.0)
-    rack (3.1.7)
+    rack (3.1.8)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0, < 4)
@@ -130,7 +130,6 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
     uri (0.13.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -150,10 +149,9 @@ DEPENDENCIES
   jgd (~> 1.12)
   kramdown
   puma
-  rack (~> 3.1.7)
+  rack (~> 3.1.8)
   tzinfo (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
